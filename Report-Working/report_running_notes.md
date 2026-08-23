@@ -4,96 +4,113 @@
 - Repository: `Speedie007/Spillage-Report`
 - Branch: `main`
 - Primary contextual source currently in repository: `Context/Running_Report_Contextual_Spillage_NotesV3.docx`
-- Prepared contextual revision: `Running_Report_Contextual_Spillage_NotesV3.1.docx` — repository evidence reconciliation added; pending sync into `Context/`.
+- Latest prepared contextual revision outside repository: `Running_Report_Contextual_Spillage_NotesV3.2.docx`; Batch B will be consolidated into V3.3.
 - Questionnaire source records: `Context/Questionaires/Running_Report_Contextual_Spillage_Questionnaire_ResponseV1.docx` and `Context/Questionaires/Running_Report_Contextual_Spillage_Questionnaire_ResponseV2.docx`
 - Report baseline template: `Report-Template/ISS_Sheave_Inspection_Report_Master_Template_v2.1_Polished.docx`
 - Evidence root: `Evidence/`
 - Evidence register: `Report-Working/evidence_index.md`
 - Detailed Batch A review: `Report-Working/evidence_visual_review_batch_A.md`
+- Detailed Batch B review: `Report-Working/evidence_visual_review_batch_B.md`
 
 ## Current Development Stage
-The contextual investigation and Questionnaire V1/V2 integration are substantially complete. The repository-level evidence inventory is complete: 23 evidence groups containing 197 media files (189 photographs and 8 videos) are registered in `evidence_index.md`. Context V3 has been reconciled against the repository inventory and Batch A visual evidence has now been independently reviewed for CV06, CV09 and U4 Conveyor - Tripper Car. The next visual-review stage is Batch B: Sample Conveyor 2, Sample Conveyor 3 and L3.
+The contextual investigation and Questionnaire V1/V2 integration are substantially complete. The repository-level evidence inventory is complete: 23 evidence groups containing 197 media files (189 photographs and 8 videos). Context V3 has been reconciled against the repository inventory. Batch A and Batch B visual evidence have now been independently reviewed. The next visual-review stage is Batch C: Screens / Screen Chutes and L1 Conveyor.
 
 ## Evidence Handling Rules
 - Preserve original evidence files at full resolution; do not overwrite or recompress master evidence.
-- Treat the reference identifier used in the contextual notes (for example `CV09-REF-003`) as the canonical evidence ID.
-- Where repository filename spelling/case differs from the canonical reference, record the mapping in `Report-Working/evidence_index.md` rather than silently changing the evidence identity.
+- Treat the reference identifier used in the contextual notes as the canonical evidence ID.
 - Distinguish direct visual evidence, reported/source-recorded observation, engineering interpretation, and unverified hypotheses.
-- Only report conclusions that are supported by the contextual notes and/or inspected evidence.
-- Report-ready image copies may be resized/compressed later after final image selection; the repository originals remain the master evidence.
-- File presence in the repository confirms traceability, not visual proof. Once a batch has been visually reviewed, use the visual classification recorded in the applicable detailed review file.
+- File presence confirms traceability, not visual proof. Once a batch is visually reviewed, use the classification in the applicable detailed review file.
+- Report-ready image copies may be resized/compressed later after final selection; repository originals remain the master evidence.
 
 ## Known Filename / Evidence Mapping Items
-- U4 video naming has been corrected: repository file is now `Evidence/Underground/U4-Tripper/UGU4-REF-010.MP4`, matching the canonical contextual reference `UGU4-REF-010`.
-- CV09 video filenames use mixed case (`Cv09-Ref-006.mp4`, `Cv09-Ref-007.mp4`, `Cv09-Ref-008.mp4`); canonical report references remain `CV09-REF-006` through `CV09-REF-008`. The evidence index records the mapping.
-- `LoadoutStationL2-REF-005` exists as both a `.jpg` and `.mp4`. Until deliberately renumbered, any citation must distinguish the media type / exact path.
-- Additional U4 cleaner evidence `UGU4-REF-011` and `UGU4-REF-012` has now been visually reviewed and confirms a distinct/custom transverse cleaner/scraper arrangement.
+- U4 video filename is normalised to `UGU4-REF-010.MP4`.
+- CV09 videos retain mixed-case repository filenames; canonical references remain `CV09-REF-006` through `CV09-REF-008`.
+- `LoadoutStationL2-REF-005` exists as both `.jpg` and `.mp4`; media type/path must distinguish them unless deliberately renumbered.
 
 ## Important Engineering Qualification Rules
-- Similar scraper-design deficiencies at conveyors not directly inspected remain an engineering inference based on common discharge geometry and common carryback behaviour; they are not to be stated as directly observed defects at every conveyor.
-- Sample Conveyor 2 mistracking remains unconfirmed and requires verification.
-- Sample Conveyor 3 severe lateral offset is visually evident in the source record, but approximate percentage loss of usable belt width remains a visual estimate unless measured.
-- L3 tail-end offset/mistracking is observed in the source record; its direct causal contribution to current spillage remains to be confirmed.
-- Screen water leakage is directly observed in the source record during normal operation; the exact equipment-level cause remains unconfirmed because close inspection during operation was not possible.
-- Cut/damaged screen supports are directly observed in the source record; the reason for the cuts remains unconfirmed and any installation-clearance explanation is a working hypothesis only.
-- Batch A refinement for U4: the supplied visual evidence directly confirms belt mistracking and severe one-side spillage. Tail-pulley misalignment is visually supported, but the images/video do not provide a fixed survey reference or dimensional measurement sufficient to independently quantify the pulley misalignment relative to the tripper structure. Retain the inspector-recorded direct observation and the recommendation for quantitative verification.
+- Similar scraper-design deficiencies at conveyors not directly inspected remain an engineering inference, not a direct observation at every conveyor.
+- Sample Conveyor 2 mistracking remains unconfirmed after Batch B visual review.
+- Sample Conveyor 3 lateral offset/mistracking is visually supported; any percentage or millimetre magnitude remains unmeasured.
+- L3 tail-end offset is visually supported; its direct causal contribution to solid-product spillage remains unconfirmed.
+- Screen water leakage is directly observed in the source record; exact equipment-level cause remains unconfirmed pending safe close inspection.
+- Cut/damaged screen supports are directly observed in the source record; reason for cuts remains unconfirmed.
+- U4 belt mistracking and one-side spillage are visually verified. Tail-pulley misalignment is visually supported but not independently quantified from the supplied images/video.
 
-## Evidence Inventory / Reconciliation Status
+## Evidence Inventory / Review Status
 - Evidence groups: **23**
 - Total media files: **197**
 - Photographs: **189**
 - Videos: **8**
 - File inventory: **COMPLETE**
-- Context V3-to-repository reference reconciliation: **COMPLETE**
+- Context-to-repository reference reconciliation: **COMPLETE**
 - Missing contextual evidence groups: **NONE IDENTIFIED**
 - Batch A visual review: **COMPLETE**
-- Batch B-F visual review: **PENDING**
-- Report image selection / captions: **STARTED — Batch A candidates identified**
+- Batch B visual review: **COMPLETE**
+- Batch C-F visual review: **PENDING**
+- Report image selection / captions: **IN PROGRESS**
 
-## Batch A Visual Review - Key Results
+## Batch A Key Results
 ### CV06
-- `CV06-REF-004`: **Direct** evidence of displaced scraper-support bush/insert relative to its housing.
-- `CV06-REF-005`: **Direct** evidence of cleaner support beam/cross-shaft with scraper blades absent from the working belt width.
-- Poor housing design remains a working assessment; cause/history of missing blades remains unknown.
-- Preferred report photographs: `CV06-REF-004` and `CV06-REF-005`.
+- `CV06-REF-004`: Direct evidence of displaced scraper-support bush/insert.
+- `CV06-REF-005`: Direct evidence of scraper blades absent from the working belt width.
+- Preferred report photographs: `CV06-REF-004`, `CV06-REF-005`.
 
 ### CV09
-- `CV09-REF-002`: **Direct** evidence of wet-fines/slurry accumulation below the conveyor/transfer area.
-- `CV09-REF-003`: **Direct** evidence of a wet-fines-coated cleaner/scraper arrangement that is visibly open to the surrounding structure rather than locally enclosed in the supplied view.
-- `CV09-REF-006`: **Direct dynamic** evidence of active wet-material fallout from the overhead conveyor/transfer region to the wet floor below.
-- `CV09-REF-007`: **Supporting** walk-through evidence of deposits and cleaner-area context.
-- `CV09-REF-008`: **Direct/Supporting** close operational/context evidence of the cleaner region and substantial wet-fines build-up.
-- Proposed chute extension, spring/self-tensioning mechanism and primary/secondary cleaner configuration remain engineering concepts requiring detailed design/site measurement.
-- Preferred report evidence: `CV09-REF-003`, `CV09-REF-002`, video `CV09-REF-006`, with `CV09-REF-008` supplementary.
+- `CV09-REF-002`: Direct wet-fines/slurry accumulation evidence.
+- `CV09-REF-003`: Direct cleaner condition/open local arrangement evidence.
+- `CV09-REF-006`: Direct dynamic evidence of active wet-material fallout.
+- `CV09-REF-008`: Supporting/direct cleaner-area operational context.
+- Preferred evidence: `CV09-REF-003`, `CV09-REF-002`, video `CV09-REF-006`, supplementary `CV09-REF-008`.
 
-### U4 Conveyor - Tripper Car
-- `UGU4-REF-006`: **Direct** evidence of extensive fines accumulation adjacent to the tripper/conveyor structure.
-- `UGU4-REF-007`: **Direct** evidence of concentrated lump/solid-product accumulation along one side of the conveyor area.
-- `UGU4-REF-009`: **Direct** evidence of lateral belt mistracking relative to the carrying-idler/support geometry.
-- `UGU4-REF-008` and `UGU4-REF-010`: **Supporting** visual/dynamic evidence for the recorded tail-pulley alignment concern; not sufficient by themselves to quantify the pulley alignment relative to the tripper frame.
-- `UGU4-REF-011` and `UGU4-REF-012`: **Direct** confirmation of a distinct/custom transverse cleaner/scraper arrangement.
-- Preferred report evidence: `UGU4-REF-009`, `UGU4-REF-007`, optionally `UGU4-REF-006`, video `UGU4-REF-010`, and one of `UGU4-REF-011` / `UGU4-REF-012`.
+### U4 Tripper Car
+- `UGU4-REF-006`: Direct extensive fines accumulation.
+- `UGU4-REF-007`: Direct one-side lump/solid-product accumulation.
+- `UGU4-REF-009`: Direct lateral belt mistracking.
+- `UGU4-REF-008` / `UGU4-REF-010`: Supporting tail-pulley alignment concern; not quantitative.
+- `UGU4-REF-011` / `UGU4-REF-012`: Direct custom cleaner arrangement evidence.
+
+## Batch B Key Results
+### Sample Conveyor 2
+- Extensive spilled product is directly verified in `LoadoutStationSample2-REF-001` through `-003`.
+- `LoadoutStationSample2-REF-004`, `-006`, and `-007` directly show coarse/lump product occupying a substantial proportion of the narrow belt width and local containment loss.
+- The images strengthen the product-size/loading-versus-belt-width concern but do not establish design-capacity overload or the final upstream feed-control solution.
+- Significant Sample Conveyor 2 mistracking is **not visually established** and remains unconfirmed.
+- Preferred report photographs: `REF-004`, `REF-006` or `-007`, plus `REF-001` or `-003` for severity.
+
+### Sample Conveyor 3
+- Extensive solid/lump-product spillage is directly verified, including `REF-002`, `REF-008`, `REF-011`, and `REF-012`.
+- `REF-005` / `REF-006` strongly show large lumps occupying a substantial proportion of the narrow belt width.
+- `REF-013` is the strongest tracking image: belt position is asymmetric relative to side/training-roller hardware, supporting a lateral offset/mistracking condition.
+- Any earlier approximate `~50% usable belt width` statement remains qualitative/unmeasured and should not be presented as a dimension.
+- Root cause of mistracking remains unresolved; head/tail alignment, tension and trapped spill material remain hypotheses/inspection targets.
+- Preferred report photographs: `REF-013`, `REF-005` or `-006`, `REF-002`, and `REF-012`.
+
+### L3 Conveyor
+- `LoadoutStationL3-REF-001` visually supports the inspector-recorded tail-end belt/pulley offset but does not provide a reliable dimensional measurement.
+- `REF-007` and `REF-008` directly show fines/material accumulation around/below the conveyor.
+- No Batch B image establishes a direct causal chain from L3 offset to significant solid/lump-product spillage, consistent with V1 recording fines/carryback rather than solid-product loss.
+- Preferred report photographs: `REF-001`, `REF-007`, optionally `REF-008`.
 
 ## Planned Visual Review Batches
 1. **Batch A — Cleaner / alignment mechanisms:** CV06, CV09, U4 Conveyor - Tripper Car. **COMPLETE**
-2. **Batch B — Sample-conveyor loading / containment / tracking:** Sample Conveyor 2, Sample Conveyor 3, L3. **NEXT**
-3. **Batch C — Structural / water-loss evidence:** Screens / Screen Chutes, L1.
+2. **Batch B — Sample-conveyor loading / containment / tracking:** Sample Conveyor 2, Sample Conveyor 3, L3. **COMPLETE**
+3. **Batch C — Structural / water-loss evidence:** Screens / Screen Chutes, L1. **NEXT**
 4. **Batch D — Remaining Surface Screening:** W10, CV01, CV02, CV03, CV04, CV14, CV15.
 5. **Batch E — Remaining Loading Station:** L2, L4, Sample Conveyor 1.
 6. **Batch F — Remaining Underground:** Crusher, UC05-UC01 continuous system, U3, U5A, U5B.
 
 ## Next Planned Work
-1. Receive and visually review Batch B ZIPs preserving repository filenames: Sample Conveyor 2, Sample Conveyor 3 and L3.
-2. Integrate Batch A visual-review conclusions into the next contextual-notes revision.
-3. Continue selecting strongest report photographs and drafting evidence-based captions.
-4. Repeat visual review for Batches C-F.
-5. Review and adapt the sheave report template for the new report structure.
-6. Build the first populated working report draft using the contextual notes and selected evidence.
-7. Develop the proposed CV09 scraper/chute and Sample Conveyor side-skirt contextual illustrations after the relevant actual-equipment geometry has been visually reviewed.
+1. Consolidate Batch B findings into contextual notes V3.3.
+2. Receive and visually review Batch C ZIPs preserving repository filenames: Screens / Screen Chutes and L1.
+3. Continue selecting strongest report photographs and evidence-based captions.
+4. Repeat visual review for Batches D-F.
+5. Adapt the sheave report template to the spillage-report structure.
+6. Build the first populated working report draft using contextual notes and selected evidence.
+7. Develop CV09 scraper/chute and Sample Conveyor side-skirt conceptual illustrations after the relevant equipment geometry has been visually reviewed.
 
-## Repository Write / Inventory Milestones
+## Repository Milestones
 - GitHub write access confirmed on 2026-08-23.
-- U4 video filename normalised to `UGU4-REF-010.MP4` in commit `c2f1ca40b18fac8d7f0c8fbb649992f4063102fe`.
-- Initial evidence inventory populated in `evidence_index.md` in commit `eb3bbf52d6f1a421e1d4c2fd4d9f63e557467249`.
-- Context V3 evidence-reference reconciliation completed on 2026-08-23; V3.1 DOCX prepared with repository reconciliation and visual-review sequence sections.
-- Batch A detailed visual-review record created in `Report-Working/evidence_visual_review_batch_A.md` in commit `234c96dea4ee84560d11699044c28b702dd37376`.
+- U4 video filename normalised in commit `c2f1ca40b18fac8d7f0c8fbb649992f4063102fe`.
+- Initial evidence inventory populated in commit `eb3bbf52d6f1a421e1d4c2fd4d9f63e557467249`.
+- Batch A detailed review created in commit `234c96dea4ee84560d11699044c28b702dd37376`.
+- Batch B detailed review created in commit `4a7091df4de937611781f454c1c41f7692b74462`.
