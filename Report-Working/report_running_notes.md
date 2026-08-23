@@ -4,11 +4,11 @@
 - Repository: `Speedie007/Spillage-Report`
 - Branch: `main`
 - Primary contextual source currently in repository: `Context/Running_Report_Contextual_Spillage_NotesV3.docx`
-- Latest prepared contextual revision outside repository: `Running_Report_Contextual_Spillage_NotesV3.6.docx`; Batch F is being consolidated into V3.7.
+- Latest prepared contextual revision outside repository: `Running_Report_Contextual_Spillage_NotesV3.7.docx` after completion of Batch F.
 - Questionnaire source records: `Context/Questionaires/Running_Report_Contextual_Spillage_Questionnaire_ResponseV1.docx` and `Context/Questionaires/Running_Report_Contextual_Spillage_Questionnaire_ResponseV2.docx`
 - Report baseline template: `Report-Template/ISS_Sheave_Inspection_Report_Master_Template_v2.1_Polished.docx`
 - Evidence root: `Evidence/`
-- Evidence register: `Report-Working/evidence_index.md`
+- Final-consolidated evidence register: `Report-Working/evidence_index.md`
 - Detailed visual reviews:
   - `Report-Working/evidence_visual_review_batch_A.md`
   - `Report-Working/evidence_visual_review_batch_B.md`
@@ -18,7 +18,7 @@
   - `Report-Working/evidence_visual_review_batch_F.md`
 
 ## Current Development Stage
-Repository inventory, context-to-repository reconciliation and all six planned visual-evidence review batches are complete. All 23 evidence groups have now been independently reviewed against the contextual narrative. The next stage is final consolidation of `evidence_index.md`, including reviewed status and first-draft figure selections, followed by adaptation of the sheave-report template and preparation of the first populated spillage-report draft.
+Repository inventory, context-to-repository reconciliation, all six visual-evidence review batches and final `evidence_index.md` consolidation are complete. All 23 evidence groups / 197 media files have been independently reviewed against the contextual narrative, and first-draft report figure candidates have been identified for every relevant asset group. The project can now transition from evidence-review mode into report-template adaptation and preparation of the first populated spillage-report draft.
 
 ## Evidence Handling Rules
 - Preserve repository originals at full resolution.
@@ -26,7 +26,8 @@ Repository inventory, context-to-repository reconciliation and all six planned v
 - Distinguish direct visual evidence, source-recorded observation, engineering interpretation and unverified hypothesis.
 - Completed batch-review files govern the detailed visual classification.
 - Do not derive dimensions/percentages or dynamic operating states from still photographs unless independently supported.
-- Create report-ready compressed copies only after final figure selection.
+- First-draft candidate images in `evidence_index.md` are a shortlist, not a requirement to insert every candidate.
+- Create report-ready compressed copies only after final figure selection within the report layout.
 
 ## Known Filename / Evidence Mapping Items
 - U4 video is normalised to `UGU4-REF-010.MP4`.
@@ -68,7 +69,8 @@ Repository inventory, context-to-repository reconciliation and all six planned v
 - Batch E visual review: **COMPLETE**
 - Batch F visual review: **COMPLETE**
 - Overall visual-review programme: **COMPLETE**
-- Report image selection / captions: **IN PROGRESS — candidate sets identified in all six batch review files**
+- `evidence_index.md` final consolidation: **COMPLETE**
+- First-draft report figure candidates: **IDENTIFIED**
 
 ## Batch F Key Results
 ### Underground Crusher
@@ -112,12 +114,12 @@ Repository inventory, context-to-repository reconciliation and all six planned v
 6. **Batch F — Remaining Underground:** Crusher, UC05-UC01, U3, U5A, U5B. **COMPLETE**
 
 ## Next Planned Work
-1. Consolidate Batch F findings into Contextual Notes V3.7.
-2. Perform final full `evidence_index.md` consolidation: mark all groups visually reviewed, add batch-review references, first-draft selected figures and key caption notes.
-3. Review/adapt `ISS_Sheave_Inspection_Report_Master_Template_v2.1_Polished.docx` into the spillage-report structure, particularly the detailed-findings section.
-4. Build the first populated working report draft using the consolidated contextual notes and selected evidence.
-5. Produce report-ready resized/compressed image copies only for selected report figures.
-6. Develop CV09 scraper/chute and Sample Conveyor side-skirt conceptual illustrations using the reviewed actual equipment geometry.
+1. Sync `Running_Report_Contextual_Spillage_NotesV3.7.docx` into `Context/` when convenient.
+2. Inspect and adapt `Report-Template/ISS_Sheave_Inspection_Report_Master_Template_v2.1_Polished.docx` into the combined-product spillage-report structure, with particular attention to the detailed findings section.
+3. Build the first populated working report draft using V3.7 plus the first-draft evidence selections in `evidence_index.md`.
+4. Create report-ready resized/compressed image copies only for figures selected in the working report layout.
+5. Develop CV09 scraper/chute and Sample Conveyor side-skirt conceptual illustrations using the reviewed actual equipment geometry.
+6. Carry forward unresolved engineering-verification/design items into the report recommendations without overstating them as closed findings.
 
 ## Repository Milestones
 - GitHub write access confirmed on 2026-08-23.
@@ -129,3 +131,4 @@ Repository inventory, context-to-repository reconciliation and all six planned v
 - Batch D detailed review: commit `7d6fbd6cb19ab26b2b4e0729801bd0734205ee0e`.
 - Batch E detailed review: commit `7ba0b8d142a9332c81bec340eaab24035988bdc6`.
 - Batch F detailed review: commit `31aef8139541bdd2505eb590caef6aa585c01f62`.
+- Final consolidated `evidence_index.md`: commit `fe0683a5d8c5184cf3a53d7ea5f5963d78badac0`.
