@@ -1,534 +1,234 @@
 # Spillage Report Evidence Index
 
 ## Purpose
-This file is the working evidence register for the South32 Wessels Mine combined-product spillage report. It maps the canonical evidence references used in the contextual notes to the exact files stored in the repository. The inventory is a file-level register only at this stage; detailed visual interpretation, evidence strength, final report selection and captions will be added during the visual-review pass.
+This file is the consolidated working evidence register for the South32 Wessels Mine combined-product spillage report. It maps each inspected asset group to its repository evidence, records the completed visual-review status, identifies the applicable detailed review file, and captures the preferred first-draft report figures.
 
-## Inventory Summary
+## Inventory / Review Summary
 - Evidence groups / inspected asset groups: **23**
 - Total media files: **197**
 - Photographs: **189**
 - Videos: **8**
-- Inventory status: **COMPLETE — VISUAL REVIEW PENDING**
-- Primary contextual source: `Context/Running_Report_Contextual_Spillage_NotesV3.docx`
+- Repository inventory: **COMPLETE**
+- Context-to-repository reconciliation: **COMPLETE**
+- Visual review Batches A-F: **COMPLETE**
+- Missing contextual evidence groups: **NONE IDENTIFIED**
+- First-draft figure selection: **CANDIDATES IDENTIFIED — final report layout selection still to be confirmed**
+- Primary consolidated contextual revision prepared after full review: `Running_Report_Contextual_Spillage_NotesV3.7.docx` (sync into `Context/` when convenient).
 
 ## Evidence Handling Rules
-- The repository originals are the master evidence and are to remain at their original resolution.
-- The canonical evidence ID used in the contextual notes/report is the reference identifier without relying on filename case or extension.
-- Exact repository filenames and paths are retained in this index for traceability.
-- Direct observation, supporting/context evidence, engineering interpretation and unverified hypothesis must remain distinguishable.
-- `Selected for Report` and proposed figure/caption fields remain pending until the visual evidence has been reviewed.
+- Repository originals remain the master evidence and are not to be overwritten or recompressed.
+- Canonical evidence IDs in the contextual notes/report remain the governing reference IDs.
+- A photograph/video may directly prove a physical condition without proving the complete causal mechanism.
+- Direct visual evidence, supporting/context evidence, source-recorded inspection observations, engineering interpretation and unverified hypotheses must remain distinguishable.
+- Dimensions, percentages and dynamic operating states are not to be inferred from still photographs unless separately measured/verified.
+- Report-ready resized/compressed copies are to be produced only for evidence finally selected for the report.
 
-## Naming / Index Exceptions
-- **U4 video corrected:** `UGU4-REF-0010.MP4` was renamed to the canonical `UGU4-REF-010.MP4` in commit `c2f1ca40b18fac8d7f0c8fbb649992f4063102fe`.
-- **CV09 videos:** exact repository filenames currently use mixed case (`Cv09-Ref-006.mp4`, `Cv09-Ref-007.mp4`, `Cv09-Ref-008.mp4`). Canonical report references remain `CV09-REF-006`, `CV09-REF-007`, and `CV09-REF-008`.
-- **L2 duplicate numeric reference:** `LoadoutStationL2-REF-005.jpg` and `LoadoutStationL2-REF-005.mp4` both exist. If either is cited in the report, the media type and exact filename/path must be stated until a deliberate renumbering decision is made.
+## Naming / Reference-Control Exceptions
+- **U4 video corrected:** former `UGU4-REF-0010.MP4` was renamed to `UGU4-REF-010.MP4` in commit `c2f1ca40b18fac8d7f0c8fbb649992f4063102fe`.
+- **CV09 videos:** repository filenames remain `Cv09-Ref-006.mp4`, `Cv09-Ref-007.mp4`, `Cv09-Ref-008.mp4`; canonical report IDs remain `CV09-REF-006`, `CV09-REF-007`, `CV09-REF-008`.
+- **L2 duplicate numeric reference:** both `LoadoutStationL2-REF-005.jpg` and `LoadoutStationL2-REF-005.mp4` exist. Any citation must state the media type / exact filename unless deliberately renumbered later.
 
-## Evidence Status Key
-- **Pending** — file inventoried but not yet visually reviewed.
-- **Direct** — visual evidence directly supports the stated observation.
-- **Supporting** — supports context/extent but is not independently conclusive for the causal statement.
-- **Context only** — useful for plant/equipment orientation or inspected-condition record.
-- **Selected** — chosen for inclusion in the report.
-- **Not selected** — retained as source evidence but not planned for report display.
+## Detailed Visual-Review Records
+- **Batch A:** `Report-Working/evidence_visual_review_batch_A.md` — CV06, CV09, U4 Tripper Car.
+- **Batch B:** `Report-Working/evidence_visual_review_batch_B.md` — Sample Conveyor 2, Sample Conveyor 3, L3.
+- **Batch C:** `Report-Working/evidence_visual_review_batch_C.md` — Screens / Screen Chutes, L1.
+- **Batch D:** `Report-Working/evidence_visual_review_batch_D.md` — W10, CV01, CV02, CV03, CV04, CV14, CV15.
+- **Batch E:** `Report-Working/evidence_visual_review_batch_E.md` — L2, L4, Sample Conveyor 1.
+- **Batch F:** `Report-Working/evidence_visual_review_batch_F.md` — Crusher, UC05-UC01, U3, U5A, U5B.
 
-## 1. Surface Processing Plant - Screening Section
+---
 
-### 1.1 W10 Conveyor - Primary Feed
-- **Repository folder:** `Evidence/Surface/W10/`
-- **Media count:** 12
-- **Files:**
-  - `W10-REF-001.jpg`
-  - `W10-REF-002.jpg`
-  - `W10-REF-003.jpg`
-  - `W10-REF-004.jpg`
-  - `W10-REF-005.jpg`
-  - `W10-REF-006.jpg`
-  - `W10-REF-007.jpg`
-  - `W10-REF-008.jpg`
-  - `W10-REF-009.jpg`
-  - `W10-REF-010.jpg`
-  - `W10-REF-011.jpg`
-  - `W10-REF-012.jpg`
-- **Current contextual relevance:** Surface primary-feed conveyor; V3 records dry fines/carryback plus solid/mixed product spillage and confined/restricted-access context.
-- **Key references already identified in Context V3:**
-  - W10-REF-001 through W10-REF-012: overall evidence set.
-- **Visual review status:** Pending
-- **Selected for Report:** Pending
-- **Proposed figure / caption:** Pending
-- **Visual-review notes:** Pending
+# 1. Surface Processing Plant - Screening Section
 
-### 1.2 CV01
-- **Repository folder:** `Evidence/Surface/CV01/`
-- **Media count:** 4
-- **Files:**
-  - `CV01-REF-001.jpg`
-  - `CV01-REF-002.jpg`
-  - `CV01-REF-003.jpg`
-  - `CV01-REF-004.jpg`
-- **Current contextual relevance:** Wet fines, dry fines and return-side carryback; damaged/seized return support roller recorded.
-- **Key references already identified in Context V3:**
-  - CV01-REF-001: damaged / seized return support roller.
-- **Visual review status:** Pending
-- **Selected for Report:** Pending
-- **Proposed figure / caption:** Pending
-- **Visual-review notes:** Pending
+## 1.1 W10 Conveyor - Primary Feed
+- **Folder:** `Evidence/Surface/W10/`
+- **Files:** `W10-REF-001.jpg` through `W10-REF-012.jpg` (12 photos)
+- **Review:** Batch D — COMPLETE
+- **Verified condition:** substantial dry lump/mixed-product and fines accumulation in an enclosed/restricted tunnel environment. Individual close views are locally severe, while the existing asset-level localised-to-moderate classification is retained.
+- **First-draft candidates:** `W10-REF-002`; `W10-REF-010` or `W10-REF-011`; optional `W10-REF-006` or `W10-REF-009`.
 
-### 1.3 CV02
-- **Repository folder:** `Evidence/Surface/CV02/`
-- **Media count:** 4
-- **Files:**
-  - `CV02-REF-001.jpg`
-  - `CV02-REF-002.jpg`
-  - `CV02-REF-003.jpg`
-  - `CV02-REF-004.jpg`
-- **Current contextual relevance:** Dry fines, carryback, lump ore / solid product and mixed combined-product spillage.
-- **Key references already identified in Context V3:**
-  - CV02-REF-001 through CV02-REF-004: overall evidence set.
-- **Visual review status:** Pending
-- **Selected for Report:** Pending
-- **Proposed figure / caption:** Pending
-- **Visual-review notes:** Pending
+## 1.2 CV01
+- **Folder:** `Evidence/Surface/CV01/`
+- **Files:** `CV01-REF-001.jpg` through `CV01-REF-004.jpg` (4 photos)
+- **Review:** Batch D — COMPLETE
+- **Verified condition:** wet-fines/slurry accumulation and pooled water are directly visible; `CV01-REF-001` directly shows severe visible roller surface damage/abrasion. The recorded **seized** condition cannot be proven dynamically from the still photograph alone.
+- **First-draft candidates:** `CV01-REF-001`; `CV01-REF-003` or `CV01-REF-004`.
 
-### 1.4 CV03
-- **Repository folder:** `Evidence/Surface/CV03/`
-- **Media count:** 3
-- **Files:**
-  - `CV03-REF-001.jpg`
-  - `CV03-REF-002.jpg`
-  - `CV03-REF-003.jpg`
-- **Current contextual relevance:** No spillage recorded during Questionnaire V1; retained as inspected-condition/context evidence.
-- **Key references already identified in Context V3:**
-  - CV03-REF-001 through CV03-REF-003: inspected condition.
-- **Visual review status:** Pending
-- **Selected for Report:** Pending
-- **Proposed figure / caption:** Pending
-- **Visual-review notes:** Pending
+## 1.3 CV02
+- **Folder:** `Evidence/Surface/CV02/`
+- **Files:** `CV02-REF-001.jpg` through `CV02-REF-004.jpg` (4 photos)
+- **Review:** Batch D — COMPLETE
+- **Verified condition:** dry fines plus mixed-size/lump-product accumulation around transfer and return-side/support areas; localised-to-moderate classification remains consistent.
+- **First-draft candidates:** `CV02-REF-001`; `CV02-REF-003`.
 
-### 1.5 CV04
-- **Repository folder:** `Evidence/Surface/CV04/`
-- **Media count:** 5
-- **Files:**
-  - `CV04-REF-001.jpg`
-  - `CV04-REF-002.jpg`
-  - `CV04-REF-003.jpg`
-  - `CV04-REF-004.jpg`
-  - `CV04-REF-005.jpg`
-- **Current contextual relevance:** Wet fines, dry fines, carryback and mixed combined-product spillage; extensive/widespread accumulation recorded.
-- **Key references already identified in Context V3:**
-  - CV04-REF-001 through CV04-REF-005: overall evidence set.
-- **Visual review status:** Pending
-- **Selected for Report:** Pending
-- **Proposed figure / caption:** Pending
-- **Visual-review notes:** Pending
+## 1.4 CV03
+- **Folder:** `Evidence/Surface/CV03/`
+- **Files:** `CV03-REF-001.jpg` through `CV03-REF-003.jpg` (3 photos)
+- **Review:** Batch D — COMPLETE
+- **Verified condition:** supplied views support the no-significant-spillage inspected-condition baseline.
+- **First-draft candidates:** normally none required; optional clean comparator `CV03-REF-002` or `CV03-REF-003`.
 
-### 1.6 CV06
-- **Repository folder:** `Evidence/Surface/CV06/`
-- **Media count:** 5
-- **Files:**
-  - `CV06-REF-001.jpg`
-  - `CV06-REF-002.jpg`
-  - `CV06-REF-003.jpg`
-  - `CV06-REF-004.jpg`
-  - `CV06-REF-005.jpg`
-- **Current contextual relevance:** Dry fines / carryback plus direct belt-cleaner maintenance deficiencies.
-- **Key references already identified in Context V3:**
-  - CV06-REF-004: scraper support bushing displaced from housing.
-  - CV06-REF-005: head scraper blades completely missing.
-- **Visual review status:** Pending
-- **Selected for Report:** Pending
-- **Proposed figure / caption:** Pending
-- **Visual-review notes:** Pending
+## 1.5 CV04
+- **Folder:** `Evidence/Surface/CV04/`
+- **Files:** `CV04-REF-001.jpg` through `CV04-REF-005.jpg` (5 photos)
+- **Review:** Batch D — COMPLETE
+- **Verified condition:** saturated wet-fines/slurry and multiple accumulated fines piles; extensive/widespread classification strongly supported.
+- **First-draft candidates:** `CV04-REF-002`; `CV04-REF-005`; optional `CV04-REF-004`.
 
-### 1.7 CV09
-- **Repository folder:** `Evidence/Surface/CV09/`
-- **Media count:** 8
-- **Files:**
-  - `CV09-REF-001.jpg`
-  - `CV09-REF-002.jpg`
-  - `CV09-REF-003.jpg`
-  - `CV09-REF-004.jpg`
-  - `CV09-REF-005.jpg`
-  - `Cv09-Ref-006.mp4` — canonical ID `CV09-REF-006`
-  - `Cv09-Ref-007.mp4` — canonical ID `CV09-REF-007`
-  - `Cv09-Ref-008.mp4` — canonical ID `CV09-REF-008`
-- **Current contextual relevance:** Wet fines/slurry and return-side carryback; key cleaner/chute containment design example.
-- **Key references already identified in Context V3:**
-  - CV09-REF-003 (repository file CV09-REF-003.jpg): scraper condition / arrangement.
-  - CV09-REF-008 (repository file Cv09-Ref-008.mp4): operational evidence of scraper/carryback behaviour.
-- **Visual review status:** Pending
-- **Selected for Report:** Pending
-- **Proposed figure / caption:** Pending
-- **Visual-review notes:** Pending
+## 1.6 CV06
+- **Folder:** `Evidence/Surface/CV06/`
+- **Files:** `CV06-REF-001.jpg` through `CV06-REF-005.jpg` (5 photos)
+- **Review:** Batch A — COMPLETE
+- **Verified condition:** `CV06-REF-004` directly shows displaced scraper-support bush/insert; `CV06-REF-005` directly shows cleaner support beam/cross-shaft with scraper blades absent from the working belt width. Cause/history remains unproven by the photographs.
+- **First-draft candidates:** `CV06-REF-004`; `CV06-REF-005`.
 
-### 1.8 CV14
-- **Repository folder:** `Evidence/Surface/CV14/`
-- **Media count:** 2
-- **Files:**
-  - `CV14-REF-001.jpg`
-  - `CV14-REF-002.jpg`
-- **Current contextual relevance:** Dry fines and return-side carryback; mainly trace to localised accumulation.
-- **Key references already identified in Context V3:**
-  - CV14-REF-001 through CV14-REF-002: overall evidence set.
-- **Visual review status:** Pending
-- **Selected for Report:** Pending
-- **Proposed figure / caption:** Pending
-- **Visual-review notes:** Pending
+## 1.7 CV09
+- **Folder:** `Evidence/Surface/CV09/`
+- **Files:** `CV09-REF-001.jpg` through `CV09-REF-005.jpg`; `Cv09-Ref-006.mp4`, `Cv09-Ref-007.mp4`, `Cv09-Ref-008.mp4` (5 photos, 3 videos)
+- **Review:** Batch A — COMPLETE
+- **Verified condition:** wet-fines/slurry accumulation, heavily contaminated cleaner area and active wet-material fallout are directly demonstrated. Proposed chute extension and self-tensioning cleaner remain engineering design concepts requiring measurement/detailing.
+- **First-draft candidates:** `CV09-REF-003`; `CV09-REF-002`; video canonical `CV09-REF-006`; supplementary video canonical `CV09-REF-008`.
 
-### 1.9 CV15
-- **Repository folder:** `Evidence/Surface/CV15/`
-- **Media count:** 8
-- **Files:**
-  - `CV15-REF-001.jpg`
-  - `CV15-REF-002.jpg`
-  - `CV15-REF-003.jpg`
-  - `CV15-REF-004.jpg`
-  - `CV15-REF-005.jpg`
-  - `CV15-REF-006.jpg`
-  - `CV15-REF-007.jpg`
-  - `CV15-REF-008.jpg`
-- **Current contextual relevance:** Wet fines, dry fines and carryback; extensive/widespread accumulation around chute E-3181 reference area.
-- **Key references already identified in Context V3:**
-  - CV15-REF-001 through CV15-REF-008: overall evidence set.
-- **Visual review status:** Pending
-- **Selected for Report:** Pending
-- **Proposed figure / caption:** Pending
-- **Visual-review notes:** Pending
+## 1.8 CV14
+- **Folder:** `Evidence/Surface/CV14/`
+- **Files:** `CV14-REF-001.jpg`, `CV14-REF-002.jpg` (2 photos)
+- **Review:** Batch D — COMPLETE
+- **Verified condition:** trace/localised dry-fines/carryback deposits; photographs do not support escalation to widespread accumulation.
+- **First-draft candidates:** `CV14-REF-002`; optional `CV14-REF-001`.
 
-### 1.10 Screens / Screen Chutes
-- **Repository folder:** `Evidence/Surface/Screens/`
-- **Media count:** 17
-- **Files:**
-  - `Screen-REF-001.jpg`
-  - `Screen-REF-002.jpg`
-  - `Screen-REF-003.jpg`
-  - `Screen-REF-004.jpg`
-  - `Screen-REF-005.jpg`
-  - `Screen-REF-006.jpg`
-  - `Screen-REF-007.jpg`
-  - `Screen-REF-008.jpg`
-  - `Screen-REF-009.jpg`
-  - `Screen-REF-010.jpg`
-  - `Screen-REF-011.jpg`
-  - `Screen-REF-012.jpg`
-  - `Screen-REF-013.jpg`
-  - `Screen-REF-014.jpg`
-  - `Screen-REF-015.mp4`
-  - `Screen-REF-016.mp4`
-  - `Screen-REF-017.mp4`
-- **Current contextual relevance:** Water escape during screening/washing, wet-fines/slurry exposure, corrosion, and damaged/cut load-bearing screen supports.
-- **Key references already identified in Context V3:**
-  - Screen-REF-001 through Screen-REF-014: photographs.
-  - Screen-REF-015 through Screen-REF-017: videos.
-- **Visual review status:** Pending
-- **Selected for Report:** Pending
-- **Proposed figure / caption:** Pending
-- **Visual-review notes:** Pending
+## 1.9 CV15
+- **Folder:** `Evidence/Surface/CV15/`
+- **Files:** `CV15-REF-001.jpg` through `CV15-REF-008.jpg` (8 photos)
+- **Review:** Batch D — COMPLETE
+- **Verified condition:** extensive distributed fines/carryback accumulation around chute E-3181. The still set primarily shows dry/dried fines; wet-fines condition and cleaner effectiveness remain source-recorded inspection observations rather than independently demonstrated operational states.
+- **First-draft candidates:** `CV15-REF-003`; `CV15-REF-004` or `CV15-REF-006`; optional `CV15-REF-008`.
 
-## 2. Surface Processing Plant - Loading Station
+## 1.10 Screens / Screen Chutes
+- **Folder:** `Evidence/Surface/Screens/`
+- **Files:** `Screen-REF-001.jpg` through `Screen-REF-014.jpg`; `Screen-REF-015.mp4` through `Screen-REF-017.mp4` (14 photos, 3 videos)
+- **Review:** Batch C — COMPLETE
+- **Verified condition:** active process-water loss of containment is directly verified by video; severe corrosion/deterioration and physical cut-outs/notches in support members are directly verified. Exact water-loss mechanism, reason for cuts and remaining structural capacity remain unresolved.
+- **First-draft candidates:** video `Screen-REF-016` or `Screen-REF-017`; photo `Screen-REF-004` or `Screen-REF-008`; photo `Screen-REF-006` or `Screen-REF-010`; optional orientation `Screen-REF-003` or `Screen-REF-014`.
 
-### 2.1 L1 Conveyor - Primary Feed
-- **Repository folder:** `Evidence/Surface/Loading-Station/L1/`
-- **Media count:** 18
-- **Files:**
-  - `LoadoutStationL1-REF-001.jpg`
-  - `LoadoutStationL1-REF-002.jpg`
-  - `LoadoutStationL1-REF-003.jpg`
-  - `LoadoutStationL1-REF-004.jpg`
-  - `LoadoutStationL1-REF-005.jpg`
-  - `LoadoutStationL1-REF-006.jpg`
-  - `LoadoutStationL1-REF-007.jpg`
-  - `LoadoutStationL1-REF-008.jpg`
-  - `LoadoutStationL1-REF-009.jpg`
-  - `LoadoutStationL1-REF-010.jpg`
-  - `LoadoutStationL1-REF-011.jpg`
-  - `LoadoutStationL1-REF-012.jpg`
-  - `LoadoutStationL1-REF-013.jpg`
-  - `LoadoutStationL1-REF-014.jpg`
-  - `LoadoutStationL1-REF-015.jpg`
-  - `LoadoutStationL1-REF-016.jpg`
-  - `LoadoutStationL1-REF-017.jpg`
-  - `LoadoutStationL1-REF-018.jpg`
-- **Current contextual relevance:** Extensive dry fines/carryback and product spillage; structural damage and corrosion in tunnel/conveyor area.
-- **Key references already identified in Context V3:**
-  - LoadoutStationL1-REF-003 through -008: tunnel / conveyor-area structural damage.
-  - LoadoutStationL1-REF-007: key belt/structure damage evidence.
-  - LoadoutStationL1-REF-008 and -009: corrosion evidence.
-- **Visual review status:** Pending
-- **Selected for Report:** Pending
-- **Proposed figure / caption:** Pending
-- **Visual-review notes:** Pending
+---
 
-### 2.2 L2 Conveyor
-- **Repository folder:** `Evidence/Surface/Loading-Station/L2/`
-- **Media count:** 7
-- **Files:**
-  - `LoadoutStationL2-REF-001.jpg`
-  - `LoadoutStationL2-REF-002.jpg`
-  - `LoadoutStationL2-REF-003.jpg`
-  - `LoadoutStationL2-REF-004.jpg`
-  - `LoadoutStationL2-REF-005.jpg`
-  - `LoadoutStationL2-REF-006.jpg`
-  - `LoadoutStationL2-REF-005.mp4`
-- **Current contextual relevance:** No spillage recorded in V1; photographs/video retained as inspected-condition evidence.
-- **Key references already identified in Context V3:**
-  - Index exception: REF-005 exists as both .jpg and .mp4; media type/path must be used to disambiguate.
-- **Visual review status:** Pending
-- **Selected for Report:** Pending
-- **Proposed figure / caption:** Pending
-- **Visual-review notes:** Pending
+# 2. Surface Processing Plant - Loading Station
 
-### 2.3 L3 Conveyor
-- **Repository folder:** `Evidence/Surface/Loading-Station/L3/`
-- **Media count:** 8
-- **Files:**
-  - `LoadoutStationL3-REF-001.jpg`
-  - `LoadoutStationL3-REF-002.jpg`
-  - `LoadoutStationL3-REF-003.jpg`
-  - `LoadoutStationL3-REF-004.jpg`
-  - `LoadoutStationL3-REF-005.jpg`
-  - `LoadoutStationL3-REF-006.jpg`
-  - `LoadoutStationL3-REF-007.jpg`
-  - `LoadoutStationL3-REF-008.jpg`
-- **Current contextual relevance:** Dry fines/carryback; significant tail-end belt/pulley offset observed. Direct causal contribution to current spillage remains unconfirmed.
-- **Key references already identified in Context V3:**
-  - LoadoutStationL3-REF-001: observed tail-end pulley / belt offset.
-- **Visual review status:** Pending
-- **Selected for Report:** Pending
-- **Proposed figure / caption:** Pending
-- **Visual-review notes:** Pending
+## 2.1 L1 Conveyor
+- **Folder:** `Evidence/Surface/Loading-Station/L1/`
+- **Files:** `LoadoutStationL1-REF-001.jpg` through `LoadoutStationL1-REF-018.jpg` (18 photos)
+- **Review:** Batch C — COMPLETE
+- **Verified condition:** extensive spillage; severe concrete deterioration/spalling with exposed reinforcement; severe local steel section loss/corrosion; wear slots in angular supports consistent with previous/intermittent belt contact. The photographed running belt is clear of the supports at the captured instant, so continuous current contact is not claimed.
+- **First-draft candidates:** `LoadoutStationL1-REF-007`; `LoadoutStationL1-REF-003` or `-005`; `LoadoutStationL1-REF-008`; `LoadoutStationL1-REF-013`; optional `LoadoutStationL1-REF-017`.
 
-### 2.4 L4 Conveyor
-- **Repository folder:** `Evidence/Surface/Loading-Station/L4/`
-- **Media count:** 8
-- **Files:**
-  - `LoadoutStationL4-REF-001.jpg`
-  - `LoadoutStationL4-REF-002.jpg`
-  - `LoadoutStationL4-REF-003.jpg`
-  - `LoadoutStationL4-REF-004.jpg`
-  - `LoadoutStationL4-REF-005.jpg`
-  - `LoadoutStationL4-REF-006.jpg`
-  - `LoadoutStationL4-REF-007.jpg`
-  - `LoadoutStationL4-REF-008.jpg`
-- **Current contextual relevance:** Dry fines and lump-ore / solid-product spillage; mainly trace to localised accumulation.
-- **Key references already identified in Context V3:**
-  - LoadoutStationL4-REF-001 through -008: overall evidence set.
-- **Visual review status:** Pending
-- **Selected for Report:** Pending
-- **Proposed figure / caption:** Pending
-- **Visual-review notes:** Pending
+## 2.2 L2 Conveyor
+- **Folder:** `Evidence/Surface/Loading-Station/L2/`
+- **Files:** `LoadoutStationL2-REF-001.jpg` through `LoadoutStationL2-REF-006.jpg`; `LoadoutStationL2-REF-005.mp4` (6 photos, 1 video)
+- **Review:** Batch E — COMPLETE
+- **Verified condition:** no-significant-spillage inspected-condition baseline is supported by photos and video. This is time-specific and does not prove L2 can never spill under other operating states.
+- **First-draft candidates:** normally none required; optional clean comparator `LoadoutStationL2-REF-004.jpg` or `LoadoutStationL2-REF-005.jpg`.
 
-### 2.5 Sample Conveyor 1
-- **Repository folder:** `Evidence/Surface/Loading-Station/Sample1/`
-- **Media count:** 11
-- **Files:**
-  - `LoadoutStationSample1-REF-001.jpg`
-  - `LoadoutStationSample1-REF-002.jpg`
-  - `LoadoutStationSample1-REF-003.jpg`
-  - `LoadoutStationSample1-REF-004.jpg`
-  - `LoadoutStationSample1-REF-005.jpg`
-  - `LoadoutStationSample1-REF-006.jpg`
-  - `LoadoutStationSample1-REF-007.jpg`
-  - `LoadoutStationSample1-REF-008.jpg`
-  - `LoadoutStationSample1-REF-009.jpg`
-  - `LoadoutStationSample1-REF-010.jpg`
-  - `LoadoutStationSample1-REF-011.jpg`
-- **Current contextual relevance:** Wet fines, dry fines, carryback, lump ore and mixed product; extensive/widespread accumulation.
-- **Key references already identified in Context V3:**
-  - LoadoutStationSample1-REF-001 through -011: overall evidence set.
-- **Visual review status:** Pending
-- **Selected for Report:** Pending
-- **Proposed figure / caption:** Pending
-- **Visual-review notes:** Pending
+## 2.3 L3 Conveyor
+- **Folder:** `Evidence/Surface/Loading-Station/L3/`
+- **Files:** `LoadoutStationL3-REF-001.jpg` through `LoadoutStationL3-REF-008.jpg` (8 photos)
+- **Review:** Batch B — COMPLETE
+- **Verified condition:** tail-end belt/pulley offset is visually supported but unmeasured; fines/material accumulation is directly visible. No visual causal chain to significant solid/lump-product spillage is established.
+- **First-draft candidates:** `LoadoutStationL3-REF-001`; `LoadoutStationL3-REF-007`; optional `LoadoutStationL3-REF-008`.
 
-### 2.6 Sample Conveyor 2
-- **Repository folder:** `Evidence/Surface/Loading-Station/Sample2/`
-- **Media count:** 8
-- **Files:**
-  - `LoadoutStationSample2-REF-001.jpg`
-  - `LoadoutStationSample2-REF-002.jpg`
-  - `LoadoutStationSample2-REF-003.jpg`
-  - `LoadoutStationSample2-REF-004.jpg`
-  - `LoadoutStationSample2-REF-005.jpg`
-  - `LoadoutStationSample2-REF-006.jpg`
-  - `LoadoutStationSample2-REF-007.jpg`
-  - `LoadoutStationSample2-REF-008.jpg`
-- **Current contextual relevance:** Loading-capacity / product-size-volume / containment concern; mistracking remains unconfirmed.
-- **Key references already identified in Context V3:**
-  - LoadoutStationSample2-REF-004 through -007: key loading / containment evidence.
-- **Visual review status:** Pending
-- **Selected for Report:** Pending
-- **Proposed figure / caption:** Pending
-- **Visual-review notes:** Pending
+## 2.4 L4 Conveyor
+- **Folder:** `Evidence/Surface/Loading-Station/L4/`
+- **Files:** `LoadoutStationL4-REF-001.jpg` through `LoadoutStationL4-REF-008.jpg` (8 photos)
+- **Review:** Batch E — COMPLETE
+- **Verified condition:** localised dry fines and coarse/lump-product accumulation beside/below the conveyor. Operating stills show product generally contained in the belt trough at the captured moment; no active material-fall event is photographed.
+- **First-draft candidates:** `LoadoutStationL4-REF-003` or `-004`; optional operating context `LoadoutStationL4-REF-007` or `-008`.
 
-### 2.7 Sample Conveyor 3
-- **Repository folder:** `Evidence/Surface/Loading-Station/Sample3/`
-- **Media count:** 13
-- **Files:**
-  - `LoadoutStationSample3-REF-001.jpg`
-  - `LoadoutStationSample3-REF-002.jpg`
-  - `LoadoutStationSample3-REF-003.jpg`
-  - `LoadoutStationSample3-REF-004.jpg`
-  - `LoadoutStationSample3-REF-005.jpg`
-  - `LoadoutStationSample3-REF-006.jpg`
-  - `LoadoutStationSample3-REF-007.jpg`
-  - `LoadoutStationSample3-REF-008.jpg`
-  - `LoadoutStationSample3-REF-009.jpg`
-  - `LoadoutStationSample3-REF-010.jpg`
-  - `LoadoutStationSample3-REF-011.jpg`
-  - `LoadoutStationSample3-REF-012.jpg`
-  - `LoadoutStationSample3-REF-013.jpg`
-- **Current contextual relevance:** Same loading/containment concern as Sample 2 plus visually evident severe belt mistracking.
-- **Key references already identified in Context V3:**
-  - LoadoutStationSample3-REF-002 through -007: key loading / containment evidence.
-  - Mistracking magnitude remains a visual estimate until measured.
-- **Visual review status:** Pending
-- **Selected for Report:** Pending
-- **Proposed figure / caption:** Pending
-- **Visual-review notes:** Pending
+## 2.5 Sample Conveyor 1
+- **Folder:** `Evidence/Surface/Loading-Station/Sample1/`
+- **Files:** `LoadoutStationSample1-REF-001.jpg` through `LoadoutStationSample1-REF-011.jpg` (11 photos)
+- **Review:** Batch E — COMPLETE
+- **Verified condition:** extensive/widespread mixed fines and coarse/lump-product accumulation at multiple structural levels. Adhered/dried run/drip-like deposits support a history of sticky/moist material deposition but do not prove active wet material at the captured instant.
+- **First-draft candidates:** `LoadoutStationSample1-REF-011`; `LoadoutStationSample1-REF-008`; `LoadoutStationSample1-REF-005` or `-006`; `LoadoutStationSample1-REF-007` or `-010`.
 
-## 3. Underground - Central Block
+## 2.6 Sample Conveyor 2
+- **Folder:** `Evidence/Surface/Loading-Station/Sample2/`
+- **Files:** `LoadoutStationSample2-REF-001.jpg` through `LoadoutStationSample2-REF-008.jpg` (8 photos)
+- **Review:** Batch B — COMPLETE
+- **Verified condition:** coarse/lump product occupies a substantial proportion of the narrow belt width and containment loss is directly visible. Significant mistracking is **not** visually established and remains unconfirmed. Photographs do not establish quantitative design-capacity overload.
+- **First-draft candidates:** `LoadoutStationSample2-REF-004`; `LoadoutStationSample2-REF-006` or `-007`; `LoadoutStationSample2-REF-001` or `-003`.
 
-### 3.1 Crusher
-- **Repository folder:** `Evidence/Underground/Crusher/`
-- **Media count:** 5
-- **Files:**
-  - `UGCrusher-REF-001.JPG`
-  - `UGCrusher-REF-002.JPG`
-  - `UGCrusher-REF-003.JPG`
-  - `UGCrusher-REF-004.JPG`
-  - `UGCrusher-REF-005.JPG`
-- **Current contextual relevance:** Dry fines, carryback and lump-ore / solid-product spillage.
-- **Key references already identified in Context V3:**
-  - UGCrusher-REF-001 through -005: overall evidence set.
-- **Visual review status:** Pending
-- **Selected for Report:** Pending
-- **Proposed figure / caption:** Pending
-- **Visual-review notes:** Pending
+## 2.7 Sample Conveyor 3
+- **Folder:** `Evidence/Surface/Loading-Station/Sample3/`
+- **Files:** `LoadoutStationSample3-REF-001.jpg` through `LoadoutStationSample3-REF-013.jpg` (13 photos)
+- **Review:** Batch B — COMPLETE
+- **Verified condition:** substantial solid/lump-product spillage, coarse product occupying much of the narrow belt width, and visually supported lateral offset/mistracking. Any previous `~50% usable belt width` description remains qualitative/unmeasured.
+- **First-draft candidates:** `LoadoutStationSample3-REF-013`; `LoadoutStationSample3-REF-005` or `-006`; `LoadoutStationSample3-REF-002`; `LoadoutStationSample3-REF-012`.
 
-### 3.2 UC05 / UC04 / UC03 / UC02 / UC01 Continuous System
-- **Repository folder:** `Evidence/Underground/UC05-UC01/`
-- **Media count:** 16
-- **Files:**
-  - `UGUC05_04_03_02_01-REF-001.JPG`
-  - `UGUC05_04_03_02_01-REF-002.JPG`
-  - `UGUC05_04_03_02_01-REF-003.JPG`
-  - `UGUC05_04_03_02_01-REF-004.JPG`
-  - `UGUC05_04_03_02_01-REF-005.JPG`
-  - `UGUC05_04_03_02_01-REF-006.JPG`
-  - `UGUC05_04_03_02_01-REF-007.JPG`
-  - `UGUC05_04_03_02_01-REF-008.JPG`
-  - `UGUC05_04_03_02_01-REF-009.JPG`
-  - `UGUC05_04_03_02_01-REF-010.JPG`
-  - `UGUC05_04_03_02_01-REF-011.JPG`
-  - `UGUC05_04_03_02_01-REF-012.JPG`
-  - `UGUC05_04_03_02_01-REF-013.JPG`
-  - `UGUC05_04_03_02_01-REF-014.JPG`
-  - `UGUC05_04_03_02_01-REF-015.JPG`
-  - `UGUC05_04_03_02_01-REF-016.JPG`
-- **Current contextual relevance:** Continuous underground transport system; dry fines, carryback and mixed product distributed along route.
-- **Key references already identified in Context V3:**
-  - UGUC05_04_03_02_01-REF-007: area reportedly cleared shortly before inspection; may under-represent normal accumulation.
-- **Visual review status:** Pending
-- **Selected for Report:** Pending
-- **Proposed figure / caption:** Pending
-- **Visual-review notes:** Pending
+---
 
-## 4. Underground - Secondary Plant
+# 3. Underground - Central Block
 
-### 4.1 U3 Conveyor
-- **Repository folder:** `Evidence/Underground/U3/`
-- **Media count:** 8
-- **Files:**
-  - `UGU3-REF-001.JPG`
-  - `UGU3-REF-002.JPG`
-  - `UGU3-REF-003.JPG`
-  - `UGU3-REF-004.JPG`
-  - `UGU3-REF-005.JPG`
-  - `UGU3-REF-006.JPG`
-  - `UGU3-REF-007.JPG`
-  - `UGU3-REF-008.JPG`
-- **Current contextual relevance:** Dry fines, carryback and mixed combined-product spillage; localised to moderate accumulation.
-- **Key references already identified in Context V3:**
-  - UGU3-REF-001 through -008: overall evidence set.
-- **Visual review status:** Pending
-- **Selected for Report:** Pending
-- **Proposed figure / caption:** Pending
-- **Visual-review notes:** Pending
+## 3.1 Underground Crusher
+- **Folder:** `Evidence/Underground/Crusher/`
+- **Files:** `UGCrusher-REF-001.JPG` through `UGCrusher-REF-005.JPG` (5 photos)
+- **Review:** Batch F — COMPLETE
+- **Verified condition:** mixed coarse/lump and fines accumulation beneath/around crusher-conveyor structure; local standing water is visible in `UGCrusher-REF-001` but source is unresolved. Existing trace-to-moderate asset-level classification remains appropriate.
+- **First-draft candidates:** `UGCrusher-REF-001`; `UGCrusher-REF-002` or `UGCrusher-REF-003`.
 
-### 4.2 U4 Conveyor - Tripper Car
-- **Repository folder:** `Evidence/Underground/U4-Tripper/`
-- **Media count:** 12
-- **Files:**
-  - `UGU4-REF-001.JPG`
-  - `UGU4-REF-002.JPG`
-  - `UGU4-REF-003.JPG`
-  - `UGU4-REF-004.JPG`
-  - `UGU4-REF-005.JPG`
-  - `UGU4-REF-006.JPG`
-  - `UGU4-REF-007.JPG`
-  - `UGU4-REF-008.JPG`
-  - `UGU4-REF-009.jpg`
-  - `UGU4-REF-010.MP4`
-  - `UGU4-REF-011.JPG`
-  - `UGU4-REF-012.JPG`
-- **Current contextual relevance:** Key direct cause/effect location: tail-end pulley misalignment -> belt mistracking -> lateral product loss. U4 also has a distinct/custom cleaner arrangement.
-- **Key references already identified in Context V3:**
-  - UGU4-REF-004 and -009: belt mistracking.
-  - UGU4-REF-007: product falling from one side of belt.
-  - UGU4-REF-008 and -010: tail-end pulley misalignment / operating evidence.
-  - UGU4-REF-011 and -012: additional cleaner/scraper arrangement evidence.
-- **Visual review status:** Pending
-- **Selected for Report:** Pending
-- **Proposed figure / caption:** Pending
-- **Visual-review notes:** Pending
+## 3.2 UC05 / UC04 / UC03 / UC02 / UC01 Continuous System
+- **Folder:** `Evidence/Underground/UC05-UC01/`
+- **Files:** `UGUC05_04_03_02_01-REF-001.JPG` through `UGUC05_04_03_02_01-REF-016.JPG` (16 photos)
+- **Review:** Batch F — COMPLETE
+- **Verified condition:** distributed dry-fines accumulation with mixed coarse fragments in some locations. Several local piles are large, while other sections are comparatively clear. `REF-007` shows the comparatively clear inspected condition; recent-cleaning history remains source-recorded.
+- **First-draft candidates:** `REF-006` or `REF-008`; `REF-015` or `REF-016`; `REF-005`; optional `REF-007` comparator with explicit source qualification.
 
-## 5. Underground - Silos / Feeders
+---
 
-### 5.1 U5A Conveyor
-- **Repository folder:** `Evidence/Underground/U5A/`
-- **Media count:** 9
-- **Files:**
-  - `UG5A-REF-001.JPG`
-  - `UG5A-REF-002.JPG`
-  - `UG5A-REF-003.JPG`
-  - `UG5A-REF-004.JPG`
-  - `UG5A-REF-005.JPG`
-  - `UG5A-REF-006.JPG`
-  - `UG5A-REF-007.JPG`
-  - `UG5A-REF-008.JPG`
-  - `UG5A-REF-009.JPG`
-- **Current contextual relevance:** Dry fines and return-side carryback; extensive/widespread accumulation.
-- **Key references already identified in Context V3:**
-  - UG5A-REF-001 through -009: overall evidence set.
-- **Visual review status:** Pending
-- **Selected for Report:** Pending
-- **Proposed figure / caption:** Pending
-- **Visual-review notes:** Pending
+# 4. Underground - Secondary Plant
 
-### 5.2 U5B Conveyor
-- **Repository folder:** `Evidence/Underground/U5B/`
-- **Media count:** 6
-- **Files:**
-  - `UG5B-REF-001.JPG`
-  - `UG5B-REF-002.JPG`
-  - `UG5B-REF-003.JPG`
-  - `UG5B-REF-004.JPG`
-  - `UG5B-REF-005.JPG`
-  - `UG5B-REF-006.JPG`
-- **Current contextual relevance:** Dry fines and return-side carryback; mainly trace to localised accumulation.
-- **Key references already identified in Context V3:**
-  - UG5B-REF-001 through -006: overall evidence set.
-- **Visual review status:** Pending
-- **Selected for Report:** Pending
-- **Proposed figure / caption:** Pending
-- **Visual-review notes:** Pending
+## 4.1 U3 Conveyor
+- **Folder:** `Evidence/Underground/U3/`
+- **Files:** `UGU3-REF-001.JPG` through `UGU3-REF-008.JPG` (8 photos)
+- **Review:** Batch F — COMPLETE
+- **Verified condition:** local conveyor-adjacent fines/mixed accumulation is directly verified. Coarse broken rock visible on the underground roadway cannot automatically be attributed to conveyor spillage from still photographs alone. Existing localised-to-moderate classification remains appropriate.
+- **First-draft candidates:** `UGU3-REF-007`; `UGU3-REF-004` or `UGU3-REF-005`; optional wider context `UGU3-REF-008` with origin qualification.
 
-## Next Evidence-Review Actions
-1. Review the priority evidence groups first: CV06, CV09, Sample Conveyor 2, Sample Conveyor 3, Screens / Screen Chutes, L1, and U4 Tripper Car.
-2. Cross-check each visual observation against Contextual Notes V3 and record whether the evidence is Direct, Supporting or Context only.
-3. Identify the strongest photographs for the first report draft and record the proposed figure/caption in this index.
-4. Review the remaining evidence groups and complete the same classification.
-5. Only after selection, create report-ready resized/compressed copies if required; retain all repository originals unchanged.
+## 4.2 U4 Conveyor - Tripper Car
+- **Folder:** `Evidence/Underground/U4-Tripper/`
+- **Files:** `UGU4-REF-001.JPG` through `UGU4-REF-008.JPG`; `UGU4-REF-009.jpg`; `UGU4-REF-010.MP4`; `UGU4-REF-011.JPG`; `UGU4-REF-012.JPG` (11 photos, 1 video)
+- **Review:** Batch A — COMPLETE
+- **Verified condition:** severe local spillage and lateral belt mistracking are directly verified. Tail-pulley misalignment remains an inspector-recorded direct observation that is visually supported but not quantitatively measured from the supplied media. `UGU4-REF-011/-012` directly confirm a distinct/custom cleaner arrangement.
+- **First-draft candidates:** `UGU4-REF-009`; `UGU4-REF-007`; optional `UGU4-REF-006`; video `UGU4-REF-010`; one of `UGU4-REF-011` / `UGU4-REF-012`.
 
-## Inventory Provenance
-This inventory was populated from the repository tree on branch `main`. It records the files present in the `Evidence/` hierarchy at the time of inventory and should be updated if evidence files are subsequently added, removed or renamed.
+---
+
+# 5. Underground - Silos / Feeders
+
+## 5.1 U5A Conveyor
+- **Folder:** `Evidence/Underground/U5A/`
+- **Files:** `UG5A-REF-001.JPG` through `UG5A-REF-009.JPG` (9 photos)
+- **Review:** Batch F — COMPLETE
+- **Verified condition:** extensive/widespread dry-fines accumulation is strongly verified. Fines immediately beneath the return belt/roller region are strongly consistent with carryback geometry, but still photographs do not prove the source of every deposit.
+- **First-draft candidates:** `UG5A-REF-002`; `UG5A-REF-006` or `UG5A-REF-007`; `UG5A-REF-004`.
+
+## 5.2 U5B Conveyor
+- **Folder:** `Evidence/Underground/U5B/`
+- **Files:** `UG5B-REF-001.JPG` through `UG5B-REF-006.JPG` (6 photos)
+- **Review:** Batch F — COMPLETE
+- **Verified condition:** dry-fines accumulation is directly visible at several localised points. Some individual deposits are sizeable, but continuous/widespread accumulation is not demonstrated; trace-to-localised overall classification is retained.
+- **First-draft candidates:** `UG5B-REF-001` or `UG5B-REF-005`; optional return-side geometry `UG5B-REF-003` or `UG5B-REF-004`.
+
+---
+
+# Final Evidence-Selection Notes
+1. The candidate lists above are **first-draft candidates**, not a requirement to insert every listed image. Final report figure selection should use the smallest evidence set that clearly demonstrates each finding.
+2. Context/orientation images should only be used where they materially improve understanding of the equipment/location.
+3. Where a video contains the strongest evidence, the report may cite the video and optionally use a representative extracted frame for a static figure.
+4. The complete original evidence population remains retained in the repository irrespective of whether a file is selected for report display.
+5. Detailed per-item classifications and evidence limitations remain in the six `evidence_visual_review_batch_*.md` files and should be consulted during report drafting.
+
+## Next Stage
+**Evidence inventory and visual review are complete.** Proceed to:
+1. sync `Running_Report_Contextual_Spillage_NotesV3.7.docx` into `Context/`;
+2. adapt `Report-Template/ISS_Sheave_Inspection_Report_Master_Template_v2.1_Polished.docx` to the combined-product spillage-report structure;
+3. populate the first working report draft using the selected evidence above; and
+4. create report-ready resized/compressed copies only for figures actually used in the report.
