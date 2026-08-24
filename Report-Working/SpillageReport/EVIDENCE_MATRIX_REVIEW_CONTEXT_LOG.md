@@ -66,3 +66,31 @@ The likely essential story sequence is:
 4. `CV15-REF-008` — downstream/wider plant-environment consequence, subject to final inspector review against duplication.
 
 `CV15-REF-003` remains principally location/traceability evidence and does not by itself carry the engineering mechanism.
+
+---
+
+## L1 — Distributed Corrosion, Concrete Deterioration and Spillage Extent
+
+### Inspector clarification
+`LoadoutStationL1-REF-008` and `LoadoutStationL1-REF-009` do not show the same corroded support location. `REF-009` is the next conveyor support from `REF-008`. Used together, they can demonstrate that visible steel corrosion/section deterioration is present at multiple support locations rather than being confined to one isolated point.
+
+For the concrete deterioration story, the inspector proposes using `LoadoutStationL1-REF-004` with `LoadoutStationL1-REF-005` rather than relying on `REF-003` as the principal pair. `REF-004` is useful to establish where the affected concrete is located and that deterioration is present, while `REF-005` provides a stronger close view of the extent/severity of the concrete loss and exposed reinforcement. This creates a location/context + severity pair rather than two similar close-damage views.
+
+For the spillage story, `LoadoutStationL1-REF-013` remains the principal hero image of extensive long-term product/fines accumulation. `LoadoutStationL1-REF-012` shows similar accumulation at a different location immediately ahead of the `REF-013` area. Although partly duplicative in narrative purpose, it supports the spatial persistence/long-term extent of accumulation along the conveyor zone. The current decision is to retain `REF-012` as E during the evidence pass and reconsider it during final page-layout design if it creates visual clutter or does not add enough narrative value beside `REF-013`.
+
+### Engineering significance
+The preferred L1 presentation can therefore use paired evidence to demonstrate distribution rather than isolated defects:
+- `REF-008` + `REF-009` — separate adjacent conveyor-support locations, supporting a multi-location corrosion/steel-deterioration condition;
+- `REF-004` + `REF-005` — location/context plus close severity of concrete deterioration and exposed reinforcement;
+- `REF-012` + `REF-013` — accumulation at separate nearby locations, supporting the wider extent/persistence of the spillage condition, with `REF-013` remaining the stronger hero image.
+
+This evidence grouping should not be used to infer remaining structural capacity. The photographs establish visible deterioration and distribution; formal structural assessment is still required to determine significance/capacity.
+
+### Matrix implication for current E-pass
+- `LoadoutStationL1-REF-004` — promote to E as the concrete-deterioration location/context image.
+- `LoadoutStationL1-REF-005` — keep E as the close severity/extent image.
+- `LoadoutStationL1-REF-003` — demote to S if `REF-004` + `REF-005` are retained as the preferred concrete pair.
+- `LoadoutStationL1-REF-008` — keep E.
+- `LoadoutStationL1-REF-009` — promote to E so that the report can demonstrate steel deterioration at more than one conveyor-support location.
+- `LoadoutStationL1-REF-012` — keep E provisionally; revisit during final evidence-module/layout design if redundant beside `REF-013`.
+- `LoadoutStationL1-REF-013` — keep E as the principal spillage hero image.
