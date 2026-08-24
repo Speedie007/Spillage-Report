@@ -3,132 +3,153 @@
 ## Working Status
 - Repository: `Speedie007/Spillage-Report`
 - Branch: `main`
-- Primary contextual source currently in repository: `Context/Running_Report_Contextual_Spillage_NotesV3.docx`
-- Latest prepared contextual revision outside repository: `Running_Report_Contextual_Spillage_NotesV3.7.docx` after completion of Batch F.
-- Questionnaire source records: `Context/Questionaires/Running_Report_Contextual_Spillage_Questionnaire_ResponseV1.docx` and `Context/Questionaires/Running_Report_Contextual_Spillage_Questionnaire_ResponseV2.docx`
-- Report baseline template: `Report-Template/ISS_Sheave_Inspection_Report_Master_Template_v2.1_Polished.docx`
-- Evidence root: `Evidence/`
+- Current primary contextual source: `Context/Running_Report_Contextual_Spillage_NotesV3.7.docx`
+- Current report baseline / frozen first draft: `Report-Working/SpillageReport/South32_Spillage_Audit_Report_July2026_S32WPPSR_01_V0.1.docx`
+- Report baseline template: `Report-Template/ISS_Wessels_Combined_Product_Spillage_Report_Working_Base_V0.1.docx`
+- Original sheave-report reference template remains retained in `Report-Template/` for layout/style reference.
 - Final-consolidated evidence register: `Report-Working/evidence_index.md`
-- Detailed visual reviews:
-  - `Report-Working/evidence_visual_review_batch_A.md`
-  - `Report-Working/evidence_visual_review_batch_B.md`
-  - `Report-Working/evidence_visual_review_batch_C.md`
-  - `Report-Working/evidence_visual_review_batch_D.md`
-  - `Report-Working/evidence_visual_review_batch_E.md`
-  - `Report-Working/evidence_visual_review_batch_F.md`
+- First report review record: `Report-Working/SpillageReport/V0.1_Review_Pass_01.md`
+- Formal development sequence: `Report-Working/SpillageReport/REPORT_EXECUTION_PLAN.md`
 
-## Current Development Stage
-Repository inventory, context-to-repository reconciliation, all six visual-evidence review batches and final `evidence_index.md` consolidation are complete. All 23 evidence groups / 197 media files have been independently reviewed against the contextual narrative, and first-draft report figure candidates have been identified for every relevant asset group. The project can now transition from evidence-review mode into report-template adaptation and preparation of the first populated spillage-report draft.
+## Current Development Stage — IMPORTANT
+The project is deliberately **paused before further report-content integration**. V0.1 is frozen as the first evidence-populated baseline. The immediate task is not to continue expanding Section 16 or recommendations mechanically from V3.7. The current phase is a **context-alignment / engineering-intent debate** between the inspector and report compiler.
 
-## Evidence Handling Rules
-- Preserve repository originals at full resolution.
-- Treat contextual evidence IDs as canonical references.
-- Distinguish direct visual evidence, source-recorded observation, engineering interpretation and unverified hypothesis.
-- Completed batch-review files govern the detailed visual classification.
-- Do not derive dimensions/percentages or dynamic operating states from still photographs unless independently supported.
-- First-draft candidate images in `evidence_index.md` are a shortlist, not a requirement to insert every candidate.
-- Create report-ready compressed copies only after final figure selection within the report layout.
+The purpose of this phase is to make explicit:
+- what the current V3.7 context actually says;
+- what the inspector intended each evidence group to communicate;
+- which conclusions are global/systemic versus local/asset-specific;
+- what engineering narrative should connect the underground crusher through the conveyor system to the surface/load-out station;
+- which recommendations are intended as direct corrective actions, working concepts, hypotheses for verification, or future design-development items;
+- what topology/process relationships need to be explained for the evidence to make sense;
+- and where the current contextual narrative needs correction, expansion or re-prioritisation before the formal report is revised.
 
-## Known Filename / Evidence Mapping Items
-- U4 video is normalised to `UGU4-REF-010.MP4`.
-- CV09 videos retain mixed-case repository filenames; canonical references remain `CV09-REF-006` through `CV09-REF-008`.
-- `LoadoutStationL2-REF-005` exists as both `.jpg` and `.mp4`; use media type/path to disambiguate unless deliberately renumbered.
+No major report rewrite should occur until this alignment phase is complete and the contextual source has been updated accordingly.
 
-## Important Engineering Qualification Rules
-- Similar cleaner-design deficiencies at inaccessible conveyors remain an engineering inference, not a direct observation at every conveyor.
+## Critical Evidence-Selection Principle
+The 197 repository media files are **not a raw evidence pool**. They were already manually pre-filtered by the inspector from a much larger source pool of more than 700 media items because they collectively show the condition, topology, mechanism, sequence, consequence and story intended for the final audit.
+
+Therefore:
+- the existing `evidence_index.md` first-draft candidates are anchor / strongest images only, not a final inclusion boundary;
+- future evidence selection must consider both evidentiary strength and narrative role;
+- page-count reduction must come primarily from efficient layout and removal of genuinely redundant evidence, not from indiscriminate photo reduction;
+- body-report evidence may legitimately include materially more than the current 50 V0.1 figures where those additional items add unique engineering information.
+
+## Planned Evidence Classification After Context Alignment
+Each media item should ultimately be classified using both an **inclusion status** and a **story role**.
+
+Inclusion status:
+- `E` — Essential body evidence
+- `S` — Supporting / story evidence
+- `A` — Appendix / reference evidence
+- `X` — Exclude from report because genuinely duplicative, weak or non-contributory
+
+Story-role tags may include:
+- TOPOLOGY / ORIENTATION
+- PROCESS RELATIONSHIP
+- MECHANISM
+- DEFECT / CONDITION
+- EXTENT / SEVERITY
+- CONSEQUENCE
+- COMPARATOR / CLEAN CONDITION
+- OPERATING CONTEXT
+- MAINTENANCE / DESIGN DETAIL
+- REMEDIAL-CONCEPT CONTEXT
+
+The inspector should mainly need to challenge `X` classifications and promote any evidence that carries an intended narrative not obvious from the media alone.
+
+## Section 16 Architecture — Agreed Direction, Not Yet Implemented
+The current V0.1 one-photo-per-page structure is not the intended final architecture. Retain the ISS/sheave-report Photographic Evidence Sheet discipline, but redesign around **one technical story / finding = one evidence sheet or short evidence sequence**.
+
+Target approach:
+- asset summary flows directly into evidence;
+- add `System Context / Topology / Process Relationship` where relevant;
+- use multi-photo evidence sheets where several media items tell the same engineering story;
+- retain individual canonical evidence IDs and captions;
+- reduce repeated sheet-level metadata;
+- retain the three-part `Observation / Engineering Assessment / Recommended Action` logic, applied at technical-story level where suitable;
+- complex findings may use several deliberate sub-stories rather than one oversized sheet.
+
+Examples of multi-story assets:
+- Screens: water escape / corrosion / cut-support condition
+- L1: belt-contact history / concrete deterioration / steel section loss
+- CV09: cleaner geometry / wet-spillage consequence / active fallout
+- Sample Conveyor 3: mistracking / product-size-vs-belt-width / containment-loss consequence
+- U4: mistracking / one-side product loss / U4-specific cleaner arrangement
+
+## Layout Finding from V0.1 Review
+V0.1 rendered at approximately 92 pages with 50 embedded figures. It contained 77 explicit manual page breaks, 73 inside Section 16. A private layout experiment removed only the Section 16 forced page breaks and reduced the document from 92 pages to approximately 63 pages without removing any of the existing 50 images. The experiment was not final-quality because some tables split poorly, but it demonstrates that the large page count is mainly a pagination/layout issue.
+
+Working implication: additional relevant photographs can be restored without necessarily producing an excessively large final report if Section 16 is redesigned efficiently.
+
+## Current Engineering Qualification Rules from V3.7
+These remain binding unless the context-alignment discussion explicitly updates them:
+- Similar cleaner-design deficiencies at inaccessible conveyors remain an engineering inference, not direct observation at every conveyor.
 - Sample Conveyor 2 mistracking remains unconfirmed.
 - Sample Conveyor 3 lateral offset/mistracking is visually supported; magnitude remains unmeasured.
 - L3 tail-end offset is visually supported; causal contribution to solid-product spillage remains unconfirmed.
 - U4 belt mistracking and one-side spillage are visually verified. Tail-pulley misalignment remains inspector-recorded and visually supported, but not quantitatively proven by supplied media.
-- Screen water loss of containment is directly verified by video, but equipment-level cause remains unresolved.
-- Screen support cut-outs/notches are directly verified. The contextual source identifies affected members as load-bearing; photographs cannot independently establish load path/capacity. Reason for cuts remains unconfirmed.
-- L1 previous/intermittent belt-to-structure contact is strongly supported by visible wear slots next to the running belt. The captured belt is clear of supports, so continuous present contact must not be claimed.
-- CV01 return roller is visibly damaged/abraded; a static image cannot prove the recorded seized operating condition.
-- CV15 still photographs strongly verify extensive fines/carryback accumulation around E-3181, but the wet-fines component and cleaner effectiveness remain source-recorded inspection observations rather than independently demonstrated by the still set.
-- Sample Conveyor 1 photographs strongly verify widespread dry/dried fines and lump-product accumulation. Adhered deposits with run/drip morphology support a history of sticky/moist material deposition, but active wet fines are not independently proven by the still images.
-- L4 photographs verify localised accumulated fines/lump product but do not capture the exact instantaneous material-loss mechanism.
-- L2 remains a clean/no-significant-spillage inspected-condition baseline; this is not proof that spillage can never occur under other states.
-- Underground Batch F refinement: physical fines/mixed-product deposits are visually verified, but attribution of every deposit specifically to belt carryback remains a mechanism interpretation unless dynamic evidence exists.
-- U3 coarse rock visible on the underground roadway must not automatically be attributed to conveyor spillage; strongest direct evidence is material immediately beneath/adjacent to the conveyor structure.
-- UC05-UC03 recent cleaning remains source-recorded information; REF-007 directly shows the comparatively clear inspected condition but does not prove when or why cleaning occurred.
-- U5B retains the trace-to-localised overall classification, with the visual refinement that some individual local deposits are sizeable even though continuous/widespread accumulation is not demonstrated.
-- Crusher REF-001 visually shows standing water around accumulated product; source/cause of the water is unconfirmed.
+- Screen water loss of containment is directly verified; equipment-level cause remains unresolved.
+- Screen support cut-outs/notches are directly verified. The reason for the cuts and remaining structural capacity remain unresolved.
+- L1 previous/intermittent belt-to-structure contact is supported; continuous present contact must not be claimed from the captured operating image.
+- CV01 roller damage is visually verified; the recorded seized state is not proven by the still photograph alone.
+- Sample Conveyor 1 widespread dry/dried accumulation is directly supported; active wetness and moisture source are not independently proven by the stills.
+- U3 roadway rock must not automatically be attributed to conveyor spillage.
+- UC05-UC03 recent cleaning remains source-recorded information.
+- U5B remains trace-to-localised overall despite some substantial local deposits.
+- Crusher standing water is visible; its source/cause remains unknown.
 
-## Evidence Inventory / Review Status
-- Evidence groups: **23**
-- Total media files: **197**
-- Photographs: **189**
-- Videos: **8**
-- File inventory: **COMPLETE**
-- Context-to-repository reconciliation: **COMPLETE**
-- Missing contextual evidence groups: **NONE IDENTIFIED**
-- Batch A visual review: **COMPLETE**
-- Batch B visual review: **COMPLETE**
-- Batch C visual review: **COMPLETE**
-- Batch D visual review: **COMPLETE**
-- Batch E visual review: **COMPLETE**
-- Batch F visual review: **COMPLETE**
-- Overall visual-review programme: **COMPLETE**
-- `evidence_index.md` final consolidation: **COMPLETE**
-- First-draft report figure candidates: **IDENTIFIED**
+## Current High-Level Contextual Model from V3.7
+The audit is a qualitative, mechanism-focused review of a connected material-handling system rather than a collection of isolated conveyor defects. The principal analytical rule is:
 
-## Batch F Key Results
-### Underground Crusher
-- `UGCrusher-REF-001`: direct mixed lump/fines accumulation with local standing water; water source unresolved.
-- `UGCrusher-REF-002` / `-003`: direct under-conveyor mixed fines/coarse accumulation.
-- Existing trace-to-moderate asset-level classification remains appropriate.
-- Carryback remains a recorded mechanism; the stills directly prove deposits but not the origin of every deposit.
+`Observed Spillage → Spillage Type → Immediate Mechanism → Contributing Condition(s) → Root Cause → Consequence → Existing Control → Recommended Action`
 
-### UC05-UC01 Continuous System
-- Strongly verifies distributed dry-fines accumulation at multiple locations, with mixed coarse fragments in some areas.
-- `REF-006` / `REF-008`: very strong local under-conveyor fines accumulation.
-- `REF-015` / `REF-016`: very large local longitudinal fines deposits.
-- `REF-005`: strong mixed coarse/fines evidence.
-- `REF-007`: comparatively clear inspected-condition comparator; recent-cleaning explanation remains source-recorded.
-- Existing moderate, distributed asset-level classification remains appropriate despite some locally severe piles.
+A second governing principle is that **the location where spilled material accumulates is not necessarily where the initiating cause originates**. This is particularly important for carryback, where fines may remain on the return belt after discharge and be progressively detached by rollers/idlers downstream.
 
-### U3 Conveyor
-- `UGU3-REF-004`, `-005`, `-007`: strongest direct conveyor-adjacent fines/mixed accumulation evidence.
-- Coarse material visible on the underground roadway in `REF-002`, `-003`, `-006`, `-008` is supporting/context evidence because roadway origin cannot be distinguished from conveyor spillage solely from still photographs.
-- Existing localised-to-moderate classification remains appropriate.
-- No visual evidence resolves the trip/restart clearing status.
+The current V3.7 working model identifies three interacting spillage families:
+1. water-related leakage / wet fines / slurry;
+2. fines / carryback;
+3. solid or mixed combined-product loss, including mistracking, transfer/containment loss and event-driven trip/restart unloading.
 
-### U5A Conveyor
-- Extensive/widespread dry-fines accumulation is strongly visually verified.
-- `UG5A-REF-002`: very large fines mound beside/under conveyor.
-- `UG5A-REF-006` / `-007`: strong longitudinal/widespread extent evidence.
-- `UG5A-REF-004`: fines immediately beneath the return belt/roller region, strongly consistent with return-side carryback geometry.
+Current systemic working themes are recurring fines carryback, variable/ineffective cleaner performance, incomplete containment at some discharge points and associated housekeeping burden. Current local mechanisms include the direct CV06 cleaner failure, CV09 cleaner/containment geometry, Sample Conveyor 3 mistracking and narrow-belt loading/containment, U4 mistracking/alignment, screen water loss, and L1 belt-contact/structural deterioration.
 
-### U5B Conveyor
-- Dry-fines accumulation is directly verified at several local points.
-- `UG5B-REF-001` / `-005`: sizeable local deposits.
-- `UG5B-REF-003` / `-004`: fines immediately below return-belt/support region, consistent with carryback geometry.
-- Retain trace-to-localised overall classification; refine wording to acknowledge that some individual local piles are sizeable.
+## Current Working Remedial Concepts from V3.7
+These remain working engineering concepts, not fabrication designs or final approved recommendations:
+- CV09 pilot: place cleaner inside effective containment, direct removed wet fines into the intended fines stream, use self-tensioning contact and positive wear/travel limits, evaluate primary/secondary stages and retain safe maintenance access.
+- Wider cleaner standardisation: only after successful CV09 pilot and physical applicability survey at each discharge; U4 is an explicit exception requiring its own assessment.
+- Sample Conveyors 2/3: quantify feed arrangement, product size vs usable belt width, alignment/tension/live tracking; feed/loading correction is primary, side-skirt containment secondary; preliminary side-skirt dimensions are not final.
+- L3/U4 alignment: quantify/verify geometry and post-correction tracking rather than relying on visual estimates.
+- Screens: identify actual water-loss mechanism during safe shutdown and complete structural assessment of cut/corroded supports before design changes.
+- L1: complete structural assessment/repair definition and continue tracking monitoring.
+- Housekeeping/trip-restart: confirm actual mine procedures, but prioritise source control over repeated consequence cleanup.
 
-## Visual Review Batches
-1. **Batch A — Cleaner / alignment mechanisms:** CV06, CV09, U4 Tripper Car. **COMPLETE**
-2. **Batch B — Sample-conveyor loading / containment / tracking:** Sample 2, Sample 3, L3. **COMPLETE**
-3. **Batch C — Structural / water-loss evidence:** Screens / Screen Chutes, L1. **COMPLETE**
-4. **Batch D — Remaining Surface Screening:** W10, CV01, CV02, CV03, CV04, CV14, CV15. **COMPLETE**
-5. **Batch E — Remaining Loading Station:** L2, L4, Sample Conveyor 1. **COMPLETE**
-6. **Batch F — Remaining Underground:** Crusher, UC05-UC01, U3, U5A, U5B. **COMPLETE**
+## Context-Alignment Discussion Rule
+During the current debate phase, new user clarifications should be treated as proposed context updates. Before they are propagated into the formal report, they should be checked against:
+1. the existing V3.7 wording;
+2. the inspected evidence / visual-review records;
+3. any contradictions or unresolved qualifications;
+4. whether the statement is observation, reported operating information, engineering inference, or recommendation/design intent.
 
-## Next Planned Work
-1. Sync `Running_Report_Contextual_Spillage_NotesV3.7.docx` into `Context/` when convenient.
-2. Inspect and adapt `Report-Template/ISS_Sheave_Inspection_Report_Master_Template_v2.1_Polished.docx` into the combined-product spillage-report structure, with particular attention to the detailed findings section.
-3. Build the first populated working report draft using V3.7 plus the first-draft evidence selections in `evidence_index.md`.
-4. Create report-ready resized/compressed image copies only for figures selected in the working report layout.
-5. Develop CV09 scraper/chute and Sample Conveyor side-skirt conceptual illustrations using the reviewed actual equipment geometry.
-6. Carry forward unresolved engineering-verification/design items into the report recommendations without overstating them as closed findings.
+Once aligned, the contextual source should be revised first. The formal report should then be rebuilt from the updated context rather than patched independently in multiple places.
+
+## Report Styling / Formatting Direction
+Final visual polish is deliberately deferred until the content/evidence architecture is stable. The cover-page composition is considered a good baseline and should be retained. Later polish should include a professional colour palette, consistent heading hierarchy, metadata bars, table shading/borders, captions, automated TOC/List of Figures/List of Tables, internal cross-references and consistent headers/footers.
+
+## Next Immediate Task
+Explain the current V3.7 contextual understanding to the inspector in plain engineering terms. Use the resulting discussion to identify:
+- corrections;
+- missing narratives/topology;
+- intended causal chains;
+- intended recommendation logic;
+- evidence whose narrative role was not captured in V3.7;
+- and any changes in emphasis between systemic and local findings.
+
+After alignment, update the contextual source and only then resume the formal report execution plan.
 
 ## Repository Milestones
-- GitHub write access confirmed on 2026-08-23.
-- U4 video filename normalised in commit `c2f1ca40b18fac8d7f0c8fbb649992f4063102fe`.
-- Initial evidence inventory populated in commit `eb3bbf52d6f1a421e1d4c2fd4d9f63e557467249`.
-- Batch A detailed review: commit `234c96dea4ee84560d11699044c28b702dd37376`.
-- Batch B detailed review: commit `4a7091df4de937611781f454c1c41f7692b74462`.
-- Batch C detailed review: commit `5fcc9737a4492980936e878dd872704fcf904e53`.
-- Batch D detailed review: commit `7d6fbd6cb19ab26b2b4e0729801bd0734205ee0e`.
-- Batch E detailed review: commit `7ba0b8d142a9332c81bec340eaab24035988bdc6`.
-- Batch F detailed review: commit `31aef8139541bdd2505eb590caef6aa585c01f62`.
-- Final consolidated `evidence_index.md`: commit `fe0683a5d8c5184cf3a53d7ea5f5963d78badac0`.
+- GitHub write access confirmed.
+- Evidence inventory and all visual-review Batches A-F complete.
+- `evidence_index.md` final consolidation complete.
+- Context V3.7 synced into `Context/` and is the current primary contextual source.
+- V0.1 first evidence-populated report frozen in `Report-Working/SpillageReport/`.
+- V0.1 Review Pass 01 saved in `Report-Working/SpillageReport/V0.1_Review_Pass_01.md`.
+- Context-alignment / engineering-intent phase initiated before further report revision.
