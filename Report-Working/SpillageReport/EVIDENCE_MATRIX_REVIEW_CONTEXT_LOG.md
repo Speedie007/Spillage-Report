@@ -122,3 +122,56 @@ This reinforces the governing principle already established by CV09 and CV15: **
 - `LoadoutStationSample1-REF-008` — keep E because coarse/lump-product spillage on access grating is a separate operational/access consequence from the tail-end fines shown in `REF-002`.
 - `LoadoutStationSample1-REF-010` — keep E for major lower/adjacent structural accumulation.
 - `LoadoutStationSample1-REF-011` — keep E as the principal/hero evidence of very large coarse/lump-product accumulation retained within the surrounding structure.
+
+---
+
+## CV06 — Cleaner Support Present, Scraper Blades Absent
+
+### Inspector confirmation
+The accepted CV06 E pair is `CV06-REF-004` and `CV06-REF-005`.
+
+- `CV06-REF-004` directly shows the cleaner/scraper support bush or insert displaced from its housing.
+- `CV06-REF-005` shows that the cleaner support beam/cross-shaft remains installed beneath the belt while the scraper blade elements are absent across the working belt width.
+
+### Wording control
+The final report should therefore avoid saying that the entire scraper assembly was completely missing. The stronger and more precise statement is that **the cleaner support structure remained installed, but the scraper blades were absent, leaving the cleaner non-functional as intended**.
+
+The reason for the displaced bush and the reason/history for the missing blades remain unresolved.
+
+---
+
+## Sample Conveyor 3 — Offset Relative to Roller / Troughing Assembly
+
+### Inspector clarification
+`LoadoutStationSample3-REF-006` remains E even though some of its content overlaps `REF-005` and `REF-013`. Its distinct value is the alternative perspective it provides of the laterally offset belt relative to the local roller/troughing/support assembly.
+
+### Engineering significance
+The three images serve different but complementary roles:
+- `REF-005` — strongest product-size-versus-narrow-belt-width evidence;
+- `REF-006` — alternative geometry view helping the reader understand the lateral belt position relative to the conveyor roller/troughing assembly;
+- `REF-013` — strongest still directly supporting the lateral offset/mistracking condition.
+
+This is useful narrative reinforcement rather than simple duplication. The offset magnitude remains unmeasured, and the images do not establish the mechanical root cause of the mistracking.
+
+---
+
+## E-Pass Closure — 24 August 2026
+
+The inspector has completed the E-item review across all 23 evidence groups and synced the reviewed matrix back to GitHub.
+
+Validated reviewed matrix content SHA:
+`1800ad56d898bf4351d521aeb586413e2d23ef5d`
+
+Current reviewed classification:
+- `E` — Essential body evidence: **75**
+- `S` — Supporting / story evidence: **97**
+- `A` — Appendix / reference evidence: **25**
+- `X` — Exclude: **0**
+- Total media: **197**
+
+All current E rows are marked `ACCEPTED`. S and A remain pending their dedicated review passes. No X exclusions have yet been introduced.
+
+Human-readable closure summary:
+`Report-Working/SpillageReport/EVIDENCE_E_PASS_CLOSURE.md`
+
+The governing interpretation discipline remains unchanged: E/S/A/X expresses narrative necessity and placement priority, not whether an item is technically valid evidence. Final image placement and size remain evidence-module/layout decisions.
