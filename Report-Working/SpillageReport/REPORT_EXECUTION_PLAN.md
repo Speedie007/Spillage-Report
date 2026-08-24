@@ -1,7 +1,7 @@
 # South32 Spillage Audit Report — Execution Plan
 
 ## Purpose
-This plan governs development of `South32_Spillage_Audit_Report_July2026_S32WPPSR_01` after the V0.1 first-draft review, engineering-context alignment and acceptance of the reader-facing narrative outline.
+This plan governs development of `South32_Spillage_Audit_Report_July2026_S32WPPSR_01` after the V0.1 first-draft review, engineering-context alignment, V3.8 context consolidation and acceptance of the reader-facing narrative outline.
 
 ## Governing Principles
 **Do not optimise for minimum page count. Optimise for a complete, defensible engineering story with efficient page use.**
@@ -21,30 +21,29 @@ Status: **COMPLETE**
 Status: **COMPLETE**
 
 Outcome:
-- the inspector confirmed that the compiler's V3.7 factual/mechanism interpretation is essentially fully aligned;
-- no material correction to the underlying evidence model was identified;
-- cleaner/fines containment philosophy was clarified as a functional system philosophy with location-specific implementation;
-- coarse/lump-product containment was explicitly added to the same higher-order material-containment objective;
-- W10 side-containment intent was clarified as a location-specific secondary control concept, not a universal rail installation;
-- the principal V0.1 issue was confirmed as report form/writing architecture rather than technical content.
+- V3.7 factual/mechanism interpretation confirmed as substantially aligned;
+- cleaner/fines containment clarified as a functional system philosophy with location-specific implementation;
+- coarse/lump-product containment explicitly included in the higher-order material-containment objective;
+- W10 side-containment intent clarified as a location-specific secondary control concept;
+- principal V0.1 issue confirmed as report form/writing architecture rather than technical content.
 
 ## Phase 2 — Context Revision
-Status: **CURRENT PHASE**
+Status: **COMPLETE**
 
-Create the next controlled contextual revision from `Context/Running_Report_Contextual_Spillage_NotesV3.7.docx`.
+Controlled source:
+- `Context/Running_Report_Contextual_Spillage_NotesV3.8.docx`
 
-Integrate:
+V3.8 integrates:
 - accepted material-containment philosophy;
 - cleaner/CV09 pilot logic;
 - coarse-product/W10 containment logic;
-- accepted systemic-versus-local hierarchy;
+- systemic-versus-local hierarchy;
 - audit-narrative/report-identity principles;
-- accepted reader journey from `REPORT_NARRATIVE_OUTLINE_V0.1.md`;
+- accepted reader journey;
+- evidence/layout philosophy;
 - all existing source/visual/inference qualifications.
 
-Render and visually QA the revised DOCX before it becomes the new governing contextual source.
-
-Exit criterion: one updated contextual source is accepted as the controlled engineering/narrative basis for the report rebuild.
+V3.8 is now the governing engineering and narrative context for the remaining report development.
 
 ## Phase 3 — Narrative Architecture / Audit Story Outline
 Status: **COMPLETE — BASELINE ACCEPTED**
@@ -53,20 +52,32 @@ Files:
 - `Report-Working/SpillageReport/REPORT_NARRATIVE_ARCHITECTURE.md`
 - `Report-Working/SpillageReport/REPORT_NARRATIVE_OUTLINE_V0.1.md`
 
-The inspector has reviewed the outline and accepted it as the baseline reader journey. No material theme is presently identified as missing. Minor later additions, re-emphasis and recommendation expansion are permitted without reopening the fundamental architecture.
+The inspector has accepted the outline as the baseline reader journey. Minor later additions, re-emphasis and recommendation expansion may be incorporated without reopening the fundamental architecture.
 
 The accepted report voice is **formal engineering narrative**: explain first, prove second; use evidence as case proof; preserve uncertainty; avoid a flat asset-by-asset defect rhythm.
 
 ## Phase 4 — Full Evidence Inclusion / Story Matrix
-Status: **PENDING PHASE 2**
+Status: **CURRENT PHASE — COMPILER FIRST PASS COMPLETE / INSPECTOR REVIEW PENDING**
 
-Review all 197 pre-filtered media items using both inclusion status and story role.
+Files:
+- `Report-Working/SpillageReport/EVIDENCE_STORY_MATRIX_V0.1.csv`
+- `Report-Working/SpillageReport/EVIDENCE_STORY_MATRIX_V0.1.md`
+
+All **197 curated media items** have been given a preliminary inclusion status and story-role classification using V3.8, the accepted narrative outline and the completed Batch A-F visual reviews.
+
+### First-Pass Split
+- `E` — Essential body evidence: **80**
+- `S` — Supporting / story evidence: **92**
+- `A` — Appendix / reference evidence: **25**
+- `X` — Exclude: **0**
+
+No `X` exclusions were assigned on the first pass because the 197 items were already curated from more than 700 original media items. This first pass intentionally protects story/topology evidence and uses `A` rather than premature exclusion where value is lower or more redundant.
 
 ### Inclusion Status
 - `E` — Essential body evidence
 - `S` — Supporting / story evidence
 - `A` — Appendix / reference evidence
-- `X` — Exclude from report
+- `X` — Exclude from report after inspector-approved confirmation that the item is genuinely duplicative, weak, blurred or non-contributory
 
 ### Story Role
 One or more of:
@@ -81,14 +92,20 @@ One or more of:
 - MAINTENANCE / DESIGN DETAIL
 - REMEDIAL-CONCEPT CONTEXT
 
-Inspector review should focus mainly on candidate `X` items and any evidence whose intended narrative role is not visually obvious.
+### Inspector Review Sequence
+1. Confirm the `E` set contains all must-have evidence and narrative points.
+2. Review `A` items for any required promotion to `S` or `E`.
+3. Review `S` items asset-by-asset and identify true alternates/redundancies that can move to `A` or `X`.
+4. Introduce `X` only where exclusion is clearly safe.
 
-Exit criterion: agreed evidence set and narrative role for every media item.
+Important: `E + S` is a **story-capable evidence pool**, not a requirement to place 172 media items in the body. Final body/appendix placement is refined during evidence-module design.
+
+Exit criterion: inspector and compiler agree the inclusion status/story role for every media item sufficiently to proceed to evidence-layout prototyping.
 
 ## Phase 5 — Prototype Photographic Evidence Module
-Status: **PENDING PHASE 4**
+Status: **PENDING PHASE 4 APPROVAL**
 
-Develop one complex evidence story as the layout prototype before revising all evidence modules. Recommended candidates: Screens, CV09 or Sample Conveyor 3.
+Develop one complex evidence story as the layout prototype before revising all evidence modules. Recommended stress-test candidates: Screens, CV09 or Sample Conveyor 3.
 
 Prototype requirements:
 - retain ISS/sheave-report evidence discipline;
@@ -165,4 +182,4 @@ Status: **PENDING**
 ## Current Hold Point
 **Do not materially modify the frozen V0.1 report yet.**
 
-The immediate controlled task is Phase 2: revise the contextual DOCX from V3.7 so the newly aligned material-containment philosophy and accepted narrative baseline are formally captured before the evidence matrix and report rebuild begin.
+The immediate controlled task is inspector review of `EVIDENCE_STORY_MATRIX_V0.1`. Once the matrix is accepted/refined, proceed to Phase 5 and prototype the multi-photo evidence module before large-scale report rebuilding.
