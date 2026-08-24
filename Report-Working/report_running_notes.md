@@ -169,6 +169,35 @@ The intended engineering philosophy is:
 
 This clarification strengthens the systemic conclusion: the problem is not simply "bad scrapers" at isolated conveyors. It is loss of fines containment through the conveyor ecosystem. The cleaner/containment strategy is intended to keep fines inside the designed process stream until the designated process stage can handle them correctly.
 
+### Combined-Product / Coarse-Ore Containment Philosophy — Clarified
+The system-level containment philosophy applies to the **full combined-product stream**, not only to fines. Large/lump ore that escapes from the carrying belt while in transit is also a primary audit concern and must remain visible in the report narrative.
+
+The intended engineering principle is:
+1. The conveyor should keep both fines and coarse/lump product inside the intended material-transport envelope until the material reaches the process stage where it is meant to be transferred, screened, separated or otherwise handled.
+2. Large-product spillage such as that observed at W10 is direct evidence that the carrying/containment envelope has been breached somewhere during transit, even where the exact initiating mechanism has not yet been isolated.
+3. For coarse-product loss, the relevant control family may include feed/trajectory correction, belt tracking/alignment, transfer/chute containment and/or **local side-containment barriers** along vulnerable sections.
+4. The proposed side-containment philosophy is not a universal instruction to install the same barrier along every conveyor. It is a location-specific secondary control for identified vulnerable sections where geometry, confined access, product behaviour or consequence justifies additional lateral containment.
+5. W10 is a key example because the conveyor runs through a confined tunnel with restricted access and visible coarse/mixed-product accumulation. A suitable local side-containment arrangement could help constrain displaced product to the usable belt-carrying zone — effectively keeping the product in its intended "lane" — and reduce product entering the narrow tunnel access route.
+6. Any W10 side-containment proposal remains a remedial engineering concept until the actual belt width, normal tracking envelope, structure, clearances, maintenance access and transfer/loading geometry are verified. The containment must not become a normal belt-contact surface or create a new trapping, wear, access or safety problem.
+7. The same functional philosophy may be appropriate at other identified locations, but implementation must be evidence-led and geometry-specific rather than automatic.
+
+Terminology note: the inspector has informally referred to this concept as a **"guard rail"** because its intended function is to keep product within the conveyor's proverbial lane. For the final engineering report, use a term that makes the material-containment function explicit — for example **Conveyor Side-Containment Barrier**, **Side-Containment Rail**, or **Conveyor Side Skirt / Side-Containment System** depending on the final physical concept — so it is not confused with personnel guarding.
+
+### Unified Material-Containment Objective
+The clarified systemic recommendation is broader than cleaner standardisation alone:
+
+> **Keep the combined product — both fines and coarse/lump ore — within the intended process/material-handling envelope throughout transit, using the control mechanism appropriate to the failure mode and local geometry.**
+
+Examples:
+- fines/carryback → effective belt cleaning + containment/return of removed fines to the intended process stream;
+- transfer losses → chute/trajectory/containment correction;
+- coarse lateral losses → tracking/alignment + location-specific side containment where justified;
+- narrow sample conveyors → feed control + tracking + secondary side-skirt containment;
+- U4 → geometry/alignment correction rather than assuming a generic cleaner/rail solution;
+- screening area → retain water/product within the designed screening/fines-handling process and resolve structural consequences separately.
+
+The report should therefore avoid presenting "fines control" as the only mine-wide objective. The higher-order engineering objective is **material containment through the full conveyor ecosystem**, with fines carryback as the dominant recurring mechanism and coarse/mixed-product escape as an additional significant transit-loss mechanism at selected locations.
+
 ### Implication for the Final Report Architecture
 The next report should be **narrative-first, evidence-supported**, rather than Section-16-first / defect-register-first. Before selecting a final section structure, develop the audit story in an order that a South32 reader can follow coherently. Candidate narrative layers include:
 - what the audit set out to determine;
@@ -176,6 +205,7 @@ The next report should be **narrative-first, evidence-supported**, rather than S
 - the three interacting spillage mechanisms;
 - the central distinction between deposit location and source location;
 - the dominant systemic fines/carryback/containment picture;
+- the coarse/lump-product containment picture and transit-loss case studies;
 - the principal local mechanisms and case studies that prove/refine the systemic picture;
 - operational/housekeeping consequences;
 - the resulting engineering control philosophy;
@@ -194,3 +224,4 @@ Asset-level photographic evidence remains essential, but it should be positioned
 - Context-alignment / engineering-intent phase initiated before further report revision.
 - Inspector confirmed the V3.7 factual/mechanism interpretation is essentially fully aligned; primary redesign requirement is narrative/report architecture and writing style.
 - Cleaner recommendation clarified as a universal **functional fines-containment philosophy with location-specific implementation**, not universal identical scraper hardware.
+- Coarse/lump-product control clarified as part of the same higher-order **material-containment philosophy**, using location-specific controls such as tracking, transfer containment and side-containment barriers where justified.
