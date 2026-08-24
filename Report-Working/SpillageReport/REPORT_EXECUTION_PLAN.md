@@ -57,7 +57,7 @@ The inspector has accepted the outline as the baseline reader journey. Minor lat
 The accepted report voice is **formal engineering narrative**: explain first, prove second; use evidence as case proof; preserve uncertainty; avoid a flat asset-by-asset defect rhythm.
 
 ## Phase 4 — Full Evidence Inclusion / Story Matrix
-Status: **CURRENT PHASE — E- AND A-PASSES COMPLETE / S-PASS PENDING**
+Status: **COMPLETE — E, A AND S PASSES CLOSED / MATRIX READY FOR LAYOUT PROTOTYPING**
 
 Files:
 - `Report-Working/SpillageReport/EVIDENCE_STORY_MATRIX_V0.1.csv`
@@ -65,38 +65,50 @@ Files:
 - `Report-Working/SpillageReport/EVIDENCE_MATRIX_REVIEW_CONTEXT_LOG.md` — inspector clarification/context log
 - `Report-Working/SpillageReport/EVIDENCE_E_PASS_CLOSURE.md` — reviewed E-pass checkpoint
 - `Report-Working/SpillageReport/EVIDENCE_A_PASS_CLOSURE.md` — reviewed A-pass checkpoint
+- `Report-Working/SpillageReport/EVIDENCE_S_PASS_CLOSURE.md` — reviewed S-pass and Phase 4 closure checkpoint
 
-All **197 curated media items** remain controlled in the matrix. The inspector has completed the full E-item review and the dedicated A-item review across the evidence set.
+All **197 curated media items** remain controlled in the matrix. The inspector has completed the E-item, A-item and S-item reviews across all 23 evidence groups.
 
-Validated reviewed matrix content SHA after A-pass:
-`37d476caf088cf218b2715dcb6e8f4c6be805f4d`
+Inspector S-pass sync commit:
+`bfa9dc6ca67072dd4a15b8715478528df940a39a`
 
-### Current Reviewed Split
+Validated final matrix content SHA:
+`8cb23c01ae59cbc12da9681e95ad70c6b81123df`
+
+A comparison from the A-pass control state to the S-pass sync shows **97 matrix rows changed**, matching the full original S population and confirming that the complete S set was reviewed.
+
+### Final Reviewed Split
 - `E` — Essential body evidence: **75**
-- `S` — Supporting / story evidence: **97**
-- `A` — Appendix / reference evidence: **25**
+- `S` — Supporting / story evidence: **44**
+- `A` — Appendix / reference evidence: **78**
 - `X` — Exclude: **0**
+- Total controlled media: **197**
 
-All current E rows are marked `ACCEPTED`. All 25 current A rows are also marked `ACCEPTED`. The A-pass produced no promotions to E or S and no exclusions; it confirmed that the current A set is appropriately retained as technical/reference evidence. The 97 S rows remain pending the final substantial classification review.
+All 197 rows are now inspector-reviewed and marked `ACCEPTED`.
 
-The E-pass deliberately changed narrative necessity rather than merely confirming the compiler shortlist. Important refinements include:
+### Review-Pass Outcome
+The E-pass established the principal body-level proof and deliberately refined narrative necessity rather than merely confirming the compiler shortlist. Important refinements included:
 - redundant/alternate E items demoted where stronger evidence carries the same story;
 - CV09/CV15 cleaner-context items promoted where inspector field context gave them essential mechanism value;
 - L1 paired evidence refined to distinguish location/context from severity and to demonstrate multi-location structural deterioration;
 - Sample Conveyor 1 tail-end fines retained as a qualified bridge into wider cleaner/containment assessment;
 - Sample Conveyor 3 `REF-006` retained as E because it adds useful offset context relative to the roller/troughing assembly.
 
-The A-pass confirmed that the appendix/reference layer consists principally of:
-- topology/orientation and asset-traceability views;
-- secondary clean-condition comparators where stronger body evidence already exists;
-- alternate/context views that remain technically valid but do not add unique body-level narrative value;
-- evidence with attribution limitations, including U3 roadway material that cannot automatically be classified as conveyor spillage.
+The A-pass confirmed that the appendix/reference layer could safely retain valid but secondary topology, traceability, comparator and alternate evidence without interrupting the main narrative.
+
+The S-pass then reviewed all **97** supporting/story items. The final result was:
+- **44** retained as S because they materially strengthen mechanism, process relationship, operating context, severity/extent, comparator logic or remedial-design understanding;
+- **53** demoted from S to A because stronger E/S evidence already carries the same reader-facing point;
+- **0** promoted from S to E;
+- **0** moved to X.
+
+No X exclusions were forced. The absence of X is deliberate: the 197-item evidence set had already been curated before matrix compilation, and the demoted items remain technically valid controlled records even where they no longer need story priority.
 
 ### Inclusion Status
 - `E` — Essential body evidence
 - `S` — Supporting / story evidence
 - `A` — Appendix / reference evidence
-- `X` — Exclude from report after inspector-approved confirmation that the item is genuinely duplicative, weak, blurred or non-contributory
+- `X` — Exclude only if a later QC review identifies genuinely unusable or non-contributory evidence
 
 ### Story Role
 One or more of:
@@ -111,17 +123,16 @@ One or more of:
 - MAINTENANCE / DESIGN DETAIL
 - REMEDIAL-CONCEPT CONTEXT
 
-### Remaining Inspector Review Sequence
-1. Review all `S` items asset-by-asset and identify items that should remain S, be promoted to E, demoted to A, or—where clearly safe—moved to X.
-2. Introduce `X` only where exclusion is clearly justified and does not remove useful topology, sequence, consequence or technical traceability.
-3. Reconcile final totals and lock the matrix sufficiently for evidence-layout prototyping.
+### Final Evidence-Pool Meaning
+`E + S = 119` media items form the current **story-capable evidence pool**. This is not a requirement to place all 119 media items in the body. Final selection, grouping, image scale and body/appendix use remain evidence-module/layout decisions.
 
-Important: `E + S` is a **story-capable evidence pool**, not a requirement to place every story-capable media item in the body. Final body/appendix placement is refined during evidence-module design.
+The `A = 78` media items remain part of the controlled technical evidence record for traceability, alternate views, appendix/reference use and optional later design-development support.
 
-Exit criterion: inspector and compiler agree the inclusion status/story role for every media item sufficiently to proceed to evidence-layout prototyping.
+### Phase 4 Exit Criterion
+**MET.** Inspector and compiler agree the inclusion status/story role for every media item sufficiently to proceed to evidence-layout prototyping.
 
 ## Phase 5 — Prototype Photographic Evidence Module
-Status: **PENDING PHASE 4 APPROVAL**
+Status: **READY — NEXT CONTROLLED PHASE**
 
 Develop one complex evidence story as the layout prototype before revising all evidence modules. Recommended stress-test candidates: Screens, CV09 or Sample Conveyor 3.
 
@@ -133,7 +144,8 @@ Prototype requirements:
 - grouped metadata at story/finding level;
 - controlled Observation / Engineering Assessment / Recommended Action block where useful;
 - deliberate page-break control;
-- support hero image, side-by-side portraits, stacked landscapes and 2x2 grids.
+- support hero image, side-by-side portraits, stacked landscapes and 2x2 grids;
+- preserve the matrix distinction between essential proof, supporting story evidence and technical/reference evidence.
 
 Exit criterion: inspector approves evidence density, readability, traceability and visual hierarchy.
 
@@ -198,6 +210,6 @@ Status: **PENDING**
 - Produce final controlled Word/PDF issue package when approved.
 
 ## Current Hold Point
-**Do not materially modify the frozen V0.1 report yet.**
+**The frozen V0.1 report remains unchanged.**
 
-The immediate controlled task is the `S` review of `EVIDENCE_STORY_MATRIX_V0.1`, including carefully justified promotions, demotions and any safe `X` exclusions. Once the S-pass is complete and the matrix is reconciled/locked, proceed to Phase 5 and prototype the multi-photo evidence module before large-scale report rebuilding.
+Phase 4 evidence classification is closed. The immediate controlled task is **Phase 5: prototype one complex photographic evidence module** using the locked matrix as the evidence-selection basis. Do not begin large-scale V0.1 report rebuilding until the prototype establishes the approved evidence density, layout hierarchy and narrative/evidence interaction.
