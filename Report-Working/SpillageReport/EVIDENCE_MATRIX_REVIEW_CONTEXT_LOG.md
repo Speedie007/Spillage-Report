@@ -175,3 +175,28 @@ Human-readable closure summary:
 `Report-Working/SpillageReport/EVIDENCE_E_PASS_CLOSURE.md`
 
 The governing interpretation discipline remains unchanged: E/S/A/X expresses narrative necessity and placement priority, not whether an item is technically valid evidence. Final image placement and size remain evidence-module/layout decisions.
+
+---
+
+## A-Pass Closure — 24 August 2026
+
+The inspector has completed the dedicated A-item review and synced the updated matrix back to GitHub.
+
+Validated reviewed matrix content SHA after A-pass:
+`37d476caf088cf218b2715dcb6e8f4c6be805f4d`
+
+Current reviewed classification remains:
+- `E` — Essential body evidence: **75**
+- `S` — Supporting / story evidence: **97**
+- `A` — Appendix / reference evidence: **25**
+- `X` — Exclude: **0**
+- Total media: **197**
+
+All 25 current A rows are marked `ACCEPTED`. No A item required promotion to E or S, and no A item was excluded.
+
+The A-pass confirms that the appendix/reference layer is appropriately reserved for technically valid evidence whose principal role is secondary orientation, traceability, alternate clean-condition comparison or contextual support rather than body-level narrative proof. In particular, the U3 roadway-context images remain qualified because coarse roadway material cannot automatically be attributed to conveyor spillage, and the L2 A items remain secondary clean-condition records behind the preferred E comparator.
+
+Human-readable closure summary:
+`Report-Working/SpillageReport/EVIDENCE_A_PASS_CLOSURE.md`
+
+The remaining substantive evidence-classification task is the S-pass. That pass will determine which supporting items remain story-capable body evidence, which can move to A, whether any need promotion to E, and where any X exclusions are genuinely safe.
