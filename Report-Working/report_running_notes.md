@@ -4,44 +4,108 @@
 - Repository: `Speedie007/Spillage-Report`
 - Branch: `main`
 - Current primary contextual source: `Context/Running_Report_Contextual_Spillage_NotesV3.7.docx`
-- Current report baseline / frozen first draft: `Report-Working/SpillageReport/South32_Spillage_Audit_Report_July2026_S32WPPSR_01_V0.1.docx`
-- Report baseline template: `Report-Template/ISS_Wessels_Combined_Product_Spillage_Report_Working_Base_V0.1.docx`
-- Original sheave-report reference template remains retained in `Report-Template/` for layout/style reference.
-- Final-consolidated evidence register: `Report-Working/evidence_index.md`
-- First report review record: `Report-Working/SpillageReport/V0.1_Review_Pass_01.md`
-- Formal development sequence: `Report-Working/SpillageReport/REPORT_EXECUTION_PLAN.md`
+- Frozen first report draft: `Report-Working/SpillageReport/South32_Spillage_Audit_Report_July2026_S32WPPSR_01_V0.1.docx`
+- Baseline report template: `Report-Template/ISS_Wessels_Combined_Product_Spillage_Report_Working_Base_V0.1.docx`
+- Original sheave-report reference remains in `Report-Template/` for visual/control reference only.
+- Final evidence register: `Report-Working/evidence_index.md`
+- Detailed visual reviews: `Report-Working/evidence_visual_review_batch_A.md` through `_F.md`
+- First report review: `Report-Working/SpillageReport/V0.1_Review_Pass_01.md`
+- Hybrid narrative architecture: `Report-Working/SpillageReport/REPORT_NARRATIVE_ARCHITECTURE.md`
+- Accepted reader-facing narrative baseline: `Report-Working/SpillageReport/REPORT_NARRATIVE_OUTLINE_V0.1.md`
+- Formal execution plan: `Report-Working/SpillageReport/REPORT_EXECUTION_PLAN.md`
 
-## Current Development Stage — IMPORTANT
-The project is deliberately **paused before further report-content integration**. V0.1 is frozen as the first evidence-populated baseline. The immediate task is not to continue expanding Section 16 or recommendations mechanically from V3.7. The current phase is a **context-alignment / engineering-intent debate** between the inspector and report compiler.
+## Current Development Stage — BASELINE NARRATIVE ACCEPTED
+The inspector has reviewed `REPORT_NARRATIVE_OUTLINE_V0.1.md` and accepted it as the baseline narrative map for development of the next report revision.
 
-The purpose of this phase is to make explicit:
-- what the current V3.7 context actually says;
-- what the inspector intended each evidence group to communicate;
-- which conclusions are global/systemic versus local/asset-specific;
-- what engineering narrative should connect the underground crusher through the conveyor system to the surface/load-out station;
-- which recommendations are intended as direct corrective actions, working concepts, hypotheses for verification, or future design-development items;
-- what topology/process relationships need to be explained for the evidence to make sense;
-- and where the current contextual narrative needs correction, expansion or re-prioritisation before the formal report is revised.
+Acceptance means:
+- the outline covers the intended whole-system story at a sufficiently comprehensive level;
+- no material engineering theme is currently identified as missing;
+- the proposed sequence corresponds well with the consolidated V3.7 context and the evidence developed during Batches A-F;
+- the architecture is intentionally flexible enough for later minor additions, re-emphasis or recommendation expansion without requiring another fundamental restructure;
+- the central material-containment philosophy and the hierarchy between systemic and local mechanisms are accepted as the governing report message.
 
-No major report rewrite should occur until this alignment phase is complete and the contextual source has been updated accordingly.
+This is a controlled baseline, not immutable final wording. Minor adjustments remain expected as evidence selection, recommendations and detailed narrative are developed.
+
+## Governing Report Identity
+The final document is a **hybrid engineering audit report**:
+1. **Formal shell** — cover, report metadata, revision control, distribution, prepared/reviewed/approved register, contents, limitations, references, sign-off and appendices.
+2. **Narrative core** — a guided explanation of what is happening across the connected material-handling ecosystem and why the findings matter collectively.
+3. **Technical evidence backbone** — photographs, evidence IDs, detailed case studies, asset records, qualifications, measurements and action details that substantiate the story.
+
+The report is therefore **an audit narrative first and a technical evidence record second**. It remains formal and technically defensible, but must not read like a repetitive component defect register.
+
+## Central Engineering Message
+> **Keep the combined product — fines and coarse/lump ore — within the intended process/material-handling envelope throughout transit, using the control mechanism appropriate to the failure mode and local geometry.**
+
+The report must also retain the principle that **the point where material is found is not necessarily the point where the initiating failure occurred**.
+
+## Current High-Level Audit Model
+The audit is qualitative and mechanism-focused. It identified three recurring material-loss families plus one event-driven operating mechanism:
+1. fines / carryback;
+2. coarse or mixed combined-product loss during transit;
+3. water-related escape / wet fines / slurry;
+4. event-driven trip/restart unloading.
+
+These mechanisms overlap but require different controls. The mine does not have one isolated spillage defect; it has a connected set of material-containment failures requiring one common control philosophy with several different physical solutions.
+
+## Fines / Cleaner-Containment Philosophy
+The intended recommendation is **not** to install one identical CV09 scraper design everywhere.
+
+The intended logic is:
+- use CV09 to design, implement and prove a cleaner/containment solution against a directly demonstrated mechanism;
+- if successful, propagate the **functional control philosophy** to other applicable discharges after local geometry/access/applicability checks;
+- standardise the required function, not necessarily the hardware;
+- remove residual material from the return belt effectively **and keep the removed material within the intended process stream**;
+- retain/control fines through the conveyor ecosystem until the intended screening/fines-handling stage can separate, handle or discard/process them in a controlled manner;
+- treat U4 as an explicit geometry-specific exception requiring its own assessment.
+
+CV06 and CV09 remain complementary case studies:
+- CV06: cleaner function lost through mechanical/maintenance condition;
+- CV09: material is removed from the belt but not adequately retained within the intended process envelope.
+
+## Coarse / Combined-Product Containment Philosophy
+The containment strategy applies to the full combined-product stream, not only fines.
+
+Large/lump ore that leaves the carrying belt during transit is also a primary audit concern. Applicable control families may include:
+- feed/load control;
+- trajectory/transfer correction;
+- belt tracking/alignment;
+- chute/transfer containment;
+- local side-containment barriers/skirting where justified.
+
+### W10
+W10 is a key coarse-product case study because significant mixed/coarse product has escaped into a confined tunnel with restricted access. The exact initiating mechanism is not fully isolated, but the breach of the carrying envelope and its operational consequence are clear.
+
+A local **Conveyor Side-Containment Barrier / Side-Containment Rail / Side-Containment System** may be investigated as a secondary remedial control. Its purpose is to help keep displaced product within the usable carrying zone — effectively in its intended transport “lane” — without becoming a normal belt-contact surface.
+
+Any such concept remains subject to verification of belt width, tracking envelope, clearances, trough geometry, structure, maintenance access, loading conditions and trapping/wear risks. It is not a universal instruction to install rails everywhere.
+
+### Sample Conveyors 2 and 3
+Current control hierarchy remains:
+1. understand/control feed and product loading relative to usable belt width;
+2. verify/correct tracking/tension;
+3. apply secondary side-skirt/containment where appropriate.
+
+Sample Conveyor 2 mistracking remains unconfirmed. Sample Conveyor 3 mistracking is visually supported but unmeasured.
+
+## Other Local / Case Mechanisms
+- **U4:** mistracking and one-side product loss visually verified; tail-pulley misalignment remains inspector-recorded/visually supported but unquantified. Cleaner geometry is different and should not automatically receive the CV09 solution.
+- **L3:** tail-end offset supported; direct causal contribution to significant solid-product loss remains unconfirmed.
+- **Screens:** water loss of containment directly verified; equipment-level leak mechanism unresolved. Cut/notched supports and severe deterioration are directly visible; reason for cuts and remaining structural capacity require separate assessment.
+- **L1:** previous/intermittent belt contact supported by wear slots; continuous present contact must not be claimed. Concrete/steel deterioration is a separate structural issue requiring competent assessment.
+- **Housekeeping:** necessary consequence control, but repeated cleanup is not a substitute for source control.
+- **Trip/restart clearing:** separate event-driven operational mechanism requiring confirmation of formal unloading, laydown, recovery and reintroduction procedures.
 
 ## Critical Evidence-Selection Principle
-The 197 repository media files are **not a raw evidence pool**. They were already manually pre-filtered by the inspector from a much larger source pool of more than 700 media items because they collectively show the condition, topology, mechanism, sequence, consequence and story intended for the final audit.
+The 197 repository media files are **not a raw evidence pool**. They were already pre-filtered from more than 700 original media items because they collectively carry the intended condition, topology, mechanism, sequence, consequence and story.
 
-Therefore:
-- the existing `evidence_index.md` first-draft candidates are anchor / strongest images only, not a final inclusion boundary;
-- future evidence selection must consider both evidentiary strength and narrative role;
-- page-count reduction must come primarily from efficient layout and removal of genuinely redundant evidence, not from indiscriminate photo reduction;
-- body-report evidence may legitimately include materially more than the current 50 V0.1 figures where those additional items add unique engineering information.
+The existing evidence-index candidates are anchor images only, not a final body-report inclusion boundary.
 
-## Planned Evidence Classification After Context Alignment
-Each media item should ultimately be classified using both an **inclusion status** and a **story role**.
-
-Inclusion status:
+Future classification after context revision:
 - `E` — Essential body evidence
-- `S` — Supporting / story evidence
-- `A` — Appendix / reference evidence
-- `X` — Exclude from report because genuinely duplicative, weak or non-contributory
+- `S` — Supporting/story evidence
+- `A` — Appendix/reference evidence
+- `X` — Exclude because genuinely duplicative, weak or non-contributory
 
 Story-role tags may include:
 - TOPOLOGY / ORIENTATION
@@ -55,173 +119,75 @@ Story-role tags may include:
 - MAINTENANCE / DESIGN DETAIL
 - REMEDIAL-CONCEPT CONTEXT
 
-The inspector should mainly need to challenge `X` classifications and promote any evidence that carries an intended narrative not obvious from the media alone.
+## Evidence / Layout Principle
+Do not optimise the report for minimum page count. Optimise for a complete, defensible engineering story with efficient page use.
 
-## Section 16 Architecture — Agreed Direction, Not Yet Implemented
-The current V0.1 one-photo-per-page structure is not the intended final architecture. Retain the ISS/sheave-report Photographic Evidence Sheet discipline, but redesign around **one technical story / finding = one evidence sheet or short evidence sequence**.
+The V0.1 page count was inflated primarily by layout: 73 manual page breaks existed inside the evidence section. A private experiment reduced the 92-page draft to about 63 pages without removing the existing 50 images, confirming that significant page recovery is possible through better pagination and grouped evidence.
 
-Target approach:
-- asset summary flows directly into evidence;
-- add `System Context / Topology / Process Relationship` where relevant;
-- use multi-photo evidence sheets where several media items tell the same engineering story;
-- retain individual canonical evidence IDs and captions;
-- reduce repeated sheet-level metadata;
-- retain the three-part `Observation / Engineering Assessment / Recommended Action` logic, applied at technical-story level where suitable;
-- complex findings may use several deliberate sub-stories rather than one oversized sheet.
+The future evidence layout should therefore use:
+- one technical story/finding per evidence sheet or short evidence sequence;
+- grouped evidence instead of one photo per page;
+- shared finding-level metadata;
+- hero + supporting images, side-by-side portraits, stacked landscapes or 2x2 grids where useful;
+- canonical evidence ID under every image;
+- Observation / Engineering Assessment / Recommended Action at technical-story level where suitable.
 
-Examples of multi-story assets:
-- Screens: water escape / corrosion / cut-support condition
-- L1: belt-contact history / concrete deterioration / steel section loss
-- CV09: cleaner geometry / wet-spillage consequence / active fallout
-- Sample Conveyor 3: mistracking / product-size-vs-belt-width / containment-loss consequence
-- U4: mistracking / one-side product loss / U4-specific cleaner arrangement
-
-## Layout Finding from V0.1 Review
-V0.1 rendered at approximately 92 pages with 50 embedded figures. It contained 77 explicit manual page breaks, 73 inside Section 16. A private layout experiment removed only the Section 16 forced page breaks and reduced the document from 92 pages to approximately 63 pages without removing any of the existing 50 images. The experiment was not final-quality because some tables split poorly, but it demonstrates that the large page count is mainly a pagination/layout issue.
-
-Working implication: additional relevant photographs can be restored without necessarily producing an excessively large final report if Section 16 is redesigned efficiently.
-
-## Current Engineering Qualification Rules from V3.7
-These remain binding unless the context-alignment discussion explicitly updates them:
-- Similar cleaner-design deficiencies at inaccessible conveyors remain an engineering inference, not direct observation at every conveyor.
+## Current Engineering Qualification Rules
+These remain binding unless later evidence or measurements resolve them:
+- Similar cleaner deficiencies at inaccessible conveyors remain inference, not direct observation at every conveyor.
 - Sample Conveyor 2 mistracking remains unconfirmed.
-- Sample Conveyor 3 lateral offset/mistracking is visually supported; magnitude remains unmeasured.
-- L3 tail-end offset is visually supported; causal contribution to solid-product spillage remains unconfirmed.
-- U4 belt mistracking and one-side spillage are visually verified. Tail-pulley misalignment remains inspector-recorded and visually supported, but not quantitatively proven by supplied media.
-- Screen water loss of containment is directly verified; equipment-level cause remains unresolved.
-- Screen support cut-outs/notches are directly verified. The reason for the cuts and remaining structural capacity remain unresolved.
-- L1 previous/intermittent belt-to-structure contact is supported; continuous present contact must not be claimed from the captured operating image.
-- CV01 roller damage is visually verified; the recorded seized state is not proven by the still photograph alone.
-- Sample Conveyor 1 widespread dry/dried accumulation is directly supported; active wetness and moisture source are not independently proven by the stills.
-- U3 roadway rock must not automatically be attributed to conveyor spillage.
-- UC05-UC03 recent cleaning remains source-recorded information.
-- U5B remains trace-to-localised overall despite some substantial local deposits.
-- Crusher standing water is visible; its source/cause remains unknown.
+- Sample Conveyor 3 mistracking is visually supported; magnitude unmeasured.
+- L3 offset is supported; solid-product causal link unconfirmed.
+- U4 mistracking/one-side loss are visually verified; tail-pulley misalignment is unquantified.
+- Screen water escape is verified; exact leak mechanism unresolved.
+- Screen cut supports are verified; reason/capacity unresolved.
+- L1 previous/intermittent belt contact is supported; continuous contact is not proven.
+- CV01 roller damage is visually verified; seized state remains source-recorded.
+- Sample Conveyor 1 widespread dry/dried accumulation is verified; active wetness/moisture source not proven by stills.
+- U3 roadway rock must not automatically be classified as conveyor spillage.
+- UC05-UC03 recent cleaning remains source-recorded.
+- U5B remains trace-to-localised overall despite some sizeable local deposits.
+- Crusher standing water is visible; its source remains unknown.
 
-## Current High-Level Contextual Model from V3.7
-The audit is a qualitative, mechanism-focused review of a connected material-handling system rather than a collection of isolated conveyor defects. The principal analytical rule is:
+## Accepted Narrative Reader Journey
+The accepted `REPORT_NARRATIVE_OUTLINE_V0.1.md` establishes the following baseline journey:
+- formal controlled front matter;
+- why the audit was undertaken;
+- material-handling system / material journey;
+- central principle that deposit location may differ from cause location;
+- overall spillage picture;
+- fines/carryback/cleaner containment story;
+- coarse-product transit containment story;
+- alignment/tracking case studies;
+- water/wet fines and structural consequences;
+- event-driven / operational spillage;
+- consolidated engineering interpretation;
+- system-level material-containment philosophy;
+- prioritised recommendation programme;
+- conclusion;
+- technical appendices/evidence backbone.
 
-`Observed Spillage → Spillage Type → Immediate Mechanism → Contributing Condition(s) → Root Cause → Consequence → Existing Control → Recommended Action`
+This sequence is now the baseline architecture for the next report revision. Future adjustments may change emphasis or add minor detail, but should not revert the report to a flat asset-by-asset defect catalogue unless a clear engineering reason requires it.
 
-A second governing principle is that **the location where spilled material accumulates is not necessarily where the initiating cause originates**. This is particularly important for carryback, where fines may remain on the return belt after discharge and be progressively detached by rollers/idlers downstream.
+## Next Immediate Stage
+The context-alignment and narrative-outline acceptance work are substantially complete. The next controlled task is **Context Revision**:
+- create the next contextual DOCX revision from V3.7;
+- integrate the agreed material-containment philosophy, coarse-product/W10 clarification, cleaner philosophy and accepted report-narrative principles;
+- preserve all evidence qualifications;
+- render and visually QA the revision;
+- then use that revised context as the governing source for the evidence-story matrix and next report rebuild.
 
-The current V3.7 working model identifies three interacting spillage families:
-1. water-related leakage / wet fines / slurry;
-2. fines / carryback;
-3. solid or mixed combined-product loss, including mistracking, transfer/containment loss and event-driven trip/restart unloading.
-
-Current systemic working themes are recurring fines carryback, variable/ineffective cleaner performance, incomplete containment at some discharge points and associated housekeeping burden. Current local mechanisms include the direct CV06 cleaner failure, CV09 cleaner/containment geometry, Sample Conveyor 3 mistracking and narrow-belt loading/containment, U4 mistracking/alignment, screen water loss, and L1 belt-contact/structural deterioration.
-
-## Current Working Remedial Concepts from V3.7
-These remain working engineering concepts, not fabrication designs or final approved recommendations:
-- CV09 pilot: place cleaner inside effective containment, direct removed wet fines into the intended fines stream, use self-tensioning contact and positive wear/travel limits, evaluate primary/secondary stages and retain safe maintenance access.
-- Wider cleaner standardisation: only after successful CV09 pilot and physical applicability survey at each discharge; U4 is an explicit exception requiring its own assessment.
-- Sample Conveyors 2/3: quantify feed arrangement, product size vs usable belt width, alignment/tension/live tracking; feed/loading correction is primary, side-skirt containment secondary; preliminary side-skirt dimensions are not final.
-- L3/U4 alignment: quantify/verify geometry and post-correction tracking rather than relying on visual estimates.
-- Screens: identify actual water-loss mechanism during safe shutdown and complete structural assessment of cut/corroded supports before design changes.
-- L1: complete structural assessment/repair definition and continue tracking monitoring.
-- Housekeeping/trip-restart: confirm actual mine procedures, but prioritise source control over repeated consequence cleanup.
-
-## Context-Alignment Discussion Rule
-During the current debate phase, new user clarifications should be treated as proposed context updates. Before they are propagated into the formal report, they should be checked against:
-1. the existing V3.7 wording;
-2. the inspected evidence / visual-review records;
-3. any contradictions or unresolved qualifications;
-4. whether the statement is observation, reported operating information, engineering inference, or recommendation/design intent.
-
-Once aligned, the contextual source should be revised first. The formal report should then be rebuilt from the updated context rather than patched independently in multiple places.
-
-## Report Styling / Formatting Direction
-Final visual polish is deliberately deferred until the content/evidence architecture is stable. The cover-page composition is considered a good baseline and should be retained. Later polish should include a professional colour palette, consistent heading hierarchy, metadata bars, table shading/borders, captions, automated TOC/List of Figures/List of Tables, internal cross-references and consistent headers/footers.
-
-## Next Immediate Task
-Continue the context-alignment discussion in plain engineering terms. Use the resulting discussion to identify:
-- corrections;
-- missing narratives/topology;
-- intended causal chains;
-- intended recommendation logic;
-- evidence whose narrative role was not captured in V3.7;
-- and any changes in emphasis between systemic and local findings.
-
-After alignment, update the contextual source and only then resume the formal report execution plan.
-
-## Context-Alignment Outcome — 24 August 2026
-The inspector has confirmed that the report compiler's current explanation of `Running_Report_Contextual_Spillage_NotesV3.7.docx` is essentially fully aligned with the intended engineering context. No material correction to the factual/mechanism model was identified. The principal misalignment exposed by V0.1 is **report form, writing style and narrative architecture**, not the underlying technical content.
-
-### Report Identity / Intended Reader Experience
-The report is an **audit narrative of a whole material-handling ecosystem**, not merely a conventional defect-by-defect technical inspection report. It must allow the mine reader to understand the developing picture in a coherent sequence: how material and fines move through the system, where containment breaks down, why visible deposits may be remote from their source, which issues are systemic versus local, and how the proposed controls collectively reduce loss through the process.
-
-The preferred writing style is therefore closer to a structured engineering story / guided audit explanation than to a clinical catalogue of defects. Bulleted or short-section narrative is acceptable and often desirable where it makes the cause-and-effect chain easier to follow. Technical evidence sheets remain valuable, but they support the story rather than define the report's entire voice.
-
-### Sheave-Template Lesson
-The previous sheave-report template was designed for a comparatively linear technical flow: problem → evidence → assessment → recommendation. That structure is useful for photographic evidence control and some local findings, but it should **not govern the overall spillage-audit narrative**. Reuse the clean cover-page style, photographic-evidence discipline, controlled metadata and selected visual conventions; do not assume the sheave report's section architecture or clinical writing style is the correct final structure for the audit.
-
-### Cleaner / Fines-Control Philosophy — Clarified
-The intended recommendation is **not** to install one identical CV09 scraper design blindly at every conveyor.
-
-The intended engineering philosophy is:
-1. Use CV09 to design, implement and prove a remedial cleaner/containment approach against a directly demonstrated failure mechanism.
-2. If the pilot works, apply the **functional control philosophy** systematically across other applicable parts of the conveyor ecosystem after local geometry/access/applicability checks.
-3. The universal principle is containment and controlled handling of fines, not identical hardware everywhere.
-4. Fines are an inherent part of the combined-product stream from blasting/crushing onward. They should remain within the intended material-handling path and should not progressively escape as uncontrolled carryback/spillage along the conveyor route.
-5. The process should retain/control the fines until they reach the intended stage where the screening/fines-handling process can separate, handle and discard/process them in a controlled manner.
-6. Local equipment may require different physical implementations to satisfy that same functional objective; U4 remains an explicit example where the existing geometry is materially different.
-
-This clarification strengthens the systemic conclusion: the problem is not simply "bad scrapers" at isolated conveyors. It is loss of fines containment through the conveyor ecosystem. The cleaner/containment strategy is intended to keep fines inside the designed process stream until the designated process stage can handle them correctly.
-
-### Combined-Product / Coarse-Ore Containment Philosophy — Clarified
-The system-level containment philosophy applies to the **full combined-product stream**, not only to fines. Large/lump ore that escapes from the carrying belt while in transit is also a primary audit concern and must remain visible in the report narrative.
-
-The intended engineering principle is:
-1. The conveyor should keep both fines and coarse/lump product inside the intended material-transport envelope until the material reaches the process stage where it is meant to be transferred, screened, separated or otherwise handled.
-2. Large-product spillage such as that observed at W10 is direct evidence that the carrying/containment envelope has been breached somewhere during transit, even where the exact initiating mechanism has not yet been isolated.
-3. For coarse-product loss, the relevant control family may include feed/trajectory correction, belt tracking/alignment, transfer/chute containment and/or **local side-containment barriers** along vulnerable sections.
-4. The proposed side-containment philosophy is not a universal instruction to install the same barrier along every conveyor. It is a location-specific secondary control for identified vulnerable sections where geometry, confined access, product behaviour or consequence justifies additional lateral containment.
-5. W10 is a key example because the conveyor runs through a confined tunnel with restricted access and visible coarse/mixed-product accumulation. A suitable local side-containment arrangement could help constrain displaced product to the usable belt-carrying zone — effectively keeping the product in its intended "lane" — and reduce product entering the narrow tunnel access route.
-6. Any W10 side-containment proposal remains a remedial engineering concept until the actual belt width, normal tracking envelope, structure, clearances, maintenance access and transfer/loading geometry are verified. The containment must not become a normal belt-contact surface or create a new trapping, wear, access or safety problem.
-7. The same functional philosophy may be appropriate at other identified locations, but implementation must be evidence-led and geometry-specific rather than automatic.
-
-Terminology note: the inspector has informally referred to this concept as a **"guard rail"** because its intended function is to keep product within the conveyor's proverbial lane. For the final engineering report, use a term that makes the material-containment function explicit — for example **Conveyor Side-Containment Barrier**, **Side-Containment Rail**, or **Conveyor Side Skirt / Side-Containment System** depending on the final physical concept — so it is not confused with personnel guarding.
-
-### Unified Material-Containment Objective
-The clarified systemic recommendation is broader than cleaner standardisation alone:
-
-> **Keep the combined product — both fines and coarse/lump ore — within the intended process/material-handling envelope throughout transit, using the control mechanism appropriate to the failure mode and local geometry.**
-
-Examples:
-- fines/carryback → effective belt cleaning + containment/return of removed fines to the intended process stream;
-- transfer losses → chute/trajectory/containment correction;
-- coarse lateral losses → tracking/alignment + location-specific side containment where justified;
-- narrow sample conveyors → feed control + tracking + secondary side-skirt containment;
-- U4 → geometry/alignment correction rather than assuming a generic cleaner/rail solution;
-- screening area → retain water/product within the designed screening/fines-handling process and resolve structural consequences separately.
-
-The report should therefore avoid presenting "fines control" as the only mine-wide objective. The higher-order engineering objective is **material containment through the full conveyor ecosystem**, with fines carryback as the dominant recurring mechanism and coarse/mixed-product escape as an additional significant transit-loss mechanism at selected locations.
-
-### Implication for the Final Report Architecture
-The next report should be **narrative-first, evidence-supported**, rather than Section-16-first / defect-register-first. Before selecting a final section structure, develop the audit story in an order that a South32 reader can follow coherently. Candidate narrative layers include:
-- what the audit set out to determine;
-- how combined product/fines move through the inspected system;
-- the three interacting spillage mechanisms;
-- the central distinction between deposit location and source location;
-- the dominant systemic fines/carryback/containment picture;
-- the coarse/lump-product containment picture and transit-loss case studies;
-- the principal local mechanisms and case studies that prove/refine the systemic picture;
-- operational/housekeeping consequences;
-- the resulting engineering control philosophy;
-- targeted local actions and verification requirements;
-- the final overall conclusions.
-
-Asset-level photographic evidence remains essential, but it should be positioned to illuminate this narrative rather than force the reader through a repetitive sequence of nearly identical technical modules.
+Do **not** materially modify the frozen V0.1 report before the revised context is accepted.
 
 ## Repository Milestones
-- GitHub write access confirmed.
-- Evidence inventory and all visual-review Batches A-F complete.
-- `evidence_index.md` final consolidation complete.
-- Context V3.7 synced into `Context/` and is the current primary contextual source.
-- V0.1 first evidence-populated report frozen in `Report-Working/SpillageReport/`.
-- V0.1 Review Pass 01 saved in `Report-Working/SpillageReport/V0.1_Review_Pass_01.md`.
-- Context-alignment / engineering-intent phase initiated before further report revision.
-- Inspector confirmed the V3.7 factual/mechanism interpretation is essentially fully aligned; primary redesign requirement is narrative/report architecture and writing style.
-- Cleaner recommendation clarified as a universal **functional fines-containment philosophy with location-specific implementation**, not universal identical scraper hardware.
-- Coarse/lump-product control clarified as part of the same higher-order **material-containment philosophy**, using location-specific controls such as tracking, transfer containment and side-containment barriers where justified.
+- Evidence inventory and all visual-review Batches A-F: COMPLETE.
+- `evidence_index.md` final consolidation: COMPLETE.
+- Context V3.7 synced into `Context/`: COMPLETE.
+- V0.1 first evidence-populated report frozen: COMPLETE.
+- V0.1 Review Pass 01: COMPLETE.
+- Hybrid narrative architecture defined: COMPLETE.
+- V3.7 factual/mechanism interpretation aligned with inspector intent: COMPLETE.
+- Cleaner/fines functional containment philosophy clarified: COMPLETE.
+- Coarse/lump-product containment philosophy clarified: COMPLETE.
+- `REPORT_NARRATIVE_OUTLINE_V0.1.md` reviewed and accepted as baseline: COMPLETE.
+- Next stage: Context Revision from V3.7.
