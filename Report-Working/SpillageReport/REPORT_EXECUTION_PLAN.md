@@ -1,7 +1,7 @@
 # South32 Spillage Audit Report — Execution Plan
 
 ## Purpose
-This plan governs development of `South32_Spillage_Audit_Report_July2026_S32WPPSR_01` after the V0.1 first-draft review, engineering-context alignment, V3.8 context consolidation and acceptance of the reader-facing narrative outline.
+This plan governs development of `South32_Spillage_Audit_Report_July2026_S32WPPSR_01` after the V0.1 first-draft review, engineering-context alignment, V3.8 context consolidation, Phase 4 evidence classification and acceptance of the reader-facing narrative outline.
 
 ## Governing Principles
 **Do not optimise for minimum page count. Optimise for a complete, defensible engineering story with efficient page use.**
@@ -28,10 +28,13 @@ Outcome:
 - principal V0.1 issue confirmed as report form/writing architecture rather than technical content.
 
 ## Phase 2 — Context Revision
-Status: **COMPLETE**
+Status: **COMPLETE — WITH CONTROLLED PHASE 5 ADDENDUM**
 
-Controlled source:
+Base controlled source:
 - `Context/Running_Report_Contextual_Spillage_NotesV3.8.docx`
+
+Current incremental context:
+- `Context/Running_Report_Contextual_Spillage_NotesV3.9_Phase5_Addendum.md`
 
 V3.8 integrates:
 - accepted material-containment philosophy;
@@ -43,7 +46,15 @@ V3.8 integrates:
 - evidence/layout philosophy;
 - all existing source/visual/inference qualifications.
 
-V3.8 is now the governing engineering and narrative context for the remaining report development.
+The V3.9 Phase 5 addendum records:
+- Phase 4 evidence-classification closure;
+- final 75 E / 44 S / 78 A / 0 X evidence hierarchy;
+- CV09 selection as the Phase 5 prototype case;
+- the controlled CV09 evidence hierarchy and qualification boundary;
+- the intended CV09 narrative/engineering-assessment/recommendation meaning;
+- prototype evidence/layout principles and the current hold point.
+
+V3.8 plus the V3.9 addendum form the current governing context until the next consolidated Word-context revision is produced.
 
 ## Phase 3 — Narrative Architecture / Audit Story Outline
 Status: **COMPLETE — BASELINE ACCEPTED**
@@ -57,7 +68,7 @@ The inspector has accepted the outline as the baseline reader journey. Minor lat
 The accepted report voice is **formal engineering narrative**: explain first, prove second; use evidence as case proof; preserve uncertainty; avoid a flat asset-by-asset defect rhythm.
 
 ## Phase 4 — Full Evidence Inclusion / Story Matrix
-Status: **COMPLETE — E, A AND S PASSES CLOSED / MATRIX READY FOR LAYOUT PROTOTYPING**
+Status: **COMPLETE — E, A AND S PASSES CLOSED / MATRIX LOCKED SUFFICIENTLY FOR PROTOTYPING**
 
 Files:
 - `Report-Working/SpillageReport/EVIDENCE_STORY_MATRIX_V0.1.csv`
@@ -84,7 +95,7 @@ A comparison from the A-pass control state to the S-pass sync shows **97 matrix 
 - `X` — Exclude: **0**
 - Total controlled media: **197**
 
-All 197 rows are now inspector-reviewed and marked `ACCEPTED`.
+All 197 rows are inspector-reviewed and marked `ACCEPTED`.
 
 ### Review-Pass Outcome
 The E-pass established the principal body-level proof and deliberately refined narrative necessity rather than merely confirming the compiler shortlist. Important refinements included:
@@ -96,32 +107,13 @@ The E-pass established the principal body-level proof and deliberately refined n
 
 The A-pass confirmed that the appendix/reference layer could safely retain valid but secondary topology, traceability, comparator and alternate evidence without interrupting the main narrative.
 
-The S-pass then reviewed all **97** supporting/story items. The final result was:
+The S-pass reviewed all **97** supporting/story items. The final result was:
 - **44** retained as S because they materially strengthen mechanism, process relationship, operating context, severity/extent, comparator logic or remedial-design understanding;
 - **53** demoted from S to A because stronger E/S evidence already carries the same reader-facing point;
 - **0** promoted from S to E;
 - **0** moved to X.
 
 No X exclusions were forced. The absence of X is deliberate: the 197-item evidence set had already been curated before matrix compilation, and the demoted items remain technically valid controlled records even where they no longer need story priority.
-
-### Inclusion Status
-- `E` — Essential body evidence
-- `S` — Supporting / story evidence
-- `A` — Appendix / reference evidence
-- `X` — Exclude only if a later QC review identifies genuinely unusable or non-contributory evidence
-
-### Story Role
-One or more of:
-- TOPOLOGY / ORIENTATION
-- PROCESS RELATIONSHIP
-- MECHANISM
-- DEFECT / CONDITION
-- EXTENT / SEVERITY
-- CONSEQUENCE
-- COMPARATOR / CLEAN CONDITION
-- OPERATING CONTEXT
-- MAINTENANCE / DESIGN DETAIL
-- REMEDIAL-CONCEPT CONTEXT
 
 ### Final Evidence-Pool Meaning
 `E + S = 119` media items form the current **story-capable evidence pool**. This is not a requirement to place all 119 media items in the body. Final selection, grouping, image scale and body/appendix use remain evidence-module/layout decisions.
@@ -132,22 +124,86 @@ The `A = 78` media items remain part of the controlled technical evidence record
 **MET.** Inspector and compiler agree the inclusion status/story role for every media item sufficiently to proceed to evidence-layout prototyping.
 
 ## Phase 5 — Prototype Photographic Evidence Module
-Status: **READY — NEXT CONTROLLED PHASE**
+Status: **CURRENT — CV09 PROTOTYPE SELECTED / EXECUTION PLAN ACTIVE**
 
-Develop one complex evidence story as the layout prototype before revising all evidence modules. Recommended stress-test candidates: Screens, CV09 or Sample Conveyor 3.
+Detailed execution plan:
+- `Report-Working/SpillageReport/PHASE5_CV09_PROTOTYPE_EXECUTION_PLAN.md`
 
-Prototype requirements:
-- retain ISS/sheave-report evidence discipline;
-- integrate naturally with the accepted narrative;
-- use multi-photo layouts where appropriate;
+Prototype case:
+- **CV09**
+
+### Why CV09
+CV09 is sufficiently involved to stress-test the evidence architecture while remaining contextually coherent and manageable as a first prototype. It combines:
+- still photographs;
+- dynamic video evidence;
+- visible wet-fines/slurry consequence;
+- cleaner/discharge geometry;
+- a defined containment-boundary issue;
+- a strong system-level cleaner/containment philosophy;
+- a pilot recommendation that must remain separate from final design.
+
+### Locked CV09 evidence hierarchy for prototyping
+**E — Essential**
+- `CV09-REF-002` — wet-fines/slurry consequence
+- `CV09-REF-003` — cleaner condition/open arrangement
+- `CV09-REF-006` — active-fallout video
+- `CV09-REF-008` — cleaner/chute geometry and pilot-context video
+
+**S — Supporting**
+- `CV09-REF-005` — wider head/cleaner-region extent/context
+
+**A — Reference**
+- `CV09-REF-001`
+- `CV09-REF-004`
+- `CV09-REF-007`
+
+### Prototype narrative objective
+The CV09 module must demonstrate the sequence:
+
+`Observed wet-fines consequence → cleaner/discharge relationship → active operating fallout → incomplete containment function → integrated cleaner/containment control philosophy → qualified pilot action`
+
+The governing CV09 message remains:
+
+> **Do not merely clean the belt. Keep the fines inside the process.**
+
+### Working layout target
+Develop a standalone **two-page technical narrative module**, with flexibility to extend to three pages if legibility requires it.
+
+The prototype must test:
+- narrative-first entry;
+- hero/support visual hierarchy;
+- multi-photo efficiency;
+- representative video-frame treatment;
 - canonical evidence ID under every image;
-- grouped metadata at story/finding level;
-- controlled Observation / Engineering Assessment / Recommended Action block where useful;
+- grouped story-level metadata;
+- controlled Observation / Engineering Assessment / Control Philosophy / Recommended Action presentation;
+- visible qualification without excessive clinical text;
 - deliberate page-break control;
-- support hero image, side-by-side portraits, stacked landscapes and 2x2 grids;
-- preserve the matrix distinction between essential proof, supporting story evidence and technical/reference evidence.
+- formal engineering-report appearance without a repetitive defect-sheet rhythm.
 
-Exit criterion: inspector approves evidence density, readability, traceability and visual hierarchy.
+### Video rule
+Representative frames extracted from `CV09-REF-006` or `CV09-REF-008` remain derivatives of the controlled video evidence. No new independent inspection-evidence ID is to be invented. Captions must identify the frame as originating from the relevant video.
+
+### Prototype execution sequence
+1. acquire the four E media items plus `CV09-REF-005`;
+2. review both videos and select the minimum representative frames required;
+3. draft the CV09 narrative/assessment/action text;
+4. build the standalone prototype outside the frozen report;
+5. test evidence-layout variants;
+6. render and visually QA every page;
+7. review with the inspector;
+8. lock the reusable evidence-module grammar for Phase 6.
+
+### Phase 5 exit criterion
+Inspector approves:
+- evidence density;
+- readability;
+- visual hierarchy;
+- evidence/video traceability;
+- caption convention;
+- qualification discipline;
+- Observation → Assessment → Action flow;
+- reuse of the resulting design grammar on other complex and simple asset stories.
 
 ## Phase 6 — Rebuild Evidence-Supported Narrative / Case-Study Sections
 Status: **PENDING PHASE 5**
@@ -212,4 +268,8 @@ Status: **PENDING**
 ## Current Hold Point
 **The frozen V0.1 report remains unchanged.**
 
-Phase 4 evidence classification is closed. The immediate controlled task is **Phase 5: prototype one complex photographic evidence module** using the locked matrix as the evidence-selection basis. Do not begin large-scale V0.1 report rebuilding until the prototype establishes the approved evidence density, layout hierarchy and narrative/evidence interaction.
+Phase 5 is now active. The immediate controlled action is:
+
+> **Acquire the CV09 E/S media, select representative frames from `CV09-REF-006` and `CV09-REF-008`, draft the CV09 narrative module and build the standalone photographic evidence prototype.**
+
+Do not begin large-scale V0.1 report rebuilding until the CV09 prototype is reviewed and accepted.
