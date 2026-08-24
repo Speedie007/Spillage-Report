@@ -57,21 +57,33 @@ The inspector has accepted the outline as the baseline reader journey. Minor lat
 The accepted report voice is **formal engineering narrative**: explain first, prove second; use evidence as case proof; preserve uncertainty; avoid a flat asset-by-asset defect rhythm.
 
 ## Phase 4 — Full Evidence Inclusion / Story Matrix
-Status: **CURRENT PHASE — COMPILER FIRST PASS COMPLETE / INSPECTOR REVIEW PENDING**
+Status: **CURRENT PHASE — E-PASS COMPLETE / A- AND S-PASSES PENDING**
 
 Files:
 - `Report-Working/SpillageReport/EVIDENCE_STORY_MATRIX_V0.1.csv`
-- `Report-Working/SpillageReport/EVIDENCE_STORY_MATRIX_V0.1.md`
+- `Report-Working/SpillageReport/EVIDENCE_STORY_MATRIX_V0.1.md` — preserved compiler-first-pass narrative summary
+- `Report-Working/SpillageReport/EVIDENCE_MATRIX_REVIEW_CONTEXT_LOG.md` — inspector clarification/context log
+- `Report-Working/SpillageReport/EVIDENCE_E_PASS_CLOSURE.md` — reviewed E-pass checkpoint
 
-All **197 curated media items** have been given a preliminary inclusion status and story-role classification using V3.8, the accepted narrative outline and the completed Batch A-F visual reviews.
+All **197 curated media items** remain controlled in the matrix. The inspector has completed the full E-item review across all 23 evidence groups.
 
-### First-Pass Split
-- `E` — Essential body evidence: **80**
-- `S` — Supporting / story evidence: **92**
+Validated reviewed matrix content SHA:
+`1800ad56d898bf4351d521aeb586413e2d23ef5d`
+
+### Current Reviewed Split
+- `E` — Essential body evidence: **75**
+- `S` — Supporting / story evidence: **97**
 - `A` — Appendix / reference evidence: **25**
 - `X` — Exclude: **0**
 
-No `X` exclusions were assigned on the first pass because the 197 items were already curated from more than 700 original media items. This first pass intentionally protects story/topology evidence and uses `A` rather than premature exclusion where value is lower or more redundant.
+All current E rows are marked `ACCEPTED`. S and A rows remain pending dedicated review. No X exclusions have yet been introduced.
+
+The E-pass deliberately changed narrative necessity rather than merely confirming the compiler shortlist. Important refinements include:
+- redundant/alternate E items demoted where stronger evidence carries the same story;
+- CV09/CV15 cleaner-context items promoted where inspector field context gave them essential mechanism value;
+- L1 paired evidence refined to distinguish location/context from severity and to demonstrate multi-location structural deterioration;
+- Sample Conveyor 1 tail-end fines retained as a qualified bridge into wider cleaner/containment assessment;
+- Sample Conveyor 3 `REF-006` retained as E because it adds useful offset context relative to the roller/troughing assembly.
 
 ### Inclusion Status
 - `E` — Essential body evidence
@@ -92,13 +104,13 @@ One or more of:
 - MAINTENANCE / DESIGN DETAIL
 - REMEDIAL-CONCEPT CONTEXT
 
-### Inspector Review Sequence
-1. Confirm the `E` set contains all must-have evidence and narrative points.
-2. Review `A` items for any required promotion to `S` or `E`.
-3. Review `S` items asset-by-asset and identify true alternates/redundancies that can move to `A` or `X`.
-4. Introduce `X` only where exclusion is clearly safe.
+### Remaining Inspector Review Sequence
+1. Review `A` items for any required promotion to `S` or `E`.
+2. Review `S` items asset-by-asset and identify true alternates/redundancies that can move to `A` or `X`, or occasional items that warrant promotion.
+3. Introduce `X` only where exclusion is clearly safe.
+4. Reconcile final totals and lock the matrix sufficiently for evidence-layout prototyping.
 
-Important: `E + S` is a **story-capable evidence pool**, not a requirement to place 172 media items in the body. Final body/appendix placement is refined during evidence-module design.
+Important: `E + S` is a **story-capable evidence pool**, not a requirement to place every story-capable media item in the body. Final body/appendix placement is refined during evidence-module design.
 
 Exit criterion: inspector and compiler agree the inclusion status/story role for every media item sufficiently to proceed to evidence-layout prototyping.
 
@@ -182,4 +194,4 @@ Status: **PENDING**
 ## Current Hold Point
 **Do not materially modify the frozen V0.1 report yet.**
 
-The immediate controlled task is inspector review of `EVIDENCE_STORY_MATRIX_V0.1`. Once the matrix is accepted/refined, proceed to Phase 5 and prototype the multi-photo evidence module before large-scale report rebuilding.
+The immediate controlled task is the `A` review of `EVIDENCE_STORY_MATRIX_V0.1`, followed by the `S` review and any carefully justified `X` exclusions. Once the matrix is sufficiently locked, proceed to Phase 5 and prototype the multi-photo evidence module before large-scale report rebuilding.
