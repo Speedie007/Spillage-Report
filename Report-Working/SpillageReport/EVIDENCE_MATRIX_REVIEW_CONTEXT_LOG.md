@@ -200,3 +200,44 @@ Human-readable closure summary:
 `Report-Working/SpillageReport/EVIDENCE_A_PASS_CLOSURE.md`
 
 The remaining substantive evidence-classification task is the S-pass. That pass will determine which supporting items remain story-capable body evidence, which can move to A, whether any need promotion to E, and where any X exclusions are genuinely safe.
+
+---
+
+## S-Pass / Phase 4 Closure — 24 August 2026
+
+The inspector completed the dedicated S-item review across all 23 evidence groups and synced the fully reviewed matrix back to GitHub.
+
+Inspector sync commit:
+`bfa9dc6ca67072dd4a15b8715478528df940a39a`
+
+Validated final matrix content SHA:
+`8cb23c01ae59cbc12da9681e95ad70c6b81123df`
+
+A repository comparison against the A-pass control state shows **97 matrix rows changed**, exactly matching the full original S population. This provides an additional reconciliation check that the complete S set was reviewed.
+
+### Final Phase 4 classification
+- `E` — Essential body evidence: **75**
+- `S` — Supporting / story evidence: **44**
+- `A` — Appendix / reference evidence: **78**
+- `X` — Exclude: **0**
+- Total controlled media: **197**
+
+All 197 controlled rows are now marked `ACCEPTED`.
+
+### S-pass outcome
+- Original S population reviewed: **97**
+- Retained as S: **44**
+- Demoted S → A: **53**
+- Promoted S → E: **0**
+- Moved to X: **0**
+
+The principal effect of the S-pass was to remove narrative duplication after the E set had already established the technical story. Retained S items are those that materially strengthen mechanism, operating context, process relationship, severity/extent, comparator logic or remedial-design understanding. Demoted items remain technically valid controlled evidence but are better placed in the appendix/reference layer because stronger E/S items already carry the same reader-facing point.
+
+No X exclusions were introduced. This is deliberate: the 197-item set had already been curated before matrix compilation, and the demoted material remains useful for traceability, alternate views, appendix/reference use or later design-development checks.
+
+The final story-capable pool is therefore `E + S = 119` media items. This is a selection pool, not a requirement that all 119 items appear in the body. Final image placement, grouping and scale remain Phase 5/6 layout decisions.
+
+Human-readable closure summary:
+`Report-Working/SpillageReport/EVIDENCE_S_PASS_CLOSURE.md`
+
+**Phase 4 is complete.** The matrix is sufficiently locked to proceed to Phase 5 photographic-evidence-module prototyping. The frozen V0.1 report remains unchanged at this point.
