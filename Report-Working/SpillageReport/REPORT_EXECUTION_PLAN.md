@@ -57,18 +57,19 @@ The inspector has accepted the outline as the baseline reader journey. Minor lat
 The accepted report voice is **formal engineering narrative**: explain first, prove second; use evidence as case proof; preserve uncertainty; avoid a flat asset-by-asset defect rhythm.
 
 ## Phase 4 — Full Evidence Inclusion / Story Matrix
-Status: **CURRENT PHASE — E-PASS COMPLETE / A- AND S-PASSES PENDING**
+Status: **CURRENT PHASE — E- AND A-PASSES COMPLETE / S-PASS PENDING**
 
 Files:
 - `Report-Working/SpillageReport/EVIDENCE_STORY_MATRIX_V0.1.csv`
 - `Report-Working/SpillageReport/EVIDENCE_STORY_MATRIX_V0.1.md` — preserved compiler-first-pass narrative summary
 - `Report-Working/SpillageReport/EVIDENCE_MATRIX_REVIEW_CONTEXT_LOG.md` — inspector clarification/context log
 - `Report-Working/SpillageReport/EVIDENCE_E_PASS_CLOSURE.md` — reviewed E-pass checkpoint
+- `Report-Working/SpillageReport/EVIDENCE_A_PASS_CLOSURE.md` — reviewed A-pass checkpoint
 
-All **197 curated media items** remain controlled in the matrix. The inspector has completed the full E-item review across all 23 evidence groups.
+All **197 curated media items** remain controlled in the matrix. The inspector has completed the full E-item review and the dedicated A-item review across the evidence set.
 
-Validated reviewed matrix content SHA:
-`1800ad56d898bf4351d521aeb586413e2d23ef5d`
+Validated reviewed matrix content SHA after A-pass:
+`37d476caf088cf218b2715dcb6e8f4c6be805f4d`
 
 ### Current Reviewed Split
 - `E` — Essential body evidence: **75**
@@ -76,7 +77,7 @@ Validated reviewed matrix content SHA:
 - `A` — Appendix / reference evidence: **25**
 - `X` — Exclude: **0**
 
-All current E rows are marked `ACCEPTED`. S and A rows remain pending dedicated review. No X exclusions have yet been introduced.
+All current E rows are marked `ACCEPTED`. All 25 current A rows are also marked `ACCEPTED`. The A-pass produced no promotions to E or S and no exclusions; it confirmed that the current A set is appropriately retained as technical/reference evidence. The 97 S rows remain pending the final substantial classification review.
 
 The E-pass deliberately changed narrative necessity rather than merely confirming the compiler shortlist. Important refinements include:
 - redundant/alternate E items demoted where stronger evidence carries the same story;
@@ -84,6 +85,12 @@ The E-pass deliberately changed narrative necessity rather than merely confirmin
 - L1 paired evidence refined to distinguish location/context from severity and to demonstrate multi-location structural deterioration;
 - Sample Conveyor 1 tail-end fines retained as a qualified bridge into wider cleaner/containment assessment;
 - Sample Conveyor 3 `REF-006` retained as E because it adds useful offset context relative to the roller/troughing assembly.
+
+The A-pass confirmed that the appendix/reference layer consists principally of:
+- topology/orientation and asset-traceability views;
+- secondary clean-condition comparators where stronger body evidence already exists;
+- alternate/context views that remain technically valid but do not add unique body-level narrative value;
+- evidence with attribution limitations, including U3 roadway material that cannot automatically be classified as conveyor spillage.
 
 ### Inclusion Status
 - `E` — Essential body evidence
@@ -105,10 +112,9 @@ One or more of:
 - REMEDIAL-CONCEPT CONTEXT
 
 ### Remaining Inspector Review Sequence
-1. Review `A` items for any required promotion to `S` or `E`.
-2. Review `S` items asset-by-asset and identify true alternates/redundancies that can move to `A` or `X`, or occasional items that warrant promotion.
-3. Introduce `X` only where exclusion is clearly safe.
-4. Reconcile final totals and lock the matrix sufficiently for evidence-layout prototyping.
+1. Review all `S` items asset-by-asset and identify items that should remain S, be promoted to E, demoted to A, or—where clearly safe—moved to X.
+2. Introduce `X` only where exclusion is clearly justified and does not remove useful topology, sequence, consequence or technical traceability.
+3. Reconcile final totals and lock the matrix sufficiently for evidence-layout prototyping.
 
 Important: `E + S` is a **story-capable evidence pool**, not a requirement to place every story-capable media item in the body. Final body/appendix placement is refined during evidence-module design.
 
@@ -194,4 +200,4 @@ Status: **PENDING**
 ## Current Hold Point
 **Do not materially modify the frozen V0.1 report yet.**
 
-The immediate controlled task is the `A` review of `EVIDENCE_STORY_MATRIX_V0.1`, followed by the `S` review and any carefully justified `X` exclusions. Once the matrix is sufficiently locked, proceed to Phase 5 and prototype the multi-photo evidence module before large-scale report rebuilding.
+The immediate controlled task is the `S` review of `EVIDENCE_STORY_MATRIX_V0.1`, including carefully justified promotions, demotions and any safe `X` exclusions. Once the S-pass is complete and the matrix is reconciled/locked, proceed to Phase 5 and prototype the multi-photo evidence module before large-scale report rebuilding.
