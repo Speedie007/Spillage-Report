@@ -94,3 +94,31 @@ This evidence grouping should not be used to infer remaining structural capacity
 - `LoadoutStationL1-REF-009` — promote to E so that the report can demonstrate steel deterioration at more than one conveyor-support location.
 - `LoadoutStationL1-REF-012` — keep E provisionally; revisit during final evidence-module/layout design if redundant beside `REF-013`.
 - `LoadoutStationL1-REF-013` — keep E as the principal spillage hero image.
+
+---
+
+## Sample Conveyor 1 — Tail-End Fines, Cleaner-Function Inference and Multi-Level Consequence
+
+### Inspector clarification
+`LoadoutStationSample1-REF-002` shows a substantial dry-fines accumulation around the tail-end pulley / tail-end access area. The inspector interprets this as consistent with fines having remained on the return belt after the head-discharge region rather than being effectively removed and retained there. The actual head-end scraper/cleaner condition was not captured in the supplied Sample Conveyor 1 media, so `REF-002` does not visually prove a specific scraper defect or a specific loss of scraper contact.
+
+The importance of `REF-002` is therefore twofold: it directly establishes a significant fines consequence at the tail-end/access area, and it supports a wider engineering inference—when considered together with the recurring cleaner/containment findings elsewhere in the inspected conveyor system—that Sample Conveyor 1 should be assessed for application of the same functional cleaner/containment philosophy.
+
+This does **not** mean that the exact CV09 or CV15 hardware should be copied onto Sample Conveyor 1 without verification. The appropriate recommendation is to assess the local head/discharge geometry, existing cleaner condition, belt contact requirements, chute containment and downstream fines route, then apply the proven functional principle where suitable.
+
+### Engineering significance
+Sample Conveyor 1 can contribute to the broader system argument without overstating the evidence:
+- **Directly proven:** substantial dry fines are present around the tail-end/access area; widespread material is retained at multiple structural elevations; coarse product reaches access grating; and major coarse/lump-product accumulations are retained within the surrounding structure.
+- **Visually supported history:** adhered/dried deposits with run/drip morphology support a history of sticky/moist deposition, but do not prove active wetness at the instant photographed or identify the moisture source.
+- **Engineering inference / recommendation candidate:** tail-end fines are consistent with return-side carryback and insufficient fines removal/containment at the head-discharge end. Because the head-end cleaner condition is not directly shown, the report should present this as a reasonable system-level interpretation requiring local verification, not as a visually proven scraper failure.
+
+This reinforces the governing principle already established by CV09 and CV15: **do not merely remove fines from the belt; keep the fines inside the intended process/material-handling envelope.** Sample Conveyor 1 is a candidate for the wider functional cleaner/containment upgrade programme after local geometry and equipment-condition verification.
+
+### Matrix implication for current E-pass
+- `LoadoutStationSample1-REF-002` — keep E. It has a distinct role as substantial tail-end/access fines evidence and as a qualified bridge into the wider cleaner-function assessment.
+- `LoadoutStationSample1-REF-004` — demote E → S because `REF-007` provides the same multi-level accumulation story with stronger global context.
+- `LoadoutStationSample1-REF-005` — keep E for adhered/dried run/drip morphology and sticky/moist deposition history.
+- `LoadoutStationSample1-REF-007` — keep E as the stronger global multi-level distribution image.
+- `LoadoutStationSample1-REF-008` — keep E because coarse/lump-product spillage on access grating is a separate operational/access consequence from the tail-end fines shown in `REF-002`.
+- `LoadoutStationSample1-REF-010` — keep E for major lower/adjacent structural accumulation.
+- `LoadoutStationSample1-REF-011` — keep E as the principal/hero evidence of very large coarse/lump-product accumulation retained within the surrounding structure.
