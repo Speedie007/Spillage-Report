@@ -135,7 +135,7 @@ Once aligned, the contextual source should be revised first. The formal report s
 Final visual polish is deliberately deferred until the content/evidence architecture is stable. The cover-page composition is considered a good baseline and should be retained. Later polish should include a professional colour palette, consistent heading hierarchy, metadata bars, table shading/borders, captions, automated TOC/List of Figures/List of Tables, internal cross-references and consistent headers/footers.
 
 ## Next Immediate Task
-Explain the current V3.7 contextual understanding to the inspector in plain engineering terms. Use the resulting discussion to identify:
+Continue the context-alignment discussion in plain engineering terms. Use the resulting discussion to identify:
 - corrections;
 - missing narratives/topology;
 - intended causal chains;
@@ -145,6 +145,45 @@ Explain the current V3.7 contextual understanding to the inspector in plain engi
 
 After alignment, update the contextual source and only then resume the formal report execution plan.
 
+## Context-Alignment Outcome — 24 August 2026
+The inspector has confirmed that the report compiler's current explanation of `Running_Report_Contextual_Spillage_NotesV3.7.docx` is essentially fully aligned with the intended engineering context. No material correction to the factual/mechanism model was identified. The principal misalignment exposed by V0.1 is **report form, writing style and narrative architecture**, not the underlying technical content.
+
+### Report Identity / Intended Reader Experience
+The report is an **audit narrative of a whole material-handling ecosystem**, not merely a conventional defect-by-defect technical inspection report. It must allow the mine reader to understand the developing picture in a coherent sequence: how material and fines move through the system, where containment breaks down, why visible deposits may be remote from their source, which issues are systemic versus local, and how the proposed controls collectively reduce loss through the process.
+
+The preferred writing style is therefore closer to a structured engineering story / guided audit explanation than to a clinical catalogue of defects. Bulleted or short-section narrative is acceptable and often desirable where it makes the cause-and-effect chain easier to follow. Technical evidence sheets remain valuable, but they support the story rather than define the report's entire voice.
+
+### Sheave-Template Lesson
+The previous sheave-report template was designed for a comparatively linear technical flow: problem → evidence → assessment → recommendation. That structure is useful for photographic evidence control and some local findings, but it should **not govern the overall spillage-audit narrative**. Reuse the clean cover-page style, photographic-evidence discipline, controlled metadata and selected visual conventions; do not assume the sheave report's section architecture or clinical writing style is the correct final structure for the audit.
+
+### Cleaner / Fines-Control Philosophy — Clarified
+The intended recommendation is **not** to install one identical CV09 scraper design blindly at every conveyor.
+
+The intended engineering philosophy is:
+1. Use CV09 to design, implement and prove a remedial cleaner/containment approach against a directly demonstrated failure mechanism.
+2. If the pilot works, apply the **functional control philosophy** systematically across other applicable parts of the conveyor ecosystem after local geometry/access/applicability checks.
+3. The universal principle is containment and controlled handling of fines, not identical hardware everywhere.
+4. Fines are an inherent part of the combined-product stream from blasting/crushing onward. They should remain within the intended material-handling path and should not progressively escape as uncontrolled carryback/spillage along the conveyor route.
+5. The process should retain/control the fines until they reach the intended stage where the screening/fines-handling process can separate, handle and discard/process them in a controlled manner.
+6. Local equipment may require different physical implementations to satisfy that same functional objective; U4 remains an explicit example where the existing geometry is materially different.
+
+This clarification strengthens the systemic conclusion: the problem is not simply "bad scrapers" at isolated conveyors. It is loss of fines containment through the conveyor ecosystem. The cleaner/containment strategy is intended to keep fines inside the designed process stream until the designated process stage can handle them correctly.
+
+### Implication for the Final Report Architecture
+The next report should be **narrative-first, evidence-supported**, rather than Section-16-first / defect-register-first. Before selecting a final section structure, develop the audit story in an order that a South32 reader can follow coherently. Candidate narrative layers include:
+- what the audit set out to determine;
+- how combined product/fines move through the inspected system;
+- the three interacting spillage mechanisms;
+- the central distinction between deposit location and source location;
+- the dominant systemic fines/carryback/containment picture;
+- the principal local mechanisms and case studies that prove/refine the systemic picture;
+- operational/housekeeping consequences;
+- the resulting engineering control philosophy;
+- targeted local actions and verification requirements;
+- the final overall conclusions.
+
+Asset-level photographic evidence remains essential, but it should be positioned to illuminate this narrative rather than force the reader through a repetitive sequence of nearly identical technical modules.
+
 ## Repository Milestones
 - GitHub write access confirmed.
 - Evidence inventory and all visual-review Batches A-F complete.
@@ -153,3 +192,5 @@ After alignment, update the contextual source and only then resume the formal re
 - V0.1 first evidence-populated report frozen in `Report-Working/SpillageReport/`.
 - V0.1 Review Pass 01 saved in `Report-Working/SpillageReport/V0.1_Review_Pass_01.md`.
 - Context-alignment / engineering-intent phase initiated before further report revision.
+- Inspector confirmed the V3.7 factual/mechanism interpretation is essentially fully aligned; primary redesign requirement is narrative/report architecture and writing style.
+- Cleaner recommendation clarified as a universal **functional fines-containment philosophy with location-specific implementation**, not universal identical scraper hardware.
