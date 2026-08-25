@@ -77,28 +77,43 @@ Key refinement outcomes:
 - the wider cleaner recommendation standardises the required function rather than identical hardware;
 - the section transitions deliberately from return-side fines/carryback into carrying-side coarse/mixed-product loss in Part V.
 
+### Part V — Coarse / Combined-Product Loss During Transit
+`PHASE7_PART_V_COARSE_COMBINED_PRODUCT_LOSS_DRAFT_V0.1.md`
+
+Status: **REPORT-READY PASS 7A / 7B-ALIGNED DRAFT**
+
+Key refinement outcomes:
+- Part V clearly separates carrying-side coarse/mixed-product loss from the return-side carryback mechanism developed in Part IV;
+- the usable carrying envelope is defined through belt width/trough geometry, belt position, loading, product size, feed trajectory and available containment margin without introducing unsupported design-capacity claims;
+- W10 is presented as a proven containment consequence in a restricted tunnel while preserving the fact that no single initiating cause has been established for every deposit;
+- W10 side barrier/rail remains a secondary feasibility concept, not a predetermined installation solution or normal belt-contact device;
+- Sample Conveyor 2 preserves the visually supported product-size/loading/containment problem while explicitly retaining significant mistracking as unconfirmed;
+- Sample Conveyor 3 preserves the same narrow-belt loading concern and additionally presents visually supported lateral offset/mistracking with unmeasured magnitude and unresolved root mechanical contributors;
+- Sample Conveyor 2 and Sample Conveyor 3 are deliberately compared to demonstrate that similar consequences do not justify identical causal conclusions;
+- feed/tracking correction is kept ahead of final secondary-containment design;
+- the final transition makes belt tracking the next logical material-containment control and hands directly into the U4 versus L3 evidence-strength contrast in Part VI.
+
 ---
 
 ## Current immediate production sequence
 
-1. **Part V — Coarse / Combined-Product Loss During Transit**
-   - establish carrying-envelope failure as distinct from carryback;
-   - W10 source-control / restricted-tunnel consequence / side-containment feasibility;
-   - Sample Conveyor 2 feed/loading verification without promoting mistracking to fact;
-   - Sample Conveyor 3 feed + visually supported mistracking + secondary-containment hierarchy;
-   - keep feed/tracking correction ahead of final secondary containment;
-   - transition cleanly into Part VI alignment/tracking.
+1. **Part VI — Alignment / Local Product-Loss Mechanisms**
+   - establish belt centring/tracking as a material-containment requirement;
+   - U4 as the strong local cause-and-effect case;
+   - distinguish visually verified mistracking/one-side loss from unmeasured tail-pulley/alignment magnitude;
+   - retain U4 custom cleaner as a separate geometry-specific issue;
+   - use L3 as the deliberate evidence-discipline contrast where offset is supported but direct causal linkage to significant solid-product loss remains unconfirmed.
 
-2. **Part VI — Alignment / Local Product-Loss Mechanisms**
-   - U4 strong case;
-   - L3 evidence-discipline contrast.
-
-3. **Part VII — Water, Wet Fines and Structural Consequences**
+2. **Part VII — Water, Wet Fines and Structural Consequences**
    - Screens water escape;
    - Screens structural condition;
    - L1 structural / historical-intermittent belt-contact story.
 
-4. Continue Parts VIII–X, then reconcile Part XI and Part XII Conclusion against the refined body.
+3. **Part VIII — Event-Driven and Operational Spillage**
+   - trip/restart material removal;
+   - housekeeping as consequence control.
+
+4. Continue Parts IX–X, then reconcile Part XI and Part XII Conclusion against the refined body.
 
 ---
 
