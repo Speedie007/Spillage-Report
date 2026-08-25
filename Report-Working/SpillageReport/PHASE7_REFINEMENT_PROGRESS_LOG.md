@@ -130,33 +130,62 @@ Key refinement outcomes:
 - restricted-access consequences such as W10 remain visible within the operational-control discussion;
 - the section ends by consolidating the distinct mechanism families and handing directly into Part IX system-level interpretation.
 
+### Part IX — Consolidated Engineering Interpretation
+`PHASE7_PART_IX_CONSOLIDATED_ENGINEERING_INTERPRETATION_DRAFT_V0.1.md`
+
+Status: **REPORT-READY PASS 7A / 7B-ALIGNED DRAFT**
+
+Key refinement outcomes:
+- Parts IV–VIII are recombined without turning Part IX into another findings register;
+- systemic recurring mechanisms are separated from local / geometry-specific mechanisms;
+- recurring fines carryback and variable cleaner/removed-material containment performance are retained as the dominant cross-system themes;
+- coarse-product containment, tracking/alignment, water escape, structural condition and event-driven handling remain distinct mechanism families rather than being flattened into one cause;
+- U4/L3 and Sample 2/Sample 3 evidence-strength differences remain visible at consolidated level;
+- source control is separated from consequence management;
+- the higher-order conclusion is established that the inspected system has one material/process-containment problem expressed through several mechanisms and requiring several physical solutions;
+- the section hands directly into Part X by changing the question from “what is wrong?” to “what engineering rule should govern control?”.
+
+### Part X — Engineering Control Philosophy
+`PHASE7_PART_X_ENGINEERING_CONTROL_PHILOSOPHY_DRAFT_V0.1.md`
+
+Status: **REPORT-READY PASS 7A / 7B-ALIGNED DRAFT**
+
+Key refinement outcomes:
+- the report-wide objective is formalised as keeping combined product and process water inside the intended handling/process envelope;
+- a control hierarchy is established: identify mechanism → verify geometry/operation → correct primary source → provide primary containment → add justified secondary containment → retain consequence control → prove performance;
+- fines/carryback philosophy is stated as “do not merely clean the belt; keep the fines inside the process”;
+- coarse-product philosophy prioritises feed, carrying geometry and tracking before final secondary containment;
+- tracking is treated as a carrying-margin control and not something to be hidden by a rubbing barrier;
+- transfer points, process water, structural integrity and event-driven handling are integrated into the same containment philosophy without forcing one hardware solution;
+- primary/source control, secondary containment and consequence control are explicitly distinguished;
+- system-level standardisation is defined around required engineering function/outcome rather than identical hardware;
+- functional close-out is formalised as as-found evidence → verification/measurement → corrective control → implementation → representative operating proof → as-left record → monitoring/closure;
+- Part X hands directly into the mature Part XI action programme without duplicating its detailed action sequences.
+
 ---
 
 ## Current immediate production sequence
 
-1. **Part IX — Consolidated Engineering Interpretation**
-   - bring the refined mechanism stories back together without flattening their differences;
-   - distinguish systemic recurring mechanisms from local/asset-specific exceptions;
-   - identify the common material-containment logic while preserving different physical causes and evidence strengths;
-   - avoid turning the section into a repeated findings register.
-
-2. **Part X — Engineering Control Philosophy**
-   - develop the higher-order rule: keep combined product inside the intended process/material-handling envelope;
-   - translate the mechanism hierarchy into a concise control hierarchy for fines, coarse product, transfers, water and event-driven handling;
-   - prepare a direct hand-off into the mature Part XI action programme without duplicating its detailed actions.
-
-3. **Part XII — Conclusion reconciliation**
+1. **Part XII — Conclusion reconciliation**
    - close only what has already been established in the refined body;
    - ensure no new mechanism or recommendation appears in the conclusion;
-   - align the conclusion with the mature Part XI programme.
+   - align the conclusion with Parts IX–XI and the mature implementation programme;
+   - preserve the report-wide material/process-containment message.
 
-4. Execute **Passes 7C–7F**:
-   - verification / success-criteria register;
-   - conceptual engineering figures;
-   - technical-backbone / appendix population;
-   - final technical consistency and evidence-to-action review.
+2. **Part XI reconciliation pass**
+   - compare the already mature Part XI V0.2 against the newly refined Parts IX–X;
+   - remove any wording that now unnecessarily repeats interpretation/philosophy;
+   - ensure priorities, terminology and functional close-out language match the refined body exactly.
 
-5. Proceed to **Phase 8 document-wide styling** only after Phase 7 technical/content acceptance.
+3. Execute **Pass 7C — Verification / Success-Criteria Register**.
+
+4. Execute **Pass 7D — Conceptual Engineering Figures**.
+
+5. Execute **Pass 7E — Technical Backbone / Appendix Population**.
+
+6. Execute **Pass 7F — Final Technical Consistency / Evidence-to-Action Review**.
+
+7. Proceed to **Phase 8 document-wide styling** only after Phase 7 technical/content acceptance.
 
 ---
 
