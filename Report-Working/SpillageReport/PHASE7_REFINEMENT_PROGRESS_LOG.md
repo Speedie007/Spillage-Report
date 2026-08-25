@@ -1,7 +1,7 @@
 # South32 Wessels Combined Product Spillage Audit — Phase 7 Refinement Progress Log
 
 ## Current status
-**PHASE 7 — MAIN NARRATIVE SPINE COMPLETE; PASS 7C COMPLETE; PASSES 7D–7F NEXT**
+**PHASE 7 — MAIN NARRATIVE SPINE COMPLETE; PASS 7C COMPLETE; PASS 7D WORKING CONCEPTS REGISTERED; PASSES 7E–7F NEXT**
 
 Controlled production baseline remains:
 
@@ -133,15 +133,51 @@ The register is suitable to become the controlled source for **Appendix D — Me
 
 ---
 
-## Phase 7A / 7B / 7C result
+## Pass 7D — Conceptual Engineering Figures
 
-The accepted V0.2 report identity has been preserved while the narrative, action logic and verification/close-out framework have now been matured through the complete Parts I–XII journey.
+`PHASE7_CONCEPTUAL_ENGINEERING_FIGURE_REGISTER_V0.1.md`
+
+Status: **WORKING CONCEPT SET COMPLETE / ACCEPTED FOR CURRENT REPORT DEVELOPMENT — FINAL TECHNICAL REFINEMENT DEFERRED**
+
+Four conceptual/report-support figures are now retained in `Evidence/TechnicalDrawings/`:
+- **CTD-001 — CV09 Cleaner and Process-Containment Concept**;
+- **CTD-002 — W10 Side-Containment Barrier Principle**;
+- **CTD-003 — Sample Conveyor Containment-Control Hierarchy**;
+- **CTD-004 — Cause Location vs Deposit Location**.
+
+The current figures are suitable for report development and conceptual communication, but they are **not final engineering drawings and not for fabrication**. Detailed technical/engineer review is intentionally deferred until the report development and principal assembly are complete, so the responsible engineer can review the concepts in the context of the finished report and request geometry, component, explanatory or presentation adjustments before final publication.
+
+The four conceptual figures are excluded from the controlled **197 inspection-media** count because they do not prove as-found physical conditions. They are derived explanatory/design-concept media and must remain traceable to the inspection evidence and report interpretation they support.
+
+Current file-control note:
+- two stored drawing filenames currently use `DRAW-001`;
+- the CV09 stored filename contains a trailing space before `.png`;
+- controlled working references **CTD-001 through CTD-004** are therefore used until end-stage drawing-file normalisation.
+
+`Report-Working/evidence_index.md` has been updated to register the conceptual drawing set separately from the inspection-photo/video population.
+
+### Pass 7D deferred technical-review hold point
+Before final technical artwork/publication status:
+1. responsible engineer reviews each concept;
+2. conceptual amendments are captured;
+3. site dimensions/geometry are verified where required;
+4. drawings are revised as needed;
+5. final captions/qualifications are confirmed;
+6. drawing IDs/filenames are normalised.
+
+This deferred review **does not block current report development or Pass 7E**.
+
+---
+
+## Phase 7A / 7B / 7C / working 7D result
+
+The accepted V0.2 report identity has been preserved while the narrative, action logic, verification/close-out framework and current conceptual communication set have been matured through the complete Parts I–XII journey.
 
 The governing reader flow is:
 
 > **Explain → Prove → Interpret → Control → Act → Verify → Close**
 
-The body establishes mechanism/evidence strength; Part IX explains the combined meaning; Part X defines the common philosophy; Part XI converts it into actions; Pass 7C defines what proof is required for those actions to close; Part XII closes the engineering argument.
+The body establishes mechanism/evidence strength; Part IX explains the combined meaning; Part X defines the common philosophy; Part XI converts it into actions; Pass 7C defines what proof is required for those actions to close; the Pass 7D concepts provide controlled explanatory support; Part XII closes the engineering argument.
 
 ---
 
@@ -152,6 +188,7 @@ The body establishes mechanism/evidence strength; Part IX explains the combined 
 - direct evidence, source-recorded observation, engineering interpretation and unresolved verification items remain distinguishable;
 - source control precedes secondary containment where practicable;
 - conceptual arrangements are not fabrication drawings;
+- conceptual figures are report-support media, not proof of as-found physical condition;
 - structural capacity remains a competent-assessment matter;
 - representative operating proof is required for functional close-out;
 - as-left references are retained where geometry/configuration is corrected;
@@ -161,16 +198,7 @@ The body establishes mechanism/evidence strength; Part IX explains the combined 
 
 ---
 
-## Current immediate production sequence — Passes 7D to 7F
-
-### Pass 7D — Conceptual Engineering Figures
-Develop only figures that materially improve engineering communication:
-- CV09 cleaner + effective chute/process containment envelope;
-- W10 local side-containment principle;
-- Sample Conveyor feed / usable belt width / tracking / secondary-containment hierarchy;
-- optional cause-location versus deposit-location process-containment figure.
-
-All figures remain conceptual / not for fabrication and require site dimensions where applicable.
+## Current immediate production sequence — Passes 7E to 7F
 
 ### Pass 7E — Technical Backbone / Appendices
 Populate sufficiently for the refined report:
@@ -178,8 +206,10 @@ Populate sufficiently for the refined report:
 - Appendix B — controlled photographic evidence register;
 - Appendix C — video evidence register;
 - Appendix D — measurements / verification register, sourced from the completed Pass 7C register;
-- Appendix E — conceptual engineering drawings;
+- Appendix E — conceptual engineering drawings, sourced from the Pass 7D figure register/current working concepts;
 - Appendix F — source-record index.
+
+The deferred engineer review of the conceptual drawings does not prevent Appendix E from being assembled as a **working conceptual appendix**. Final drawing replacement/refinement can occur after the assembled report has been technically reviewed.
 
 ### Pass 7F — Technical Consistency / Evidence-to-Action Review
 Complete the final Phase 7 technical audit:
@@ -189,7 +219,14 @@ Complete the final Phase 7 technical audit:
 - local cases are not over-generalised;
 - recommendation and verification terminology is consistent;
 - conclusion reflects the body/programme and introduces nothing new;
-- every major action has the required verification/close-out evidence path.
+- every major action has the required verification/close-out evidence path;
+- conceptual figures are not presented as verified as-found geometry or final fabrication design.
+
+---
+
+## End-stage conceptual drawing review hold
+
+After the report development/creation is substantially complete and the working report is assembled, return to the conceptual drawing set for responsible-engineer review and final technical refinement. This review may change figure geometry, labels, component representation or explanatory detail without reopening the accepted report narrative unless the engineer identifies a genuine technical contradiction.
 
 ---
 
@@ -211,4 +248,4 @@ Do not yet spend report-development effort repeatedly changing:
 
 > **Refine, do not rewrite the accepted report identity.**
 
-The next controlled production block is **Pass 7D — Conceptual Engineering Figures**.
+The next controlled production block is **Pass 7E — Technical Backbone / Appendices**.
