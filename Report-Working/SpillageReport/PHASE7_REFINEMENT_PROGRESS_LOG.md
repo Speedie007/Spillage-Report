@@ -62,27 +62,43 @@ Key refinement outcomes:
 - Executive Action Dashboard aligns with the mature Phase 7B programme;
 - Section 7 transitions deliberately into the detailed mechanism chapters rather than restarting the story.
 
+### Part IV — Fines, Carryback and Cleaner Containment
+`PHASE7_PART_IV_FINES_CARRYBACK_CLEANER_CONTAINMENT_DRAFT_V0.1.md`
+
+Status: **REPORT-READY PASS 7A / 7B-ALIGNED DRAFT**
+
+Key refinement outcomes:
+- recurring fines/carryback is presented as a cross-system mechanism without claiming every fines deposit arose solely from carryback;
+- direct physical evidence is separated from source-recorded mechanism and engineering interpretation;
+- supporting system evidence from UC05-UC01, U5A, CV15, Sample Conveyor 1 and lower-severity comparator locations establishes recurrence without turning Part IV into another asset register;
+- CV06 is preserved as the direct mechanical/maintenance cleaner-failure case;
+- CV09 is preserved as the cleaner + containment proof case, with active wet-material fallout and local containment limitations directly tied to the pilot logic;
+- CV06 and CV09 are explicitly presented as complementary rather than duplicate defects;
+- the wider cleaner recommendation standardises the required function rather than identical hardware;
+- the section transitions deliberately from return-side fines/carryback into carrying-side coarse/mixed-product loss in Part V.
+
 ---
 
 ## Current immediate production sequence
 
-1. **Part IV — Fines, Carryback and Cleaner Containment**
-   - tighten system-level fines/carryback narrative;
-   - preserve CV06 as direct maintenance/mechanical cleaner-failure case;
-   - preserve CV09 as holistic cleaner + containment proof case;
-   - remove evidence-module repetition;
-   - transition into the cleaner/fines-control philosophy and CV09 pilot.
+1. **Part V — Coarse / Combined-Product Loss During Transit**
+   - establish carrying-envelope failure as distinct from carryback;
+   - W10 source-control / restricted-tunnel consequence / side-containment feasibility;
+   - Sample Conveyor 2 feed/loading verification without promoting mistracking to fact;
+   - Sample Conveyor 3 feed + visually supported mistracking + secondary-containment hierarchy;
+   - keep feed/tracking correction ahead of final secondary containment;
+   - transition cleanly into Part VI alignment/tracking.
 
-2. **Part V — Coarse / Combined-Product Loss During Transit**
-   - W10;
-   - Sample Conveyor 2;
-   - Sample Conveyor 3.
-
-3. **Part VI — Alignment / Local Product-Loss Mechanisms**
+2. **Part VI — Alignment / Local Product-Loss Mechanisms**
    - U4 strong case;
    - L3 evidence-discipline contrast.
 
-4. Continue Parts VII–X, then reconcile Part XI and Part XII Conclusion against the refined body.
+3. **Part VII — Water, Wet Fines and Structural Consequences**
+   - Screens water escape;
+   - Screens structural condition;
+   - L1 structural / historical-intermittent belt-contact story.
+
+4. Continue Parts VIII–X, then reconcile Part XI and Part XII Conclusion against the refined body.
 
 ---
 
