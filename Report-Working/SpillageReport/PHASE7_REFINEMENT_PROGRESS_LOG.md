@@ -1,7 +1,7 @@
 # South32 Wessels Combined Product Spillage Audit — Phase 7 Refinement Progress Log
 
 ## Current status
-**PHASE 7 — NARRATIVE / RECOMMENDATION REFINEMENT: MAIN NARRATIVE SPINE COMPLETE; PASSES 7C–7F NEXT**
+**PHASE 7 — MAIN NARRATIVE SPINE COMPLETE; PASS 7C COMPLETE; PASSES 7D–7F NEXT**
 
 Controlled production baseline remains:
 
@@ -18,7 +18,7 @@ V0.2 remains protected and has not been overwritten during Phase 7 development.
 
 Status: **REPORT-READY PASS 7A DRAFT**
 
-Establishes the management-level argument, audit scope/method, material journey, cause-location versus deposit-location principle and the overall spillage picture before detailed mechanism evidence.
+Establishes the management-level argument, audit scope/method, material journey, cause-location versus deposit-location principle and overall spillage picture before detailed mechanism evidence.
 
 ### Part IV — Fines, Carryback and Cleaner Containment
 `PHASE7_PART_IV_FINES_CARRYBACK_CLEANER_CONTAINMENT_DRAFT_V0.1.md`
@@ -46,7 +46,7 @@ Treats tracking as a material-containment requirement. U4 is the strong tracking
 
 Status: **REPORT-READY PASS 7A / 7B-ALIGNED DRAFT**
 
-Separates verified Screens process-water escape from unresolved escape mechanism and from the separately verified structural deterioration/cut-support condition. L1 keeps accumulation, previous/intermittent belt contact, concrete deterioration and steel deterioration connected but analytically separate.
+Separates verified Screens process-water escape from unresolved escape mechanism and from separately verified structural deterioration/cut-support condition. L1 keeps accumulation, previous/intermittent belt contact, concrete deterioration and steel deterioration connected but analytically separate.
 
 ### Part VIII — Event-Driven and Operational Spillage
 `PHASE7_PART_VIII_EVENT_DRIVEN_OPERATIONAL_SPILLAGE_DRAFT_V0.1.md`
@@ -78,15 +78,11 @@ Establishes the hierarchy of source control, primary containment, justified seco
 
 Status: **CURRENT REPORT-READY PHASE 7B RECONCILED DRAFT**
 
-Supersedes V0.2.
+Supersedes V0.2. Part XI now functions as the implementation layer rather than a repeated interpretation/philosophy chapter.
 
-Reconciled against Parts IX and X so Part XI functions as the implementation layer rather than a repeated interpretation/philosophy chapter.
-
-Two evidence-to-action gaps identified during reconciliation are now closed:
-- **CV06** — explicit cleaner-function restoration and verification action added;
-- **L3** — explicit quantitative alignment/tracking verification action added while preserving that significant solid-product causation is not established.
-
-All previously matured actions remain, including CV09, U4, Sample Conveyor 2/3, W10, Screens water, Screens structural assessment, L1, trip/restart and housekeeping governance.
+Evidence-to-action gaps closed during reconciliation:
+- **CV06** — explicit cleaner-function restoration and verification action;
+- **L3** — explicit quantitative alignment/tracking verification action while preserving that significant solid-product causation is not established.
 
 ### Part XII — Conclusion
 `PHASE7_PART_XII_CONCLUSION_DRAFT_V0.1.md`
@@ -97,15 +93,55 @@ Closes only engineering themes already established in the refined body and actio
 
 ---
 
-## Phase 7A / 7B result
+## Pass 7C — Verification / Success-Criteria Register
 
-The accepted V0.2 report identity has been preserved while the narrative and action logic have been matured through the complete Parts I–XII journey.
+`PHASE7_VERIFICATION_SUCCESS_CRITERIA_REGISTER_V0.1.md`
 
-The governing reader flow is now:
+Status: **COMPLETE — CURRENT CONTROLLED PASS 7C REGISTER**
 
-> **Explain → Prove → Interpret → Control → Act → Close**
+Pass 7C consolidates the open measurement, inspection, design-input, structural-assessment, representative-operation, pilot-monitoring and procedural/governance requirements into one gate-based register.
 
-The body establishes the mechanism and evidence strength; Part IX explains what the combined evidence means; Part X defines the common engineering philosophy; Part XI converts that philosophy into controlled actions; Part XII closes the established argument.
+The register contains **VER-001 through VER-014**, covering:
+- CV09 as-found geometry / pilot design inputs;
+- CV09 pilot performance and rollout gate;
+- CV06 cleaner restoration and operating verification;
+- U4 alignment/tracking and full-tripper-travel proof;
+- Sample Conveyor 3 feed/carrying-width/tracking verification;
+- Sample Conveyor 2 feed/loading verification without presuming mistracking;
+- W10 tracking envelope / source review / barrier feasibility;
+- L3 quantitative alignment and live-tracking verification;
+- Screens water-escape mechanism identification and operating proof;
+- Screens competent structural assessment / remaining-capacity disposition;
+- L1 structural condition plus representative belt-clearance verification;
+- trip/restart procedure and recovery governance;
+- housekeeping/recovery governance and performance feedback;
+- wider applicability / rollout review.
+
+Verification is classified by measured geometry, representative operation, design input, structural assessment, pilot monitoring, governance and applicability review.
+
+Four gates are used:
+- **G1 — before detailed design / final solution selection;**
+- **G2 — before implementation / repair acceptance;**
+- **G3 — before final functional close-out;**
+- **G4 — before wider rollout / standardisation.**
+
+Key outcome:
+
+> Unknown dimensions, tolerances, capacities, feed rates, monitoring periods and OEM limits remain explicit verification items rather than invented report values.
+
+The register is suitable to become the controlled source for **Appendix D — Measurements / Verification Register** during Pass 7E, subject to Pass 7F consistency review.
+
+---
+
+## Phase 7A / 7B / 7C result
+
+The accepted V0.2 report identity has been preserved while the narrative, action logic and verification/close-out framework have now been matured through the complete Parts I–XII journey.
+
+The governing reader flow is:
+
+> **Explain → Prove → Interpret → Control → Act → Verify → Close**
+
+The body establishes mechanism/evidence strength; Part IX explains the combined meaning; Part X defines the common philosophy; Part XI converts it into actions; Pass 7C defines what proof is required for those actions to close; Part XII closes the engineering argument.
 
 ---
 
@@ -118,20 +154,17 @@ The body establishes the mechanism and evidence strength; Part IX explains what 
 - conceptual arrangements are not fabrication drawings;
 - structural capacity remains a competent-assessment matter;
 - representative operating proof is required for functional close-out;
+- as-left references are retained where geometry/configuration is corrected;
+- wider rollout requires both proof of function and local applicability review;
 - standardise required engineering function, not automatically hardware;
 - housekeeping controls consequence; source control should reduce recurrence.
 
 ---
 
-## Current immediate production sequence — Passes 7C to 7F
-
-### Pass 7C — Verification / Success-Criteria Register
-Create the controlled register of measurements, inspections, design inputs, structural assessments, operating proof and close-out evidence required by the refined recommendations.
-
-No measurement is to be invented. Unknowns remain explicit verification items.
+## Current immediate production sequence — Passes 7D to 7F
 
 ### Pass 7D — Conceptual Engineering Figures
-Develop only the figures that materially improve engineering communication:
+Develop only figures that materially improve engineering communication:
 - CV09 cleaner + effective chute/process containment envelope;
 - W10 local side-containment principle;
 - Sample Conveyor feed / usable belt width / tracking / secondary-containment hierarchy;
@@ -144,7 +177,7 @@ Populate sufficiently for the refined report:
 - Appendix A — 23-group asset audit matrix;
 - Appendix B — controlled photographic evidence register;
 - Appendix C — video evidence register;
-- Appendix D — measurements / verification register;
+- Appendix D — measurements / verification register, sourced from the completed Pass 7C register;
 - Appendix E — conceptual engineering drawings;
 - Appendix F — source-record index.
 
@@ -154,8 +187,9 @@ Complete the final Phase 7 technical audit:
 - inference is not promoted to fact;
 - unsupported quantification is absent;
 - local cases are not over-generalised;
-- recommendation terminology is consistent;
-- conclusion reflects the body/programme and introduces nothing new.
+- recommendation and verification terminology is consistent;
+- conclusion reflects the body/programme and introduces nothing new;
+- every major action has the required verification/close-out evidence path.
 
 ---
 
@@ -177,4 +211,4 @@ Do not yet spend report-development effort repeatedly changing:
 
 > **Refine, do not rewrite the accepted report identity.**
 
-The next controlled production block is **Pass 7C — Verification / Success-Criteria Register**.
+The next controlled production block is **Pass 7D — Conceptual Engineering Figures**.
