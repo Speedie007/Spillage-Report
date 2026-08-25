@@ -1,251 +1,130 @@
 # South32 Wessels Combined Product Spillage Audit — Phase 7 Refinement Progress Log
 
 ## Current status
-**PHASE 7 — MAIN NARRATIVE SPINE COMPLETE; PASS 7C COMPLETE; PASS 7D WORKING CONCEPTS REGISTERED; PASSES 7E–7F NEXT**
+**PHASE 7 — COMPLETE / CLOSED — READY FOR V0.3 REPORT COMPILATION**
 
-Controlled production baseline remains:
+Protected production baseline:
 
 `South32_Spillage_Audit_Report_July2026_S32WPPSR_01_V0.2_Assembly_Draft.docx`
 
-V0.2 remains protected and has not been overwritten during Phase 7 development.
+V0.2 remains protected and has not been overwritten.
+
+Closure record:
+`PHASE7_REFINEMENT_CLOSURE.md`
 
 ---
 
-## Current report-ready Phase 7 content set
+## Phase 7 completed content set
 
-### Parts I–III — Front End
-`PHASE7_FRONT_END_REFINEMENT_DRAFT_V0.1.md`
+### Main narrative / engineering argument
+- Parts I–III — `PHASE7_FRONT_END_REFINEMENT_DRAFT_V0.1.md`
+- Part IV — `PHASE7_PART_IV_FINES_CARRYBACK_CLEANER_CONTAINMENT_DRAFT_V0.1.md`
+- Part V — `PHASE7_PART_V_COARSE_COMBINED_PRODUCT_LOSS_DRAFT_V0.1.md`
+- Part VI — `PHASE7_PART_VI_ALIGNMENT_LOCAL_PRODUCT_LOSS_DRAFT_V0.1.md`
+- Part VII — `PHASE7_PART_VII_WATER_WET_FINES_STRUCTURAL_CONSEQUENCES_DRAFT_V0.1.md`
+- Part VIII — `PHASE7_PART_VIII_EVENT_DRIVEN_OPERATIONAL_SPILLAGE_DRAFT_V0.1.md`
+- Part IX — `PHASE7_PART_IX_CONSOLIDATED_ENGINEERING_INTERPRETATION_DRAFT_V0.1.md`
+- Part X — `PHASE7_PART_X_ENGINEERING_CONTROL_PHILOSOPHY_DRAFT_V0.1.md`
+- Part XI — `PHASE7_PART_XI_RECOMMENDED_ACTION_PROGRAMME_DRAFT_V0.3.md`
+- Part XII — `PHASE7_PART_XII_CONCLUSION_DRAFT_V0.1.md`
 
-Status: **REPORT-READY PASS 7A DRAFT**
-
-Establishes the management-level argument, audit scope/method, material journey, cause-location versus deposit-location principle and overall spillage picture before detailed mechanism evidence.
-
-### Part IV — Fines, Carryback and Cleaner Containment
-`PHASE7_PART_IV_FINES_CARRYBACK_CLEANER_CONTAINMENT_DRAFT_V0.1.md`
-
-Status: **REPORT-READY PASS 7A / 7B-ALIGNED DRAFT**
-
-Develops recurring fines/carryback as the dominant system-level mechanism while preserving evidence qualification. CV06 is the compromised-cleaner case; CV09 is the cleaner-plus-containment case.
-
-### Part V — Coarse / Combined-Product Loss During Transit
-`PHASE7_PART_V_COARSE_COMBINED_PRODUCT_LOSS_DRAFT_V0.1.md`
-
-Status: **REPORT-READY PASS 7A / 7B-ALIGNED DRAFT**
-
-Separates carrying-side coarse/mixed-product loss from return-side carryback. W10, Sample Conveyor 2 and Sample Conveyor 3 retain their different evidence strengths and control hierarchies.
-
-### Part VI — Alignment and Local Product-Loss Mechanisms
-`PHASE7_PART_VI_ALIGNMENT_LOCAL_PRODUCT_LOSS_DRAFT_V0.1.md`
-
-Status: **REPORT-READY PASS 7A / 7B-ALIGNED DRAFT**
-
-Treats tracking as a material-containment requirement. U4 is the strong tracking/one-sided-loss case; L3 remains an alignment concern without a proven significant solid-product causal chain.
-
-### Part VII — Water, Wet Fines and Structural Consequences
-`PHASE7_PART_VII_WATER_WET_FINES_STRUCTURAL_CONSEQUENCES_DRAFT_V0.1.md`
-
-Status: **REPORT-READY PASS 7A / 7B-ALIGNED DRAFT**
-
-Separates verified Screens process-water escape from unresolved escape mechanism and from separately verified structural deterioration/cut-support condition. L1 keeps accumulation, previous/intermittent belt contact, concrete deterioration and steel deterioration connected but analytically separate.
-
-### Part VIII — Event-Driven and Operational Spillage
-`PHASE7_PART_VIII_EVENT_DRIVEN_OPERATIONAL_SPILLAGE_DRAFT_V0.1.md`
-
-Status: **REPORT-READY PASS 7A / 7B-ALIGNED DRAFT**
-
-Separates trip/restart material handling from chronic source-generated spillage and positions housekeeping as necessary consequence control and performance feedback rather than proof of source correction.
-
-### Part IX — Consolidated Engineering Interpretation
-`PHASE7_PART_IX_CONSOLIDATED_ENGINEERING_INTERPRETATION_DRAFT_V0.1.md`
-
-Status: **REPORT-READY PASS 7A / 7B-ALIGNED DRAFT**
-
-Recombines Parts IV–VIII at system level without repeating the asset findings. Establishes the higher-order conclusion that the inspected system has one connected material/process-containment problem expressed through several mechanisms.
-
-### Part X — Engineering Control Philosophy
-`PHASE7_PART_X_ENGINEERING_CONTROL_PHILOSOPHY_DRAFT_V0.1.md`
-
-Status: **REPORT-READY PASS 7A / 7B-ALIGNED DRAFT**
-
-Defines the governing engineering philosophy:
-
-> **Keep the combined product — fines and coarse/lump ore — within the intended process/material-handling envelope throughout transit, and keep process water within its intended operating envelope, using controls appropriate to the specific failure mechanism and local geometry.**
-
-Establishes the hierarchy of source control, primary containment, justified secondary containment, consequence control and representative operating proof.
-
-### Part XI — Recommended Action Programme
-`PHASE7_PART_XI_RECOMMENDED_ACTION_PROGRAMME_DRAFT_V0.3.md`
-
-Status: **CURRENT REPORT-READY PHASE 7B RECONCILED DRAFT**
-
-Supersedes V0.2. Part XI now functions as the implementation layer rather than a repeated interpretation/philosophy chapter.
-
-Evidence-to-action gaps closed during reconciliation:
-- **CV06** — explicit cleaner-function restoration and verification action;
-- **L3** — explicit quantitative alignment/tracking verification action while preserving that significant solid-product causation is not established.
-
-### Part XII — Conclusion
-`PHASE7_PART_XII_CONCLUSION_DRAFT_V0.1.md`
-
-Status: **REPORT-READY PASS 7A / 7B RECONCILED DRAFT**
-
-Closes only engineering themes already established in the refined body and action programme. No new mechanism, numerical criterion or unsupported causal claim is introduced.
-
----
-
-## Pass 7C — Verification / Success-Criteria Register
-
-`PHASE7_VERIFICATION_SUCCESS_CRITERIA_REGISTER_V0.1.md`
-
-Status: **COMPLETE — CURRENT CONTROLLED PASS 7C REGISTER**
-
-Pass 7C consolidates the open measurement, inspection, design-input, structural-assessment, representative-operation, pilot-monitoring and procedural/governance requirements into one gate-based register.
-
-The register contains **VER-001 through VER-014**, covering:
-- CV09 as-found geometry / pilot design inputs;
-- CV09 pilot performance and rollout gate;
-- CV06 cleaner restoration and operating verification;
-- U4 alignment/tracking and full-tripper-travel proof;
-- Sample Conveyor 3 feed/carrying-width/tracking verification;
-- Sample Conveyor 2 feed/loading verification without presuming mistracking;
-- W10 tracking envelope / source review / barrier feasibility;
-- L3 quantitative alignment and live-tracking verification;
-- Screens water-escape mechanism identification and operating proof;
-- Screens competent structural assessment / remaining-capacity disposition;
-- L1 structural condition plus representative belt-clearance verification;
-- trip/restart procedure and recovery governance;
-- housekeeping/recovery governance and performance feedback;
-- wider applicability / rollout review.
-
-Verification is classified by measured geometry, representative operation, design input, structural assessment, pilot monitoring, governance and applicability review.
-
-Four gates are used:
-- **G1 — before detailed design / final solution selection;**
-- **G2 — before implementation / repair acceptance;**
-- **G3 — before final functional close-out;**
-- **G4 — before wider rollout / standardisation.**
-
-Key outcome:
-
-> Unknown dimensions, tolerances, capacities, feed rates, monitoring periods and OEM limits remain explicit verification items rather than invented report values.
-
-The register is suitable to become the controlled source for **Appendix D — Measurements / Verification Register** during Pass 7E, subject to Pass 7F consistency review.
-
----
-
-## Pass 7D — Conceptual Engineering Figures
-
-`PHASE7_CONCEPTUAL_ENGINEERING_FIGURE_REGISTER_V0.1.md`
-
-Status: **WORKING CONCEPT SET COMPLETE / ACCEPTED FOR CURRENT REPORT DEVELOPMENT — FINAL TECHNICAL REFINEMENT DEFERRED**
-
-Four conceptual/report-support figures are now retained in `Evidence/TechnicalDrawings/`:
-- **CTD-001 — CV09 Cleaner and Process-Containment Concept**;
-- **CTD-002 — W10 Side-Containment Barrier Principle**;
-- **CTD-003 — Sample Conveyor Containment-Control Hierarchy**;
-- **CTD-004 — Cause Location vs Deposit Location**.
-
-The current figures are suitable for report development and conceptual communication, but they are **not final engineering drawings and not for fabrication**. Detailed technical/engineer review is intentionally deferred until the report development and principal assembly are complete, so the responsible engineer can review the concepts in the context of the finished report and request geometry, component, explanatory or presentation adjustments before final publication.
-
-The four conceptual figures are excluded from the controlled **197 inspection-media** count because they do not prove as-found physical conditions. They are derived explanatory/design-concept media and must remain traceable to the inspection evidence and report interpretation they support.
-
-Current file-control note:
-- two stored drawing filenames currently use `DRAW-001`;
-- the CV09 stored filename contains a trailing space before `.png`;
-- controlled working references **CTD-001 through CTD-004** are therefore used until end-stage drawing-file normalisation.
-
-`Report-Working/evidence_index.md` has been updated to register the conceptual drawing set separately from the inspection-photo/video population.
-
-### Pass 7D deferred technical-review hold point
-Before final technical artwork/publication status:
-1. responsible engineer reviews each concept;
-2. conceptual amendments are captured;
-3. site dimensions/geometry are verified where required;
-4. drawings are revised as needed;
-5. final captions/qualifications are confirmed;
-6. drawing IDs/filenames are normalised.
-
-This deferred review **does not block current report development or Pass 7E**.
-
----
-
-## Phase 7A / 7B / 7C / working 7D result
-
-The accepted V0.2 report identity has been preserved while the narrative, action logic, verification/close-out framework and current conceptual communication set have been matured through the complete Parts I–XII journey.
-
-The governing reader flow is:
+The refined reader journey is:
 
 > **Explain → Prove → Interpret → Control → Act → Verify → Close**
 
-The body establishes mechanism/evidence strength; Part IX explains the combined meaning; Part X defines the common philosophy; Part XI converts it into actions; Pass 7C defines what proof is required for those actions to close; the Pass 7D concepts provide controlled explanatory support; Part XII closes the engineering argument.
+### Pass 7C — verification / success criteria
+`PHASE7_VERIFICATION_SUCCESS_CRITERIA_REGISTER_V0.1.md`
+
+Status: **COMPLETE**
+
+Contains `VER-001` through `VER-014` and Gates G1–G4. Unknown dimensions, tolerances, capacities, feed rates and OEM limits remain explicit verification/authority items rather than invented report values.
+
+### Pass 7D — conceptual engineering figures
+`PHASE7_CONCEPTUAL_ENGINEERING_FIGURE_REGISTER_V0.1.md`
+
+Status: **WORKING CONCEPT SET COMPLETE FOR CURRENT REPORT DEVELOPMENT**
+
+Current figures:
+- CTD-001 — CV09 cleaner/process-containment concept;
+- CTD-002 — W10 side-containment principle;
+- CTD-003 — Sample Conveyor containment-control hierarchy;
+- CTD-004 — cause location versus deposit location.
+
+Final technical drawing refinement is intentionally deferred until assembled-report review and engineer conceptual review.
+
+### Pass 7E — technical backbone / appendices
+Status: **COMPLETE**
+
+Files:
+- `PHASE7_APPENDIX_A_ASSET_AUDIT_MATRIX_V0.1.md`
+- `PHASE7_APPENDIX_BC_EVIDENCE_REGISTERS_V0.1.md`
+- `PHASE7_APPENDIX_D_MEASUREMENTS_VERIFICATION_REGISTER_V0.1.md`
+- `PHASE7_APPENDIX_E_CONCEPTUAL_ENGINEERING_DRAWINGS_V0.1.md`
+- `PHASE7_APPENDIX_F_SOURCE_RECORD_INDEX_V0.1.md`
+- closure: `PHASE7_PASS7E_TECHNICAL_BACKBONE_CLOSURE.md`
+
+Controlled inspection evidence remains:
+- 23 asset/evidence groups;
+- 197 inspection media;
+- 189 photographs;
+- 8 videos.
+
+The four conceptual drawings remain outside the inspection-media count.
+
+### Pass 7F — technical consistency / evidence-to-action review
+`PHASE7_PASS7F_TECHNICAL_CONSISTENCY_REVIEW_V0.1.md`
+
+Status: **PASS / COMPLETE**
+
+Results:
+- every major action has evidence or explicitly qualified engineering need;
+- no material inference promoted to fact;
+- no unsupported quantification introduced;
+- systemic conclusions do not over-generalise local cases;
+- local evidence-strength differences remain explicit;
+- recommendation / verification terminology is consistent;
+- Part XII introduces no new mechanism, criterion or major action;
+- technical backbone is complete enough for report compilation.
 
 ---
 
 ## Binding technical principles retained
 
+- preserve direct evidence versus source-recorded observation versus engineering interpretation;
 - no unmeasured value promoted to fact;
-- similar visual conditions do not automatically receive identical causal conclusions;
-- direct evidence, source-recorded observation, engineering interpretation and unresolved verification items remain distinguishable;
-- source control precedes secondary containment where practicable;
-- conceptual arrangements are not fabrication drawings;
-- conceptual figures are report-support media, not proof of as-found physical condition;
+- source/primary control precedes secondary containment where practicable;
+- secondary containment must be based on verified operating envelope/geometry;
 - structural capacity remains a competent-assessment matter;
-- representative operating proof is required for functional close-out;
-- as-left references are retained where geometry/configuration is corrected;
-- wider rollout requires both proof of function and local applicability review;
+- representative operating proof is required for functional close-out where applicable;
+- as-left references retained where geometry/configuration is corrected;
+- wider rollout requires proof of function plus local applicability review;
 - standardise required engineering function, not automatically hardware;
 - housekeeping controls consequence; source control should reduce recurrence.
 
 ---
 
-## Current immediate production sequence — Passes 7E to 7F
+## Known deferred items — non-blocking
 
-### Pass 7E — Technical Backbone / Appendices
-Populate sufficiently for the refined report:
-- Appendix A — 23-group asset audit matrix;
-- Appendix B — controlled photographic evidence register;
-- Appendix C — video evidence register;
-- Appendix D — measurements / verification register, sourced from the completed Pass 7C register;
-- Appendix E — conceptual engineering drawings, sourced from the Pass 7D figure register/current working concepts;
-- Appendix F — source-record index.
-
-The deferred engineer review of the conceptual drawings does not prevent Appendix E from being assembled as a **working conceptual appendix**. Final drawing replacement/refinement can occur after the assembled report has been technically reviewed.
-
-### Pass 7F — Technical Consistency / Evidence-to-Action Review
-Complete the final Phase 7 technical audit:
-- every material action traces to evidence or a qualified engineering requirement;
-- inference is not promoted to fact;
-- unsupported quantification is absent;
-- local cases are not over-generalised;
-- recommendation and verification terminology is consistent;
-- conclusion reflects the body/programme and introduces nothing new;
-- every major action has the required verification/close-out evidence path;
-- conceptual figures are not presented as verified as-found geometry or final fabrication design.
+- engineer conceptual review and technical refinement of CTD figures;
+- site measurements/verification identified in Appendix D;
+- final drawing filename/ID normalisation;
+- final document-wide styling and typography;
+- final caption/table/figure/register presentation;
+- TOC / List of Figures / List of Tables / cross-reference polishing;
+- final engineering issue review and authorisation.
 
 ---
 
-## End-stage conceptual drawing review hold
+## Next controlled production step
 
-After the report development/creation is substantially complete and the working report is assembled, return to the conceptual drawing set for responsible-engineer review and final technical refinement. This review may change figure geometry, labels, component representation or explanatory detail without reopening the accepted report narrative unless the engineer identifies a genuine technical contradiction.
+**V0.3 REPORT COMPILATION — NEXT / READY**
 
----
+Create a new report artifact from the protected V0.2 baseline integrating:
+1. refined Parts I–XII;
+2. current Part XI V0.3 action programme;
+3. selected controlled inspection evidence;
+4. Appendices A–F;
+5. current conceptual figures where useful;
+6. readable working layout and review-grade cross-references.
 
-## Phase 8 hold
-
-Global presentation styling remains deliberately deferred until Phase 7 technical/content acceptance.
-
-Do not yet spend report-development effort repeatedly changing:
-- global fonts;
-- colour palette;
-- evidence bars;
-- caption/table styling;
-- TOC / LOF / LOT cosmetics;
-- final header/footer treatment.
-
----
-
-## Binding development rule
-
-> **Refine, do not rewrite the accepted report identity.**
-
-The next controlled production block is **Pass 7E — Technical Backbone / Appendices**.
+The first V0.3 compilation should prioritise technical completeness and evidence placement. Final publication styling remains a dedicated later pass.
