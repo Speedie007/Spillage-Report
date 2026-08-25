@@ -98,28 +98,65 @@ Key refinement outcomes:
 - U4 and L3 are deliberately compared to demonstrate that similar-looking offsets do not justify equal causal conclusions;
 - the section ends by transitioning from belt-position/material-containment mechanisms into water, wet-fines transport and structural consequences in Part VII.
 
+### Part VII — Water, Wet Fines and Structural Consequences
+`PHASE7_PART_VII_WATER_WET_FINES_STRUCTURAL_CONSEQUENCES_DRAFT_V0.1.md`
+
+Status: **REPORT-READY PASS 7A / 7B-ALIGNED DRAFT**
+
+Key refinement outcomes:
+- water is developed as a separate process-containment and material-transport mechanism rather than treated as a generic wet-spillage label;
+- the report preserves that a wet deposit does not automatically identify its source;
+- Screens active process-water escape is directly verified by video, while the exact equipment-level escape mechanism remains unresolved;
+- Screens water-containment correction is sequenced through safe-shutdown investigation, geometry verification, mechanism-based design and representative operating proof;
+- severe screen corrosion/deterioration and physical cut-outs/notches are directly verified but remain separate from unsupported assumptions about their complete causal history;
+- the reason for screen support cuts and remaining structural capacity remain unresolved and require competent structural assessment;
+- L1 is developed as four connected but separate findings: extensive accumulation, previous/intermittent belt contact, concrete deterioration and steel deterioration;
+- L1 continuous current belt contact remains explicitly unproven because the captured running belt is clear of the affected supports at the photographed instant;
+- L1 close-out requires both representative mechanical tracking/clearance verification and competent structural assessment/repair;
+- Part VII transitions deliberately into event-driven material handling by separating chronic mechanisms from deliberate trip/restart intervention.
+
+### Part VIII — Event-Driven and Operational Spillage
+`PHASE7_PART_VIII_EVENT_DRIVEN_OPERATIONAL_SPILLAGE_DRAFT_V0.1.md`
+
+Status: **REPORT-READY PASS 7A / 7B-ALIGNED DRAFT**
+
+Key refinement outcomes:
+- event-driven product removal is separated from chronic mechanically generated spillage;
+- the report avoids inventing or presuming a South32 trip/restart procedure and instead requires the actual written procedure/practice to be confirmed;
+- controlled temporary placement, responsibility and product recovery/reintroduction are established as the core event-driven controls;
+- no universal container/bin/laydown design is prescribed without local verification;
+- housekeeping is retained as essential consequence control but explicitly not treated as proof that the initiating mechanism has been corrected;
+- recurring housekeeping demand is positioned as useful feedback on source-control effectiveness;
+- restricted-access consequences such as W10 remain visible within the operational-control discussion;
+- the section ends by consolidating the distinct mechanism families and handing directly into Part IX system-level interpretation.
+
 ---
 
 ## Current immediate production sequence
 
-1. **Part VII — Water, Wet Fines and Structural Consequences**
-   - establish water as a process-containment / material-transport mechanism;
-   - Screens: separate verified active water escape from unresolved equipment-level cause;
-   - Screens: keep water containment and structural support condition as related but separate engineering workstreams;
-   - L1: keep extensive accumulation, previous/intermittent belt contact, concrete deterioration and steel deterioration separate but connected;
-   - preserve that continuous current L1 belt contact is not proven;
-   - transition into event-driven / operational spillage.
+1. **Part IX — Consolidated Engineering Interpretation**
+   - bring the refined mechanism stories back together without flattening their differences;
+   - distinguish systemic recurring mechanisms from local/asset-specific exceptions;
+   - identify the common material-containment logic while preserving different physical causes and evidence strengths;
+   - avoid turning the section into a repeated findings register.
 
-2. **Part VIII — Event-Driven and Operational Spillage**
-   - trip/restart material removal;
-   - housekeeping as consequence control.
+2. **Part X — Engineering Control Philosophy**
+   - develop the higher-order rule: keep combined product inside the intended process/material-handling envelope;
+   - translate the mechanism hierarchy into a concise control hierarchy for fines, coarse product, transfers, water and event-driven handling;
+   - prepare a direct hand-off into the mature Part XI action programme without duplicating its detailed actions.
 
-3. **Parts IX–X — Consolidated Interpretation and Engineering Control Philosophy**
-   - draw the refined mechanism stories back into the unified containment philosophy;
-   - avoid repeating the findings chapters;
-   - prepare clean hand-off to mature Part XI.
+3. **Part XII — Conclusion reconciliation**
+   - close only what has already been established in the refined body;
+   - ensure no new mechanism or recommendation appears in the conclusion;
+   - align the conclusion with the mature Part XI programme.
 
-4. Reconcile **Part XI** and **Part XII Conclusion** against the refined body, then proceed into Passes 7C–7F before Phase 8 styling.
+4. Execute **Passes 7C–7F**:
+   - verification / success-criteria register;
+   - conceptual engineering figures;
+   - technical-backbone / appendix population;
+   - final technical consistency and evidence-to-action review.
+
+5. Proceed to **Phase 8 document-wide styling** only after Phase 7 technical/content acceptance.
 
 ---
 
