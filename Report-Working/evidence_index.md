@@ -5,14 +5,16 @@ This file is the consolidated working evidence register for the South32 Wessels 
 
 ## Inventory / Review Summary
 - Evidence groups / inspected asset groups: **23**
-- Total media files: **197**
+- Total inspection media files: **197**
 - Photographs: **189**
 - Videos: **8**
+- Conceptual/report-support technical figures: **4** — excluded from the 197 inspection-media total
 - Repository inventory: **COMPLETE**
 - Context-to-repository reconciliation: **COMPLETE**
 - Visual review Batches A-F: **COMPLETE**
 - Missing contextual evidence groups: **NONE IDENTIFIED**
 - First-draft figure selection: **CANDIDATES IDENTIFIED — final report layout selection still to be confirmed**
+- Conceptual technical figures: **WORKING SET REGISTERED — technical/engineer refinement deferred until report development is substantially complete**
 - Primary consolidated contextual revision prepared after full review: `Running_Report_Contextual_Spillage_NotesV3.7.docx` (sync into `Context/` when convenient).
 
 ## Evidence Handling Rules
@@ -22,11 +24,13 @@ This file is the consolidated working evidence register for the South32 Wessels 
 - Direct visual evidence, supporting/context evidence, source-recorded inspection observations, engineering interpretation and unverified hypotheses must remain distinguishable.
 - Dimensions, percentages and dynamic operating states are not to be inferred from still photographs unless separately measured/verified.
 - Report-ready resized/compressed copies are to be produced only for evidence finally selected for the report.
+- Conceptual technical drawings are **report-support engineering figures**, not inspection evidence. They must not be cited as proof of an as-found condition and remain subject to later technical/engineer review.
 
 ## Naming / Reference-Control Exceptions
 - **U4 video corrected:** former `UGU4-REF-0010.MP4` was renamed to `UGU4-REF-010.MP4` in commit `c2f1ca40b18fac8d7f0c8fbb649992f4063102fe`.
 - **CV09 videos:** repository filenames remain `Cv09-Ref-006.mp4`, `Cv09-Ref-007.mp4`, `Cv09-Ref-008.mp4`; canonical report IDs remain `CV09-REF-006`, `CV09-REF-007`, `CV09-REF-008`.
 - **L2 duplicate numeric reference:** both `LoadoutStationL2-REF-005.jpg` and `LoadoutStationL2-REF-005.mp4` exist. Any citation must state the media type / exact filename unless deliberately renumbered later.
+- **Conceptual drawing IDs:** two current repository filenames use `DRAW-001`, and the CV09 drawing filename contains a trailing space before `.png`. Until final drawing-file normalisation, use the controlled `CTD-001` to `CTD-004` references in `PHASE7_CONCEPTUAL_ENGINEERING_FIGURE_REGISTER_V0.1.md`.
 
 ## Detailed Visual-Review Records
 - **Batch A:** `Report-Working/evidence_visual_review_batch_A.md` — CV06, CV09, U4 Tripper Car.
@@ -219,16 +223,42 @@ This file is the consolidated working evidence register for the South32 Wessels 
 
 ---
 
+# 6. Conceptual Technical Drawings — Report-Support Media
+
+These figures are retained under `Evidence/TechnicalDrawings/` for current report development. They are **not inspection evidence**, are excluded from the controlled 197 inspection-media count and remain subject to later technical/engineer review and refinement.
+
+For controlled working references and deferred-review status, see:
+`Report-Working/SpillageReport/PHASE7_CONCEPTUAL_ENGINEERING_FIGURE_REGISTER_V0.1.md`
+
+## 6.1 CTD-001 — CV09 Cleaner and Process-Containment Concept
+- **Repository file:** `Evidence/TechnicalDrawings/DRAW-001-CV09_Cleaner_and_Process_Containment_Concept .png`
+- **Role:** conceptual illustration of the combined cleaner + effective process-containment envelope and routing of removed fines back into the process.
+- **Status:** accepted for current report development; technical refinement deferred.
+
+## 6.2 CTD-002 — W10 Side-Containment Barrier Principle
+- **Repository file:** `Evidence/TechnicalDrawings/DRAW-002-W10_Side_Containment_Barrier_Principle.png`
+- **Role:** conceptual illustration of secondary side containment outside the verified normal belt operating/contact envelope while protecting the restricted access route.
+- **Status:** accepted for current report development; technical refinement deferred.
+
+## 6.3 CTD-003 — Sample Conveyor Containment-Control Hierarchy
+- **Repository file:** `Evidence/TechnicalDrawings/DRAW-003-Sample_Conveyor_Containment_Control.png`
+- **Role:** explanatory control sequence covering feed/product size, usable carrying width, tracking and residual secondary-containment duty.
+- **Status:** accepted for current report development; technical refinement deferred.
+
+## 6.4 CTD-004 — Cause Location vs Deposit Location
+- **Repository file:** `Evidence/TechnicalDrawings/DRAW-001-Cause_Location_vs_Deposit_Location.png`
+- **Role:** explanatory figure for the report-wide principle that deposit location is not necessarily the initiating source location.
+- **Status:** accepted for current report development; technical refinement deferred.
+
+---
+
 # Final Evidence-Selection Notes
 1. The candidate lists above are **first-draft candidates**, not a requirement to insert every listed image. Final report figure selection should use the smallest evidence set that clearly demonstrates each finding.
 2. Context/orientation images should only be used where they materially improve understanding of the equipment/location.
 3. Where a video contains the strongest evidence, the report may cite the video and optionally use a representative extracted frame for a static figure.
 4. The complete original evidence population remains retained in the repository irrespective of whether a file is selected for report display.
 5. Detailed per-item classifications and evidence limitations remain in the six `evidence_visual_review_batch_*.md` files and should be consulted during report drafting.
+6. Conceptual technical drawings may explain engineering interpretation/control philosophy but must not replace the underlying inspection evidence used to prove physical findings.
 
-## Next Stage
-**Evidence inventory and visual review are complete.** Proceed to:
-1. sync `Running_Report_Contextual_Spillage_NotesV3.7.docx` into `Context/`;
-2. adapt `Report-Template/ISS_Sheave_Inspection_Report_Master_Template_v2.1_Polished.docx` to the combined-product spillage-report structure;
-3. populate the first working report draft using the selected evidence above; and
-4. create report-ready resized/compressed copies only for figures actually used in the report.
+## Current Stage
+**Inspection evidence inventory and visual review remain complete.** The four conceptual/report-support figures are now registered for Phase 7 use. Technical refinement/final drawing review is intentionally deferred until the report development and principal assembly are complete; the current controlled Phase 7 status is maintained in `Report-Working/SpillageReport/PHASE7_REFINEMENT_PROGRESS_LOG.md`.
