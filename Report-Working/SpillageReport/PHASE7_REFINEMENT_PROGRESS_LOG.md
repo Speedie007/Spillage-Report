@@ -25,13 +25,7 @@ Establishes narrative-continuity tests and the recommendation-maturity framework
 
 Status: **CURRENT REPORT-READY PHASE 7B DRAFT**
 
-Develops the approved recommendation architecture into a controlled engineering programme with:
-- objectives;
-- prerequisite verification;
-- staged action sequence;
-- functional acceptance / close-out criteria;
-- evidence traceability;
-- client / OEM / competent-person authority boundaries.
+Develops the approved recommendation architecture into a controlled engineering programme with objectives, prerequisite verification, staged action sequences, functional acceptance / close-out criteria, evidence traceability and client / OEM / competent-person authority boundaries.
 
 Priority cases matured:
 - CV09 cleaner / containment pilot;
@@ -49,13 +43,8 @@ Priority cases matured:
 
 Status: **REPORT-READY PASS 7A DRAFT**
 
-Covers:
-- Part I — Why the Audit Was Undertaken;
-- Part II — Understanding the Material-Handling System;
-- Part III — What the Audit Found.
-
 Key refinement outcomes:
-- Executive Summary now carries the complete management-level argument once;
+- Executive Summary carries the complete management-level argument once;
 - material/process containment is established early as the higher-order engineering problem;
 - cause-location versus deposit-location principle is established before detailed evidence;
 - critical evidence/uncertainty boundaries are retained at the front of the report;
@@ -70,9 +59,9 @@ Status: **REPORT-READY PASS 7A / 7B-ALIGNED DRAFT**
 Key refinement outcomes:
 - recurring fines/carryback is presented as a cross-system mechanism without claiming every fines deposit arose solely from carryback;
 - direct physical evidence is separated from source-recorded mechanism and engineering interpretation;
-- supporting system evidence from UC05-UC01, U5A, CV15, Sample Conveyor 1 and lower-severity comparator locations establishes recurrence without turning Part IV into another asset register;
+- supporting system evidence establishes recurrence without turning Part IV into another asset register;
 - CV06 is preserved as the direct mechanical/maintenance cleaner-failure case;
-- CV09 is preserved as the cleaner + containment proof case, with active wet-material fallout and local containment limitations directly tied to the pilot logic;
+- CV09 is preserved as the cleaner + containment proof case;
 - CV06 and CV09 are explicitly presented as complementary rather than duplicate defects;
 - the wider cleaner recommendation standardises the required function rather than identical hardware;
 - the section transitions deliberately from return-side fines/carryback into carrying-side coarse/mixed-product loss in Part V.
@@ -83,37 +72,54 @@ Key refinement outcomes:
 Status: **REPORT-READY PASS 7A / 7B-ALIGNED DRAFT**
 
 Key refinement outcomes:
-- Part V clearly separates carrying-side coarse/mixed-product loss from the return-side carryback mechanism developed in Part IV;
-- the usable carrying envelope is defined through belt width/trough geometry, belt position, loading, product size, feed trajectory and available containment margin without introducing unsupported design-capacity claims;
-- W10 is presented as a proven containment consequence in a restricted tunnel while preserving the fact that no single initiating cause has been established for every deposit;
-- W10 side barrier/rail remains a secondary feasibility concept, not a predetermined installation solution or normal belt-contact device;
-- Sample Conveyor 2 preserves the visually supported product-size/loading/containment problem while explicitly retaining significant mistracking as unconfirmed;
-- Sample Conveyor 3 preserves the same narrow-belt loading concern and additionally presents visually supported lateral offset/mistracking with unmeasured magnitude and unresolved root mechanical contributors;
-- Sample Conveyor 2 and Sample Conveyor 3 are deliberately compared to demonstrate that similar consequences do not justify identical causal conclusions;
-- feed/tracking correction is kept ahead of final secondary-containment design;
-- the final transition makes belt tracking the next logical material-containment control and hands directly into the U4 versus L3 evidence-strength contrast in Part VI.
+- carrying-side coarse/mixed-product loss is separated from return-side carryback;
+- the usable carrying envelope is defined without unsupported design-capacity claims;
+- W10 is presented as a proven containment consequence in a restricted tunnel while preserving the unresolved initiating-cause boundary;
+- W10 side barrier/rail remains a secondary feasibility concept;
+- Sample Conveyor 2 preserves the product-size/loading/containment problem while significant mistracking remains unconfirmed;
+- Sample Conveyor 3 additionally presents visually supported lateral offset/mistracking with unmeasured magnitude and unresolved root mechanical contributors;
+- Sample 2 and Sample 3 are deliberately compared to demonstrate that similar consequences do not justify identical causal conclusions;
+- feed/tracking correction remains ahead of final secondary-containment design;
+- the section hands directly into Part VI tracking/alignment.
+
+### Part VI — Alignment and Local Product-Loss Mechanisms
+`PHASE7_PART_VI_ALIGNMENT_LOCAL_PRODUCT_LOSS_DRAFT_V0.1.md`
+
+Status: **REPORT-READY PASS 7A / 7B-ALIGNED DRAFT**
+
+Key refinement outcomes:
+- tracking/centring is explicitly treated as both a mechanical condition and a material-containment control;
+- Sample Conveyor 3 is used only as the bridge from Part V and is not repetitively re-argued;
+- U4 is developed as the strong local tracking-to-product-loss case because lateral mistracking and directional one-sided lump-product accumulation are both supported;
+- U4 tail-pulley/support alignment magnitude remains explicitly unmeasured and the complete root mechanical cause unresolved;
+- U4 close-out requires measured geometry, correction of confirmed contributors, representative operating proof through full tripper travel and retention of an as-left baseline;
+- the custom U4 cleaner remains a separate geometry-specific issue and is not automatically assigned the CV09 cleaner hardware;
+- L3 is retained as a genuine alignment/tracking verification item while preserving the lack of a proven causal chain to significant solid/lump-product loss;
+- U4 and L3 are deliberately compared to demonstrate that similar-looking offsets do not justify equal causal conclusions;
+- the section ends by transitioning from belt-position/material-containment mechanisms into water, wet-fines transport and structural consequences in Part VII.
 
 ---
 
 ## Current immediate production sequence
 
-1. **Part VI — Alignment / Local Product-Loss Mechanisms**
-   - establish belt centring/tracking as a material-containment requirement;
-   - U4 as the strong local cause-and-effect case;
-   - distinguish visually verified mistracking/one-side loss from unmeasured tail-pulley/alignment magnitude;
-   - retain U4 custom cleaner as a separate geometry-specific issue;
-   - use L3 as the deliberate evidence-discipline contrast where offset is supported but direct causal linkage to significant solid-product loss remains unconfirmed.
+1. **Part VII — Water, Wet Fines and Structural Consequences**
+   - establish water as a process-containment / material-transport mechanism;
+   - Screens: separate verified active water escape from unresolved equipment-level cause;
+   - Screens: keep water containment and structural support condition as related but separate engineering workstreams;
+   - L1: keep extensive accumulation, previous/intermittent belt contact, concrete deterioration and steel deterioration separate but connected;
+   - preserve that continuous current L1 belt contact is not proven;
+   - transition into event-driven / operational spillage.
 
-2. **Part VII — Water, Wet Fines and Structural Consequences**
-   - Screens water escape;
-   - Screens structural condition;
-   - L1 structural / historical-intermittent belt-contact story.
-
-3. **Part VIII — Event-Driven and Operational Spillage**
+2. **Part VIII — Event-Driven and Operational Spillage**
    - trip/restart material removal;
    - housekeeping as consequence control.
 
-4. Continue Parts IX–X, then reconcile Part XI and Part XII Conclusion against the refined body.
+3. **Parts IX–X — Consolidated Interpretation and Engineering Control Philosophy**
+   - draw the refined mechanism stories back into the unified containment philosophy;
+   - avoid repeating the findings chapters;
+   - prepare clean hand-off to mature Part XI.
+
+4. Reconcile **Part XI** and **Part XII Conclusion** against the refined body, then proceed into Passes 7C–7F before Phase 8 styling.
 
 ---
 
