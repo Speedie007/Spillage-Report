@@ -1,191 +1,175 @@
 # South32 Wessels Combined Product Spillage Audit — Phase 7 Refinement Progress Log
 
 ## Current status
-**PHASE 7 — NARRATIVE / RECOMMENDATION REFINEMENT: IN PROGRESS**
+**PHASE 7 — NARRATIVE / RECOMMENDATION REFINEMENT: MAIN NARRATIVE SPINE COMPLETE; PASSES 7C–7F NEXT**
 
 Controlled production baseline remains:
 
 `South32_Spillage_Audit_Report_July2026_S32WPPSR_01_V0.2_Assembly_Draft.docx`
 
-V0.2 remains protected and is not overwritten during development.
+V0.2 remains protected and has not been overwritten during Phase 7 development.
 
 ---
 
-## Completed / current Phase 7 working components
+## Current report-ready Phase 7 content set
 
-### Phase 7A/7B working review
-`PHASE7_AB_WORKING_REVIEW_V0.1.md`
-
-Status: **IN PROGRESS**
-
-Establishes narrative-continuity tests and the recommendation-maturity framework.
-
-### Part XI — Recommended Action Programme
-`PHASE7_PART_XI_RECOMMENDED_ACTION_PROGRAMME_DRAFT_V0.2.md`
-
-Status: **CURRENT REPORT-READY PHASE 7B DRAFT**
-
-Develops the approved recommendation architecture into a controlled engineering programme with objectives, prerequisite verification, staged action sequences, functional acceptance / close-out criteria, evidence traceability and client / OEM / competent-person authority boundaries.
-
-Priority cases matured:
-- CV09 cleaner / containment pilot;
-- U4 tracking / alignment;
-- Sample Conveyor 3 feed / tracking / containment;
-- Sample Conveyor 2 feed / loading verification;
-- W10 source-control / side-containment feasibility;
-- Screens water containment;
-- Screens structural support assessment;
-- L1 structural / tracking-clearance actions;
-- trip/restart and housekeeping governance.
-
-### Front End — Parts I to III
+### Parts I–III — Front End
 `PHASE7_FRONT_END_REFINEMENT_DRAFT_V0.1.md`
 
 Status: **REPORT-READY PASS 7A DRAFT**
 
-Key refinement outcomes:
-- Executive Summary carries the complete management-level argument once;
-- material/process containment is established early as the higher-order engineering problem;
-- cause-location versus deposit-location principle is established before detailed evidence;
-- critical evidence/uncertainty boundaries are retained at the front of the report;
-- Executive Action Dashboard aligns with the mature Phase 7B programme;
-- Section 7 transitions deliberately into the detailed mechanism chapters rather than restarting the story.
+Establishes the management-level argument, audit scope/method, material journey, cause-location versus deposit-location principle and the overall spillage picture before detailed mechanism evidence.
 
 ### Part IV — Fines, Carryback and Cleaner Containment
 `PHASE7_PART_IV_FINES_CARRYBACK_CLEANER_CONTAINMENT_DRAFT_V0.1.md`
 
 Status: **REPORT-READY PASS 7A / 7B-ALIGNED DRAFT**
 
-Key refinement outcomes:
-- recurring fines/carryback is presented as a cross-system mechanism without claiming every fines deposit arose solely from carryback;
-- direct physical evidence is separated from source-recorded mechanism and engineering interpretation;
-- supporting system evidence establishes recurrence without turning Part IV into another asset register;
-- CV06 is preserved as the direct mechanical/maintenance cleaner-failure case;
-- CV09 is preserved as the cleaner + containment proof case;
-- CV06 and CV09 are explicitly presented as complementary rather than duplicate defects;
-- the wider cleaner recommendation standardises the required function rather than identical hardware;
-- the section transitions deliberately from return-side fines/carryback into carrying-side coarse/mixed-product loss in Part V.
+Develops recurring fines/carryback as the dominant system-level mechanism while preserving evidence qualification. CV06 is the compromised-cleaner case; CV09 is the cleaner-plus-containment case.
 
 ### Part V — Coarse / Combined-Product Loss During Transit
 `PHASE7_PART_V_COARSE_COMBINED_PRODUCT_LOSS_DRAFT_V0.1.md`
 
 Status: **REPORT-READY PASS 7A / 7B-ALIGNED DRAFT**
 
-Key refinement outcomes:
-- carrying-side coarse/mixed-product loss is separated from return-side carryback;
-- the usable carrying envelope is defined without unsupported design-capacity claims;
-- W10 is presented as a proven containment consequence in a restricted tunnel while preserving the unresolved initiating-cause boundary;
-- W10 side barrier/rail remains a secondary feasibility concept;
-- Sample Conveyor 2 preserves the product-size/loading/containment problem while significant mistracking remains unconfirmed;
-- Sample Conveyor 3 additionally presents visually supported lateral offset/mistracking with unmeasured magnitude and unresolved root mechanical contributors;
-- Sample 2 and Sample 3 are deliberately compared to demonstrate that similar consequences do not justify identical causal conclusions;
-- feed/tracking correction remains ahead of final secondary-containment design;
-- the section hands directly into Part VI tracking/alignment.
+Separates carrying-side coarse/mixed-product loss from return-side carryback. W10, Sample Conveyor 2 and Sample Conveyor 3 retain their different evidence strengths and control hierarchies.
 
 ### Part VI — Alignment and Local Product-Loss Mechanisms
 `PHASE7_PART_VI_ALIGNMENT_LOCAL_PRODUCT_LOSS_DRAFT_V0.1.md`
 
 Status: **REPORT-READY PASS 7A / 7B-ALIGNED DRAFT**
 
-Key refinement outcomes:
-- tracking/centring is explicitly treated as both a mechanical condition and a material-containment control;
-- Sample Conveyor 3 is used only as the bridge from Part V and is not repetitively re-argued;
-- U4 is developed as the strong local tracking-to-product-loss case because lateral mistracking and directional one-sided lump-product accumulation are both supported;
-- U4 tail-pulley/support alignment magnitude remains explicitly unmeasured and the complete root mechanical cause unresolved;
-- U4 close-out requires measured geometry, correction of confirmed contributors, representative operating proof through full tripper travel and retention of an as-left baseline;
-- the custom U4 cleaner remains a separate geometry-specific issue and is not automatically assigned the CV09 cleaner hardware;
-- L3 is retained as a genuine alignment/tracking verification item while preserving the lack of a proven causal chain to significant solid/lump-product loss;
-- U4 and L3 are deliberately compared to demonstrate that similar-looking offsets do not justify equal causal conclusions;
-- the section ends by transitioning from belt-position/material-containment mechanisms into water, wet-fines transport and structural consequences in Part VII.
+Treats tracking as a material-containment requirement. U4 is the strong tracking/one-sided-loss case; L3 remains an alignment concern without a proven significant solid-product causal chain.
 
 ### Part VII — Water, Wet Fines and Structural Consequences
 `PHASE7_PART_VII_WATER_WET_FINES_STRUCTURAL_CONSEQUENCES_DRAFT_V0.1.md`
 
 Status: **REPORT-READY PASS 7A / 7B-ALIGNED DRAFT**
 
-Key refinement outcomes:
-- water is developed as a separate process-containment and material-transport mechanism rather than treated as a generic wet-spillage label;
-- the report preserves that a wet deposit does not automatically identify its source;
-- Screens active process-water escape is directly verified by video, while the exact equipment-level escape mechanism remains unresolved;
-- Screens water-containment correction is sequenced through safe-shutdown investigation, geometry verification, mechanism-based design and representative operating proof;
-- severe screen corrosion/deterioration and physical cut-outs/notches are directly verified but remain separate from unsupported assumptions about their complete causal history;
-- the reason for screen support cuts and remaining structural capacity remain unresolved and require competent structural assessment;
-- L1 is developed as four connected but separate findings: extensive accumulation, previous/intermittent belt contact, concrete deterioration and steel deterioration;
-- L1 continuous current belt contact remains explicitly unproven because the captured running belt is clear of the affected supports at the photographed instant;
-- L1 close-out requires both representative mechanical tracking/clearance verification and competent structural assessment/repair;
-- Part VII transitions deliberately into event-driven material handling by separating chronic mechanisms from deliberate trip/restart intervention.
+Separates verified Screens process-water escape from unresolved escape mechanism and from the separately verified structural deterioration/cut-support condition. L1 keeps accumulation, previous/intermittent belt contact, concrete deterioration and steel deterioration connected but analytically separate.
 
 ### Part VIII — Event-Driven and Operational Spillage
 `PHASE7_PART_VIII_EVENT_DRIVEN_OPERATIONAL_SPILLAGE_DRAFT_V0.1.md`
 
 Status: **REPORT-READY PASS 7A / 7B-ALIGNED DRAFT**
 
-Key refinement outcomes:
-- event-driven product removal is separated from chronic mechanically generated spillage;
-- the report avoids inventing or presuming a South32 trip/restart procedure and instead requires the actual written procedure/practice to be confirmed;
-- controlled temporary placement, responsibility and product recovery/reintroduction are established as the core event-driven controls;
-- no universal container/bin/laydown design is prescribed without local verification;
-- housekeeping is retained as essential consequence control but explicitly not treated as proof that the initiating mechanism has been corrected;
-- recurring housekeeping demand is positioned as useful feedback on source-control effectiveness;
-- restricted-access consequences such as W10 remain visible within the operational-control discussion;
-- the section ends by consolidating the distinct mechanism families and handing directly into Part IX system-level interpretation.
+Separates trip/restart material handling from chronic source-generated spillage and positions housekeeping as necessary consequence control and performance feedback rather than proof of source correction.
 
 ### Part IX — Consolidated Engineering Interpretation
 `PHASE7_PART_IX_CONSOLIDATED_ENGINEERING_INTERPRETATION_DRAFT_V0.1.md`
 
 Status: **REPORT-READY PASS 7A / 7B-ALIGNED DRAFT**
 
-Key refinement outcomes:
-- Parts IV–VIII are recombined without turning Part IX into another findings register;
-- systemic recurring mechanisms are separated from local / geometry-specific mechanisms;
-- recurring fines carryback and variable cleaner/removed-material containment performance are retained as the dominant cross-system themes;
-- coarse-product containment, tracking/alignment, water escape, structural condition and event-driven handling remain distinct mechanism families rather than being flattened into one cause;
-- U4/L3 and Sample 2/Sample 3 evidence-strength differences remain visible at consolidated level;
-- source control is separated from consequence management;
-- the higher-order conclusion is established that the inspected system has one material/process-containment problem expressed through several mechanisms and requiring several physical solutions;
-- the section hands directly into Part X by changing the question from “what is wrong?” to “what engineering rule should govern control?”.
+Recombines Parts IV–VIII at system level without repeating the asset findings. Establishes the higher-order conclusion that the inspected system has one connected material/process-containment problem expressed through several mechanisms.
 
 ### Part X — Engineering Control Philosophy
 `PHASE7_PART_X_ENGINEERING_CONTROL_PHILOSOPHY_DRAFT_V0.1.md`
 
 Status: **REPORT-READY PASS 7A / 7B-ALIGNED DRAFT**
 
-Key refinement outcomes:
-- the report-wide objective is formalised as keeping combined product and process water inside the intended handling/process envelope;
-- a control hierarchy is established: identify mechanism → verify geometry/operation → correct primary source → provide primary containment → add justified secondary containment → retain consequence control → prove performance;
-- fines/carryback philosophy is stated as “do not merely clean the belt; keep the fines inside the process”;
-- coarse-product philosophy prioritises feed, carrying geometry and tracking before final secondary containment;
-- tracking is treated as a carrying-margin control and not something to be hidden by a rubbing barrier;
-- transfer points, process water, structural integrity and event-driven handling are integrated into the same containment philosophy without forcing one hardware solution;
-- primary/source control, secondary containment and consequence control are explicitly distinguished;
-- system-level standardisation is defined around required engineering function/outcome rather than identical hardware;
-- functional close-out is formalised as as-found evidence → verification/measurement → corrective control → implementation → representative operating proof → as-left record → monitoring/closure;
-- Part X hands directly into the mature Part XI action programme without duplicating its detailed action sequences.
+Defines the governing engineering philosophy:
+
+> **Keep the combined product — fines and coarse/lump ore — within the intended process/material-handling envelope throughout transit, and keep process water within its intended operating envelope, using controls appropriate to the specific failure mechanism and local geometry.**
+
+Establishes the hierarchy of source control, primary containment, justified secondary containment, consequence control and representative operating proof.
+
+### Part XI — Recommended Action Programme
+`PHASE7_PART_XI_RECOMMENDED_ACTION_PROGRAMME_DRAFT_V0.3.md`
+
+Status: **CURRENT REPORT-READY PHASE 7B RECONCILED DRAFT**
+
+Supersedes V0.2.
+
+Reconciled against Parts IX and X so Part XI functions as the implementation layer rather than a repeated interpretation/philosophy chapter.
+
+Two evidence-to-action gaps identified during reconciliation are now closed:
+- **CV06** — explicit cleaner-function restoration and verification action added;
+- **L3** — explicit quantitative alignment/tracking verification action added while preserving that significant solid-product causation is not established.
+
+All previously matured actions remain, including CV09, U4, Sample Conveyor 2/3, W10, Screens water, Screens structural assessment, L1, trip/restart and housekeeping governance.
+
+### Part XII — Conclusion
+`PHASE7_PART_XII_CONCLUSION_DRAFT_V0.1.md`
+
+Status: **REPORT-READY PASS 7A / 7B RECONCILED DRAFT**
+
+Closes only engineering themes already established in the refined body and action programme. No new mechanism, numerical criterion or unsupported causal claim is introduced.
 
 ---
 
-## Current immediate production sequence
+## Phase 7A / 7B result
 
-1. **Part XII — Conclusion reconciliation**
-   - close only what has already been established in the refined body;
-   - ensure no new mechanism or recommendation appears in the conclusion;
-   - align the conclusion with Parts IX–XI and the mature implementation programme;
-   - preserve the report-wide material/process-containment message.
+The accepted V0.2 report identity has been preserved while the narrative and action logic have been matured through the complete Parts I–XII journey.
 
-2. **Part XI reconciliation pass**
-   - compare the already mature Part XI V0.2 against the newly refined Parts IX–X;
-   - remove any wording that now unnecessarily repeats interpretation/philosophy;
-   - ensure priorities, terminology and functional close-out language match the refined body exactly.
+The governing reader flow is now:
 
-3. Execute **Pass 7C — Verification / Success-Criteria Register**.
+> **Explain → Prove → Interpret → Control → Act → Close**
 
-4. Execute **Pass 7D — Conceptual Engineering Figures**.
+The body establishes the mechanism and evidence strength; Part IX explains what the combined evidence means; Part X defines the common engineering philosophy; Part XI converts that philosophy into controlled actions; Part XII closes the established argument.
 
-5. Execute **Pass 7E — Technical Backbone / Appendix Population**.
+---
 
-6. Execute **Pass 7F — Final Technical Consistency / Evidence-to-Action Review**.
+## Binding technical principles retained
 
-7. Proceed to **Phase 8 document-wide styling** only after Phase 7 technical/content acceptance.
+- no unmeasured value promoted to fact;
+- similar visual conditions do not automatically receive identical causal conclusions;
+- direct evidence, source-recorded observation, engineering interpretation and unresolved verification items remain distinguishable;
+- source control precedes secondary containment where practicable;
+- conceptual arrangements are not fabrication drawings;
+- structural capacity remains a competent-assessment matter;
+- representative operating proof is required for functional close-out;
+- standardise required engineering function, not automatically hardware;
+- housekeeping controls consequence; source control should reduce recurrence.
+
+---
+
+## Current immediate production sequence — Passes 7C to 7F
+
+### Pass 7C — Verification / Success-Criteria Register
+Create the controlled register of measurements, inspections, design inputs, structural assessments, operating proof and close-out evidence required by the refined recommendations.
+
+No measurement is to be invented. Unknowns remain explicit verification items.
+
+### Pass 7D — Conceptual Engineering Figures
+Develop only the figures that materially improve engineering communication:
+- CV09 cleaner + effective chute/process containment envelope;
+- W10 local side-containment principle;
+- Sample Conveyor feed / usable belt width / tracking / secondary-containment hierarchy;
+- optional cause-location versus deposit-location process-containment figure.
+
+All figures remain conceptual / not for fabrication and require site dimensions where applicable.
+
+### Pass 7E — Technical Backbone / Appendices
+Populate sufficiently for the refined report:
+- Appendix A — 23-group asset audit matrix;
+- Appendix B — controlled photographic evidence register;
+- Appendix C — video evidence register;
+- Appendix D — measurements / verification register;
+- Appendix E — conceptual engineering drawings;
+- Appendix F — source-record index.
+
+### Pass 7F — Technical Consistency / Evidence-to-Action Review
+Complete the final Phase 7 technical audit:
+- every material action traces to evidence or a qualified engineering requirement;
+- inference is not promoted to fact;
+- unsupported quantification is absent;
+- local cases are not over-generalised;
+- recommendation terminology is consistent;
+- conclusion reflects the body/programme and introduces nothing new.
+
+---
+
+## Phase 8 hold
+
+Global presentation styling remains deliberately deferred until Phase 7 technical/content acceptance.
+
+Do not yet spend report-development effort repeatedly changing:
+- global fonts;
+- colour palette;
+- evidence bars;
+- caption/table styling;
+- TOC / LOF / LOT cosmetics;
+- final header/footer treatment.
 
 ---
 
@@ -193,8 +177,4 @@ Key refinement outcomes:
 
 > **Refine, do not rewrite the accepted report identity.**
 
-The governing reader rhythm remains:
-
-> **Explain → Prove → Interpret → Act / Transition**
-
-Phase 8 global styling remains deliberately deferred until Phase 7 technical/content acceptance.
+The next controlled production block is **Pass 7C — Verification / Success-Criteria Register**.
