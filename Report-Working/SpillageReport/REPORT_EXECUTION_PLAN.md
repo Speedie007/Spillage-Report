@@ -1,7 +1,7 @@
 # South32 Spillage Audit Report — Execution Plan
 
 ## Purpose
-This plan governs development of `South32_Spillage_Audit_Report_July2026_S32WPPSR_01` after the V0.1 first-draft review, context alignment, narrative redesign, full evidence classification and acceptance of the CV09 evidence/narrative prototype.
+This plan governs development of `South32_Spillage_Audit_Report_July2026_S32WPPSR_01` after the V0.1 first-draft review, context alignment, narrative redesign, full evidence classification, acceptance of the CV09 evidence/narrative prototype and inspector approval of the V0.2 full assembly baseline.
 
 ## Governing Principles
 
@@ -14,6 +14,8 @@ This plan governs development of `South32_Spillage_Audit_Report_July2026_S32WPPS
 The accepted reader-facing grammar is:
 
 > **Explain → Prove → Interpret → Act / Transition**
+
+The accepted V0.2 report architecture is now a baseline constraint. Phase 7 may refine wording, transitions, recommendation detail and technical completeness, but must not redesign the accepted reader journey unless a genuine technical contradiction, missing mechanism or evidence-control issue is discovered.
 
 ---
 
@@ -39,13 +41,16 @@ Outcome:
 ---
 
 ## Phase 2 — Context Revision
-Status: **COMPLETE — CURRENT CONTROL THROUGH V3.9 + PHASE 6 ADDENDUM**
+Status: **COMPLETE — CURRENT CONTROL THROUGH V3.9 + PHASE 6 / PHASE 7 ADDENDA**
 
 Current consolidated Word context:
 - `Context/Running_Report_Contextual_Spillage_NotesV3.9.docx`
 
-Current Phase 6 incremental context:
+Historical Phase 6 incremental context:
 - `Context/Running_Report_Contextual_Spillage_NotesV3.10_Phase6_Addendum.md`
+
+Current Phase 7 incremental context:
+- `Context/Running_Report_Contextual_Spillage_NotesV3.11_Phase7_Addendum.md`
 
 The contextual record now carries:
 - accepted material-containment philosophy;
@@ -54,13 +59,19 @@ The contextual record now carries:
 - accepted audit-narrative identity;
 - final evidence-classification outcome;
 - CV09 prototype logic;
-- accepted holistic Story → Evidence → Interpretation → Action/Transition grammar;
-- Phase 6 assembly priorities and styling hold point.
+- accepted holistic Explain → Prove → Interpret → Act / Transition grammar;
+- Phase 6 assembly priorities and accepted V0.2 outcome;
+- Phase 6 baseline elements now locked;
+- Phase 7 narrative-refinement rules;
+- Phase 7 recommendation-maturity requirements;
+- success/acceptance criteria framework;
+- verification-register, conceptual-figure and technical-backbone requirements;
+- styling hold point through Phase 7.
 
 ---
 
 ## Phase 3 — Narrative Architecture / Audit Story Outline
-Status: **COMPLETE — BASELINE ACCEPTED**
+Status: **COMPLETE — BASELINE ACCEPTED / LOCKED FOR REFINEMENT**
 
 Files:
 - `Report-Working/SpillageReport/REPORT_NARRATIVE_ARCHITECTURE.md`
@@ -73,10 +84,12 @@ The accepted report voice is **formal engineering narrative**:
 - avoid a flat asset-by-asset defect rhythm;
 - transition from local evidence into wider engineering meaning and action.
 
+The Parts I–XII reader journey was validated through the Phase 6 V0.2 assembly and is not to be casually reopened during Phase 7.
+
 ---
 
 ## Phase 4 — Full Evidence Inclusion / Story Matrix
-Status: **COMPLETE — MATRIX LOCKED SUFFICIENTLY FOR REPORT ASSEMBLY**
+Status: **COMPLETE — MATRIX LOCKED**
 
 Files:
 - `Report-Working/SpillageReport/EVIDENCE_STORY_MATRIX_V0.1.csv`
@@ -122,76 +135,158 @@ Accepted module grammar:
 3. **Engineering interpretation** — state what the evidence means and what remains unresolved.
 4. **Action / transition** — convert the local proof into the next engineering control or wider system point.
 
-Styling refinements are intentionally deferred until the report has been structurally assembled.
+Styling refinements remain intentionally deferred until the content architecture is stable.
 
 ---
 
 ## Phase 6 — Full Report Assembly
-Status: **CURRENT — AUTHORISED / PASS 6A STARTED**
+Status: **COMPLETE / INSPECTOR APPROVED**
 
-Detailed roadmap:
+Historical roadmap:
 - `Report-Working/SpillageReport/REPORT_ASSEMBLY_ROADMAP_V0.1.md`
 
-Production target:
-- `South32_Spillage_Audit_Report_July2026_S32WPPSR_01_V0.2_Assembly_Draft.docx`
+Closure record:
+- `Report-Working/SpillageReport/PHASE6_ASSEMBLY_CLOSURE.md`
 
-### Phase 6 objective
-Create the first structurally complete version of the report in which the accepted narrative, evidence modules, engineering interpretation and action programme are folded into one continuous reader journey.
+Approved assembly artifact:
+- `Report-Working/SpillageReport/South32_Spillage_Audit_Report_July2026_S32WPPSR_01_V0.2_Assembly_Draft.docx`
 
-The priority is **technical coherence and complete content architecture**, not final visual styling.
+### Phase 6 outcome
+The report now functions as one continuous engineering argument rather than a flat asset-by-asset defect register.
 
-### Pass 6A — Structural Assembly
-- preserve the formal report shell;
-- implement the accepted Parts I–XII reader journey;
-- draft the full narrative continuously from Executive Summary to Conclusion;
-- insert evidence-module anchors and begin embedding major case evidence;
-- ensure the report remains readable even before all final appendix/detail work is complete.
+The inspector accepted:
+- the overall reader journey;
+- the balance between narrative and evidence;
+- the formal shell + narrative core + technical evidence backbone identity;
+- the systemic-versus-local mechanism hierarchy;
+- CV09 holistic evidence grammar;
+- evidence-density classes;
+- key qualification and uncertainty boundaries;
+- report-wide material-containment philosophy;
+- priority-action architecture.
 
-### Pass 6B — Evidence Integration
-- use full complex modules for CV09, Screens, L1, Sample Conveyor 3, U4 and W10;
-- use compact modules for CV06, Sample Conveyor 2, L3 and selected water cases;
-- use montage/comparator/support treatment for the remaining supporting assets;
-- preserve canonical IDs and video provenance;
-- use S evidence only where it genuinely improves the story.
+The accepted reader rhythm remains:
 
-### Pass 6C — Evidence-to-Action Integration
-- complete local engineering assessment wording;
-- build consolidated interpretation;
-- build prioritised recommendation programme;
-- ensure every major action traces to a mechanism/evidence base;
-- preserve the distinction between immediate action, verification task, design-development concept and implementation recommendation.
+> **Explain → Prove → Interpret → Act / Transition**
 
-### Pass 6D — Technical Consistency Review
-Check:
-- systemic versus local conclusions;
-- visually proven versus inspector-recorded versus inferred status;
-- unsupported quantification;
-- duplicate/contradictory narrative;
-- evidence ID accuracy;
-- unresolved measurements, design verification and structural assessment requirements.
+### Phase 6 baseline now locked
+Phase 7 may refine content exposed by full assembly, but should not redesign:
+- Parts I–XII reader journey;
+- systemic/local hierarchy;
+- evidence role within the narrative;
+- material-containment philosophy;
+- major action architecture;
+- uncertainty/evidence boundaries.
 
 ### Phase 6 exit criterion
-The report is structurally complete, technically coherent and evidence-supported, and can be read from beginning to end as one connected engineering argument.
+**MET.**
 
-It does not yet need final typography/colour/caption polish.
+The report is structurally complete, technically coherent and evidence-supported, and can be read from beginning to end as one connected engineering argument.
 
 ---
 
-## Phase 7 — Recommendation and Narrative Refinement
-Status: **PENDING PHASE 6**
+## Phase 7 — Narrative / Recommendation Refinement
+Status: **CURRENT**
 
-- refine narrative where the assembled report reveals gaps or repetition;
-- finalise system-level and asset-specific recommendation detail;
-- finalise success criteria for pilots and verification tasks;
-- add conceptual engineering drawings where they materially improve understanding;
-- ensure narrative, evidence, engineering assessment, recommendation and conclusion form one consistent evidence-to-action chain.
+Controlling files:
+- `Context/Running_Report_Contextual_Spillage_NotesV3.11_Phase7_Addendum.md`
+- `Report-Working/SpillageReport/PHASE7_REPORT_REFINEMENT_PLAN_V0.1.md`
+
+Production baseline:
+- `Report-Working/SpillageReport/South32_Spillage_Audit_Report_July2026_S32WPPSR_01_V0.2_Assembly_Draft.docx`
+
+### Phase 7 objective
+Make the accepted V0.2 engineering argument tighter, more actionable and technically complete before document-wide styling.
+
+### Pass 7A — Narrative Continuity and Duplication Review
+Review the complete V0.2 narrative for:
+- unnecessary repetition;
+- missing transitions;
+- sequencing problems;
+- over-explanation after evidence has already proven the point;
+- terminology consistency;
+- systemic/local consistency;
+- preservation of the accepted multi-reader voice and uncertainty boundaries.
+
+**Rule:** refine, do not rewrite the accepted report identity.
+
+### Pass 7B — Recommendation Maturity
+For each major action define:
+- engineering objective;
+- action type;
+- required inspection/measurement;
+- design-development requirement where applicable;
+- implementation dependency;
+- success / acceptance criterion;
+- evidence/case traceability;
+- residual client/OEM/competent-person decisions.
+
+Priority cases:
+1. CV09 cleaner/containment pilot;
+2. U4 tracking/alignment;
+3. Sample Conveyor 3 feed/tracking/containment;
+4. Sample Conveyor 2 feed/loading verification;
+5. W10 side-containment feasibility;
+6. Screens water escape + structural assessment;
+7. L1 structural/tracking actions;
+8. trip/restart and housekeeping governance.
+
+### Pass 7C — Verification and Success-Criteria Register
+Build a controlled register separating:
+- measured geometry required;
+- functional checks under representative operation;
+- structural assessment requirements;
+- design inputs;
+- pilot monitoring requirements;
+- close-out evidence.
+
+No measurement is to be invented. Unknown values remain explicit verification items.
+
+### Pass 7D — Conceptual Engineering Figures
+Develop only concepts that materially improve understanding.
+
+Priority candidates:
+- CV09 cleaner + effective chute/process containment envelope;
+- W10 local side-containment barrier/rail principle;
+- Sample Conveyor feed / usable belt width / tracking / secondary-containment hierarchy;
+- cause-location versus deposit-location / process-containment explanatory figure where useful.
+
+Concepts must be clearly identified as conceptual/not for fabrication where appropriate and must not imply unverified dimensions or final design.
+
+### Pass 7E — Technical Backbone Population
+Prepare/populate:
+- Appendix A — 23-group asset audit matrix;
+- Appendix B — controlled photographic evidence register;
+- Appendix C — video evidence register;
+- Appendix D — measurements / verification register;
+- Appendix E — conceptual engineering drawings;
+- Appendix F — source-record index.
+
+### Pass 7F — Technical Consistency / Evidence-to-Action Review
+Confirm:
+- every material action traces to evidence or an explicitly qualified engineering need;
+- no inference has been promoted to proven fact;
+- no unsupported quantification has entered the report;
+- systemic conclusions do not over-generalise local cases;
+- local exceptions remain explicit;
+- recommendation terminology is consistent;
+- conclusion accurately reflects the body and priority programme.
+
+### Phase 7 exit criterion
+Phase 7 is complete when:
+- the V0.2 reader journey remains intact but reads more tightly;
+- recommendations are actionable and correctly qualified;
+- pilot / verification success criteria are defined;
+- principal conceptual figures are available where needed;
+- technical appendices/registers are sufficiently populated;
+- the full evidence-to-action chain has passed technical consistency review.
 
 ---
 
 ## Phase 8 — Document-Wide Layout and Styling Polish
-Status: **PENDING PHASE 7 / DELIBERATELY DEFERRED DURING ASSEMBLY**
+Status: **PENDING PHASE 7 / DELIBERATELY DEFERRED**
 
-Complete the global style pass only after the content architecture stabilises:
+Complete the global style pass only after the Phase 7 content architecture stabilises:
 - final font system;
 - professional colour palette;
 - heading hierarchy and spacing;
@@ -224,10 +319,10 @@ Status: **PENDING**
 
 ## Current Controlled Action
 
-**Phase 5 is closed. Phase 6 is active.**
+**Phase 6 is closed. Phase 7 is active.**
 
 Immediate task:
 
-> **Build the V0.2 assembly draft using `REPORT_ASSEMBLY_ROADMAP_V0.1.md`, preserve the formal shell, write the complete narrative flow and begin integrating the accepted evidence modules.**
+> **Execute Pass 7A and Pass 7B against the inspector-approved V0.2 Assembly Draft: tighten narrative continuity and mature the priority recommendations into controlled, measurable and correctly qualified engineering actions without reopening the accepted report architecture.**
 
-The V0.1 baseline remains preserved and is not to be overwritten.
+The V0.1 baseline remains preserved and is not to be overwritten. The V0.2 Assembly Draft is the governing production baseline entering Phase 7.
