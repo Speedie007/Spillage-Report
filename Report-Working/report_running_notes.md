@@ -13,8 +13,9 @@
   - `Context/Questionaires/Running_Report_Contextual_Spillage_Questionnaire_ResponseV2.docx`
 - Historical post-V3.9 addenda retained unchanged: V3.10, V3.11, V3.12 and V3.13.
 - Current report-review artifact: `South32_Spillage_Audit_Report_July2026_S32WPPSR_01_V0.5_Terminology_Refined_Draft.docx`
-- Stage-A report reconciliation register: `Context/Running_Report_Contextual_Spillage_NotesV4.1_Report_Gap_Register_StageA.md`
-- Reconciliation control: `Context/Running_Report_Contextual_Spillage_NotesV4.1_Report_Reconciliation_TODO.md`
+- Historical Stage-A report reconciliation register: `Context/Running_Report_Contextual_Spillage_NotesV4.1_Report_Gap_Register_StageA.md`
+- **Current reconciliation control:** `Context/Running_Report_Contextual_Spillage_NotesV4.2_Report_Reconciliation_TODO.md`
+- **CV09 solution closure control:** `Context/Running_Report_Contextual_Spillage_NotesV4.2_CV09_Solution_Closure.md`
 - Phase 6: **COMPLETE / INSPECTOR APPROVED**
 - Phase 7: **COMPLETE / CLOSED**
 - Locked evidence matrix: `Report-Working/SpillageReport/EVIDENCE_STORY_MATRIX_V0.1.csv`
