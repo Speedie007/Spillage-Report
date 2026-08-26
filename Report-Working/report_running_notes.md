@@ -12,6 +12,8 @@
   - `Context/Questionaires/Running_Report_Contextual_Spillage_Questionnaire_ResponseV2.docx`
 - Historical post-V3.9 addenda retained unchanged: V3.10, V3.11, V3.12 and V3.13.
 - Current report-review artifact: `South32_Spillage_Audit_Report_July2026_S32WPPSR_01_V0.5_Terminology_Refined_Draft.docx`
+- Stage-A report reconciliation register: `Context/Running_Report_Contextual_Spillage_NotesV4.1_Report_Gap_Register_StageA.md`
+- Reconciliation control: `Context/Running_Report_Contextual_Spillage_NotesV4.1_Report_Reconciliation_TODO.md`
 - Phase 6: **COMPLETE / INSPECTOR APPROVED**
 - Phase 7: **COMPLETE / CLOSED**
 - Locked evidence matrix: `Report-Working/SpillageReport/EVIDENCE_STORY_MATRIX_V0.1.csv`
@@ -57,6 +59,36 @@ Important source-reconciled details now restored/explicit in V4.1 include:
 - U4 remains an explicit geometry-specific cleaner exception;
 - historical sample-conveyor containment dimensions remain preliminary only;
 - event-driven, structural, water and housekeeping qualifications preserved.
+
+---
+
+# Stage-A V0.5 ↔ V4.1 Report Reconciliation
+
+**Status: COMPLETE / CONTROLLED V0.6 INPUT**
+
+The current V0.5 Word draft has been compared diagnostically against the source-reconciled V4.1 context.
+
+Controlled findings:
+
+`Context/Running_Report_Contextual_Spillage_NotesV4.1_Report_Gap_Register_StageA.md`
+
+Main conclusion:
+
+> **V0.5 retains the correct report architecture, core engineering story, evidence discipline, softer V0.2-derived language voice and V0.5 terminology rules. The primary weakness is loss/compression of technical detail from V3.9/V1/V2, particularly cleaner failure mechanics, maintenance/operating context, CV09 physical solution detail, Sample Conveyor design-development detail, and housekeeping/trip-restart practices.**
+
+The Stage-A register separates findings into:
+
+- REPORT UPDATE — CONTEXT-STABLE;
+- DEFER — SOLUTION-DEPENDENT;
+- ALREADY ALIGNED / PRESERVE;
+- EVIDENCE / APPENDIX ACTION;
+- VERIFICATION / QUALIFICATION ACTION.
+
+Do **not** rebuild V0.5 immediately. Use the Stage-A register as the controlled starting checklist for V0.6 after the proposed-solution concepts have matured.
+
+Binding V0.6 formula:
+
+> **V0.5 + Stage-A Gap Register + mature/refined V4.1 solution context → V0.6 source-reconciled + solution-refined draft.**
 
 ---
 
@@ -115,12 +147,15 @@ Terminology:
 # Current Working Sequence
 
 1. V4.1 source reconciliation — **COMPLETE / CURRENT LIVE CONTEXT**.
-2. CV09 scraper/chute technical refinement — **CURRENT**.
-3. Update V4.1 as each CV09 technical point is agreed.
-4. Revise CTD-001 after the physical design intent is sufficiently clear.
-5. Repeat the same process for the remaining proposed solutions.
-6. Reconcile the mature solution context back into the report and issue the next controlled draft.
-7. Complete evidence/photo reconciliation and expanded photographic appendix.
-8. Content freeze.
-9. Phase 8 publication/layout styling.
-10. Responsible-engineer concept/drawing review, outstanding verification and Phase 9 issue closure.
+2. Stage-A V0.5 ↔ V4.1 diagnostic comparison — **COMPLETE**.
+3. Stage-A gap register — **COMPLETE / V0.6 INPUT LOCKED**.
+4. CV09 scraper/chute technical refinement — **CURRENT NEXT WORKSTREAM**.
+5. Update V4.1 as each CV09 technical point is agreed.
+6. Revise CTD-001 after the physical design intent is sufficiently clear.
+7. Repeat the same process for the remaining proposed solutions.
+8. Stage-B integrated report reconciliation using V0.5 + gap register + mature V4.1.
+9. Build and full-render/QA V0.6.
+10. Complete evidence/photo reconciliation and expanded photographic appendix.
+11. Content freeze.
+12. Phase 8 publication/layout styling.
+13. Responsible-engineer concept/drawing review, outstanding verification and Phase 9 issue closure.
