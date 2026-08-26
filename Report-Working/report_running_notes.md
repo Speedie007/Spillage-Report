@@ -1,75 +1,117 @@
 # Spillage Report — Running Working Notes
 
 ## Working Status
+
 - Repository: `Speedie007/Spillage-Report`
 - Branch: `main`
-- Current consolidated contextual source: `Context/Running_Report_Contextual_Spillage_NotesV3.9.docx`
-- Historical Phase 6 incremental context: `Context/Running_Report_Contextual_Spillage_NotesV3.10_Phase6_Addendum.md`
-- Current Phase 7 incremental context: `Context/Running_Report_Contextual_Spillage_NotesV3.11_Phase7_Addendum.md`
+- **Current live contextual source:** `Context/Running_Report_Contextual_Spillage_NotesV4.md`
+- Historical consolidated Word baseline: `Context/Running_Report_Contextual_Spillage_NotesV3.9.docx`
+- Historical post-V3.9 addenda retained unchanged:
+  - `Context/Running_Report_Contextual_Spillage_NotesV3.10_Phase6_Addendum.md`
+  - `Context/Running_Report_Contextual_Spillage_NotesV3.11_Phase7_Addendum.md`
+  - `Context/Running_Report_Contextual_Spillage_NotesV3.12_Language_Style_Addendum.md`
+  - `Context/Running_Report_Contextual_Spillage_NotesV3.13_Terminology_Refinement_Addendum.md`
 - Frozen first report draft: `Report-Working/SpillageReport/South32_Spillage_Audit_Report_July2026_S32WPPSR_01_V0.1.docx`
 - Inspector-approved Phase 6 assembly baseline: `Report-Working/SpillageReport/South32_Spillage_Audit_Report_July2026_S32WPPSR_01_V0.2_Assembly_Draft.docx`
+- Current report-review artifact: `South32_Spillage_Audit_Report_July2026_S32WPPSR_01_V0.5_Terminology_Refined_Draft.docx`
 - Phase 6 closure: `Report-Working/SpillageReport/PHASE6_ASSEMBLY_CLOSURE.md`
-- Current Phase 7 plan: `Report-Working/SpillageReport/PHASE7_REPORT_REFINEMENT_PLAN_V0.1.md`
-- Baseline report template: `Report-Template/ISS_Wessels_Combined_Product_Spillage_Report_Working_Base_V0.1.docx`
+- Phase 7 closure: `Report-Working/SpillageReport/PHASE7_REFINEMENT_CLOSURE.md`
 - Accepted narrative architecture: `Report-Working/SpillageReport/REPORT_NARRATIVE_ARCHITECTURE.md`
-- Accepted reader journey: `Report-Working/SpillageReport/REPORT_NARRATIVE_OUTLINE_V0.1.md`
 - Locked evidence matrix: `Report-Working/SpillageReport/EVIDENCE_STORY_MATRIX_V0.1.csv`
 - Final evidence classification: **75 E / 44 S / 78 A / 0 X = 197**
-- Phase 5 prototype plan: `Report-Working/SpillageReport/PHASE5_CV09_PROTOTYPE_EXECUTION_PLAN.md`
-- Historical Phase 6 assembly roadmap: `Report-Working/SpillageReport/REPORT_ASSEMBLY_ROADMAP_V0.1.md`
+- Verification control: `Report-Working/SpillageReport/PHASE7_VERIFICATION_SUCCESS_CRITERIA_REGISTER_V0.1.md`
+- Conceptual-figure control: `Report-Working/SpillageReport/PHASE7_CONCEPTUAL_ENGINEERING_FIGURE_REGISTER_V0.1.md`
+- Current action-programme baseline: `Report-Working/SpillageReport/PHASE7_PART_XI_RECOMMENDED_ACTION_PROGRAMME_DRAFT_V0.3.md`
 - Master execution plan: `Report-Working/SpillageReport/REPORT_EXECUTION_PLAN.md`
 
-## Current Development Stage — PHASE 7 NARRATIVE / RECOMMENDATION REFINEMENT
+---
 
-Phase 6 full report assembly is **COMPLETE / INSPECTOR APPROVED**.
+# Current Development Stage — PROPOSED SOLUTION TECHNICAL GAP CLOSURE
 
-The accepted production baseline is:
+Phase 7 technical/content development is **COMPLETE / CLOSED**.
 
-`South32_Spillage_Audit_Report_July2026_S32WPPSR_01_V0.2_Assembly_Draft.docx`
+The report has progressed through:
 
-The inspector accepted the fundamental reader journey, narrative/evidence balance and overall report architecture. The report now works as one connected engineering argument rather than a flat asset-by-asset defect register.
+- V0.2 — accepted assembly architecture;
+- V0.3 — Phase 7 technical/content compilation;
+- V0.4 — language harmonisation to the accepted softer formal-engineering narrative;
+- V0.5 — terminology refinement using direct physical language in place of abstract “envelope” wording except where a defined geometric/operating range is meant.
 
-The accepted reusable report grammar remains:
+The current review has identified that the core report concepts and structure are established, but some **proposed engineering solution descriptions do not yet fully represent the intended physical solution**.
 
-> **Explain → Prove → Interpret → Act / Transition**
+This is now treated as a **technical-context gap** rather than primarily a wording problem.
 
-Phase 7 is therefore a refinement phase. The accepted report identity and reader journey are not to be redesigned unless a genuine technical contradiction, missing mechanism or evidence-control issue is discovered.
+Current working instruction:
 
-## Governing Report Identity
+> **Close the technical understanding gaps in the proposed solutions first. Use the controlled evidence, existing conceptual drawings and user engineering input to define the intended physical function/arrangement. Capture each accepted refinement in V4 before integrating it back into the report.**
+
+Do not spend significant effort polishing report sentences that depend on solution concepts still under refinement.
+
+---
+
+# Governing Report Identity
+
 The final report remains a **hybrid engineering audit**:
 
-1. **Formal shell** — report metadata, control, scope, limitations, references, sign-off and appendices.
-2. **Narrative core** — guided engineering story explaining the material-containment problem and how the mechanisms relate.
-3. **Technical evidence backbone** — controlled photographs/videos, canonical evidence IDs, qualifications, measurements and action details.
+1. **Formal shell** — issue control, metadata, scope, limitations, references, sign-off and appendices.
+2. **Narrative core** — connected engineering story explaining the material/process-containment mechanisms and their significance.
+3. **Technical evidence backbone** — controlled photographs/videos, evidence IDs, qualifications, verification requirements, registers and conceptual figures.
 
-The evidence component supports the story; it is not the story by itself.
+The accepted reader flow is:
 
-## Governing Engineering Message
+> **Explain → Prove → Interpret → Control → Act → Verify → Close**
 
-> **Keep the combined product — fines and coarse/lump ore — within the intended process/material-handling envelope throughout transit, using the control mechanism appropriate to the failure mode and local geometry.**
+The established report architecture should not be reopened unless solution refinement identifies a genuine technical contradiction, missing mechanism or evidence-control issue.
 
-Supporting phrases:
+---
+
+# Binding Language and Terminology Rules
+
+## Language voice
+
+> **Formal engineering narrative — technically rigorous, measured and explanatory, without sounding legalistic, forensic, bureaucratic or unnecessarily categorical.**
+
+“Softened” refers to delivery, not evidence strength.
+
+Reader-facing sequence should generally be:
+
+> **Observation / context → interpretation → significance → recommended direction.**
+
+Part XI, verification controls and technical appendices may retain more formal implementation/close-out terminology where necessary.
+
+## Terminology
+
+Describe the physical path/process directly wherever possible:
+
+- material-handling path / intended carrying path;
+- usable carrying area / width;
+- process stream / path / chute route;
+- screening/washing process;
+- installation space;
+- containment arrangement / geometry.
+
+Retain **“envelope”** only for a genuine defined geometric/operating range such as a tracking envelope or normal belt operating envelope.
+
+---
+
+# Governing Engineering Message
+
+> **Keep the combined product — fines and coarse/lump ore — within the intended material-handling and process path throughout transit, and retain process water within the process route where it is intended to remain, using controls appropriate to the specific failure mechanism and local geometry.**
+
+Supporting principles:
 
 > **Do not merely clean the belt. Keep the fines inside the process.**
 
 > **Housekeeping controls the consequence. Source control should reduce the recurrence.**
 
-The report must continue to recognise that the point at which spilled material is observed is not necessarily the point at which the initiating failure occurred.
+Observed deposit location is not automatically the initiating cause location.
 
-## Phase 6 Baseline Now Locked
-Unless a genuine contradiction is found, retain:
-- formal shell + narrative core + technical evidence backbone identity;
-- Parts I–XII reader journey;
-- systemic-versus-local mechanism hierarchy;
-- CV09 holistic evidence grammar;
-- evidence-density classes;
-- key engineering qualifications and uncertainty boundaries;
-- report-wide material-containment philosophy;
-- priority-action architecture;
-- reader rhythm: **Explain → Prove → Interpret → Act / Transition**.
+---
 
-## Evidence Control
+# Evidence Control
+
 Final matrix checkpoint:
+
 - E — Essential body evidence: 75
 - S — Supporting/story evidence: 44
 - A — Appendix/reference evidence: 78
@@ -78,116 +120,116 @@ Final matrix checkpoint:
 
 All rows are inspector-reviewed and accepted.
 
-E/S/A expresses narrative priority and placement value, not whether evidence is technically valid.
+E/S/A expresses narrative priority and placement value, not technical validity.
 
 `E + S = 119` is the story-capable selection pool; not every item is required in the report body.
 
-## Evidence Module Classes
+The body should remain selective. The final photographic appendix may be substantially larger and can contain A plus unused S evidence where those views are important for client understanding and technical traceability.
 
-### Full complex modules
-- CV09
-- Screens
-- L1
-- Sample Conveyor 3
-- U4
-- W10
+---
 
-### Compact technical modules
-- CV06
-- Sample Conveyor 2
-- L3
-- selected CV01/CV04 water cases
+# Binding Engineering Qualification Rules
 
-### Supporting/comparator treatment
-- Underground Crusher
-- UC05–UC01 route
-- U3
-- U5A/U5B
-- CV02/CV03/CV14
-- L2/L4
-- other supporting assets
-
-These should normally appear as montages, comparator strips, concise summary evidence or appendix/reference material rather than forced standalone asset chapters.
-
-## Binding Engineering Qualification Rules
 These remain binding unless later evidence, measurement or competent investigation resolves them:
-- similar cleaner deficiencies at inaccessible conveyors remain inference, not direct observation everywhere;
-- Sample Conveyor 2 mistracking remains unconfirmed;
+
+- similar cleaner deficiencies at inaccessible conveyors remain inference rather than direct observation everywhere;
+- Sample Conveyor 2 significant mistracking remains unconfirmed;
 - Sample Conveyor 3 mistracking/lateral offset is visually supported but unmeasured;
-- L3 offset is supported; direct causal chain to significant solid-product loss remains unconfirmed;
-- U4 mistracking/one-side loss are visually verified; tail-pulley/alignment magnitude remains unquantified;
-- Screen water escape is verified; exact equipment-level escape mechanism remains unresolved;
-- Screen cut/notched supports are verified; reason and remaining capacity remain unresolved;
+- L3 offset is supported; direct causal chain to significant solid/lump-product loss remains unconfirmed;
+- U4 mistracking/one-sided loss are visually verified; tail-pulley/alignment magnitude remains unquantified;
+- Screens water escape is verified; exact equipment-level escape mechanism remains unresolved;
+- Screens cut/notched supports are verified; reason/history and remaining capacity remain unresolved;
 - L1 previous/intermittent belt contact is supported; continuous present contact is not proven;
-- CV01 roller damage is visually verified; seized state remains source-recorded;
-- Sample Conveyor 1 widespread dry/dried accumulation is verified; active wetness/moisture source is not proven by stills;
+- CV01 roller damage is visually verified; seized state is not proven by still evidence;
+- Sample Conveyor 1 widespread dry/dried accumulation is verified; active moisture source is not proven by stills;
 - U3 roadway rock must not automatically be classified as conveyor spillage;
 - U5B remains trace-to-localised overall despite sizeable local deposits;
 - Crusher standing water is visible; its source remains unknown.
 
-## Phase 7 Production Passes
+No unmeasured dimension, tolerance, feed rate, structural capacity or OEM limit is to be introduced as fact.
 
-### Pass 7A — Narrative Continuity and Duplication Review
-Review V0.2 from Executive Summary through Conclusion for:
-- repetition that no longer adds value;
-- missing transitions;
-- sections appearing before their logic has been established;
-- over-explanation after evidence has already proven the point;
-- terminology consistency;
-- preservation of the accepted multi-reader tone and uncertainty boundaries.
+---
 
-**Rule:** refine, do not rewrite the accepted report identity.
+# Current Proposed-Solution Baseline
 
-### Pass 7B — Recommendation Maturity
-For each major action define:
-- engineering objective;
-- action type;
-- required inspection/measurement;
-- design-development requirement where applicable;
-- implementation dependency;
-- success / acceptance criterion;
-- evidence/case traceability;
-- items remaining client/OEM/competent-person decisions.
+The current report/action programme contains the following **working solution directions**, all subject to the present technical-gap-closure workstream:
 
-Priority cases:
-1. CV09 cleaner/containment pilot;
-2. U4 tracking/alignment;
-3. Sample Conveyor 3 feed/tracking/containment;
-4. Sample Conveyor 2 feed/loading verification;
-5. W10 side-containment feasibility;
-6. Screens water escape + structural assessment;
-7. L1 structural/tracking actions;
-8. trip/restart and housekeeping governance.
+1. **CV09** — cleaner + process-routing/containment pilot; refine actual physical arrangement using CTD-001.
+2. **CV06** — restore complete cleaner function before considering wider redesign.
+3. **U4** — quantify/correct tracking/alignment through full tripper travel; refine actual geometry relationships to be checked.
+4. **Sample Conveyor 3** — feed + tracking correction first, residual secondary containment second; refine using CTD-003.
+5. **Sample Conveyor 2** — feed/loading verification before secondary containment; significant mistracking not presumed.
+6. **W10** — source/tracking/geometry review first, secondary side barrier only for residual duty; refine using CTD-002.
+7. **L3** — quantitative alignment/tracking verification while retaining causal qualification.
+8. **Screens — water** — identify actual escape mechanism before detailed modification.
+9. **Screens — structural** — competent structural assessment of cut/notched/corroded supports.
+10. **L1** — structural assessment + representative belt-clearance/tracking verification.
+11. **Trip/restart** — controlled procedure for removal, temporary placement and recovery/reintroduction.
+12. **Housekeeping** — consequence control and performance feedback, not replacement for source correction.
 
-### Pass 7C — Verification and Success-Criteria Register
-Separate measured geometry, functional checks, structural assessments, design inputs, pilot monitoring and close-out evidence. No measurement is to be invented.
+The detailed current baseline is consolidated in `Context/Running_Report_Contextual_Spillage_NotesV4.md`.
 
-### Pass 7D — Conceptual Engineering Figures
-Develop only concepts that materially improve understanding. Priority candidates are CV09 containment, W10 local side containment, Sample Conveyor feed/tracking/containment hierarchy and a cause-location versus deposit-location figure. Concepts are not final designs.
+---
 
-### Pass 7E — Technical Backbone Population
-Prepare/populate:
-- Appendix A — 23-group asset audit matrix;
-- Appendix B — photographic evidence register;
-- Appendix C — video evidence register;
-- Appendix D — measurements/verification register;
-- Appendix E — conceptual engineering drawings;
-- Appendix F — source-record index.
+# Conceptual Engineering Figures
 
-### Pass 7F — Technical Consistency / Evidence-to-Action Review
-Confirm that every material action traces to evidence or a qualified engineering need, no inference becomes fact, no unsupported quantification enters the report, local exceptions remain explicit and the conclusion matches the body and priority programme.
+Current controlled working figures:
 
-## Styling Hold Point
-Phase 8 remains the global presentation pass.
+- CTD-001 — CV09 Cleaner and Process-Containment Concept
+- CTD-002 — W10 Side-Containment Barrier Principle
+- CTD-003 — Sample Conveyor Containment-Control Hierarchy
+- CTD-004 — Cause Location vs Deposit Location
 
-Do not repeatedly rework final fonts, colours, evidence bars, caption style, table style, TOC/LOF/LOT cosmetics or final header/footer treatment during Phase 7.
+They remain:
 
-## Current Immediate Task
+> **CONCEPTUAL ONLY — NOT FOR FABRICATION — DIMENSIONS / GEOMETRY TO BE VERIFIED ON SITE**
 
-**Pass 7A / Pass 7B — narrative continuity and recommendation maturity.**
+Use them as discussion/development starting points. Refine the technical intent first; update the drawing only after the intended function/arrangement is agreed.
 
-Immediate working instruction:
+---
 
-> **Refine the inspector-approved V0.2 Assembly Draft without reopening its accepted architecture. Tighten repetition and transitions, then mature each priority recommendation into a controlled engineering action with explicit verification, dependencies, success criteria and evidence traceability.**
+# Solution-Refinement Working Method
 
-Phase 6 history remains preserved in the V3.10 addendum, assembly roadmap and Phase 6 closure record. Phase 7 control is carried by the V3.11 addendum and `PHASE7_REPORT_REFINEMENT_PLAN_V0.1.md`.
+For each proposed solution:
+
+1. identify the current evidence and existing mechanism conclusion;
+2. inspect/review the current CTD figure where applicable;
+3. obtain the user’s detailed explanation of the intended physical solution;
+4. separate:
+   - existing observed condition;
+   - intended engineering function;
+   - proposed physical arrangement;
+   - assumptions / site measurements still required;
+   - final design/OEM/structural decisions outside the audit;
+5. test the concept against the evidence and local system context;
+6. update **V4** with the accepted solution intent;
+7. revise the conceptual figure if required;
+8. only then update the affected report sections / Part X / Part XI / appendices.
+
+The functional close-out sequence remains:
+
+> **As-found evidence → verification / measurement → corrective design or control → implementation → representative operating proof → as-left record → monitoring / closure.**
+
+---
+
+# Current Working Sequence
+
+1. V4 context consolidation — **COMPLETE / CURRENT LIVE CONTEXT**.
+2. Proposed solution technical gap closure — **CURRENT**.
+3. Update V4 continuously with accepted technical refinements.
+4. Refine CTD figures where required.
+5. Reconcile the report against the mature V4 solution context and create the next controlled report revision.
+6. Complete body evidence reconciliation and expanded photographic appendix population.
+7. Content freeze.
+8. Phase 8 publication/layout styling.
+9. Responsible-engineer conceptual/drawing review, outstanding field verification and Phase 9 engineering issue closure.
+
+Phase 8 styling remains deliberately deferred while technical solution intent is still being refined.
+
+---
+
+# Current Immediate Task
+
+> **Begin solution-by-solution technical refinement from the established V4 baseline. Capture every accepted engineering clarification in V4 before revising the report.**
+
+Historical V3.9–V3.13 context remains preserved. V4 is now the live source of truth for ongoing engineering-solution development.
