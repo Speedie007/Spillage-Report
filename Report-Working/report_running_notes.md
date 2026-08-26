@@ -15,13 +15,15 @@
 - Current report-review artifact: `South32_Spillage_Audit_Report_July2026_S32WPPSR_01_V0.5_Terminology_Refined_Draft.docx`
 - Historical Stage-A report reconciliation register: `Context/Running_Report_Contextual_Spillage_NotesV4.1_Report_Gap_Register_StageA.md`
 - **Current reconciliation control:** `Context/Running_Report_Contextual_Spillage_NotesV4.2_Report_Reconciliation_TODO.md`
-- **CV09 solution closure control:** `Context/Running_Report_Contextual_Spillage_NotesV4.2_CV09_Solution_Closure.md`
+- **CV09 solution closure:** `Context/Running_Report_Contextual_Spillage_NotesV4.2_CV09_Solution_Closure.md`
+- **CV09 drawing closure:** `Context/Running_Report_Contextual_Spillage_NotesV4.2_CV09_Drawing_Closure.md`
 - Phase 6: **COMPLETE / INSPECTOR APPROVED**
 - Phase 7: **COMPLETE / CLOSED**
 - Locked evidence matrix: `Report-Working/SpillageReport/EVIDENCE_STORY_MATRIX_V0.1.csv`
 - Evidence classification: **75 E / 44 S / 78 A / 0 X = 197**
 - Verification control: `Report-Working/SpillageReport/PHASE7_VERIFICATION_SUCCESS_CRITERIA_REGISTER_V0.1.md`
-- Conceptual-figure control: `Report-Working/SpillageReport/PHASE7_CONCEPTUAL_ENGINEERING_FIGURE_REGISTER_V0.1.md`
+- **Current conceptual-figure control:** `Report-Working/SpillageReport/PHASE7_CONCEPTUAL_ENGINEERING_FIGURE_REGISTER_V0.2.md`
+- **Current Appendix E drawing control:** `Report-Working/SpillageReport/PHASE7_APPENDIX_E_CONCEPTUAL_ENGINEERING_DRAWINGS_V0.2.md`
 
 ---
 
@@ -29,7 +31,7 @@
 
 The report architecture, evidence base and core mechanism hierarchy are established.
 
-The active work is to refine the **physical technical intent of the proposed engineering solutions** before further report wording is locked.
+The active work is to refine the **physical technical intent of the remaining proposed engineering solutions** before further report wording is locked.
 
 Binding sequence:
 
@@ -77,35 +79,41 @@ Main conclusion:
 
 Do **not** rebuild V0.5 immediately.
 
-Binding V0.6 formula is now:
+Binding V0.6 formula:
 
 > **V0.5 + Stage-A Gap Register + mature/refined V4.2-and-later solution context → V0.6 source-reconciled + solution-refined draft.**
 
 ---
 
-# CV09 — FUNCTIONAL SOLUTION LOCKED IN V4.2
+# CV09 — FUNCTIONAL SOLUTION + FIGURE STRATEGY LOCKED
 
-**Status: COMPLETE / LOCKED AT FUNCTIONAL-CONCEPT LEVEL**
+**Functional solution status: COMPLETE / LOCKED AT FUNCTIONAL-CONCEPT LEVEL**
 
-The accepted CV09 concept is controlled in Section 14 of:
+**Conceptual figure strategy: COMPLETE / ACCEPTED FOR CURRENT REPORT DEVELOPMENT**
+
+The accepted functional concept is controlled in Section 14 of:
 
 `Context/Running_Report_Contextual_Spillage_NotesV4.2.md`
 
+The accepted drawing strategy is controlled in:
+
+`Context/Running_Report_Contextual_Spillage_NotesV4.2_CV09_Drawing_Closure.md`
+
 ## Locked design principles
 
-1. **Pulley-supported cleaning location** — both cleaner stages should act on the belt while it remains positively supported by the head pulley, so cleaner force is reacted through the belt into the pulley rather than simply deflecting the belt away.
+1. **Pulley-supported cleaning location** — both cleaner stages should act on the belt while it remains positively supported by the head pulley.
 2. **Two-stage preferred/default arrangement** — Stage 1 removes principal residual material; Stage 2 provides a second cleaning opportunity before the belt enters the return run.
 3. **One-stage constrained minimum** — where verified geometry/access/guarding/structural constraints prevent two stages, at least one effective pulley-supported stage is required.
 4. **Full transverse cleaner assembly** — each full-width blade is carried on a transverse support/cross-arm spanning the chute/belt and protruding through both chute side walls.
-5. **Guided chute-wall slots** — the cross-arm ends pass through guided slots/openings that provide the required wear-compensation travel path.
-6. **External self-tensioning** — tensioning hardware acts externally on the protruding support ends to maintain positive/stable blade contact as wear develops.
-7. **Reasonably uniform cross-belt contact** — functional requirement only; OEM decides how the two sides are linked/adjusted/balanced.
+5. **Guided chute-wall slots** — cross-arm ends use guided openings/travel paths to accommodate wear take-up.
+6. **External self-tensioning** — tensioning hardware acts on the protruding support ends to maintain controlled contact as wear develops.
+7. **Reasonably uniform cross-belt contact** — functional requirement; OEM decides the detailed balancing/linkage/adjustment method.
 8. **Positive travel/wear stop** — prevents continued advancement after allowable wear/travel is reached.
-9. **Cleaner stages inside the existing head chute** — the solution does not create a separate fines-recovery route.
-10. **Natural material return** — residual wet/dry fines removed by either stage fall by gravity inside the same head chute and remain with the existing combined-product discharge flow toward the receiving/next conveyor or downstream process.
-11. **Prevent return-side carryback** — clean the belt before it leaves the head/discharge region and enters the return run.
-12. **Maintainability/access** — retain practical inspection, wear-element replacement, tensioner/stop inspection and servicing access.
-13. **OEM boundary** — audit defines function/location/principle/performance; OEM determines blade technology/materials, spring rates, support dimensions, slots, guides, wear limits, guarding, final angles, structural/fabrication details and commissioning requirements.
+9. **Cleaner stages inside the existing head chute** — no separate scraper-fines recovery route is required.
+10. **Natural material retention** — wet/dry residual fines removed by the cleaners fall by gravity inside the same head chute and remain with the existing combined-product discharge flow.
+11. **Prevent return-side carryback** — remove residual fines before the cleaned belt enters the return run.
+12. **Maintainability/access** — retain practical inspection, wear-element replacement and tensioner/stop servicing access.
+13. **OEM boundary** — audit defines function/location/principle/performance; OEM determines detailed cleaner technology, materials, forces, dimensions, guidance, guarding and fabrication design.
 
 ### Critical correction to earlier shorthand
 
@@ -115,25 +123,67 @@ The cleaner stages are to be positioned correctly **inside the existing head/dis
 
 ### CV06 / CV09 / CV15 comparative lesson
 
-- **CV06:** mechanical integrity / maintenance failure — displaced bush, missing blades; demonstrates need for robust support, component retention, blade coverage and maintainability.
-- **CV09:** location / containment / cleaning-performance failure — cleaner present but removed material can escape and residual carryback continues; demonstrates correct location + natural chute return + effective cleaning.
-- **CV15:** cleaner-effectiveness concern / downstream consequence — widespread fines/carryback; exact local cleaner failure mechanism still requires verification; demonstrates need to prove actual downstream performance.
+- **CV06:** mechanical integrity / maintenance failure — displaced bush and missing blades.
+- **CV09:** location / containment / cleaning-performance failure — cleaner present but removed material can escape and residual carryback continues.
+- **CV15:** cleaner-effectiveness concern / downstream consequence — widespread fines/carryback; exact local cleaner failure mechanism still requires verification.
 
 The intended wider standard is functional, not one identical hardware package.
 
 ---
 
-# CV09 Conceptual Figure Status
+# CV09 Active Conceptual Figures
 
-Existing **CTD-001** is no longer the controlling physical representation of the CV09 implementation because it does not fully show the locked V4.2 geometry.
+Historical **CTD-001 / DRAW-001 CV09** is now **SUPERSEDED for active report use**.
 
-Next CV09 task:
+Current figure pair:
 
-> **Create/revise the controlled conceptual figure so it accurately shows the head pulley inside the head chute; two pulley-supported cleaner stages; transverse supports through both chute walls; guided slots; external tensioners; positive travel stops; natural fall of removed fines into the existing discharge flow; and the two-stage-default / one-stage-constrained-minimum rule.**
+## DRAW-005 / CTD-005 — placement and orientation
 
-A separate enlarged detail may show the cross-arm / chute-wall slot / external spring / travel-stop principle.
+Controlled repository filename:
 
-All freehand and generated discussion images remain development references until the corrected CTD figure is formally accepted.
+`Evidence/TechnicalDrawings/DRAW-005-CV09_Cleaner_and_Process_Containment_Concept.png`
+
+Role:
+
+> **Show where typical primary and secondary cleaner stages act in relation to the head pulley/head chute and their general orientation before the belt enters the return run.**
+
+This is an external/reference figure, not the final CV09 design.
+
+Source attribution supplied by inspector/user:
+
+> **Dust Control Handbook for Industrial Minerals Mining and Processing, RI 9689, Report of Investigations/2012 — Chapter 3: Drilling and Blasting — scientific figure available via ResearchGate:** `Belt conveyor discharge chute used to return scrapings to the primary material flow`. **Accessed 26 August 2026.**
+
+Reference page:
+
+`https://www.researchgate.net/figure/Belt-conveyor-discharge-chute-used-to-return-scrapings-to-the-primary-material-flow_fig94_318967507`
+
+Appropriate source credit and reuse/permission requirements must be confirmed before final issue.
+
+## DRAW-006 / CTD-006 — cleaners inside head chute
+
+Controlled repository filename:
+
+`Evidence/TechnicalDrawings/DRAW-006-CV09_Cleaner_and_Process_Containment_Concept_Scrapper_contextual_scrapper_must_be_inside_the_dis-charge_chute.png`
+
+Role:
+
+> **Show that both cleaner stages belong inside the head/discharge chute so residual fines removed from the belt remain within the existing combined-product discharge flow.**
+
+The cleaner forms shown are illustrative examples only and do not prescribe final OEM hardware.
+
+### Binding interpretation rule
+
+> **DRAW-005 answers “where / orientation?”**
+>
+> **DRAW-006 answers “inside which containment / why?”**
+>
+> **V4.2 Section 14 answers “how must the system function?”**
+
+No additional bespoke CV09 mechanical illustration is required at this stage unless requested later by the responsible engineer/OEM.
+
+### Binary repository status
+
+The two accepted PNGs were supplied in the conversation under the DRAW-005 and DRAW-006 names. The GitHub text controls now expect them under the controlled `Evidence/TechnicalDrawings/` paths above; binary sync to the repository remains to be completed by the user/local Git workflow because the current GitHub text connector does not write binary image files.
 
 ---
 
@@ -172,13 +222,14 @@ Terminology:
 2. Stage-A V0.5 ↔ context diagnostic comparison — **COMPLETE**.
 3. Stage-A gap register — **COMPLETE / V0.6 INPUT LOCKED**.
 4. CV09 functional scraper/chute technical refinement — **COMPLETE / LOCKED IN V4.2**.
-5. Correct/revise CTD-001 or create the accepted supplementary CV09 concept figure — **NEXT**.
-6. Reconcile CV09 verification/Part XI wording after concept figure acceptance.
-7. Repeat the same solution-refinement process for remaining proposed solutions.
-8. Update V4.2 or next controlled context increment as each solution is accepted.
-9. Stage-B integrated report reconciliation using V0.5 + Stage-A register + mature current context.
-10. Build and full-render/QA V0.6.
-11. Complete evidence/photo reconciliation and expanded photographic appendix.
-12. Content freeze.
-13. Phase 8 publication/layout styling.
-14. Responsible-engineer concept/drawing review, outstanding verification and Phase 9 issue closure.
+5. CV09 conceptual figure strategy — **COMPLETE / DRAW-005 + DRAW-006 ACCEPTED**.
+6. Sync DRAW-005 and DRAW-006 binaries to `Evidence/TechnicalDrawings/` — **USER/LOCAL GIT ACTION PENDING**.
+7. Reconcile CV09 verification/Part XI wording during Stage-B V0.6 integration.
+8. Continue the same technical gap-closure process for the remaining proposed solutions.
+9. Update V4.2 or the next controlled context increment as each solution is accepted.
+10. Stage-B integrated report reconciliation using V0.5 + Stage-A register + mature current context.
+11. Build and full-render/QA V0.6.
+12. Complete evidence/photo reconciliation and expanded photographic appendix.
+13. Content freeze.
+14. Phase 8 publication/layout styling.
+15. Responsible-engineer concept/drawing review, outstanding verification and Phase 9 issue closure.
