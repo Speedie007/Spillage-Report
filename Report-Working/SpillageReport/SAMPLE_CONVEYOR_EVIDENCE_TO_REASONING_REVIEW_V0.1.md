@@ -2,7 +2,7 @@
 
 ## Status
 
-**FOCUSED SECOND-PASS REVIEW — OPEN / INSPECTOR CONFIRMATION IN PROGRESS**
+**FOCUSED SECOND-PASS REVIEW — SAMPLE CONVEYOR 2 COMPLETE / SAMPLE CONVEYOR 3 PENDING**
 
 This review is deliberately narrower than the original Batch-B visual review and the controlled E/S/A evidence classification.
 
@@ -56,9 +56,9 @@ Relationship strength:
 
 ---
 
-# 2. Sample Conveyor 2 — relationship matrix under inspector review
+# 2. Sample Conveyor 2 — focused relationship review COMPLETE
 
-## 2.1 Revised evidence boundary after REF-004 / REF-005 inspector review
+## 2.1 Revised evidence boundary after inspector review
 
 The earlier Batch-B position that significant Sample Conveyor 2 mistracking was not visually established is now **refined** by the focused inspector review.
 
@@ -78,18 +78,38 @@ This does **not** yet establish:
 
 The images continue to show that coarse/lump product occupies a substantial proportion of the narrow belt width and that product containment loss is directly visible. Photographs do not prove quantitative design-capacity overload or identify the final feed-control method.
 
-| Ref | Current E/S/A | LG | PW | TM | CL | CO | SG | Provisional V0.6 role | Provisional classification action | Review status |
+| Ref | Current E/S/A | LG | PW | TM | CL | CO | SG | V0.6 relationship role after inspector review | Proposed classification action at subset closure | Review status |
 |---|---:|:---:|:---:|:---:|:---:|:---:|:---:|---|---|---|
-| **S2-REF-001** | E | C | — | — | S | **P** | C | Principal wider consequence/severity image | Retain **E** | PENDING |
-| **S2-REF-002** | A | — | — | — | S | S | C | Alternate consequence image; likely redundant if REF-001/003 used | Retain **A** unless review identifies unique relationship | PENDING |
-| **S2-REF-003** | A | — | — | — | S | **P** | C | Strong alternate wide consequence view | Candidate **A → S** / alternate E if it explains extent better than REF-001 | PENDING |
-| **S2-REF-004** | E | **P** | **P** | S | S | — | S | Principal product-size-versus-belt-width image **plus supporting belt-offset evidence**; to be read with REF-005 | Retain **E** | **INSPECTOR CONFIRMED / REFINED** |
-| **S2-REF-005** | S | **P** | S | **P** | S | — | **P** | Complementary view proving the exposed-roller / lateral belt-position relationship and local entry/cover geometry | **Inspector-supported S → E elevation at subset closure** | **INSPECTOR CONFIRMED / ELEVATION SUPPORTED** |
-| **S2-REF-006** | E | S | S | — | **P** | **P** | **P** | Principal entry-zone congestion / containment-loss image; culmination condition requiring causal verification | Retain **E** | **INSPECTOR CONFIRMED / REFINED** |
-| **S2-REF-007** | E | **P** | **P** | — | S | — | **P** | Strong combined loading-width-containment-geometry image | Retain **E** | **INSPECTOR CONFIRMED** |
-| **S2-REF-008** | S | — | — | — | C | C | C | Lower-structure accumulation with little unique value to the current causal/relationship narrative | **Inspector-supported S → A downgrade at subset closure** | **INSPECTOR CONFIRMED / DOWNGRADE SUPPORTED** |
+| **S2-REF-001** | E | C | — | — | S | **P** | C | **Opening consequence image.** Paired with REF-004, it creates the visual cause/effect hook: REF-004 shows an abnormal conveyor/loading condition while REF-001 immediately establishes that the resulting material-loss consequence is substantial. | Retain **E** | **INSPECTOR CONFIRMED** |
+| **S2-REF-002** | A | — | — | — | S | S | C | Alternate consequence evidence without a unique relationship needed in the main explanatory chain. | Retain **A** | **INSPECTOR CONFIRMED** |
+| **S2-REF-003** | A | — | — | — | S | S | C | Strong alternate wider consequence view, but not required in the principal body chain because REF-001 already performs the essential consequence/introduction role. | Retain **A** | **INSPECTOR CONFIRMED** |
+| **S2-REF-004** | E | **P** | **P** | S | S | — | S | **Opening problem image / primary product-size-versus-belt-width image**, plus supporting belt-offset evidence. Read with REF-001 as the first visual hook and with REF-005 for belt-position clarification. | Retain **E** | **INSPECTOR CONFIRMED / REFINED** |
+| **S2-REF-005** | S | **P** | S | **P** | S | — | **P** | Complementary view proving the exposed-roller / lateral belt-position relationship and local entry/cover geometry. | **S → E elevation supported** | **INSPECTOR CONFIRMED / ELEVATION SUPPORTED** |
+| **S2-REF-006** | E | S | S | — | **P** | **P** | **P** | Principal entry-zone congestion / containment-loss image; culmination condition requiring causal verification. | Retain **E** | **INSPECTOR CONFIRMED / REFINED** |
+| **S2-REF-007** | E | **P** | **P** | — | S | — | **P** | Strong combined loading-width-containment-geometry image. | Retain **E** | **INSPECTOR CONFIRMED** |
+| **S2-REF-008** | S | — | — | — | C | C | C | Lower-structure accumulation with little unique value to the current causal/relationship narrative. | **S → A downgrade supported** | **INSPECTOR CONFIRMED / DOWNGRADE SUPPORTED** |
 
-## 2.2 REF-004 / REF-005 complementary interpretation — inspector supplied
+## 2.2 REF-001 + REF-004 opening visual-pair rule — inspector supplied
+
+The inspector identified an important narrative use that was not explicit in the original evidence matrix: **REF-001 and REF-004 should be considered together as an introduction to the Sample Conveyor 2 problem.**
+
+The pairing is deliberately cause/effect-oriented without claiming a proven single causal mechanism:
+
+> **REF-004 makes the reader ask “what is happening at this conveyor?”** by showing the narrow-belt/product-size relationship, displaced material and visible offset condition.  
+> **REF-001 immediately answers “the consequence is significant”** by showing the substantial accumulated product around the installation.
+
+The purpose of this pair is to start the reader's reasoning process before the detailed mechanism discussion. It establishes that the local belt/loading condition is not merely an isolated visual irregularity; it sits alongside a material-loss consequence substantial enough to require explanation and corrective investigation.
+
+This use does **not** mean REF-001 proves which mechanism created the accumulation. It is the consequence image; REF-004 and the later complementary evidence establish the physical relationships that must be investigated.
+
+For V0.6, a deliberate opening sequence may therefore be:
+
+> **REF-004 — “something abnormal is occurring in the carrying condition.”**  
+> **REF-001 — “the resulting containment problem has a substantial accumulated consequence.”**
+
+REF-002 and REF-003 remain useful appendix/alternate consequence evidence but do not add enough unique reasoning value to displace this pair in the main body.
+
+## 2.3 REF-004 / REF-005 complementary interpretation — inspector supplied
 
 The two photographs are to be treated as a deliberate pair rather than as independent repetitive images.
 
@@ -115,7 +135,7 @@ For V0.6, REF-004 and REF-005 should be considered as a paired explanatory seque
 
 This paired role materially increases REF-005's narrative value and supports its provisional elevation from S to E.
 
-## 2.3 REF-006 entry-zone geometry and congestion — inspector supplied
+## 2.4 REF-006 entry-zone geometry and congestion — inspector supplied
 
 The orange covers visible in REF-006 are the conveyor entry-zone covers/guides associated with controlling product entry from the preceding feeder/chute so that material is directed toward the belt carrying path.
 
@@ -142,14 +162,16 @@ REF-006 should therefore be used to communicate:
 
 > **The observed end condition is compatible with several interacting feed / product-size / belt-position / containment mechanisms. The audit evidence is sufficient to require those relationships to be tested, but not to prescribe one unverified initiating cause.**
 
-## 2.4 Sample 2 revised narrative chain
+## 2.5 Sample 2 final focused-review narrative chain
 
-The focused review now supports a stronger evidence-led sequence:
+The focused review supports the following deliberate evidence sequence for later V0.6 integration:
 
-> **REF-004 + REF-005 — show the combined product-size / narrow-belt relationship and visually supported lateral belt-offset condition**  
+> **REF-004 + REF-001 — opening visual hook: abnormal carrying condition + substantial consequence**  
+> **REF-005 — complementary perspective clarifying the lateral belt-offset / exposed-roller condition and entry geometry**  
 > **REF-007 — reinforces the observed loading / product-size / limited carrying-geometry relationship**  
-> **REF-006 — shows the heavily congested entry/guide zone and actual containment failure condition that may represent the cumulative effect of interacting mechanisms**  
-> **REF-001 or REF-003 — shows the accumulated wider consequence**
+> **REF-006 — shows the heavily congested entry/guide zone and actual containment failure condition that may represent the cumulative effect of interacting mechanisms**
+
+REF-002, REF-003 and REF-008 remain useful supporting/archive evidence but are not required in the principal body reasoning chain.
 
 The photographs should drive verification of:
 
@@ -164,7 +186,7 @@ The photographs should drive verification of:
 
 The evidence does not yet establish which of those variables is the initiating cause.
 
-## 2.5 Corrective-action sequencing principle emerging from Sample 2
+## 2.6 Corrective-action sequencing principle emerging from Sample 2
 
 The current evidence supports a **diagnostic sequence rather than a single predetermined fix**:
 
@@ -215,27 +237,29 @@ This evidence supports the sequence: verify feed/loading conditions; quantify an
 
 # 4. Candidate classification changes requiring inspector review / closure
 
-## Sample Conveyor 2
+## Sample Conveyor 2 — focused pass closed
 
 1. **S2-REF-005 — S → E — inspector-supported elevation**  
    Reason: complementary to REF-004 and provides the clearest supporting view of the exposed roller / lateral belt-position relationship while also explaining the entry/cover geometry.
-2. **S2-REF-003 — A → S candidate / alternate E — still pending**  
-   Reason: may be a stronger wider consequence image than currently credited; needs direct comparison with REF-001.
-3. **S2-REF-008 — S → A — inspector-supported downgrade**  
+2. **S2-REF-008 — S → A — inspector-supported downgrade**  
    Reason: does not materially advance the current product-size / loading / tracking / containment reasoning and can remain appendix/reference evidence.
+3. **S2-REF-001 — retain E — inspector confirmed.**  
+   Reason: principal consequence image and deliberate introductory pair with REF-004.
+4. **S2-REF-002 — retain A — inspector confirmed.**
+5. **S2-REF-003 — retain A — inspector confirmed.**
 
-## Sample Conveyor 3
+## Sample Conveyor 3 — pending
 
-4. **S3-REF-003 — S → E candidate**  
+6. **S3-REF-003 — S → E candidate**  
    Reason: may visually connect loaded-belt condition, local product loss and asymmetric belt/roller relationship in one frame.
-5. **S3-REF-004 — A → S candidate**  
+7. **S3-REF-004 — A → S candidate**  
    Reason: similar interaction value; determine whether it adds anything not already better shown by REF-003/006.
-6. **S3-REF-008 — A → S candidate**  
+8. **S3-REF-008 — A → S candidate**  
    Reason: possible distinct consequence/extent view; retain only if it adds spatial understanding beyond REF-012.
-7. **S3-REF-009 — A → S candidate**  
+9. **S3-REF-009 — A → S candidate**  
    Reason: possible strong physical-geometry image for explaining the later side-skirt/spill-seal control.
 
-No controlled E/S/A change is to be applied to `EVIDENCE_STORY_MATRIX_V0.1.csv` until the full subset review is completed.
+No controlled E/S/A change is to be applied to `EVIDENCE_STORY_MATRIX_V0.1.csv` until the full Sample 2/3 subset review is completed.
 
 ---
 
@@ -253,8 +277,8 @@ For each photograph, confirm or amend:
 
 Review sequence:
 
-- **Pass 1 — Sample Conveyor 2: REF-001 through REF-008 — IN PROGRESS; REF-004 through REF-008 reviewed**
-- **Pass 2 — Sample Conveyor 3: REF-001 through REF-013**
+- **Pass 1 — Sample Conveyor 2: REF-001 through REF-008 — COMPLETE**
+- **Pass 2 — Sample Conveyor 3: REF-001 through REF-013 — NEXT**
 - **Pass 3 — cross-image narrative sequencing / duplicates / final E/S/A proposals**
 - **Pass 4 — update subset record, controlled evidence matrix if approved, current context and V0.6 integration notes**
 
@@ -262,9 +286,9 @@ Review sequence:
 
 # 6. Target report narrative after review
 
-## Sample Conveyor 2 — revised working target
+## Sample Conveyor 2 — focused pass closed
 
-> **Observed loading/product scale + visually supported lateral belt offset → reduced usable narrow-belt carrying margin → entry-zone congestion / direct containment loss → accumulated consequence → verify feed/product-size/tracking/interference relationships → correct confirmed primary contributors in the appropriate sequence → determine residual containment duty → install suitable side-skirt/spill-seal containment where required → prove performance under representative operation.**
+> **Opening visual hook: REF-004 abnormal carrying condition + REF-001 substantial consequence → complementary REF-005 belt-offset evidence → product-size / narrow carrying geometry → REF-006 congested entry-zone containment failure → verify feed/product-size/tracking/interference relationships → correct confirmed primary contributors in the appropriate sequence → determine residual containment duty → install suitable side-skirt/spill-seal containment where required → prove performance under representative operation.**
 
 The lateral belt offset is visually supported by REF-004/005, but its magnitude, persistence and initiating cause remain to be established.
 
@@ -276,4 +300,4 @@ The tracking magnitude and root cause remain to be established quantitatively.
 
 ---
 
-**REVIEW CONTROL:** This file is an open working subset review. It does not supersede the original evidence matrix until the inspector completes the photo-by-photo confirmation and approves the resulting classification/narrative changes.
+**REVIEW CONTROL:** Sample Conveyor 2 has completed the focused photo-by-photo pass. The full subset review remains open pending Sample Conveyor 3 and final cross-image reconciliation. It does not supersede the original evidence matrix until the inspector approves the final classification/narrative changes.
