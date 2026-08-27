@@ -2,7 +2,7 @@
 
 ## Status
 
-**STAGE A — COMPLETE / CV09 FUNCTIONAL + FIGURE GAPS — CLOSED / W10 FUNCTIONAL + FIGURE GAPS — CLOSED / SAMPLE CONVEYOR 2/3 EVIDENCE RE-EVALUATION + FUNCTIONAL ACTION BASELINE — CLOSED / STAGE B — HELD PENDING REMAINING SOLUTION GAP CLOSURE**
+**STAGE A — COMPLETE / CV09 — CLOSED / W10 — CLOSED / SAMPLE CONVEYOR 2/3 — CLOSED AT FUNCTIONAL-CONCEPT LEVEL / U4 + L3 — CLOSED AT FUNCTIONAL-CONCEPT LEVEL / STAGE B — HELD PENDING REMAINING SOLUTION GAP CLOSURE**
 
 Primary live context:
 
@@ -23,13 +23,15 @@ Accepted closure/context supplements:
 - `Context/Running_Report_Contextual_Spillage_NotesV4.2_W10_Solution_Closure.md`
 - `Context/Running_Report_Contextual_Spillage_NotesV4.2_Sample_Conveyors_Evidence_and_Solution_Baseline.md`
 - `Context/Running_Report_Contextual_Spillage_NotesV4.2_Sample_Conveyors_Solution_Closure.md`
+- `Context/Running_Report_Contextual_Spillage_NotesV4.2_U4_L3_Solution_Closure.md`
 
-Sample Conveyor evidence controls:
+Active evidence controls:
 
-- `Report-Working/SpillageReport/EVIDENCE_STORY_MATRIX_V0.2_SAMPLE_CONVEYORS.csv`
-- `Report-Working/SpillageReport/EVIDENCE_STORY_MATRIX_V0.2_SAMPLE_CONVEYOR_CONTROL.md`
-- `Report-Working/SpillageReport/SAMPLE_CONVEYOR_EVIDENCE_TO_REASONING_CROSS_RECONCILIATION_V0.1.md`
-- `Report-Working/SpillageReport/SAMPLE_CONVEYOR3_REF013_EVIDENCE_WITHDRAWAL.md`
+- historical base: `Report-Working/SpillageReport/EVIDENCE_STORY_MATRIX_V0.1.csv`
+- Sample Conveyor overlay: `Report-Working/SpillageReport/EVIDENCE_STORY_MATRIX_V0.2_SAMPLE_CONVEYORS.csv`
+- U4/L3 overlay: `Report-Working/SpillageReport/EVIDENCE_STORY_MATRIX_V0.3_U4_L3.csv`
+- Sample 3 REF-013 withdrawal: `Report-Working/SpillageReport/SAMPLE_CONVEYOR3_REF013_EVIDENCE_WITHDRAWAL.md`
+- current evidence-index pointer: `Report-Working/evidence_index_CURRENT.md`
 
 Current conceptual-figure register:
 
@@ -57,139 +59,177 @@ The Stage-A gap register remains the historical controlled comparison record. It
 
 Locked functional items include pulley-supported cleaner location, preferred two-stage cleaning, chute-contained removal of residual fines, self-tensioning/travel-control principles, maintainability and the audit-versus-OEM detailed-design boundary.
 
-Active conceptual figures: DRAW-005 + DRAW-006.
+Active conceptual figures: **DRAW-005 + DRAW-006**.
 
-Remaining CV09 work is verification-register/Part XI reconciliation, responsible-engineer/OEM review and eventual V0.6 integration.
+Remaining work: Part XI/success-criteria reconciliation, responsible-engineer/OEM review and V0.6 integration.
 
 ## W10 — CLOSED AT FUNCTIONAL-CONCEPT LEVEL
 
-Locked functional objective:
+Locked objective:
 
-> **Keep coarse/mixed product on the belt using belt-compatible side skirting / spill sealing positioned at the carrying edges, while separately correcting loading/tracking contributors where present.**
+> **Keep coarse/mixed product on the belt using belt-compatible side skirting / spill sealing at the carrying edges, while separately correcting loading/tracking contributors where present.**
 
-Active conceptual figures: DRAW-0010 + DRAW-0011.
+Active conceptual figures: **DRAW-0010 + DRAW-0011**.
 
-Remaining W10 work is site/OEM detailed design, representative operating verification, success-criteria reconciliation and report integration.
+Remaining work: site/OEM detailed design, representative operating verification, success-criteria reconciliation and V0.6 integration.
 
 ## Sample Conveyors 2 and 3 — CLOSED AT FUNCTIONAL-CONCEPT / ACTION-SEQUENCING LEVEL
 
-The focused evidence review, cross-image reconciliation and functional action re-evaluation are complete.
-
-### Locked engineering relationship
+Locked relationship:
 
 > **Feed quantity/variation + product-size distribution + loading position/distribution + usable belt geometry + lateral belt position/tracking interact to determine Sample Conveyor containment performance.**
 
-### Locked capacity distinction
+Locked distinction:
 
-The report must distinguish:
+- **rated/design throughput capacity** is not established by the still photographs;
+- **geometric carrying/containment capability** is directly challenged by the photographed coarse-product/narrow-belt/lateral-offset relationship.
 
-- **rated/design throughput capacity**, which the still photographs do not establish; from
-- **geometric carrying/containment capability**, which is directly challenged by the photographed relationship between coarse product, narrow belt geometry, lateral offset and material outside the intended carrying path.
+Locked functional sequence:
 
-Do not state simply that a Sample Conveyor is “overloaded” unless later quantitative verification supports that conclusion.
-
-### Locked functional action sequence
-
-1. establish the intended/design basis where available;
-2. validate representative feed quantity/variation and the adequacy of the existing feed-control mechanism;
-3. verify product-size distribution against the intended belt duty/carrying geometry;
-4. verify loading position/distribution and centring onto the belt;
-5. quantify and diagnose the as-found lateral belt-offset/tracking condition under representative loading;
-6. clear/assess entry-zone congestion and correct confirmed alignment/tracking/interference causes;
-7. prove acceptable centred operation and re-establish usable carrying geometry under representative loading;
-8. determine whether feed quantity, product size or loading distribution still requires additional control;
-9. establish the residual containment duty and, where required, install/adapt belt-compatible side skirting / spill sealing using the W10 functional principle but tailored to Sample Conveyor geometry; and
+1. establish design basis where available;
+2. validate feed quantity/variation and feed-control adequacy;
+3. verify product-size distribution against intended duty;
+4. verify loading position/distribution and centring;
+5. quantify and diagnose lateral belt offset/tracking;
+6. clear/assess congestion and correct confirmed alignment/tracking/interference causes;
+7. prove acceptable centred operation under representative loading;
+8. determine whether feed/product-size/loading control remains required;
+9. establish residual containment duty and adapt W10-type belt-edge skirting where required; and
 10. validate final performance under representative operation.
 
-### Evidence controls retained
+Sample 3 REF-013 remains withdrawn.
 
-- Sample 2 REF-004 + REF-005 support a captured lateral belt-offset condition; magnitude, persistence and initiating cause remain unverified.
-- Sample 2 REF-004 + REF-001 are the preferred opening visual pair.
-- Sample 2 REF-006 remains the principal congested entry/interaction-zone image.
-- Sample 3 REF-002 is the principal feed/loading + product-size + local-containment relationship image.
-- Sample 3 REF-004 is the preferred global relationship-summary image.
-- Sample 3 REF-006 + REF-007 are the principal correctly attributed lateral-offset pair.
-- Sample 3 REF-012 remains the principal wider consequence image.
-- Sample 3 REF-013 remains withdrawn and must not be restored.
-- no unmeasured belt-offset percentage is to be published.
+## U4 Tripper Car — CLOSED AT FUNCTIONAL-CONCEPT LEVEL
 
-Current controlled evidence population:
+Approved U4 reader sequence:
 
-- **196 inspection media**;
-- **188 photographs**;
-- **8 videos**;
-- **76 E / 42 S / 78 A**.
+> **REF-008 → REF-009 → REF-004 → REF-007**
 
-### Sample Conveyor items still open by design
+Intended relationship:
 
-These are no longer functional-concept gaps. They are verification/detail-design tasks:
+> **tail-pulley/alignment concern → visible belt mistracking → continuation toward tripper → one-sided coarse-product consequence**
 
-- recovery/confirmation of original design duty where available;
-- measured feed quantity/variation;
-- measured product-size distribution / intended allowable top size;
-- confirmation of feed-control mechanism adequacy;
-- measured tracking behaviour and root cause;
-- final side-skirt/spill-seal dimensions/material/contact/support/OEM selection;
-- final quantitative success criteria where required;
-- refinement/replacement of the historical Sample Conveyor conceptual drawing; and
-- responsible-engineer/OEM/site review before implementation/issue where applicable.
+Evidence boundary:
 
-### Binding report-language reminder
+- U4 mistracking/offset is visually established;
+- tail-pulley alignment concern is inspector-recorded and visually supported but remains unmeasured;
+- REF-007 shows accumulated one-sided consequence rather than the instant of every product-fall event.
 
-When the Sample Conveyor context is integrated into V0.6, use the established **softer V0.2-derived reader-facing engineering style** rather than copying internal diagnostic language mechanically.
+Separate U4 fines pair:
 
-Binding voice:
+> **REF-005 + REF-006**
+
+These show substantial fines build-up in the head-pulley/tripper discharge region and are to be discussed separately from the coarse-product tracking sequence where appropriate.
+
+Locked U4 action sequence:
+
+1. document/quantify the as-found belt and tail-pulley/alignment relationship;
+2. inspect relevant pulley/idler/tension/training/tripper-geometry/interference contributors;
+3. correct confirmed mechanical causes;
+4. verify acceptable centred belt behaviour through the **full normal tripper travel**;
+5. perform the verification under representative loading;
+6. reassess one-sided coarse-product loss after correction;
+7. separately assess the fines/carryback mechanism; and
+8. determine any residual containment requirement only after primary tracking correction.
+
+U4 remains a geometry-specific cleaner exception. REF-011/012 are now appendix/reference priority, but the custom-cleaner conclusion remains binding.
+
+## L3 Conveyor — CLOSED AT FUNCTIONAL-CONCEPT LEVEL
+
+Principal alignment evidence:
+
+> **REF-001**
+
+Principal fines-spillage set:
+
+> **REF-002 + REF-004 + REF-007**
+
+Supporting lower-area accumulation:
+
+> **REF-008 — S**
+
+Locked evidence boundary:
+
+> **The asymmetric tail-end belt/pulley relationship supports a tracking/alignment concern, but the current evidence does not establish that this condition is responsible for significant coarse-product spillage.**
+
+Locked L3 action sequence:
+
+1. quantitatively verify the tail-end belt/pulley relationship and tracking;
+2. inspect relevant pulley/idler/alignment/tension/training/interference contributors;
+3. correct confirmed defects;
+4. verify stable tracking under representative operation; and
+5. reassess the fines/material condition separately without inventing a solid-product causal chain.
+
+---
+
+# Current Controlled Evidence Population
+
+After Sample Conveyor reconciliation and the approved U4/L3 quick validation:
+
+- **196 inspection media**
+- **188 photographs**
+- **8 videos**
+- **80 E / 38 S / 78 A**
+
+The U4/L3 work changed narrative-placement priorities only; no media were added or removed.
+
+---
+
+# Binding Report-Language Rule
+
+All later V0.6 integration must preserve the accepted **softer V0.2-derived reader-facing engineering style**:
 
 > **Formal engineering narrative — technically rigorous, measured and explanatory, without sounding legalistic, forensic, bureaucratic or unnecessarily categorical.**
 
 Preferred forms include:
 
 - “The evidence indicates…”
-- “The observed condition suggests…”
+- “The inspection identified…”
+- “The observed condition suggests/is consistent with…”
 - “Taken together, these findings indicate…”
 - “The available evidence does not establish…”
-- “Further measurement is required to establish…”
+- “Further measurement is required to establish/quantify…”
 - “The recommended response is therefore…”
 
-“Softer” applies to delivery, not to evidence strength or the engineering conclusion.
+“Softer” applies to delivery, not evidence strength or required action.
 
-More formal verification/close-out language may be used in Part XI, success criteria, implementation controls and technical appendices.
+Do not introduce unmeasured dimensions, percentages, tolerances, feed rates, structural capacities or OEM limits as fact.
 
 ---
 
 # Remaining Solution Areas
 
-The remaining proposed solutions still require sequential technical-gap closure where applicable, including:
+The remaining proposed-solution gaps now requiring sequential closure are:
 
-- U4 / L3 alignment detail where further conceptual clarification is required;
-- Screens water-control concept after mechanism verification;
-- structural scopes where the report should define assessment/repair intent without fabrication design;
-- trip/restart operational-control detail; and
-- housekeeping operational-control detail.
+1. **Screens / screen chutes — active water-control mechanism and corrective direction**;
+2. **Screens structural condition — assessment/repair intent without crossing into fabrication design**;
+3. **L1 structural condition — competent structural assessment/repair intent and operating-risk controls**;
+4. **trip/restart operational-control detail**; and
+5. **housekeeping/recovery/reintroduction operational-control detail**.
 
-Sample Conveyors 2/3 are no longer listed as an unresolved functional-solution area. Their remaining items are verification/detail-design and later report/figure integration tasks.
+CV09, W10, Sample Conveyors 2/3 and U4/L3 are no longer unresolved functional-concept gaps. Their remaining items are verification/detail-design/report-integration matters.
 
 ---
 
 # Stage B — Final Integrated Reconciliation
 
-Stage B remains open.
+Stage B remains held until the remaining solution gaps above are sufficiently mature.
 
-The Stage-B input is now:
+Current Stage-B input:
 
-> **V0.5 + Stage-A Gap Register + mature V4.2-and-later context + CV09 closure + W10 closure + Sample Conveyor evidence/functional-action closure → V0.6 integrated controlled report revision**
+> **V0.5 + Stage-A Gap Register + mature V4.2-and-later context + CV09 closure + W10 closure + Sample Conveyor closure + U4/L3 closure → V0.6 integrated controlled report revision**
 
 V0.6 should:
 
 - restore relevant V3.9/V1/V2 detail where it materially improves technical understanding;
 - incorporate locked/refined physical solution intent;
-- use the refined Sample Conveyor photographs as an evidence-to-reasoning sequence rather than decorative spillage images;
-- preserve the V0.2-derived softer reader-facing voice and V0.5 terminology rule;
+- use evidence as a reasoning sequence rather than decorative illustration;
+- preserve the softer V0.2-derived reader-facing voice and V0.5 terminology rule;
 - reconcile Parts I–XII, particularly Parts IV, V, VI, X and XI;
-- reconcile verification/success criteria with the refined concepts;
+- reconcile verification/success criteria with refined concepts;
 - replace/supersede conceptual figures where later closure requires it;
 - update the source-control chain / Appendix F;
-- update evidence/photo inclusion using the active Sample Conveyor matrix overlay;
+- use the active matrix overlays for photo inclusion;
 - retain all established evidence-qualification boundaries;
 - remove all reliance on withdrawn Sample 3 REF-013; and
 - avoid restoring historical statements that later evidence review deliberately tightened or rejected.
@@ -210,15 +250,16 @@ Detailed OEM/site design values should not be invented merely to make the report
 2. Stage-A V0.5 ↔ context diagnostic comparison — **COMPLETE**.
 3. Stage-A gap register — **COMPLETE / CONTROLLED V0.6 INPUT**.
 4. CV09 functional solution + figure strategy — **COMPLETE / LOCKED**.
-5. W10 side-skirt / spill-seal functional solution + figure strategy — **COMPLETE / LOCKED**.
-6. Sample Conveyor 2/3 focused evidence-to-reasoning review — **COMPLETE / APPROVED**.
-7. Sample Conveyor evidence matrix overlay + REF-013 withdrawal control — **COMPLETE / ACTIVE**.
-8. Sample Conveyor functional solution/action re-evaluation — **COMPLETE / LOCKED AT FUNCTIONAL-CONCEPT LEVEL**.
-9. Close remaining solution-dependent technical gaps.
-10. Stage-B integrated reconciliation.
-11. Build V0.6 and complete full DOCX render/QA.
-12. Complete evidence/body/appendix reconciliation.
-13. Content freeze → Phase 8 publication styling → responsible-engineer review/verification → Phase 9 issue closure.
+5. W10 functional solution + figure strategy — **COMPLETE / LOCKED**.
+6. Sample Conveyor 2/3 evidence review + functional action closure — **COMPLETE / LOCKED**.
+7. U4/L3 quick evidence validation + functional alignment/tracking closure — **COMPLETE / LOCKED**.
+8. Close Screens water-control gap.
+9. Close structural-condition scopes for Screens/L1.
+10. Close trip/restart and housekeeping operational-control gaps.
+11. Stage-B integrated reconciliation.
+12. Build V0.6 and complete full DOCX render/QA.
+13. Complete evidence/body/appendix reconciliation.
+14. Content freeze → Phase 8 publication styling → responsible-engineer review/verification → Phase 9 issue closure.
 
 ---
 
