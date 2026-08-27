@@ -5,10 +5,11 @@
 - Repository: `Speedie007/Spillage-Report`
 - Branch: `main`
 - **Current live source-reconciled baseline:** `Context/Running_Report_Contextual_Spillage_NotesV4.2.md`
-- **Current accepted solution closures supplementing V4.2:**
+- **Current accepted solution/evidence closures supplementing V4.2:**
   - `Context/Running_Report_Contextual_Spillage_NotesV4.2_CV09_Solution_Closure.md`
   - `Context/Running_Report_Contextual_Spillage_NotesV4.2_CV09_Drawing_Closure.md`
   - `Context/Running_Report_Contextual_Spillage_NotesV4.2_W10_Solution_Closure.md`
+  - `Context/Running_Report_Contextual_Spillage_NotesV4.2_Sample_Conveyors_Evidence_and_Solution_Baseline.md`
 - Immediate predecessor: `Context/Running_Report_Contextual_Spillage_NotesV4.1.md` — source-reconciled baseline before CV09 functional lock-in.
 - Historical full Word context: `Context/Running_Report_Contextual_Spillage_NotesV3.9.docx`
 - Historical source questionnaires:
@@ -20,8 +21,12 @@
 - **Current reconciliation control:** `Context/Running_Report_Contextual_Spillage_NotesV4.2_Report_Reconciliation_TODO.md`
 - Phase 6: **COMPLETE / INSPECTOR APPROVED**
 - Phase 7: **COMPLETE / CLOSED**
-- Locked evidence matrix: `Report-Working/SpillageReport/EVIDENCE_STORY_MATRIX_V0.1.csv`
-- Evidence classification: **75 E / 44 S / 78 A / 0 X = 197**
+- Historical full evidence matrix: `Report-Working/SpillageReport/EVIDENCE_STORY_MATRIX_V0.1.csv`
+- **Active Sample Conveyor 2/3 evidence overlay:** `Report-Working/SpillageReport/EVIDENCE_STORY_MATRIX_V0.2_SAMPLE_CONVEYORS.csv`
+- **Sample Conveyor matrix control:** `Report-Working/SpillageReport/EVIDENCE_STORY_MATRIX_V0.2_SAMPLE_CONVEYOR_CONTROL.md`
+- **Current controlled evidence population:** **76 E / 42 S / 78 A = 196 inspection media**
+- Current media count: **188 photos / 8 videos**
+- Sample 3 REF-013 withdrawal control: `Report-Working/SpillageReport/SAMPLE_CONVEYOR3_REF013_EVIDENCE_WITHDRAWAL.md`
 - Verification control: `Report-Working/SpillageReport/PHASE7_VERIFICATION_SUCCESS_CRITERIA_REGISTER_V0.1.md`
 - **Current conceptual-figure control:** `Report-Working/SpillageReport/PHASE7_CONCEPTUAL_ENGINEERING_FIGURE_REGISTER_V0.3.md`
 - **Current Appendix E drawing control:** `Report-Working/SpillageReport/PHASE7_APPENDIX_E_CONCEPTUAL_ENGINEERING_DRAWINGS_V0.3.md`
@@ -46,7 +51,7 @@ Do not spend significant effort polishing report wording that depends on a solut
 
 V4.1 was checked directly against the actual V3.9, Questionnaire V1 and Questionnaire V2 Word sources.
 
-V4.2 carries that source-reconciled context forward and contains the locked CV09 cleaner functional concept. Later controlled closure files now add the accepted CV09 drawing strategy and W10 side-skirt / spill-seal solution.
+V4.2 carries that source-reconciled context forward and contains the locked CV09 cleaner functional concept. Later controlled closure files now add the accepted CV09 drawing strategy, W10 side-skirt / spill-seal solution, and the approved Sample Conveyor 2/3 focused evidence/diagnostic baseline.
 
 Important source-reconciled details retained include:
 
@@ -208,11 +213,80 @@ The repository filenames retain `Side_Containment_Barrier_Principle` for continu
 
 ## Transferable Sample Conveyor principle
 
-W10 establishes a useful general principle for later Sample Conveyor 2/3 refinement:
+W10 establishes a useful general principle for Sample Conveyor 2/3 refinement:
 
 > **Where residual lateral product needs to be retained on a troughed conveyor, the containment element belongs at the belt carrying edge as a belt-compatible skirt/seal, not as a remote external barrier after product has escaped.**
 
 This principle must not be copied blindly; Sample Conveyor feed quantity/product size, usable carrying width and tracking conditions remain location-specific.
+
+---
+
+# SAMPLE CONVEYORS 2/3 — FOCUSED EVIDENCE + DIAGNOSTIC BASELINE LOCKED
+
+**Focused photo review: COMPLETE / APPROVED**
+
+**Evidence-to-reasoning associations: LOCKED**
+
+**Detailed final physical solution: STILL OPEN**
+
+Controlling context:
+
+`Context/Running_Report_Contextual_Spillage_NotesV4.2_Sample_Conveyors_Evidence_and_Solution_Baseline.md`
+
+Evidence controls:
+
+- `Report-Working/SpillageReport/EVIDENCE_STORY_MATRIX_V0.2_SAMPLE_CONVEYORS.csv`
+- `Report-Working/SpillageReport/EVIDENCE_STORY_MATRIX_V0.2_SAMPLE_CONVEYOR_CONTROL.md`
+- `Report-Working/SpillageReport/SAMPLE_CONVEYOR_EVIDENCE_TO_REASONING_CROSS_RECONCILIATION_V0.1.md`
+- `Report-Working/SpillageReport/SAMPLE_CONVEYOR3_REF013_EVIDENCE_WITHDRAWAL.md`
+
+## Governing relationship
+
+> **Feed/loading condition + product-size distribution + usable belt geometry + lateral belt position interact to determine Sample Conveyor containment performance.**
+
+The photographs support the physical relationships but do not establish live feed rate, rated design-capacity exceedance, a measured tracking percentage or one universal initiating cause.
+
+## Sample Conveyor 2
+
+- `REF-004 + REF-001` = opening visual pair: abnormal carrying condition + substantial consequence.
+- `REF-004 + REF-005` = complementary product-size/narrow-belt + exposed-roller/lateral-offset pair.
+- `REF-005` elevated **S → E**.
+- `REF-007` = observed loading/product-size/limited carrying geometry.
+- `REF-006` = principal congested entry-guide / interaction-zone image.
+- `REF-008` downgraded **S → A**.
+- The earlier statement that Sample 2 mistracking was wholly unconfirmed is superseded: a **lateral belt-offset condition is visually supported at the captured state**, but magnitude, persistence and initiating cause remain unverified.
+
+## Sample Conveyor 3
+
+- `REF-002` = feed/loading + coarse-product scale + local containment relationship.
+- `REF-003` = supporting size-selective relationship: smaller fragments remain while larger product is outside the carrying path.
+- `REF-004` elevated **A → E** as global product-size + belt-position + containment-loss summary.
+- `REF-006 + REF-007` = principal correctly attributed lateral-offset pair.
+- `REF-012` = principal wider consequence/severity image.
+- `REF-005` remains essential product-size-versus-belt-width evidence.
+- `REF-013` = **WITHDRAWN** following engineer confirmation that it belongs to another conveyor/belt; exact source location cannot be reconstructed reliably.
+- Do not publish an unmeasured percentage for Sample 3 offset; use **visually substantial lateral offset** until measured.
+
+## Current evidence population after Sample Conveyor reconciliation
+
+- **196 inspection media**
+- **188 photos**
+- **8 videos**
+- **76 E / 42 S / 78 A**
+
+## Diagnostic action sequence
+
+1. establish representative feed quantity/variation and product-size distribution;
+2. quantify belt offset/tracking under representative loading;
+3. identify and correct alignment/tracking/interference causes;
+4. inspect and clear/assess displaced-product congestion and possible belt interference;
+5. establish usable carrying geometry after primary corrections;
+6. determine whether feed quantity, product size or loading distribution requires control;
+7. reassess residual containment duty;
+8. install/adapt belt-compatible side-skirt / spill-seal containment where required; and
+9. verify performance under representative operation.
+
+The final hardware arrangement, side-skirt extent/contact/clearance, feed-control method and local Sample 2 versus Sample 3 differences remain to be refined before V0.6 wording is finalised.
 
 ---
 
@@ -235,8 +309,10 @@ Terminology:
 - Cleaner similarity at inaccessible conveyors remains inference until locally verified.
 - CV06 cleaner geometry relative to the new preferred pulley-supported standard remains to be verified.
 - CV15 exact cleaner operating failure mechanism remains unverified by the still set.
-- Sample Conveyor 2 significant mistracking remains unconfirmed.
-- Sample Conveyor 3 mistracking is visually supported but unmeasured.
+- Sample Conveyor 2 **captured lateral belt offset is visually supported by REF-004/005**, but magnitude, persistence/frequency and initiating cause remain unverified.
+- Sample Conveyor 3 **visually substantial lateral offset is supported by REF-006/007**, but magnitude and root cause remain unmeasured/unverified.
+- Sample Conveyor 3 REF-013 is withdrawn and must not be used for any finding.
+- Neither Sample Conveyor still set proves rated design-capacity overload; use geometric carrying/containment language until feed/capacity is quantified.
 - L3 offset is supported; significant solid-product causal chain remains unconfirmed.
 - U4 mistracking/one-sided loss are supported; alignment magnitude remains unquantified.
 - Screens water escape is verified; equipment-level mechanism remains unresolved.
@@ -254,11 +330,13 @@ Terminology:
 5. CV09 conceptual figure strategy — **COMPLETE / DRAW-005 + DRAW-006 ACCEPTED AND SYNCED**.
 6. W10 side-skirt / spill-seal technical refinement — **COMPLETE / LOCKED**.
 7. W10 conceptual figure strategy — **COMPLETE / DRAW-0010 + DRAW-0011 ACCEPTED AND SYNCED**.
-8. Refine Sample Conveyors 2 and 3, using the W10 side-skirt principle only where technically applicable while separately resolving feed/width/tracking issues.
-9. Close remaining proposed-solution technical gaps.
-10. Stage-B integrated report reconciliation using V0.5 + Stage-A register + mature current context.
-11. Build and full-render/QA V0.6.
-12. Complete evidence/photo reconciliation and expanded photographic appendix.
-13. Content freeze.
-14. Phase 8 publication/layout styling.
-15. Responsible-engineer concept/drawing review, outstanding verification and Phase 9 issue closure.
+8. Sample Conveyor 2/3 focused photo-by-photo evidence review — **COMPLETE / APPROVED**.
+9. Sample Conveyor cross-image reconciliation + evidence overlay + REF-013 withdrawal — **COMPLETE / ACTIVE**.
+10. Refine the remaining Sample Conveyor physical solution detail: feed-control practicality, corrected tracking geometry, skirt extent/arrangement and Sample 2 versus Sample 3 local adaptation.
+11. Close remaining proposed-solution technical gaps.
+12. Stage-B integrated report reconciliation using V0.5 + Stage-A register + mature current context.
+13. Build and full-render/QA V0.6.
+14. Complete evidence/photo reconciliation and expanded photographic appendix.
+15. Content freeze.
+16. Phase 8 publication/layout styling.
+17. Responsible-engineer concept/drawing review, outstanding verification and Phase 9 issue closure.
