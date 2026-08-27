@@ -2,15 +2,19 @@
 
 ## Status
 
-**PHOTO-BY-PHOTO REVIEW COMPLETE — FINAL E/S/A DELTA PROPOSED / INSPECTOR APPROVAL PENDING**
+**PHOTO-BY-PHOTO REVIEW COMPLETE / CROSS-IMAGE RECONCILIATION APPROVED / SAMPLE CONVEYOR EVIDENCE DELTA CLOSED**
 
-This file consolidates the focused second-pass review of the valid Sample Conveyor 2 and Sample Conveyor 3 photographs. It converts the inspector's photo-by-photo comments into a proposed final body/support/archive evidence set before the master evidence matrix is changed.
+This file consolidates the focused second-pass review of the valid Sample Conveyor 2 and Sample Conveyor 3 photographs and records the inspector-approved final body/support/archive evidence set.
 
-`LoadoutStationSample3-REF-013` is excluded from this reconciliation because it has been formally withdrawn from the controlled evidence population following engineer confirmation that it belongs to another unidentified conveyor/belt.
+`LoadoutStationSample3-REF-013` is excluded because it has been formally withdrawn from the controlled evidence population following engineer confirmation that it belongs to another unidentified conveyor/belt.
 
 Withdrawal control:
 
 `Report-Working/SpillageReport/SAMPLE_CONVEYOR3_REF013_EVIDENCE_WITHDRAWAL.md`
+
+Active Sample Conveyor matrix overlay:
+
+`Report-Working/SpillageReport/EVIDENCE_STORY_MATRIX_V0.2_SAMPLE_CONVEYORS.csv`
 
 ---
 
@@ -27,9 +31,9 @@ Still photographs do not prove live feed rate, rated design-capacity exceedance,
 
 ---
 
-# 2. Sample Conveyor 2 — final proposed evidence set
+# 2. Sample Conveyor 2 — approved evidence set
 
-| Ref | Historical | Proposed | Principal V0.6 role |
+| Ref | Historical | Approved | Principal V0.6 role |
 |---|---:|---:|---|
 | REF-001 | E | **E** | Opening consequence/severity image; paired with REF-004 to establish that the abnormal carrying condition has a substantial material-loss consequence. |
 | REF-002 | A | **A** | Alternate consequence evidence; no unique body relationship. |
@@ -40,7 +44,7 @@ Still photographs do not prove live feed rate, rated design-capacity exceedance,
 | REF-007 | E | **E** | Strong combined loading / product-size / limited carrying-geometry image. |
 | REF-008 | S | **A** | Lower-structure accumulation with little unique value to the principal causal/relationship explanation. |
 
-## Sample 2 proposed delta
+## Sample 2 approved delta
 
 - **REF-005: S → E**
 - **REF-008: S → A**
@@ -57,9 +61,9 @@ The evidence supports a visually observed lateral offset at the captured Sample 
 
 ---
 
-# 3. Sample Conveyor 3 — final proposed evidence set
+# 3. Sample Conveyor 3 — approved evidence set
 
-| Ref | Historical | Proposed | Principal V0.6 role |
+| Ref | Historical | Approved | Principal V0.6 role |
 |---|---:|---:|---|
 | REF-001 | A | **A** | General installation/topology context. |
 | REF-002 | E | **E** | Principal feed/loading + product-size-versus-narrow-belt + local containment relationship image. |
@@ -75,7 +79,7 @@ The evidence supports a visually observed lateral offset at the captured Sample 
 | REF-012 | E | **E** | Principal wider consequence/severity image showing extensive accumulated product on surrounding grating/access. |
 | REF-013 | E | **WITHDRAWN** | Misattributed to Sample Conveyor 3; exact source asset/location cannot be reliably reconstructed. Removed from controlled evidence population. |
 
-## Sample 3 proposed delta
+## Sample 3 approved delta
 
 - **REF-004: A → E**
 - **REF-013: removed from controlled evidence population**
@@ -89,13 +93,13 @@ The evidence supports a visually observed lateral offset at the captured Sample 
 > **REF-006 + REF-007 — principal complementary lateral-offset pair**  
 > **REF-012 — accumulated wider consequence**
 
-REF-005 remains essential additional product-size-versus-belt-width evidence and can be used where layout allows or where it communicates the dimensional relationship more clearly than another body frame.
+REF-005 remains essential additional product-size-versus-belt-width evidence and can be used where layout allows or where it communicates the relationship more clearly than another body frame.
 
 ---
 
 # 4. Tracking evidence correction after REF-013 withdrawal
 
-Historical Batch-B and evidence-index wording identified REF-013 as the strongest Sample Conveyor 3 tracking photograph. That statement is now superseded.
+Historical Batch-B and evidence-index wording identified REF-013 as the strongest Sample Conveyor 3 tracking photograph. That statement is superseded.
 
 The valid tracking evidence is:
 
@@ -105,7 +109,7 @@ No percentage is to be published from these stills. The inspector's visual impre
 
 ---
 
-# 5. Proposed controlled evidence-count effect
+# 5. Approved controlled evidence-count effect
 
 Historical controlled inspection-media population:
 
@@ -114,12 +118,12 @@ Historical controlled inspection-media population:
 - **8 videos**
 - **75 E / 44 S / 78 A / 0 X**
 
-After REF-013 withdrawal and the proposed Sample Conveyor classification changes:
+Current population after REF-013 withdrawal and approved Sample Conveyor classification changes:
 
 - **196 total inspection media**
 - **188 photographs**
 - **8 videos**
-- proposed classification totals: **76 E / 42 S / 78 A**
+- **76 E / 42 S / 78 A**
 
 Calculation:
 
@@ -130,11 +134,11 @@ Calculation:
 
 Net: **76 E + 42 S + 78 A = 196 controlled inspection media.**
 
-No X classification is proposed for REF-013 because the photograph is not being retained as active controlled evidence; its withdrawal is documented separately for traceability.
+No X classification is assigned to REF-013 because the photograph is not retained as active controlled evidence; its withdrawal is documented separately for traceability.
 
 ---
 
-# 6. Proposed report reasoning after cross-image review
+# 6. Approved report reasoning after cross-image review
 
 ## Sample Conveyor 2
 
@@ -167,14 +171,20 @@ Required sequence remains diagnostic rather than prescriptive:
 
 ---
 
-# 7. Approval hold point
+# 7. Closure / downstream controls
 
-If the inspector accepts this cross-image reconciliation, the next controlled actions are:
+The inspector has approved this cross-image reconciliation.
 
-1. update/supersede the master `EVIDENCE_STORY_MATRIX_V0.1.csv` with the approved Sample Conveyor changes and 196-media population;
-2. update `Report-Working/evidence_index.md`;
-3. annotate/supersede the affected Sample 2/3 portions of `evidence_visual_review_batch_B.md`;
-4. update the live contextual notes / Sample Conveyor solution-development record;
-5. use this evidence chain during V0.6 report integration and later conceptual-drawing refinement.
+The approved information has been promoted into:
 
-**CONTROL:** No master-matrix classification change beyond the physical REF-013 withdrawal is considered final until this cross-image reconciliation is approved by the inspector.
+1. `Report-Working/SpillageReport/EVIDENCE_STORY_MATRIX_V0.2_SAMPLE_CONVEYORS.csv` — active Sample Conveyor matrix overlay;
+2. `Report-Working/SpillageReport/EVIDENCE_STORY_MATRIX_V0.2_SAMPLE_CONVEYOR_CONTROL.md` — matrix/version control;
+3. `Report-Working/evidence_index_sample_conveyor_reconciliation_v0.2.md` — current Sample Conveyor evidence-index supplement;
+4. `Report-Working/evidence_visual_review_batch_B_sample_conveyor_refinement_v0.2.md` — revised Batch-B Sample Conveyor interpretation;
+5. `Context/Running_Report_Contextual_Spillage_NotesV4.2_Sample_Conveyors_Evidence_and_Solution_Baseline.md` — live contextual evidence/diagnostic baseline;
+6. `Context/Running_Report_Contextual_Spillage_NotesV4.2_Report_Reconciliation_TODO.md` — Stage-B control; and
+7. `Report-Working/report_running_notes.md` — current working-state summary.
+
+The next technical task is not further evidence classification. It is refinement of the remaining Sample Conveyor physical solution detail before V0.6 integration.
+
+**CONTROL:** This cross-image evidence reconciliation is closed and approved. Future changes require a new controlled review rather than silent alteration of these classifications or evidence associations.
