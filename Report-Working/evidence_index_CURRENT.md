@@ -2,7 +2,7 @@
 
 ## Status
 
-**CURRENT EVIDENCE-INDEX CONTROL AFTER SAMPLE CONVEYOR 2/3 RECONCILIATION + U4/L3 QUICK VALIDATION + SCREENS QUICK VALIDATION**
+**CURRENT EVIDENCE-INDEX CONTROL AFTER SAMPLE CONVEYOR 2/3 RECONCILIATION + U4/L3 QUICK VALIDATION + SCREENS QUICK VALIDATION + L1 STRUCTURAL QUICK VALIDATION**
 
 The historical consolidated index remains:
 
@@ -64,14 +64,30 @@ Water-control functional closure:
 
 The Screens overlay supersedes the Screens rows in the historical V0.1 matrix for current report-development use.
 
+## L1 Conveyor
+
+Approved quick structural-evidence validation:
+
+`Report-Working/SpillageReport/L1_STRUCTURAL_EVIDENCE_QUICK_VALIDATION_V0.1.md`
+
+Active L1 rows:
+
+`Report-Working/SpillageReport/EVIDENCE_STORY_MATRIX_V0.5_L1_STRUCTURAL.csv`
+
+Combined Screens/L1 structural functional closure:
+
+`Context/Running_Report_Contextual_Spillage_NotesV4.2_Screens_L1_Structural_Closure.md`
+
+The L1 overlay supersedes the L1 rows in the historical V0.1 matrix for current report-development use.
+
 ## Current controlled inspection-media population
 
 - **196 total inspection media**
 - **188 photographs**
 - **8 videos**
-- **80 E / 40 S / 76 A**
+- **79 E / 40 S / 77 A**
 
-No Screens media were added or removed; the Screens quick validation changed narrative-placement priorities only.
+No media were added or removed by the Screens/L1 structural validation; only narrative-placement priorities changed. The L1 change is REF-012 from E to A.
 
 ## U4 current body/story control
 
@@ -139,6 +155,30 @@ Binding Screens evidence boundary:
 - severe corrosion is directly visible in the repeatedly wetted environment, but the water escape is not declared the sole cause of all corrosion;
 - structural cut-outs/notches are directly visible, but reason/history and remaining structural capacity require separate competent assessment.
 
+## L1 current body/story control
+
+Concrete deterioration:
+
+> **LoadoutStationL1-REF-004 + REF-005**
+
+Steel deterioration at two distinct structural locations:
+
+> **LoadoutStationL1-REF-008 + REF-009**
+
+Historical belt-contact evidence:
+
+> **LoadoutStationL1-REF-007**
+
+Binding interpretation:
+
+> **Wear slots support previous/intermittent belt-to-structure contact. The latest inspected running condition showed the belt clear of the supports with no visible lateral offset/mistracking; the earlier dynamic cause remains unverified.**
+
+Accumulation/environmental context:
+
+> **LoadoutStationL1-REF-013 + REF-017**
+
+`LoadoutStationL1-REF-012` is now **A** as redundant contextual evidence.
+
 ## Historical visual-review controls
 
 The original Batch-A, Batch-B and Batch-C reviews remain historical first-pass records.
@@ -153,6 +193,10 @@ For Screens current body-priority and evidence-role assignments, use:
 
 `Report-Working/SpillageReport/SCREENS_EVIDENCE_QUICK_VALIDATION_V0.1.md`
 
+For L1 current body-priority and structural-evidence assignments, use:
+
+`Report-Working/SpillageReport/L1_STRUCTURAL_EVIDENCE_QUICK_VALIDATION_V0.1.md`
+
 ## Current contextual controls
 
 Use the applicable closure/context supplements together with the live V4.2 base:
@@ -161,5 +205,6 @@ Use the applicable closure/context supplements together with the live V4.2 base:
 - `Context/Running_Report_Contextual_Spillage_NotesV4.2_Sample_Conveyors_Solution_Closure.md`
 - `Context/Running_Report_Contextual_Spillage_NotesV4.2_U4_L3_Solution_Closure.md`
 - `Context/Running_Report_Contextual_Spillage_NotesV4.2_Screens_Water_Control_Closure.md`
+- `Context/Running_Report_Contextual_Spillage_NotesV4.2_Screens_L1_Structural_Closure.md`
 
 These later controls govern V0.6 integration where they supersede older asset wording or image priorities.
