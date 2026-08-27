@@ -4,9 +4,12 @@
 
 - Repository: `Speedie007/Spillage-Report`
 - Branch: `main`
-- **Current live source-reconciled / CV09-solution-locked context:** `Context/Running_Report_Contextual_Spillage_NotesV4.2.md`
+- **Current live source-reconciled baseline:** `Context/Running_Report_Contextual_Spillage_NotesV4.2.md`
+- **Current accepted solution closures supplementing V4.2:**
+  - `Context/Running_Report_Contextual_Spillage_NotesV4.2_CV09_Solution_Closure.md`
+  - `Context/Running_Report_Contextual_Spillage_NotesV4.2_CV09_Drawing_Closure.md`
+  - `Context/Running_Report_Contextual_Spillage_NotesV4.2_W10_Solution_Closure.md`
 - Immediate predecessor: `Context/Running_Report_Contextual_Spillage_NotesV4.1.md` — source-reconciled baseline before CV09 functional lock-in.
-- V4 first consolidation checkpoint: `Context/Running_Report_Contextual_Spillage_NotesV4.md`
 - Historical full Word context: `Context/Running_Report_Contextual_Spillage_NotesV3.9.docx`
 - Historical source questionnaires:
   - `Context/Questionaires/Running_Report_Contextual_Spillage_Questionnaire_ResponseV1.docx`
@@ -15,15 +18,13 @@
 - Current report-review artifact: `South32_Spillage_Audit_Report_July2026_S32WPPSR_01_V0.5_Terminology_Refined_Draft.docx`
 - Historical Stage-A report reconciliation register: `Context/Running_Report_Contextual_Spillage_NotesV4.1_Report_Gap_Register_StageA.md`
 - **Current reconciliation control:** `Context/Running_Report_Contextual_Spillage_NotesV4.2_Report_Reconciliation_TODO.md`
-- **CV09 solution closure:** `Context/Running_Report_Contextual_Spillage_NotesV4.2_CV09_Solution_Closure.md`
-- **CV09 drawing closure:** `Context/Running_Report_Contextual_Spillage_NotesV4.2_CV09_Drawing_Closure.md`
 - Phase 6: **COMPLETE / INSPECTOR APPROVED**
 - Phase 7: **COMPLETE / CLOSED**
 - Locked evidence matrix: `Report-Working/SpillageReport/EVIDENCE_STORY_MATRIX_V0.1.csv`
 - Evidence classification: **75 E / 44 S / 78 A / 0 X = 197**
 - Verification control: `Report-Working/SpillageReport/PHASE7_VERIFICATION_SUCCESS_CRITERIA_REGISTER_V0.1.md`
-- **Current conceptual-figure control:** `Report-Working/SpillageReport/PHASE7_CONCEPTUAL_ENGINEERING_FIGURE_REGISTER_V0.2.md`
-- **Current Appendix E drawing control:** `Report-Working/SpillageReport/PHASE7_APPENDIX_E_CONCEPTUAL_ENGINEERING_DRAWINGS_V0.2.md`
+- **Current conceptual-figure control:** `Report-Working/SpillageReport/PHASE7_CONCEPTUAL_ENGINEERING_FIGURE_REGISTER_V0.3.md`
+- **Current Appendix E drawing control:** `Report-Working/SpillageReport/PHASE7_APPENDIX_E_CONCEPTUAL_ENGINEERING_DRAWINGS_V0.3.md`
 
 ---
 
@@ -31,7 +32,7 @@
 
 The report architecture, evidence base and core mechanism hierarchy are established.
 
-The active work is to refine the **physical technical intent of the remaining proposed engineering solutions** before further report wording is locked.
+The active work is to refine the **physical technical intent of the remaining proposed engineering solutions** before Stage-B report reconciliation and V0.6 construction.
 
 Binding sequence:
 
@@ -45,7 +46,7 @@ Do not spend significant effort polishing report wording that depends on a solut
 
 V4.1 was checked directly against the actual V3.9, Questionnaire V1 and Questionnaire V2 Word sources.
 
-V4.2 carries that full source-reconciled context forward and adds the first locked technical solution concept: **CV09 cleaner / fines-control functional design**.
+V4.2 carries that source-reconciled context forward and contains the locked CV09 cleaner functional concept. Later controlled closure files now add the accepted CV09 drawing strategy and W10 side-skirt / spill-seal solution.
 
 Important source-reconciled details retained include:
 
@@ -91,55 +92,17 @@ Binding V0.6 formula:
 
 **Conceptual figure strategy: COMPLETE / ACCEPTED FOR CURRENT REPORT DEVELOPMENT**
 
-The accepted functional concept is controlled in Section 14 of:
+Controlling records:
 
-`Context/Running_Report_Contextual_Spillage_NotesV4.2.md`
+- `Context/Running_Report_Contextual_Spillage_NotesV4.2.md` — Section 14 locked functional concept.
+- `Context/Running_Report_Contextual_Spillage_NotesV4.2_CV09_Solution_Closure.md`.
+- `Context/Running_Report_Contextual_Spillage_NotesV4.2_CV09_Drawing_Closure.md`.
 
-The accepted drawing strategy is controlled in:
+## CV09 active conceptual figures
 
-`Context/Running_Report_Contextual_Spillage_NotesV4.2_CV09_Drawing_Closure.md`
+Historical CTD-001 / DRAW-001 CV09 is **SUPERSEDED for active report use**.
 
-## Locked design principles
-
-1. **Pulley-supported cleaning location** — both cleaner stages should act on the belt while it remains positively supported by the head pulley.
-2. **Two-stage preferred/default arrangement** — Stage 1 removes principal residual material; Stage 2 provides a second cleaning opportunity before the belt enters the return run.
-3. **One-stage constrained minimum** — where verified geometry/access/guarding/structural constraints prevent two stages, at least one effective pulley-supported stage is required.
-4. **Full transverse cleaner assembly** — each full-width blade is carried on a transverse support/cross-arm spanning the chute/belt and protruding through both chute side walls.
-5. **Guided chute-wall slots** — cross-arm ends use guided openings/travel paths to accommodate wear take-up.
-6. **External self-tensioning** — tensioning hardware acts on the protruding support ends to maintain controlled contact as wear develops.
-7. **Reasonably uniform cross-belt contact** — functional requirement; OEM decides the detailed balancing/linkage/adjustment method.
-8. **Positive travel/wear stop** — prevents continued advancement after allowable wear/travel is reached.
-9. **Cleaner stages inside the existing head chute** — no separate scraper-fines recovery route is required.
-10. **Natural material retention** — wet/dry residual fines removed by the cleaners fall by gravity inside the same head chute and remain with the existing combined-product discharge flow.
-11. **Prevent return-side carryback** — remove residual fines before the cleaned belt enters the return run.
-12. **Maintainability/access** — retain practical inspection, wear-element replacement and tensioner/stop servicing access.
-13. **OEM boundary** — audit defines function/location/principle/performance; OEM determines detailed cleaner technology, materials, forces, dimensions, guidance, guarding and fabrication design.
-
-### Critical correction to earlier shorthand
-
-The controlling concept is **not** “build a separate fines chute around the current scraper” and is **not** “route scraper fines separately to a fines stockpile.”
-
-The cleaner stages are to be positioned correctly **inside the existing head/discharge chute** so removed material naturally remains within the normal discharge flow.
-
-### CV06 / CV09 / CV15 comparative lesson
-
-- **CV06:** mechanical integrity / maintenance failure — displaced bush and missing blades.
-- **CV09:** location / containment / cleaning-performance failure — cleaner present but removed material can escape and residual carryback continues.
-- **CV15:** cleaner-effectiveness concern / downstream consequence — widespread fines/carryback; exact local cleaner failure mechanism still requires verification.
-
-The intended wider standard is functional, not one identical hardware package.
-
----
-
-# CV09 Active Conceptual Figures
-
-Historical **CTD-001 / DRAW-001 CV09** is now **SUPERSEDED for active report use**.
-
-Current figure pair:
-
-## DRAW-005 / CTD-005 — placement and orientation
-
-Controlled repository filename:
+### DRAW-005 / CTD-005 — placement and orientation
 
 `Evidence/TechnicalDrawings/DRAW-005-CV09_Cleaner_and_Process_Containment_Concept.png`
 
@@ -147,21 +110,15 @@ Role:
 
 > **Show where typical primary and secondary cleaner stages act in relation to the head pulley/head chute and their general orientation before the belt enters the return run.**
 
-This is an external/reference figure, not the final CV09 design.
+Repository binary: **VERIFIED PRESENT ON `main`**.
 
-Source attribution supplied by inspector/user:
+External/reference source attribution:
 
 > **Dust Control Handbook for Industrial Minerals Mining and Processing, RI 9689, Report of Investigations/2012 — Chapter 3: Drilling and Blasting — scientific figure available via ResearchGate:** `Belt conveyor discharge chute used to return scrapings to the primary material flow`. **Accessed 26 August 2026.**
 
-Reference page:
-
-`https://www.researchgate.net/figure/Belt-conveyor-discharge-chute-used-to-return-scrapings-to-the-primary-material-flow_fig94_318967507`
-
 Appropriate source credit and reuse/permission requirements must be confirmed before final issue.
 
-## DRAW-006 / CTD-006 — cleaners inside head chute
-
-Controlled repository filename:
+### DRAW-006 / CTD-006 — cleaners inside head chute
 
 `Evidence/TechnicalDrawings/DRAW-006-CV09_Cleaner_and_Process_Containment_Concept_Scrapper_contextual_scrapper_must_be_inside_the_dis-charge_chute.png`
 
@@ -169,21 +126,93 @@ Role:
 
 > **Show that both cleaner stages belong inside the head/discharge chute so residual fines removed from the belt remain within the existing combined-product discharge flow.**
 
-The cleaner forms shown are illustrative examples only and do not prescribe final OEM hardware.
+Repository binary: **VERIFIED PRESENT ON `main`**.
 
-### Binding interpretation rule
+Binding interpretation:
 
-> **DRAW-005 answers “where / orientation?”**
+> **DRAW-005 = where / orientation.**
 >
-> **DRAW-006 answers “inside which containment / why?”**
+> **DRAW-006 = inside which containment / why.**
 >
-> **V4.2 Section 14 answers “how must the system function?”**
+> **V4.2 Section 14 = how the cleaner system must function.**
 
-No additional bespoke CV09 mechanical illustration is required at this stage unless requested later by the responsible engineer/OEM.
+---
 
-### Binary repository status
+# W10 — SIDE-SKIRT / SPILL-SEAL SOLUTION + FIGURE STRATEGY LOCKED
 
-The two accepted PNGs were supplied in the conversation under the DRAW-005 and DRAW-006 names. The GitHub text controls now expect them under the controlled `Evidence/TechnicalDrawings/` paths above; binary sync to the repository remains to be completed by the user/local Git workflow because the current GitHub text connector does not write binary image files.
+**Functional solution status: COMPLETE / LOCKED AT FUNCTIONAL-CONCEPT LEVEL**
+
+**Conceptual figure strategy: COMPLETE / ACCEPTED FOR CURRENT REPORT DEVELOPMENT**
+
+Controlling record:
+
+`Context/Running_Report_Contextual_Spillage_NotesV4.2_W10_Solution_Closure.md`
+
+## Governing correction
+
+The historical external barrier/walkway-protection interpretation is **SUPERSEDED**.
+
+The W10 solution objective is:
+
+> **Keep coarse/mixed product on the conveyor belt by using side skirting / spill sealing along the conveyor sides within the carrying width.**
+
+The tunnel/restricted access route remains relevant to the observed consequence and housekeeping difficulty, but it is not the defining purpose of the proposed skirt/seal system.
+
+## Locked W10 side-skirt principles
+
+1. Flexible/soft, durable skirting/spill-seal element on both conveyor sides where required.
+2. Active skirt/seal positioned on the **inside of the conveyor carrying width**.
+3. Near-vertical containment boundary along the troughed belt edge to retain laterally displaced product.
+4. Lower seal region arranged close to, or in controlled belt-friendly contact with, the belt according to the selected OEM system.
+5. Not a freestanding external barrier and not a rigid belt guide.
+6. Loading, feed distribution, tracking and local geometry still require investigation/correction where contributing.
+7. Avoid harmful belt rubbing/gouging, damaging product trapping and inaccessible build-up zones.
+8. Retain practical inspection, adjustment, replacement and clean-out access.
+9. Exact material, profile, contact/clearance, support, dimensions and installation detail remain OEM/detailed-design responsibilities.
+
+## W10 active conceptual figures
+
+Historical CTD-002 / DRAW-002 W10 is **SUPERSEDED for active report use**.
+
+### DRAW-0010 / CTD-010 — W10 tunnel context + skirting position
+
+`Evidence/TechnicalDrawings/DRAW-0010-W10_Side_Containment_Barrier_Principle.png`
+
+Role:
+
+> **Show the W10 tunnel/conveyor context and where the side skirting / spill seal sits relative to the troughed carrying belt.**
+
+Repository binary: **VERIFIED PRESENT ON `main`**.
+
+GitHub blob SHA: `d90eda069f1d4ff2ff5ba3efe8836ca4fadac035`.
+
+### DRAW-0011 / CTD-011 — skirting/spill-seal cross-section
+
+`Evidence/TechnicalDrawings/DRAW-0011-W10_Side_Containment_Barrier_Principle.png`
+
+Role:
+
+> **Show clearly how soft side skirting / spill seals descend on the inside of the carrying width on both sides of a troughed belt to form the product-containment boundary.**
+
+Repository binary: **VERIFIED PRESENT ON `main`**.
+
+GitHub blob SHA: `961ebdee683434dd97755211aacf24f409b0c3ae`.
+
+Binding interpretation:
+
+> **DRAW-0010 = W10 site context + where the skirting sits.**
+>
+> **DRAW-0011 = how conveyor side skirting / spill sealing functions physically in cross-section.**
+
+The repository filenames retain `Side_Containment_Barrier_Principle` for continuity, but report narrative/captions must use **side skirting / spill seal / product containment** rather than the superseded external-barrier interpretation.
+
+## Transferable Sample Conveyor principle
+
+W10 establishes a useful general principle for later Sample Conveyor 2/3 refinement:
+
+> **Where residual lateral product needs to be retained on a troughed conveyor, the containment element belongs at the belt carrying edge as a belt-compatible skirt/seal, not as a remote external barrier after product has escaped.**
+
+This principle must not be copied blindly; Sample Conveyor feed quantity/product size, usable carrying width and tracking conditions remain location-specific.
 
 ---
 
@@ -221,12 +250,12 @@ Terminology:
 1. V4.1 source reconciliation — **COMPLETE / carried into V4.2**.
 2. Stage-A V0.5 ↔ context diagnostic comparison — **COMPLETE**.
 3. Stage-A gap register — **COMPLETE / V0.6 INPUT LOCKED**.
-4. CV09 functional scraper/chute technical refinement — **COMPLETE / LOCKED IN V4.2**.
-5. CV09 conceptual figure strategy — **COMPLETE / DRAW-005 + DRAW-006 ACCEPTED**.
-6. Sync DRAW-005 and DRAW-006 binaries to `Evidence/TechnicalDrawings/` — **USER/LOCAL GIT ACTION PENDING**.
-7. Reconcile CV09 verification/Part XI wording during Stage-B V0.6 integration.
-8. Continue the same technical gap-closure process for the remaining proposed solutions.
-9. Update V4.2 or the next controlled context increment as each solution is accepted.
+4. CV09 functional scraper/chute technical refinement — **COMPLETE / LOCKED**.
+5. CV09 conceptual figure strategy — **COMPLETE / DRAW-005 + DRAW-006 ACCEPTED AND SYNCED**.
+6. W10 side-skirt / spill-seal technical refinement — **COMPLETE / LOCKED**.
+7. W10 conceptual figure strategy — **COMPLETE / DRAW-0010 + DRAW-0011 ACCEPTED AND SYNCED**.
+8. Refine Sample Conveyors 2 and 3, using the W10 side-skirt principle only where technically applicable while separately resolving feed/width/tracking issues.
+9. Close remaining proposed-solution technical gaps.
 10. Stage-B integrated report reconciliation using V0.5 + Stage-A register + mature current context.
 11. Build and full-render/QA V0.6.
 12. Complete evidence/photo reconciliation and expanded photographic appendix.
