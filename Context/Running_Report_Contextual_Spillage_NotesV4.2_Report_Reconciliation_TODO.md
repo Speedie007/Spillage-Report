@@ -2,7 +2,7 @@
 
 ## Status
 
-**STAGE A — COMPLETE / CV09 — CLOSED / W10 — CLOSED / SAMPLE CONVEYOR 2/3 — CLOSED AT FUNCTIONAL-CONCEPT LEVEL / U4 + L3 — CLOSED AT FUNCTIONAL-CONCEPT LEVEL / STAGE B — HELD PENDING REMAINING SOLUTION GAP CLOSURE**
+**STAGE A — COMPLETE / CV09 — CLOSED / W10 — CLOSED / SAMPLE CONVEYOR 2/3 — CLOSED AT FUNCTIONAL-CONCEPT LEVEL / U4 + L3 — CLOSED AT FUNCTIONAL-CONCEPT LEVEL / SCREENS WATER CONTROL — CLOSED AT FUNCTIONAL-CONCEPT LEVEL / STAGE B — HELD PENDING REMAINING SOLUTION GAP CLOSURE**
 
 Primary live context:
 
@@ -24,12 +24,14 @@ Accepted closure/context supplements:
 - `Context/Running_Report_Contextual_Spillage_NotesV4.2_Sample_Conveyors_Evidence_and_Solution_Baseline.md`
 - `Context/Running_Report_Contextual_Spillage_NotesV4.2_Sample_Conveyors_Solution_Closure.md`
 - `Context/Running_Report_Contextual_Spillage_NotesV4.2_U4_L3_Solution_Closure.md`
+- `Context/Running_Report_Contextual_Spillage_NotesV4.2_Screens_Water_Control_Closure.md`
 
 Active evidence controls:
 
 - historical base: `Report-Working/SpillageReport/EVIDENCE_STORY_MATRIX_V0.1.csv`
 - Sample Conveyor overlay: `Report-Working/SpillageReport/EVIDENCE_STORY_MATRIX_V0.2_SAMPLE_CONVEYORS.csv`
 - U4/L3 overlay: `Report-Working/SpillageReport/EVIDENCE_STORY_MATRIX_V0.3_U4_L3.csv`
+- Screens overlay: `Report-Working/SpillageReport/EVIDENCE_STORY_MATRIX_V0.4_SCREENS.csv`
 - Sample 3 REF-013 withdrawal: `Report-Working/SpillageReport/SAMPLE_CONVEYOR3_REF013_EVIDENCE_WITHDRAWAL.md`
 - current evidence-index pointer: `Report-Working/evidence_index_CURRENT.md`
 
@@ -160,18 +162,54 @@ Locked L3 action sequence:
 4. verify stable tracking under representative operation; and
 5. reassess the fines/material condition separately without inventing a solid-product causal chain.
 
+## Screens / Screen Chutes — WATER CONTROL CLOSED AT FUNCTIONAL-CONCEPT LEVEL
+
+Principal dynamic water evidence:
+
+> **REF-016 — direct operating proof of active process-water escape**  
+> **REF-017 — strongest evidence for localising the external point of water emergence/escape**
+
+Locked evidence boundary:
+
+- active water escape is directly proven;
+- the external escape location can be traced from the operating evidence;
+- safe access to the corresponding internal area was not possible while the screen was running;
+- the current evidence does not establish whether the internal cause is sealing, spray direction, a gap/joint, containment geometry, overflow/drainage limitation, wear/damage or another mechanism.
+
+Locked water-control action sequence:
+
+1. use the operating evidence to localise/mark the external escape point;
+2. isolate the screen and inspect the corresponding internal area during planned shutdown;
+3. identify the first internal point/mechanism by which water leaves the intended screening/washing/chute process path;
+4. correct the verified primary defect/mechanism rather than prescribe an assumed generic modification;
+5. verify the intended process-water route and any relevant drainage/discharge function;
+6. recommission and confirm containment under representative operation, specifically re-checking the previously identified escape point; and
+7. inspect the repeatedly wetted surrounding area separately for deterioration requiring maintenance or structural follow-up.
+
+Approved Screens evidence groupings:
+
+- water: **REF-016 + REF-017**;
+- corrosion: **REF-002 + REF-003**, with REF-004 supporting/optional and REF-008 retained as essential broader severity/extent evidence;
+- structural altered-member evidence: **REF-009 + REF-010**, with REF-006 supporting.
+
+Corrosion qualification:
+
+> **The active water escape is relevant to continued wetting exposure of the surrounding screen-support environment, but the available evidence does not establish it as the sole cause of all existing corrosion/deterioration.**
+
+The structural-capacity/repair scope for the corroded and physically altered support members remains a separate open solution-development item.
+
 ---
 
 # Current Controlled Evidence Population
 
-After Sample Conveyor reconciliation and the approved U4/L3 quick validation:
+After Sample Conveyor reconciliation, U4/L3 quick validation and Screens quick validation:
 
 - **196 inspection media**
 - **188 photographs**
 - **8 videos**
-- **80 E / 38 S / 78 A**
+- **80 E / 40 S / 76 A**
 
-The U4/L3 work changed narrative-placement priorities only; no media were added or removed.
+The Screens work changed narrative-placement priorities only; no media were added or removed.
 
 ---
 
@@ -201,13 +239,12 @@ Do not introduce unmeasured dimensions, percentages, tolerances, feed rates, str
 
 The remaining proposed-solution gaps now requiring sequential closure are:
 
-1. **Screens / screen chutes — active water-control mechanism and corrective direction**;
-2. **Screens structural condition — assessment/repair intent without crossing into fabrication design**;
-3. **L1 structural condition — competent structural assessment/repair intent and operating-risk controls**;
-4. **trip/restart operational-control detail**; and
-5. **housekeeping/recovery/reintroduction operational-control detail**.
+1. **Screens structural condition — competent assessment/repair intent without crossing into fabrication design**;
+2. **L1 structural condition — competent structural assessment/repair intent and operating-risk controls**;
+3. **trip/restart operational-control detail**; and
+4. **housekeeping/recovery/reintroduction operational-control detail**.
 
-CV09, W10, Sample Conveyors 2/3 and U4/L3 are no longer unresolved functional-concept gaps. Their remaining items are verification/detail-design/report-integration matters.
+CV09, W10, Sample Conveyors 2/3, U4/L3 and Screens water control are no longer unresolved functional-concept gaps. Their remaining items are verification/detail-design/report-integration matters.
 
 ---
 
@@ -217,7 +254,7 @@ Stage B remains held until the remaining solution gaps above are sufficiently ma
 
 Current Stage-B input:
 
-> **V0.5 + Stage-A Gap Register + mature V4.2-and-later context + CV09 closure + W10 closure + Sample Conveyor closure + U4/L3 closure → V0.6 integrated controlled report revision**
+> **V0.5 + Stage-A Gap Register + mature V4.2-and-later context + CV09 closure + W10 closure + Sample Conveyor closure + U4/L3 closure + Screens water-control closure → V0.6 integrated controlled report revision**
 
 V0.6 should:
 
@@ -253,7 +290,7 @@ Detailed OEM/site design values should not be invented merely to make the report
 5. W10 functional solution + figure strategy — **COMPLETE / LOCKED**.
 6. Sample Conveyor 2/3 evidence review + functional action closure — **COMPLETE / LOCKED**.
 7. U4/L3 quick evidence validation + functional alignment/tracking closure — **COMPLETE / LOCKED**.
-8. Close Screens water-control gap.
+8. Screens quick evidence validation + water-control closure — **COMPLETE / LOCKED**.
 9. Close structural-condition scopes for Screens/L1.
 10. Close trip/restart and housekeeping operational-control gaps.
 11. Stage-B integrated reconciliation.
