@@ -1,44 +1,32 @@
 # Spillage Report — Running Working Notes
 
-## Working Status
+## Current Working Status
 
 - Repository: `Speedie007/Spillage-Report`
 - Branch: `main`
-- **Current single-source contextual baseline:** `Context/Running_Report_Contextual_Spillage_NotesV4.3.md`
-- **V4.3 status:** SOURCE-RECONCILED / ALL REPORT-LEVEL SOLUTION GAPS CLOSED / STAGE-B INTEGRATION BASELINE
-- V4.3 creation commit: `0a17b39bd347a7d9927d6348f4afbce5553295b6`
-- Immediate predecessor: `Context/Running_Report_Contextual_Spillage_NotesV4.2.md`
-- V4.2 closure files remain preserved as detailed audit trail but no longer need to be combined manually for normal report development.
-- Historical full Word context: `Context/Running_Report_Contextual_Spillage_NotesV3.9.docx`
-- Historical source questionnaires:
-  - `Context/Questionaires/Running_Report_Contextual_Spillage_Questionnaire_ResponseV1.docx`
-  - `Context/Questionaires/Running_Report_Contextual_Spillage_Questionnaire_ResponseV2.docx`
-- Historical post-V3.9 addenda retained unchanged: V3.10, V3.11, V3.12 and V3.13.
-- Historical Stage-A diagnostic register: `Context/Running_Report_Contextual_Spillage_NotesV4.1_Report_Gap_Register_StageA.md`
-- Stage-B authorisation record: `Context/Running_Report_Contextual_Spillage_NotesV4.2_Report_Reconciliation_STAGEB_READY.md`
-- Current report baseline awaiting exact user-supplied copy for Stage B: `South32_Spillage_Audit_Report_July2026_S32WPPSR_01_V0.5_Terminology_Refined_Draft.docx`
-- Phase 6: **COMPLETE / INSPECTOR APPROVED**
+- **Current report finalisation source:** `Report-Working/SpillageReport/South32_Spillage_Audit_Report_July2026_S32WPPSR_01_FinalV1.0_Draft.docx`
+- **Current user finalisation checklist:** `Report-Working/SpillageReport/Final Version Check List.docx`
+- **Current finalisation execution plan:** `Report-Working/SpillageReport/FINALISATION_EXECUTION_PLAN_V1.0.md`
+- **Historical consolidated contextual backbone:** `Context/Running_Report_Contextual_Spillage_NotesV4.3.md`
+- **Binding system-fines alignment addendum:** `Context/Running_Report_Contextual_Spillage_NotesV4.3.1_System_Fines_Containment_Alignment_Addendum.md`
+- **Current finalisation control addendum:** `Context/Running_Report_Contextual_Spillage_NotesV4.3.2_Finalisation_Control_Addendum.md`
+- Phase 6 assembly: **COMPLETE / CLOSED**
 - Phase 7 technical/content development: **COMPLETE / CLOSED**
-- Sequential solution-gap closure phase: **COMPLETE**
-- **Current development stage: STAGE B — V0.5 → V0.6 INTEGRATED REPORT RECONCILIATION**
+- V0.6.1 section-by-section narrative review: **COMPLETE / CLOSED**
+- Ten-batch formatting/publication-QA programme: **COMPLETE / CLOSED**
+- **Current development stage: V1.0 FINALISATION / ISSUE PREPARATION — NOT YET FORMALLY ISSUED**
+
+The old Stage-B instruction to wait for a V0.5 baseline is superseded. Do not restart V0.5 → V0.6 reconciliation. The V1.0 finalisation draft above is now the sole live report source.
 
 ---
 
-# Current Stage-B Formula
+# Current Finalisation Formula
 
-> **Exact current V0.5 Word baseline + Stage-A Gap Register + V4.3 consolidated context + current evidence controls → V0.6 integrated controlled report revision.**
+> **Mature V1.0 draft + final checklist closure + V4.3/V4.3.1 technical controls + V4.3.2 finalisation controls → controlled V1.0 issue candidate.**
 
-Do not begin destructive editing of an older V0.5 copy. Use the exact V0.5 DOCX supplied by the user as the fixed Word baseline for V0.6.
+Preserve all prior review copies under `Report-Working/SpillageReport/ReviewVersions/` as historical references. Do not edit an older review version as a competing live baseline.
 
-V0.6 must preserve:
-
-- V0.2-derived reader journey and softer engineering narrative;
-- V0.5 terminology control;
-- evidence qualifications and canonical media IDs;
-- current E/S/A priorities and overlays;
-- all later locked functional concepts;
-- OEM / competent-authority / South32 verification boundaries; and
-- the distinction between report-level concept closure and implementation/detail-design completion.
+The filename `FinalV1.0_Draft` does **not** itself mean the report is formally issued. Revision/status, sign-off, issue date, headers/footers, filename and PDF controls must be synchronized only at the final release gate.
 
 ---
 
@@ -48,7 +36,7 @@ Primary pointer:
 
 `Report-Working/evidence_index_CURRENT.md`
 
-Current population:
+Current controlled inspection-media population:
 
 - **196 inspection media**
 - **188 photographs**
@@ -58,10 +46,10 @@ Current population:
 Classification rule:
 
 - **E = body by default**;
-- **S = may be used in the body when it materially improves the engineering story; not appendix-only**;
+- **S = may be used in the body where it materially improves the engineering story**;
 - **A = normally appendix/reference unless later elevated for a justified reason**.
 
-Sample Conveyor 3 REF-013 is withdrawn entirely from the active evidence population and must not be used or reassigned without independent reliable attribution.
+Sample Conveyor 3 `REF-013` remains withdrawn entirely from active evidence use and must not be restored/reassigned without independent reliable attribution.
 
 Active matrix overlays:
 
@@ -72,11 +60,34 @@ Active matrix overlays:
 
 ---
 
-# Locked Solution / Action Baselines Now Consolidated in V4.3
+# Governing System-Level Fines Position — V4.3.1 Remains Binding
+
+The inspector's full-route observation governs:
+
+> **Fines spillage was observed throughout the inspected conveyor ecosystem, with the extent varying considerably between locations. No inspected conveyor section was completely free of fines accumulation.**
+
+Required qualification:
+
+> **The presence of fines is system-wide, but severity, local condition and immediate mechanism are not necessarily identical at every location. Carryback is the strongest recurring mechanism; the report must not claim that every individual deposit has one sole proven cause.**
+
+End-to-end control philosophy:
+
+- fines are part of the combined product, not inherently a defect;
+- concern begins when fines/product/process water leave the intended material/process route;
+- residual fines should be removed before the return run where applicable;
+- cleaner-removed fines should remain within the intended discharge/process route;
+- CV09 conveys fines separated during surface washing/screening to the downstream fines collection/handling point;
+- after CV09 demonstrates the required cleaner-and-containment function, relevant head/discharge locations should be systematically reviewed and progressively adapted to the same **functional standard** where applicability is confirmed;
+- standardise the function, not identical hardware;
+- U4 remains the known geometry-specific exception requiring local review.
+
+---
+
+# Locked Local Solution / Action Baselines
 
 ## CV09
 
-**LOCKED:** pulley-supported cleaner stages inside the existing head/discharge chute; two-stage preferred/default, one effective pulley-supported stage constrained minimum; full-width transverse support through both chute walls; guided wear take-up; external self-tensioning; positive travel limit; removed fines stay inside existing discharge flow; maintainability/access required.
+**LOCKED:** pulley-supported cleaner stages within the existing head/discharge-chute containment; two-stage preferred where practicable, one effective pulley-supported stage constrained minimum; controlled wear compensation/self-tensioning; adequate support/travel control; cleaner-removed fines remain in existing discharge/process flow; maintainability/access/guarding required.
 
 Active figures:
 
@@ -87,7 +98,7 @@ Historical CV09 DRAW-001 is superseded for active report use.
 
 ## W10
 
-**LOCKED:** keep coarse/mixed product on the belt using belt-compatible side skirting/spill sealing at the carrying edges, with the active flexible element inside the carrying width. Loading/tracking contributors remain separate primary-cause checks.
+**LOCKED:** check and correct confirmed loading/tracking/local-geometry contributors first; where residual lateral product escape remains, keep coarse/mixed product on the belt using belt-compatible side skirting/spill sealing at the carrying edge with the active flexible element inside the carrying width.
 
 Active figures:
 
@@ -96,17 +107,19 @@ Active figures:
 
 Historical W10 DRAW-002 external-barrier interpretation is superseded.
 
+**Wider use:** W10 skirting is not a universal system standard. After successful demonstration, the principle may be adapted only at other underground/surface locations where future evidence identifies a comparable residual lateral-product-loss condition and local geometry confirms suitability.
+
 ## Sample Conveyors 2/3
 
-**LOCKED functional hierarchy:**
+**LOCKED hierarchy:**
 
-> **Establish design basis → validate feed-control capability → verify product-size suitability → verify loading centring/distribution → quantify and correct tracking/interference → reassess corrected carrying geometry → determine remaining feed/product controls → define residual containment duty → install/adapt belt-compatible side skirting where required → verify final performance.**
+> **Establish design/feed basis → verify product-size condition → verify loading centring/distribution → quantify belt position/tracking and interference → correct confirmed primary contributors → reassess usable carrying geometry → define residual side-skirt/spill-seal duty → verify final combined performance under representative operation.**
 
-Rated throughput capacity and geometric carrying/containment capability must remain distinct.
+Rated throughput and geometric carrying/containment capability remain distinct.
 
-Sample 2 captured lateral offset is visually supported by REF-004/005 but unmeasured.
+Sample 2 captured lateral offset: supported by REF-004/005 but unmeasured.
 
-Sample 3 visually substantial lateral offset is supported by REF-006/007 but unmeasured.
+Sample 3 visually substantial lateral offset: supported by REF-006/007 but unmeasured.
 
 ## U4
 
@@ -118,15 +131,13 @@ Separate fines pair:
 
 > **REF-005 + REF-006**
 
-**LOCKED:** quantify/correct tracking/alignment contributors; verify centred belt behaviour through full normal tripper travel under representative loading; reassess one-sided coarse-product loss; treat fines separately; determine residual containment only after primary tracking correction.
-
-U4 remains a custom-cleaner exception to automatic CV09 application.
+**LOCKED:** quantify/correct tracking/alignment contributors; verify centred belt behaviour through normal tripper travel under representative loading; reassess one-sided coarse-product loss; treat fines separately; determine residual containment only after primary tracking correction.
 
 ## L3
 
 Principal alignment evidence: REF-001.
 
-Principal fines set: REF-002 + REF-004 + REF-007; REF-008 S supporting lower-area accumulation.
+Principal fines set: REF-002 + REF-004 + REF-007; REF-008 supporting lower-area accumulation.
 
 **LOCKED:** quantify/correct alignment/tracking concern while preserving that current evidence does not establish significant coarse-product spillage as a direct consequence.
 
@@ -134,19 +145,19 @@ Principal fines set: REF-002 + REF-004 + REF-007; REF-008 S supporting lower-are
 
 Principal dynamic sequence:
 
-> **REF-016 — active escape → REF-017 — external escape-point localisation**
+> **REF-016 active escape → REF-017 external escape-point localisation**
 
-**LOCKED:** localise externally during operation → inspect corresponding internal area during planned safe shutdown → identify actual internal mechanism → correct verified mechanism → verify process-water route and post-repair containment under representative operation.
+**LOCKED:** localise externally during operation → inspect corresponding internal area during planned safe shutdown → identify actual internal mechanism → correct verified mechanism → verify water containment under representative operation.
 
-Do not guess seal/joint/spray/drainage mechanism from external footage.
+Do not infer an internal seal/joint/spray/drainage mechanism from the external footage.
 
 ## Screens — corrosion / structure
 
-Corrosion: REF-002 + REF-003 principal pair; REF-004 S optional close-up; REF-008 E broader severity/extent.
+Corrosion: REF-002 + REF-003 principal pair; REF-008 broader severity/extent.
 
-Structural: REF-009 + REF-010 principal pair; REF-006 S.
+Structural: REF-009 + REF-010 principal pair.
 
-**LOCKED:** competent structural assessment required. Reason/history of cut-outs remains unresolved. Convenience/replacement-equipment accommodation is background hypothesis only, not report fact. Remaining capacity and repair design are competent-authority matters.
+**LOCKED:** competent structural assessment required. Reason/history of cut-outs remains unresolved; remaining capacity and repair design are competent-authority matters.
 
 ## L1
 
@@ -156,93 +167,95 @@ Steel: REF-008 + REF-009 at two distinct locations.
 
 Historical contact: REF-007.
 
-Accumulation/environment: REF-013 + REF-017. REF-012 A as redundant.
+Accumulation/environment: REF-013 + REF-017.
 
-**LOCKED:** wear slots support previous/intermittent contact; latest inspected running condition showed belt clear with no visible offset/mistracking/contact. Competent structural assessment plus representative belt-clearance/tracking verification required.
+**LOCKED:** wear slots support previous/intermittent contact; inspected running condition showed the belt clear with no visible offset/mistracking/contact. Competent structural assessment plus representative belt-clearance/tracking verification required.
 
 ## Trip / restart
 
-**LOCKED report concept:** possible intermittent event-driven manual off-loading may be needed where retained product hinders restart after a trip/blockage. It is not automatically chronic spillage. South32 should confirm authorised procedure, temporary placement, recovery/reintroduction and responsibility. Formal procedure was not reviewed.
+**LOCKED:** intermittent manual product clearing may be required after some trips/blockages where retained product hinders restart. Do not automatically classify this as chronic spillage. South32 should confirm authorised procedure, temporary placement, recovery/reintroduction and responsibility. Formal procedure was not reviewed by the audit.
 
 ## Housekeeping / recovery
 
-**LOCKED principle:**
+**LOCKED:**
 
-> **Housekeeping controls the consequence; source control should reduce the recurrence.**
+> **Housekeeping addresses accumulated consequence. Source control aims to reduce recurrence.**
 
-Manual shovelling/wheelbarrows were reported, not witnessed. Recovered product is understood to be generally intended for return to the process where practicable, but universal routes are not established. Cleaning frequency is area-specific/unknown; some areas appear relatively regular and others condition-based. Screens has a local collection sump for at least some cleanup water/fines; do not generalise it plant-wide. Wash-down receiving route should be confirmed before wash-down is treated as complete recovery.
-
----
-
-# Conceptual Figure Control
-
-Current register:
-
-`Report-Working/SpillageReport/PHASE7_CONCEPTUAL_ENGINEERING_FIGURE_REGISTER_V0.3.md`
-
-Current Appendix E control:
-
-`Report-Working/SpillageReport/PHASE7_APPENDIX_E_CONCEPTUAL_ENGINEERING_DRAWINGS_V0.3.md`
-
-All project conceptual figures remain:
-
-> **CONCEPTUAL ONLY — NOT FOR FABRICATION — DIMENSIONS / GEOMETRY TO BE VERIFIED ON SITE**
-
-except that DRAW-005 is an external/reference placement illustration and must retain appropriate source/reuse control.
-
-`DRAW-003-Sample_Conveyor_Containment_Control.png` remains an instructional hierarchy figure only, not an accepted final physical design.
+Manual shovelling/wheelbarrows were reported, not witnessed. Recovery routes/frequencies remain area-specific unless separately confirmed. Screens has a local collection sump for at least some cleanup water/fines; do not generalise it plant-wide.
 
 ---
 
-# Current Verification / Close-Out Control
+# Publication / Formatting Baseline — COMPLETE
 
-Verification register:
+The ten formatting batches are closed. Preserve:
 
-`Report-Working/SpillageReport/PHASE7_VERIFICATION_SUCCESS_CRITERIA_REGISTER_V0.1.md`
+- Arial-based style hierarchy;
+- controlled Heading 1/2 navigation hierarchy;
+- formal Figure/Table numbering and automatic TOC/List fields;
+- evidence-caption and conceptual-figure caption treatment;
+- **all table cells vertically aligned Top by default**;
+- controlled headers/footers/page fields;
+- Appendix E listing and reference reproduction of all six active body conceptual drawings;
+- British/South African spelling/punctuation conventions;
+- current image optimisation/file-size discipline.
 
-The register must be reconciled during Stage B against V4.3 because several later closures refined the original Phase 7 action wording.
-
-Governing close-out chain:
-
-> **As-found evidence → verification / measurement → corrective design/control → implementation → representative operating proof → as-left record → monitoring / closure.**
-
-Open site/OEM/competent-authority items are not report-level solution gaps. They include quantitative measurements, exact root causes where not yet observed, structural calculations, detailed repair/hardware design, South32 operational ownership/procedures and post-implementation proof.
-
----
-
-# Stage-B Integration Checklist
-
-When the exact V0.5 Word report is supplied:
-
-1. verify it is the user's current baseline;
-2. compare section-by-section against the Stage-A Gap Register and V4.3;
-3. restore relevant V3.9/V1/V2 detail where V0.5 compressed important engineering context;
-4. integrate all locked functional concepts and later evidence refinements;
-5. reconcile Parts IV, V, VI, IX, X and XI in particular;
-6. reconcile verification/success criteria and source-control/Appendix F references;
-7. reconcile conceptual figures and remove superseded CV09/W10 interpretations;
-8. apply current evidence body/story priorities without overloading the report body;
-9. retain Sample 3 REF-013 withdrawal;
-10. produce V0.6 as a new file, preserving V0.5 untouched;
-11. render every page and complete visual/layout QA; and
-12. reconcile body evidence and appendix allocation before content freeze.
+Manual page-composition/white-space changes are allowed in finalisation, but should not undo the global style/navigation/table controls.
 
 ---
 
-# Content-Freeze Hold Point
+# Current Finalisation Checklist / Open Work
 
-**DO NOT DECLARE CONTENT FROZEN YET.**
+The active execution order is controlled by:
 
-Content freeze requires completed V0.6 integration, Stage-A/V4.3 reconciliation, evidence/body/appendix reconciliation and full DOCX render/QA.
+`Report-Working/SpillageReport/FINALISATION_EXECUTION_PLAN_V1.0.md`
 
-After that:
+Immediate remaining work:
 
-> **Content freeze → Phase 8 publication styling → responsible-engineer/OEM/competent-authority review as applicable → outstanding verification → Phase 9 issue closure.**
+1. **Final global skirting-philosophy review** — align W10/Sample Conveyor/wider-use wording and ensure no superseded external-barrier concept remains.
+2. **Suggested supplier wording** — TuTrac may be identified as an indicative supplier for spring-loaded/self-tensioning primary/secondary belt-cleaner solutions, while South32/mine supplier discretion and function-based specification remain explicit.
+3. **Two-perspective impact review** — non-technical reader and technical/engineering reader, followed by Executive Summary/body/action/conclusion traceability check.
+4. **Video access** — add stable HTTPS `View Video` links for controlled videos and optional QR codes; confirm public/client evidence-hosting approval first; validate links in final PDF.
+5. **Cover/front matter** — adapt from established ISS sheave-report cover style; complete dates/names/signatures/distribution/placeholders.
+6. **External-reference and release governance** — resolve CTD-005 reuse/copyright status; reconcile evidence/video registers; confirm public GitHub evidence privacy/confidentiality acceptability.
+7. **Manual page composition** — user-led whitespace/page-flow refinement.
+8. **Field/navigation refresh** — `Ctrl+A → F9`, then verify TOC, figure/table lists, PAGEREF, SEQ, PAGE/NUMPAGES and hyperlinks.
+9. **Final DOCX/PDF QA + formal issue decision.**
+
+---
+
+# Important Final Release Gates
+
+Before formal issue:
+
+- all intentional placeholders must be completed or consciously retained;
+- prepared/reviewed/approved controls must be complete;
+- cover/revision-history/header/footer/filename/status must agree;
+- video links/QR codes must work from the exported PDF on a logged-out/different device;
+- public evidence hosting must be approved or replaced with controlled access;
+- CTD-005 external-image reuse must be cleared or replaced/redrawn;
+- Appendix B/C evidence registers must match the controlled evidence set;
+- Sample Conveyor 3 REF-013 must remain withdrawn;
+- comments/tracked changes must be absent or resolved/accepted;
+- every Word/PDF page must be visually checked after final layout changes;
+- final report should remain below transfer/repository size limits;
+- accessibility/alt-text requirements should be confirmed against South32/client document standards;
+- issue status must not be inferred from the filename alone.
+
+---
+
+# Repository Hygiene Hold
+
+Word lock/temp files are present in the repository, including a `~$...FinalV1.0_Draft.docx` lock file and historical `~$` / `~WRL` temporary files.
+
+Do **not** delete them without explicit user approval. When approved, remove stale temp/lock files and add `.gitignore` rules such as:
+
+- `~$*.docx`
+- `~WRL*.tmp`
 
 ---
 
 # Immediate Next Action
 
-**WAIT FOR THE USER'S EXACT CURRENT V0.5 DOCX.**
+**Begin Phase 1A of `FINALISATION_EXECUTION_PLAN_V1.0.md`: final global review of the skirting philosophy and its application logic.**
 
-Once supplied, begin Stage-B integration and generate the V0.6 source-reconciled + solution-refined draft using V4.3 as the current single-source context.
+Do not reopen the old Stage-B reconciliation workflow.
